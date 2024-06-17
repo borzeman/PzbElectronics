@@ -5,6 +5,41 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -610,6 +645,9 @@
   (junction (at 133.35 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 0788938a-3713-4aa6-b2cc-ced3459d4670)
   )
+  (junction (at 179.07 85.09) (diameter 0) (color 0 0 0 0)
+    (uuid 13dc405f-274c-484f-969d-c4e8db21c625)
+  )
   (junction (at 119.38 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 1cede8f2-8261-4a33-b75d-0f68523b1ea6)
   )
@@ -621,6 +659,9 @@
   )
   (junction (at 165.1 85.09) (diameter 0) (color 0 0 0 0)
     (uuid ca47008b-08a5-4512-9169-b60beb1cc7d1)
+  )
+  (junction (at 92.71 72.39) (diameter 0) (color 0 0 0 0)
+    (uuid d6cef45f-ded3-43b7-a618-33f76c3d02d4)
   )
 
   (wire (pts (xy 119.38 83.82) (xy 119.38 85.09))
@@ -646,6 +687,10 @@
   (wire (pts (xy 165.1 52.07) (xy 196.85 52.07))
     (stroke (width 0) (type default))
     (uuid 2d41d4a6-91b9-452a-b8bd-79573f355f78)
+  )
+  (wire (pts (xy 92.71 72.39) (xy 101.6 72.39))
+    (stroke (width 0) (type default))
+    (uuid 36849f19-bd49-44ed-976c-1ff13d041841)
   )
   (wire (pts (xy 165.1 74.93) (xy 165.1 85.09))
     (stroke (width 0) (type default))
@@ -675,11 +720,15 @@
     (stroke (width 0) (type default))
     (uuid 627220cb-6b8c-450f-841b-2e8c7290adde)
   )
+  (wire (pts (xy 179.07 85.09) (xy 196.85 85.09))
+    (stroke (width 0) (type default))
+    (uuid 629239f2-789a-49f5-813d-0acaf2362b31)
+  )
   (wire (pts (xy 77.47 62.23) (xy 66.04 62.23))
     (stroke (width 0) (type default))
     (uuid 64c62a56-9cf0-4ca1-aabf-ffae14de35ef)
   )
-  (wire (pts (xy 90.17 72.39) (xy 101.6 72.39))
+  (wire (pts (xy 90.17 72.39) (xy 92.71 72.39))
     (stroke (width 0) (type default))
     (uuid 71b28e08-2ccc-486f-ae0d-92e89397baf3)
   )
@@ -699,7 +748,7 @@
     (stroke (width 0) (type default))
     (uuid a87bca2f-134a-46b6-9477-3add1fbf6b48)
   )
-  (wire (pts (xy 165.1 85.09) (xy 196.85 85.09))
+  (wire (pts (xy 165.1 85.09) (xy 179.07 85.09))
     (stroke (width 0) (type default))
     (uuid c6e4ac55-cdf0-4ebd-b5fd-1ad4bc18ad07)
   )
@@ -816,7 +865,7 @@
   (symbol (lib_id "Device:C") (at 119.38 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b226035-035b-4446-9a30-87006ad23163)
-    (property "Reference" "C22" (at 114.3 83.82 0)
+    (property "Reference" "C28" (at 114.3 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0,01uF 600V 1206 (GRM31BR72J103KW01L)" (at 109.22 87.63 0)
@@ -833,16 +882,16 @@
     (instances
       (project "Плата симистров"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-          (reference "C22") (unit 1)
+          (reference "C28") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "C19") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-          (reference "C20") (unit 1)
+          (reference "C22") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-          (reference "C21") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -851,7 +900,7 @@
   (symbol (lib_id "Device:C") (at 165.1 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ae78cfd-5659-4fbe-9062-b5edc1f2ffc4)
-    (property "Reference" "C15" (at 168.91 69.85 0)
+    (property "Reference" "C18" (at 168.91 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0,01uF 600V 1206 (GRM31BR72J103KW01L)" (at 168.91 72.39 0)
@@ -868,16 +917,58 @@
     (instances
       (project "Плата симистров"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-          (reference "C15") (unit 1)
+          (reference "C18") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-          (reference "C16") (unit 1)
+          (reference "C21") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-          (reference "C17") (unit 1)
+          (reference "C24") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-          (reference "C18") (unit 1)
+          (reference "C27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 92.71 72.39 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5ed98934-1ca3-4e17-aa7f-a74ebced309d)
+    (property "Reference" "TP11" (at 90.17 67.818 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 90.17 70.358 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 87.63 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 87.63 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8cc2f930-a6d1-489c-8b17-eba0770589fd))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
+          (reference "TP11") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
+          (reference "TP13") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
+          (reference "TP15") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+          (reference "TP17") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP21") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -906,16 +997,16 @@
           (reference "C23") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-          (reference "C25") (unit 1)
+          (reference "C17") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-          (reference "C26") (unit 1)
+          (reference "C20") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-          (reference "C27") (unit 1)
+          (reference "C23") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-          (reference "C28") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -924,7 +1015,7 @@
   (symbol (lib_id "Device:R") (at 125.73 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 754a9ece-4d24-4000-a7c8-39053718f490)
-    (property "Reference" "R11" (at 125.73 45.72 90)
+    (property "Reference" "R13" (at 125.73 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "102 2512" (at 125.73 48.26 90)
@@ -941,16 +1032,16 @@
     (instances
       (project "Плата симистров"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-          (reference "R11") (unit 1)
-        )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "R13") (unit 1)
         )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "R17") (unit 1)
         )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
           (reference "R21") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -980,7 +1071,7 @@
           (reference "Q1") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "Q6") (unit 1)
@@ -1003,13 +1094,13 @@
   (symbol (lib_id "PCM_Triac_AKL:BTA41-600B") (at 133.35 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87f0c43e-da34-4290-a072-de8f0b577461)
-    (property "Reference" "Q4" (at 137.16 68.58 0)
+    (property "Reference" "Q3" (at 137.16 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BTA41-600B (TO-218)" (at 137.16 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-218-3_Horizontal_TabDown_AAG" (at 133.35 69.85 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-218-3_Horizontal_TabDown" (at 133.35 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.tme.eu/Document/04a7384ba2314a2a2c0be567aaa7f9a3/BTA41-800BRG-STMicroelectronics.pdf" (at 133.35 69.85 0)
@@ -1021,7 +1112,7 @@
     (instances
       (project "Плата симистров"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-          (reference "Q4") (unit 1)
+          (reference "Q3") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "Q5") (unit 1)
@@ -1039,7 +1130,7 @@
   (symbol (lib_id "PCM_Optocoupler_Triac_AKL:MOC3021M") (at 104.14 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c86bdea4-8262-44e8-b99e-1a9ce6c615fd)
-    (property "Reference" "OC4" (at 102.87 76.2 0)
+    (property "Reference" "OC5" (at 102.87 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MOC3023SM (SMDIP-6)" (at 93.98 78.74 0)
@@ -1060,16 +1151,16 @@
     (instances
       (project "Плата симистров"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-          (reference "OC4") (unit 1)
+          (reference "OC5") (unit 1)
         )
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-          (reference "OC1") (unit 1)
-        )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "OC2") (unit 1)
         )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "OC3") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
+          (reference "OC4") (unit 1)
         )
       )
     )
@@ -1078,7 +1169,7 @@
   (symbol (lib_id "Device:R") (at 165.1 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc7667ad-af57-4c8f-b339-53d16d94e70e)
-    (property "Reference" "R10" (at 167.64 59.69 0)
+    (property "Reference" "R14" (at 167.64 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "510 2512" (at 167.64 62.23 0)
@@ -1095,16 +1186,16 @@
     (instances
       (project "Плата симистров"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-          (reference "R10") (unit 1)
-        )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "R14") (unit 1)
         )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "R18") (unit 1)
         )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
           (reference "R22") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -1113,7 +1204,7 @@
   (symbol (lib_id "Device:R") (at 86.36 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1956709-41ed-4e87-ab2a-d64d0cdc1b30)
-    (property "Reference" "R9" (at 86.36 55.88 90)
+    (property "Reference" "R15" (at 86.36 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "201 0805" (at 86.36 58.42 90)
@@ -1130,16 +1221,58 @@
     (instances
       (project "Плата симистров"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-          (reference "R9") (unit 1)
-        )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "R15") (unit 1)
         )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
           (reference "R19") (unit 1)
         )
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
           (reference "R23") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+          (reference "R27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 179.07 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d220c4a3-8241-461e-a07c-0e67b25e595a)
+    (property "Reference" "TP12" (at 181.61 80.518 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 181.61 83.058 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 184.15 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 184.15 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ffb6bc6b-7d89-4457-ab5d-81f8ed7f877c))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
+          (reference "TP12") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
+          (reference "TP14") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
+          (reference "TP16") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+          (reference "TP18") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP21") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP5") (unit 1)
         )
       )
     )
