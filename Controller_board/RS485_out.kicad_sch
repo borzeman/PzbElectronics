@@ -1059,11 +1059,11 @@
         )
       )
     )
-    (symbol "PCM_4ms_Power-symbol:+5V" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "PCM_4ms_Power-symbol:+3.3V" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+5V" (at 0 3.556 0)
+      (property "Value" "+3.3V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -1072,7 +1072,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+5V_0_1"
+      (symbol "+3.3V_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -1098,9 +1098,9 @@
           (fill (type none))
         )
       )
-      (symbol "+5V_1_1"
+      (symbol "+3.3V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
+          (name "+3V3" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1913,34 +1913,6 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:+5V") (at 44.45 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0321aa3f-b146-4baa-8442-1285d0689ed3)
-    (property "Reference" "#PWR04" (at 44.45 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 44.45 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 44.45 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 44.45 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 820938db-8724-4721-8066-8aa04e46fae7))
-    (instances
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
-          (reference "#PWR040") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 82.55 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 036242d7-9c69-4b1e-82d9-254db1557728)
@@ -2031,6 +2003,34 @@
         )
         (path "/a9e9e342-f9db-4619-97dc-0478dd4d5ea3/4ff6c499-209e-4211-8846-0435770cf970"
           (reference "#PWR0126") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "PCM_4ms_Power-symbol:+3.3V") (at 44.45 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0f0f64e4-bd2d-4b33-a8fc-0da788169aa7)
+    (property "Reference" "#PWR093" (at 44.45 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 44.45 104.14 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 44.45 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 44.45 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9f7466ec-8902-46ab-8bfd-cb79943ce3d3))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "#PWR093") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2174,34 +2174,6 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:+5V") (at 73.66 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2b72d482-4454-4257-b51c-2385e800c0bf)
-    (property "Reference" "#PWR04" (at 73.66 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 73.66 40.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 73.66 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 73.66 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c0c428d1-9fb3-4830-94a0-052a8ef5aab0))
-    (instances
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 241.3 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f1605e4-cc47-4d52-b2d6-c2c8df8de498)
@@ -2243,6 +2215,34 @@
       (project "CommonControl"
         (path "/a9e9e342-f9db-4619-97dc-0478dd4d5ea3/4ff6c499-209e-4211-8846-0435770cf970"
           (reference "R157") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "PCM_4ms_Power-symbol:+3.3V") (at 73.66 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 330d3aac-2358-4ab7-be80-11896c2fff25)
+    (property "Reference" "#PWR093" (at 73.66 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 73.66 40.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 73.66 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 73.66 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4ee22461-5c09-43f3-ac9f-11d06f437a78))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "#PWR093") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
