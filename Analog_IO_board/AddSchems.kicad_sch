@@ -1656,7 +1656,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 204.47 69.85 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f43f6a5-eadb-4a7a-a9f2-957857b83f5b)
     (property "Reference" "TP6" (at 209.55 68.58 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1788,7 +1788,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 204.47 35.56 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f2acbe4-e503-4abc-87fd-86ff54cad624)
     (property "Reference" "TP6" (at 209.55 34.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2123,13 +2123,13 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 93.98 172.72 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4be21fcd-782e-4bf6-84d7-0f060ef03f0f)
     (property "Reference" "TP3" (at 99.06 171.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 99.06 173.99 90)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 93.98 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3045,7 +3045,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 204.47 31.75 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f64c68dc-d72d-4d94-8750-c73ffc342605)
     (property "Reference" "TP6" (at 209.55 30.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3076,7 +3076,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 204.47 27.94 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f873c143-7cfd-4948-87b5-e7cb5bf97549)
     (property "Reference" "TP6" (at 209.55 26.67 90)
       (effects (font (size 1.27 1.27)) (justify left))

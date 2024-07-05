@@ -139,7 +139,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4e5aa82a-f98c-4762-a2f1-bf423a1c067a)
     )
-    (fp_text value "103 0805" (at 0 1.65 90) (layer "F.Fab")
+    (fp_text value "0805-10 кОм±5%-0,125 Вт" (at 0 1.65 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ecb5ff4a-1374-4eb6-b829-b173b086961b)
     )
@@ -197,7 +197,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 46e9c9c1-dc97-42c9-80dd-17d0d8dc889b)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 98e2c66c-8fc2-4331-8674-3ec74ea09b8e)
     )
@@ -812,10 +812,11 @@
     (at 98 31.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/4931c87e-3a5b-46f4-b4f3-dd83dec8c0c5")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H6" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c76cd9e3-6ddf-493e-bf42-b5f6878b2f84)
@@ -967,7 +968,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f286542-fe3d-4faa-b58d-a07b3ecd9be8)
     )
-    (fp_text value "SM6T30A" (at 0 3.1 180) (layer "F.Fab")
+    (fp_text value "SM6T30A (SMB)" (at 0 3.1 180) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 695f285a-0bb4-427d-b7ee-243b42f1efe2)
     )
@@ -1025,10 +1026,11 @@
     (at 5.5 31.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/c6a5f7e3-8e74-4bb7-92fd-a158f3b9ca5f")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H1" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a77af5f9-1d95-4a13-bbe1-b025649a2eda)
@@ -1130,7 +1132,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 350a97f8-4d31-4f6a-9432-0f8f287992fc)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87c91a89-4fc7-4b5d-af15-46ec1884bbee)
     )
@@ -1316,10 +1318,11 @@
     (at 194 31.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/0b1a493f-b2f1-42e7-836e-76f33c547e28")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H13" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c1ebdb1-2255-4ad3-b2da-1ca3f8ff5d13)
@@ -1705,7 +1708,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b6b3365c-5a5b-446f-8358-d7f66b041cf4)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc8b7616-05b0-433e-b97c-178dc651efcf)
     )
@@ -1783,7 +1786,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0410b76-1ec4-45dd-b227-ff3bda4b5457)
     )
-    (fp_text value "201 0805" (at 0 1.65 90) (layer "F.Fab") hide
+    (fp_text value "0805-200 Ом±5%-0,125 Вт" (at 0 1.65 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 00957c1a-14de-4aa6-be6e-02f5f5fc4e64)
     )
@@ -1841,7 +1844,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 10d4b31f-78ab-4f3b-a3e8-f1410ae75e1a)
     )
-    (fp_text value "242 2512" (at 0 2.62 90) (layer "F.Fab")
+    (fp_text value "2512-2,4 кОм±5%-1 Вт" (at 0 2.62 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp da7b026a-e1c4-4336-9037-19e09df31d1a)
     )
@@ -1889,10 +1892,11 @@
     (at 98 105.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/1a58a84e-5a2f-488f-bae8-aaf8087d5c53")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H10" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8ac9fb48-c787-4f5c-97d7-074424beb6df)
@@ -1926,7 +1930,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eae2494a-c1b6-4ae2-9517-ca15cc5f342c)
     )
-    (fp_text value "SUM110P06-08L-E3" (at 0 6.65) (layer "F.Fab") hide
+    (fp_text value "SUM110P06-08L-E3 (TO-263-2)" (at 0 6.65) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 90801537-ff15-4df8-8eec-5e2e788fb4cc)
     )
@@ -2092,7 +2096,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9cd8ea5b-4a82-437f-a925-e525f2dce924)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aef443ed-4fa4-4f69-bed6-d56b1860d273)
     )
@@ -2216,10 +2220,11 @@
     (at 50 105.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/1218f4ec-6d0b-4de2-b30b-914410fe001f")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H7" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp abe4b5fb-4e8c-4689-b78c-c6cbc4af8e00)
@@ -2310,10 +2315,11 @@
     (at 5.5 105.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/7489ffad-94a1-4dda-8a59-e25ba65853a3")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H14" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2177c647-4995-4fba-9c2f-57df0e96fde8)
@@ -2337,10 +2343,11 @@
     (at 242 105.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/005cea8b-da07-4b05-910a-bbe09853b113")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H9" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f0087a72-13ea-469c-8e7c-530acc05b4a6)
@@ -2430,7 +2437,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f557b78d-77f8-423d-bf52-40b8ef123722)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fb0d1905-ab2c-4d3b-82d9-898262e933fe)
     )
@@ -2508,7 +2515,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c483adc-a994-45a9-a2a7-52a005451460)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 323f01aa-c759-45fe-a527-56b1e8f9dcc4)
     )
@@ -2643,10 +2650,11 @@
     (at 242 31.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/5eaf6b2d-8a6e-4224-81aa-33941aef9c12")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H5" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf287e6e-db06-4f9e-a589-9b93687ae344)
@@ -2680,7 +2688,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e5c600a-96f3-42fa-ad81-b92c65956c2a)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4b77db2a-baef-4fec-a76e-9f163c1662cf)
     )
@@ -2943,7 +2951,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5d8b0bed-75aa-4b4d-90ba-08d7e10f0f5c)
     )
-    (fp_text value "121 1206" (at 0 1.82 90) (layer "F.Fab") hide
+    (fp_text value "1206-120 Ом±5%-0,25 Вт" (at 0 1.82 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21e42f87-3233-4528-af8d-6ffc43dcde83)
     )
@@ -3001,7 +3009,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 154bda5f-0886-4b66-a17b-a7d2ad8ee4d3)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c49e6bb3-25b5-4ccd-a9dd-cfaf8548b748)
     )
@@ -3069,10 +3077,11 @@
     (at 50 31.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/d3f7e396-26a5-4480-9a4b-e0ce791bad02")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H2" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63ed3e53-f736-42fb-ab58-cca5ed4ced78)
@@ -3208,10 +3217,11 @@
     (at 146 31.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/93d81cdb-f796-4fdc-9b68-555fa89283f5")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H3" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 309108a0-7e17-4d3e-9d5b-567c95166a08)
@@ -3419,7 +3429,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e64cacbc-8118-4ad8-89ea-3057150dc23d)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ae24048d-50f2-4259-8913-1ec605bf9bd7)
     )
@@ -3497,7 +3507,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 33f43a43-78f1-4904-9128-3a448a6fa4f1)
     )
-    (fp_text value "SMBJ5.0A" (at 0 3.1 90) (layer "F.Fab") hide
+    (fp_text value "SMBJ5.0A (SMB)" (at 0 3.1 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a37638a7-7cea-4834-920a-17e45b805c84)
     )
@@ -4135,10 +4145,11 @@
     (at 289.5 31.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/e88b7fa2-c339-48ff-b854-3b0315b464b6")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H4" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fecce8be-02b7-4b00-9da2-2f6a2e89b0e3)
@@ -4386,10 +4397,11 @@
     (at 146 105.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/54cb92c8-bc93-4b02-9c58-f7d7b33bf432")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H11" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 013b2ccb-4834-4219-b0ac-6355a5c46e31)
@@ -4549,7 +4561,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8c21a894-2847-4576-ae2f-adc9074a262d)
     )
-    (fp_text value "SUM110P06-08L-E3" (at 0 6.65 90) (layer "F.Fab") hide
+    (fp_text value "SUM110P06-08L-E3 (TO-263-2)" (at 0 6.65 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b6a33ad3-aae0-4e71-8938-d1ea596c9301)
     )
@@ -4699,10 +4711,11 @@
     (at 194 105.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/18a73029-0300-4bb7-9c91-321af5da601c")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H8" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab6045b5-4d67-471e-b0d0-e3e78ffa4284)
@@ -5291,10 +5304,11 @@
     (at 289.5 105.5)
     (property "Sheetfile" "Материнская плата.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "3.2mm Diameter Mounting Hole Pad (M3)")
     (property "ki_keywords" "Mounting Hole")
     (path "/aed7eb30-1942-419a-a11b-cc8716f3bc55")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H12" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 538d847f-0d4d-4ee2-a0e0-8d9db07ed3ff)
@@ -5328,7 +5342,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ffa553ed-a6e2-4dd5-92f0-08de5d8e5a49)
     )
-    (fp_text value "152 0805" (at 0 -1.65) (layer "B.Fab")
+    (fp_text value "0805-1,5 кОм±5%-0,125 Вт" (at 0 -1.65) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4afa2eab-9024-41f0-b672-028cfc2e7b94)
     )
@@ -5448,7 +5462,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b932ab22-d140-4bff-827a-c169fe8c2598)
     )
-    (fp_text value "102 1206" (at 0 -1.82 -270) (layer "B.Fab")
+    (fp_text value "1206-1 кОм±5%-0,25 Вт" (at 0 -1.82 -270) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 14b3fc73-4725-4d56-b03d-4d98651453b2)
     )
@@ -5506,7 +5520,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c7650039-9a80-477c-b8aa-54c8e82a597e)
     )
-    (fp_text value "102 1206" (at 0 -1.82 -270) (layer "B.Fab")
+    (fp_text value "1206-1 кОм±5%-0,25 Вт" (at 0 -1.82 -270) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c8145330-ccd4-4e8a-883a-69e56cb8b391)
     )
@@ -5564,7 +5578,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a69f1765-a85a-4349-ae78-95d654b11796)
     )
-    (fp_text value "103 0805" (at 0 -1.65) (layer "B.Fab")
+    (fp_text value "0805-10 кОм±5%-0,125 Вт" (at 0 -1.65) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4b41ce10-2ff4-4b16-ada5-8fc501c8ac4a)
     )
