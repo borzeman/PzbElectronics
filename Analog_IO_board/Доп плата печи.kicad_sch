@@ -2756,6 +2756,10 @@
     (stroke (width 0) (type default))
     (uuid 66934756-f1ec-487b-b8bb-c2f5d1a7268e)
   )
+  (wire (pts (xy 92.71 114.3) (xy 99.06 114.3))
+    (stroke (width 0) (type default))
+    (uuid 671f1188-e338-4fc5-b2c4-147539585f79)
+  )
   (wire (pts (xy 81.28 176.53) (xy 78.74 176.53))
     (stroke (width 0) (type default))
     (uuid 67e709c9-b2e4-4ad5-9565-cd5ceeed6770)
@@ -3086,6 +3090,10 @@
     (uuid c69f06bb-08f3-48ef-9659-99dbb48f77ad)
   )
 
+  (label "Relay_ON" (at 92.71 114.3 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 003c7fa7-b3fd-4507-b3fd-c1defedca048)
+  )
   (label "SIM1_ON" (at 92.71 100.33 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 018a2240-06a8-4c24-ae53-5ff2a147a07f)
@@ -3097,6 +3105,10 @@
   (label "RX_USART_1" (at 228.6 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 259b54de-9d97-45fd-a696-35f59a6ea657)
+  )
+  (label "Relay_ON" (at 228.6 110.49 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 278454f5-d77a-4181-8193-41af19d114d9)
   )
   (label "GPIO2" (at 144.78 107.95 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3508,6 +3520,40 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 99.06 114.3 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 16af99a2-14b5-42c3-b0ed-e1677ff8d7d2)
+    (property "Reference" "TP6" (at 104.14 114.3 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 104.14 115.57 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 99.06 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 99.06 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cd6ed8e3-4654-4656-a814-c19d767743e5))
+    (instances
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+          (reference "TP6") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
+          (reference "TP7") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
+          (reference "TP17") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
+          (reference "TP30") (unit 1)
         )
       )
     )
@@ -6319,6 +6365,10 @@
     (pin "U_Idet2" input (at 92.71 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e8744318-2add-42aa-8615-7b2a86656613)
+    )
+    (pin "Relay_ON" input (at 92.71 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 2cf02d68-8941-427d-b35f-793e58d1b524)
     )
     (instances
       (project "Доп плата печи"
