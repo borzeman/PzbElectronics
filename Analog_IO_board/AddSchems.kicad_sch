@@ -1455,6 +1455,11 @@
     (fill (type none))
     (uuid 46349d85-7d8f-484c-babc-bda2e6f2b4f9)
   )
+  (rectangle (start 96.52 20.32) (end 166.37 93.98)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid b176e445-cc7d-4828-9c85-b83c20956ac3)
+  )
   (rectangle (start 21.59 20.32) (end 82.55 93.98)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -3200,6 +3205,23 @@
     (instances
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 38.1) (size 24.13 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 61a42903-cbdd-49c3-81c9-21e03e22756b)
+    (property "Sheetname" "relay_control" (at 104.14 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "relay_control.kicad_sch" (at 104.14 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c" (page "9"))
       )
     )
   )
