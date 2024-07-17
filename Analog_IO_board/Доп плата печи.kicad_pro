@@ -48,8 +48,21 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_edge_clearance|168000000|102000000|e8deb457-0cc8-4a70-821b-1e2bf5dcbc3f|a3249fcc-fa9a-4da5-99ef-976d0973b74e",
+        "silk_edge_clearance|168000000|104540000|e8deb457-0cc8-4a70-821b-1e2bf5dcbc3f|34c44e80-d664-4764-9856-abc3cd2e46f6",
+        "silk_edge_clearance|168000000|113000000|e8deb457-0cc8-4a70-821b-1e2bf5dcbc3f|e40427c9-3fdb-456c-b974-355985b148f0",
+        "silk_edge_clearance|168000000|115540000|e8deb457-0cc8-4a70-821b-1e2bf5dcbc3f|6924febe-9570-4c96-aac5-5f1c3a88d6be",
+        "silk_edge_clearance|168000000|118080000|e8deb457-0cc8-4a70-821b-1e2bf5dcbc3f|12195963-8872-4ab0-89c7-1c79a944e494",
+        "silk_edge_clearance|168000000|99460000|e8deb457-0cc8-4a70-821b-1e2bf5dcbc3f|bf078b5a-0800-4fa4-8657-2a3d626bb432"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +178,22 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5,
+        1.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.5
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -426,7 +453,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -499,6 +526,10 @@
     [
       "6e889939-4d5d-43e9-a626-357b8e734a50",
       "CurrentDet2"
+    ],
+    [
+      "61a42903-cbdd-49c3-81c9-21e03e22756b",
+      "relay_control"
     ]
   ],
   "text_variables": {}

@@ -3238,6 +3238,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c04b14d0-de39-4b8a-a311-f3ae6098737c)
   )
+  (label "SIM1_ON" (at 228.6 36.83 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c29ee3c8-4fbc-4d1d-8209-cb07660e56d9)
+  )
   (label "GPIO1" (at 198.12 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c905b125-47d4-4578-8a73-87eeaabca0c0)
@@ -3269,6 +3273,10 @@
   (label "CS1" (at 198.12 77.47 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e705d87e-ec4b-4b35-9ba7-a7d7422a59ef)
+  )
+  (label "SIM2_ON" (at 228.6 39.37 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e962211f-f584-407a-8721-b395c37c9a46)
   )
   (label "UART_TX" (at 143.51 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3304,7 +3312,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP11") (unit 1)
+          (reference "TP15") (unit 1)
         )
       )
     )
@@ -3397,7 +3405,36 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 149.86 191.77 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 06fd70ee-51f1-411e-b52c-cd8445b989de)
+    (property "Reference" "H2" (at 152.4 190.5 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 152.4 193.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 149.86 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 149.86 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -3428,7 +3465,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP12") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -3519,7 +3556,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3553,7 +3590,7 @@
           (reference "TP17") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP30") (unit 1)
+          (reference "TP13") (unit 1)
         )
       )
     )
@@ -3583,7 +3620,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3614,7 +3651,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP27") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -3646,6 +3683,35 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "F1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 157.48 191.77 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1dba040e-fada-4126-92c2-66de8adba369)
+    (property "Reference" "H2" (at 160.02 190.5 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 160.02 193.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 157.48 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 157.48 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
+          (reference "H5") (unit 1)
         )
       )
     )
@@ -3705,7 +3771,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3736,7 +3802,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP16") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -3805,7 +3871,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3972,7 +4038,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4006,7 +4072,7 @@
           (reference "TP17") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP23") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -4037,7 +4103,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP13") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -4227,25 +4293,25 @@
           (reference "TP17") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP26") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 135.89 191.77 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 134.62 191.77 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f58c1e9-f01f-43ef-ad01-754e439754e2)
-    (property "Reference" "H2" (at 138.43 190.5 0)
+    (property "Reference" "H2" (at 137.16 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 138.43 193.04 0)
+    (property "Value" "MountingHole" (at 137.16 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 135.89 191.77 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 134.62 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 135.89 191.77 0)
+    (property "Datasheet" "~" (at 134.62 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -4262,19 +4328,19 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 113.03 191.77 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 127 191.77 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 432127ba-c1da-4b3c-8eaa-2e9b6ddbbfee)
-    (property "Reference" "H1" (at 115.57 190.5 0)
+    (property "Reference" "H1" (at 129.54 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 115.57 193.04 0)
+    (property "Value" "MountingHole" (at 129.54 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 113.03 191.77 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 127 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 113.03 191.77 0)
+    (property "Datasheet" "~" (at 127 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -4347,7 +4413,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "R3") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4470,7 +4536,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4500,7 +4566,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4530,7 +4596,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4594,7 +4660,7 @@
           (reference "TP17") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP25") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -4624,7 +4690,36 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR029") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 142.24 191.77 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 5c16c48c-bbce-4623-bdc5-d86f52822193)
+    (property "Reference" "H2" (at 144.78 190.5 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 144.78 193.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 142.24 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 142.24 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -4716,7 +4811,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4746,7 +4841,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4901,7 +4996,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4931,7 +5026,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4962,7 +5057,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP15") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -4993,7 +5088,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "R5") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -5023,7 +5118,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -5084,7 +5179,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -5114,7 +5209,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5305,7 +5400,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5335,7 +5430,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5396,7 +5491,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -5430,7 +5525,7 @@
           (reference "TP17") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP22") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -5460,7 +5555,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5525,7 +5620,7 @@
           (reference "TP17") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP21") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -5587,7 +5682,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP14") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -5678,7 +5773,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -5708,7 +5803,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5739,7 +5834,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP10") (unit 1)
+          (reference "TP14") (unit 1)
         )
       )
     )
@@ -5769,7 +5864,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5860,7 +5955,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -5890,7 +5985,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5920,7 +6015,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -5989,7 +6084,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -6023,7 +6118,7 @@
           (reference "TP17") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "TP24") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -6085,7 +6180,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -6115,7 +6210,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -6182,7 +6277,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -6212,7 +6307,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -6242,7 +6337,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -6272,7 +6367,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -6302,7 +6397,7 @@
       )
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
