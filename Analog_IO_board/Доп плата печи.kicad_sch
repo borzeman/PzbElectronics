@@ -3077,15 +3077,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 92daf76f-9490-46c0-8d15-e6734783743a)
   )
-  (text "Analog IN" (at 237.49 115.57 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9cf6ddf1-b9ab-41ba-ac77-c349eea5c09b)
-  )
   (text "SPI2_MISO" (at 181.61 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c1882c45-62e6-4f24-8122-84df87704ad8)
   )
-  (text "Analog IN" (at 237.49 113.03 0)
+  (text "Analog IN" (at 237.49 105.41 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c69f06bb-08f3-48ef-9659-99dbb48f77ad)
   )
@@ -3097,6 +3093,10 @@
   (label "SIM1_ON" (at 92.71 100.33 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 018a2240-06a8-4c24-ae53-5ff2a147a07f)
+  )
+  (label "Detect_zero" (at 92.71 110.49 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 02f2ee1f-0ad3-4d33-b873-d76935ebcd59)
   )
   (label "+3.3VRS485" (at 63.5 19.05 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3121,10 +3121,6 @@
   (label "RTS" (at 33.02 52.07 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39b2c65f-0922-4faf-8d66-f4cd42e7f1b9)
-  )
-  (label "U_Idet2" (at 92.71 110.49 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3c6f0fd1-6451-49c9-82e5-247b6f2b3bfb)
   )
   (label "MISO" (at 198.12 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3186,10 +3182,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 883f0a2e-5e85-475b-bda5-77b434ef4af0)
   )
-  (label "U_Idet2" (at 228.6 115.57 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 890820bf-ab9a-432e-a0ed-f08442593e4d)
-  )
   (label "TX_USART_1" (at 143.51 44.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 89b9bae6-d46e-42b2-968f-feec134649d2)
@@ -3218,6 +3210,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a03afe0d-f1d2-453c-b449-37585aac02b3)
   )
+  (label "U_Idet1" (at 228.6 105.41 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a25ef526-f550-48c5-b6da-07e155b5b0f2)
+  )
   (label "RTS_cont" (at 143.51 46.99 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a4bc8b1c-4b25-4807-adb8-2af87d7ea7ea)
@@ -3225,6 +3221,10 @@
   (label "TX_USART_1" (at 228.6 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a794eaa3-1cba-49d6-a304-724b567cedec)
+  )
+  (label "Detect_zero" (at 228.6 107.95 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a8ad0744-616e-4150-99f1-dca770a79573)
   )
   (label "NRST" (at 255.27 97.79 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3282,10 +3282,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ef50c283-cc53-4e05-8bfb-20b545126a7b)
   )
-  (label "U_Idet1" (at 228.6 113.03 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f851e9e5-1204-4843-8854-90ab481618df)
-  )
 
   (symbol (lib_id "Connector:TestPoint") (at 68.58 176.53 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
@@ -3307,9 +3303,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "TP15") (unit 1)
@@ -3461,9 +3454,6 @@
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
         )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
-        )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "TP3") (unit 1)
         )
@@ -3583,9 +3573,6 @@
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
         )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
-        )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "TP17") (unit 1)
         )
@@ -3646,9 +3633,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "TP6") (unit 1)
@@ -3797,9 +3781,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "TP4") (unit 1)
@@ -4065,9 +4046,6 @@
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
         )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
-        )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "TP17") (unit 1)
         )
@@ -4098,9 +4076,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "TP2") (unit 1)
@@ -4285,9 +4260,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "TP17") (unit 1)
@@ -4652,9 +4624,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "TP17") (unit 1)
@@ -5052,9 +5021,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "TP1") (unit 1)
@@ -5518,9 +5484,6 @@
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
         )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
-        )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "TP17") (unit 1)
         )
@@ -5613,9 +5576,6 @@
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
         )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
-        )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "TP17") (unit 1)
         )
@@ -5677,9 +5637,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "TP5") (unit 1)
@@ -5829,9 +5786,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
           (reference "TP14") (unit 1)
@@ -6110,9 +6064,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP6") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP7") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "TP17") (unit 1)
@@ -6457,13 +6408,13 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6eb2ec3b-bfbf-490c-b714-9b97e8facd81)
     )
-    (pin "U_Idet2" input (at 92.71 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e8744318-2add-42aa-8615-7b2a86656613)
-    )
     (pin "Relay_ON" input (at 92.71 114.3 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2cf02d68-8941-427d-b35f-793e58d1b524)
+    )
+    (pin "ZERO_DET" input (at 92.71 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7fcaf57c-1f33-49da-8107-75e71c415444)
     )
     (instances
       (project "Доп плата печи"
