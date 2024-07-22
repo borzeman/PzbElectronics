@@ -736,7 +736,7 @@
     (uuid 9a497b50-b4e1-4ae2-81a2-a390fe262f0d)
   )
 
-  (text "18мА" (at 127 80.01 0)
+  (text "28мА" (at 127 80.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4e8477e6-e20f-49ca-b5a3-239b1ba71382)
   )
@@ -744,7 +744,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 55c7fe59-3803-448d-8467-14942ead30ee)
   )
-  (text "12мА" (at 179.07 78.74 0)
+  (text "20 mA" (at 179.07 78.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c532a9bd-9729-485d-9b88-efe7ab19c6e8)
   )
@@ -796,7 +796,7 @@
     (property "Reference" "R38" (at 171.45 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "202 2512" (at 171.45 81.28 90)
+    (property "Value" "122 2512" (at 171.45 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "PCM_Resistor_SMD_AKL:R_2512_6332Metric" (at 171.45 86.868 90)
@@ -837,9 +837,6 @@
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP25") (unit 1)
         )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP28") (unit 1)
-        )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/61a42903-cbdd-49c3-81c9-21e03e22756b"
           (reference "TP31") (unit 1)
         )
@@ -853,7 +850,7 @@
     (property "Reference" "R15" (at 120.65 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "151 0805" (at 120.65 81.28 90)
+    (property "Value" "750 0805" (at 120.65 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "PCM_4ms_Resistor:R_0805_2012Metric" (at 120.65 86.868 90)
@@ -1016,9 +1013,6 @@
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP25") (unit 1)
         )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP28") (unit 1)
-        )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/61a42903-cbdd-49c3-81c9-21e03e22756b"
           (reference "TP33") (unit 1)
         )
@@ -1169,13 +1163,13 @@
     (property "Reference" "U9" (at 143.51 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTV-817S" (at 143.51 81.28 0)
+    (property "Value" "LTV-817S-(С-D)" (at 143.51 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DIP:SMDIP-4_W9.53mm" (at 143.51 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" (at 134.62 80.01 0)
+    (property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/325178/LITEON/LTV-817S.html" (at 134.62 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 8ee8dbe6-6bee-497f-bdf9-ca1988767486))
@@ -1412,9 +1406,6 @@
       (project "Доп плата печи"
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
           (reference "TP25") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/6e889939-4d5d-43e9-a626-357b8e734a50"
-          (reference "TP28") (unit 1)
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/61a42903-cbdd-49c3-81c9-21e03e22756b"
           (reference "TP32") (unit 1)
