@@ -1848,6 +1848,37 @@
     )
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 257.81 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2dc34603-4699-47f3-ad35-6a26eb26df78)
+    (property "Reference" "J2" (at 260.35 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "DG245-5.0-02P" (at 260.35 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector:DG245-5.0-02P" (at 257.81 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 257.81 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 00332367-21e2-420e-8c9d-5fcd34b4e4ad))
+    (pin "1" (uuid 9afd3fa5-5cd9-4698-b587-8aeec2292fae))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
+          (reference "J4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "PCM_4ms_Power-symbol:GNDA") (at 63.5 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3290fe90-75a1-4bfe-9677-bc472efe8502)
@@ -1990,37 +2021,6 @@
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "#PWR060") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 255.27 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 382ffb93-d2ee-4986-bf98-f737cbc4945b)
-    (property "Reference" "J3" (at 257.81 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SPT 2,5/ 2-H-5,0" (at 257.81 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_2.5_2-H-5.0_1x02_P5.0mm_Horizontal" (at 255.27 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 255.27 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid fcea3ef9-b162-4303-870c-a277af792c34))
-    (pin "1" (uuid b4ee99ec-4d54-46b5-9220-e4b4475d67b7))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
-          (reference "J3") (unit 1)
-        )
-      )
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
-          (reference "J6") (unit 1)
         )
       )
     )
@@ -2377,6 +2377,37 @@
     )
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 255.27 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6dcce4ee-f495-4bc5-94b3-6984ca104833)
+    (property "Reference" "J2" (at 257.81 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "DG245-5.0-02P" (at 257.81 139.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector:DG245-5.0-02P" (at 255.27 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 255.27 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 00996366-b418-44b8-af3f-b49c4a64b179))
+    (pin "1" (uuid a5422862-7d12-481c-8b2b-6e4a22c39080))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
+          (reference "J6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 262.89 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dda0eef-2f46-4d07-80ca-b150f4c64724)
@@ -2540,6 +2571,37 @@
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 255.27 123.19 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 864de152-9cf5-4f80-9d25-f7da106e3810)
+    (property "Reference" "J2" (at 257.81 123.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "DG245-5.0-02P" (at 257.81 125.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector:DG245-5.0-02P" (at 255.27 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 255.27 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 09bc1d37-5465-4f9b-8090-7e1c94af4792))
+    (pin "1" (uuid 4bce4c65-b776-4bc0-8689-e8cfab99f089))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2761,37 +2823,6 @@
       (project "Плата фото светодиоды"
         (path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64"
           (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 257.81 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b52148d8-8121-4e38-b9ad-6db25ff10fd1)
-    (property "Reference" "J3" (at 260.35 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SPT 2,5/ 2-H-5,0" (at 260.35 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_2.5_2-H-5.0_1x02_P5.0mm_Horizontal" (at 257.81 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 257.81 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 69277507-5bd5-44bc-9aaa-5354b0e61a0c))
-    (pin "1" (uuid 13f93d52-16c8-470c-89a9-fdbf02b0a90d))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
-          (reference "J3") (unit 1)
-        )
-      )
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
-          (reference "J4") (unit 1)
         )
       )
     )
@@ -3026,37 +3057,6 @@
         )
         (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
           (reference "#PWR041") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 255.27 123.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d93845c9-b9b4-4a20-bdea-bbecdac3dbf2)
-    (property "Reference" "J3" (at 257.81 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SPT 2,5/ 2-H-5,0" (at 257.81 125.73 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_2.5_2-H-5.0_1x02_P5.0mm_Horizontal" (at 255.27 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 255.27 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 223538ca-b542-4c18-9aa9-cb164dfed3d3))
-    (pin "1" (uuid f1ec484b-e671-47d0-bf92-5f6bc5f89fa6))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
-          (reference "J3") (unit 1)
-        )
-      )
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
-          (reference "J5") (unit 1)
         )
       )
     )
