@@ -1,1224 +1,3213 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid e14c2951-d6a8-408a-8147-677bd2a28df7)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Amplifier_Operational:LMV358" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "LMV358" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "single opamp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LMV358_1_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LMV358_2_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LMV358_3_1"
-        (pin power_in line (at -2.54 -7.62 90) (length 3.81)
-          (name "V-" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 7.62 270) (length 3.81)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 6.858 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_0_1"
-        (circle (center 0 3.302) (radius 0.762)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_1_1"
-        (pin passive line (at 0 0 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x02" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x02_1_1"
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "PCM_Diode_TVS_AKL:SMBJ5.0A" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SMBJ5.0A" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Diode_SMD_AKL:D_SMB" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode unidirectional TVS SMBJ-A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "SMB Unidirectional TVS diode, 5V, 600W, Alternate KiCAD Library" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SMBJ5.0A_0_1"
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-            (xy 1.27 0)
-            (xy -1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "SMBJ5.0A_1_1"
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 35.56 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 0a6ee91d-feb0-46c6-a216-920ea9028a8e)
-  )
-  (junction (at 95.25 127) (diameter 0) (color 0 0 0 0)
-    (uuid 1f31c435-2b76-4de3-9aad-603e9f019a50)
-  )
-  (junction (at 154.94 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 2328fd86-87dd-417e-a0ed-cade7113412c)
-  )
-  (junction (at 133.35 149.86) (diameter 0) (color 0 0 0 0)
-    (uuid 2ca8d4e4-1cdd-47bc-a5a0-8bcc109440da)
-  )
-  (junction (at 50.8 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 3b50a120-ef62-4099-b626-319fc7e9f936)
-  )
-  (junction (at 105.41 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 46cc4db4-3263-40e1-9e24-537351a0eb2e)
-  )
-  (junction (at 35.56 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 6c5749cb-7622-4b93-b2a0-48bad831f43c)
-  )
-  (junction (at 132.08 129.54) (diameter 0) (color 0 0 0 0)
-    (uuid 6e5b870a-0fcd-4903-8bf0-2c6fe8cf71ba)
-  )
-  (junction (at 137.16 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 82c80ce6-1189-4a48-a745-37fa10b4977a)
-  )
-  (junction (at 74.93 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 9c95b127-7ee9-4223-aeac-2517a5852559)
-  )
-  (junction (at 170.18 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid c3e6c173-399a-4677-b1e6-abe855c80a28)
-  )
-  (junction (at 179.07 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid d7356d1a-7294-4764-8150-b236364d49f6)
-  )
-  (junction (at 77.47 127) (diameter 0) (color 0 0 0 0)
-    (uuid efcf503d-ca1b-4c08-91f3-8a1c13e29099)
-  )
-  (junction (at 205.74 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid f31c9e94-3bd9-4f3e-9350-b944abeb78ae)
-  )
-  (junction (at 50.8 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid f4aada39-e60d-487a-9f1e-aef7d365bee6)
-  )
-  (junction (at 73.66 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid faf31572-d910-4f30-8500-bbc0d9e59bd6)
-  )
-
-  (wire (pts (xy 154.94 95.25) (xy 154.94 90.17))
-    (stroke (width 0) (type default))
-    (uuid 01c1c2d2-666f-4e77-bedb-b21bda35ab3c)
-  )
-  (wire (pts (xy 170.18 97.79) (xy 170.18 82.55))
-    (stroke (width 0) (type default))
-    (uuid 024522ec-c08f-43ad-9869-a432067c4f10)
-  )
-  (wire (pts (xy 105.41 90.17) (xy 134.62 90.17))
-    (stroke (width 0) (type default))
-    (uuid 10fff3a0-32c1-44d7-a4e1-a5306fc9a5ba)
-  )
-  (wire (pts (xy 27.94 92.71) (xy 29.21 92.71))
-    (stroke (width 0) (type default))
-    (uuid 185580cd-6a12-4e5e-b9c2-b8fb9144980c)
-  )
-  (wire (pts (xy 27.94 100.33) (xy 35.56 100.33))
-    (stroke (width 0) (type default))
-    (uuid 1b76fc76-c623-4161-affb-29ad34587560)
-  )
-  (wire (pts (xy 170.18 97.79) (xy 179.07 97.79))
-    (stroke (width 0) (type default))
-    (uuid 1c21a862-cbc1-4cda-a594-72fcc8d48cca)
-  )
-  (wire (pts (xy 132.08 129.54) (xy 137.16 129.54))
-    (stroke (width 0) (type default))
-    (uuid 1d4a4f47-e0a5-476c-b420-81e7c075434f)
-  )
-  (wire (pts (xy 116.84 132.08) (xy 114.3 132.08))
-    (stroke (width 0) (type default))
-    (uuid 2112df5c-0dde-4b46-aff4-6bd19c73a8e7)
-  )
-  (wire (pts (xy 35.56 90.17) (xy 50.8 90.17))
-    (stroke (width 0) (type default))
-    (uuid 24151d9b-56a7-469c-bc18-7800ff0642b1)
-  )
-  (wire (pts (xy 74.93 135.89) (xy 74.93 139.7))
-    (stroke (width 0) (type default))
-    (uuid 278245f4-d123-4211-b14b-75b3943e6e11)
-  )
-  (wire (pts (xy 133.35 149.86) (xy 133.35 152.4))
-    (stroke (width 0) (type default))
-    (uuid 2c06d6ae-a19e-4c05-b0b5-e3991e949f30)
-  )
-  (wire (pts (xy 158.75 82.55) (xy 154.94 82.55))
-    (stroke (width 0) (type default))
-    (uuid 2c4a1e40-485b-4e4e-a583-fdcf92555a06)
-  )
-  (wire (pts (xy 50.8 90.17) (xy 50.8 91.44))
-    (stroke (width 0) (type default))
-    (uuid 2fd3aad7-1379-49f0-b594-3fa87a15864a)
-  )
-  (wire (pts (xy 137.16 129.54) (xy 137.16 114.3))
-    (stroke (width 0) (type default))
-    (uuid 34811362-58be-4b7e-87e6-2273a6c4bf07)
-  )
-  (wire (pts (xy 137.16 106.68) (xy 137.16 100.33))
-    (stroke (width 0) (type default))
-    (uuid 38d001bc-b918-4d90-9c26-723ba97d8aac)
-  )
-  (wire (pts (xy 35.56 100.33) (xy 50.8 100.33))
-    (stroke (width 0) (type default))
-    (uuid 416608c6-ef41-4e21-bdf9-020bcbe3ad09)
-  )
-  (wire (pts (xy 74.93 90.17) (xy 105.41 90.17))
-    (stroke (width 0) (type default))
-    (uuid 4e92d232-2f7b-40fb-9f40-563888d292be)
-  )
-  (wire (pts (xy 137.16 100.33) (xy 154.94 100.33))
-    (stroke (width 0) (type default))
-    (uuid 510f3a28-9389-490d-bb33-e90fee0bd62e)
-  )
-  (wire (pts (xy 74.93 127) (xy 77.47 127))
-    (stroke (width 0) (type default))
-    (uuid 549ae6e8-b9cf-443a-af22-38f20c5aab00)
-  )
-  (wire (pts (xy 179.07 97.79) (xy 189.23 97.79))
-    (stroke (width 0) (type default))
-    (uuid 561629a2-c088-476e-ac18-39e9e5ae142d)
-  )
-  (wire (pts (xy 29.21 92.71) (xy 29.21 90.17))
-    (stroke (width 0) (type default))
-    (uuid 575b2015-2476-4a38-83df-186e1f506360)
-  )
-  (wire (pts (xy 50.8 90.17) (xy 74.93 90.17))
-    (stroke (width 0) (type default))
-    (uuid 5a252b45-04aa-4e98-b1f2-9b2356ef897d)
-  )
-  (wire (pts (xy 95.25 123.19) (xy 95.25 127))
-    (stroke (width 0) (type default))
-    (uuid 5b7de38c-db50-4386-be86-5ca2e4ed68e1)
-  )
-  (wire (pts (xy 114.3 132.08) (xy 114.3 139.7))
-    (stroke (width 0) (type default))
-    (uuid 5f21764a-963c-4adc-99c0-3cf4284d13cf)
-  )
-  (wire (pts (xy 95.25 113.03) (xy 95.25 115.57))
-    (stroke (width 0) (type default))
-    (uuid 64a868e5-9b94-4701-bc69-d137697c7d0c)
-  )
-  (wire (pts (xy 170.18 82.55) (xy 166.37 82.55))
-    (stroke (width 0) (type default))
-    (uuid 69b4dbff-b07c-4749-b603-928d25067918)
-  )
-  (wire (pts (xy 196.85 97.79) (xy 205.74 97.79))
-    (stroke (width 0) (type default))
-    (uuid 6c0698d5-d5a2-40a1-9572-caec53306307)
-  )
-  (wire (pts (xy 95.25 139.7) (xy 95.25 135.89))
-    (stroke (width 0) (type default))
-    (uuid 743aff16-348a-490a-a16b-1f38f55d7641)
-  )
-  (wire (pts (xy 35.56 91.44) (xy 35.56 90.17))
-    (stroke (width 0) (type default))
-    (uuid 745129c2-5460-41cc-af90-1c811a4e535a)
-  )
-  (wire (pts (xy 95.25 127) (xy 95.25 128.27))
-    (stroke (width 0) (type default))
-    (uuid 78a38118-31cd-4e23-8680-dcf81fc9dc89)
-  )
-  (wire (pts (xy 142.24 90.17) (xy 154.94 90.17))
-    (stroke (width 0) (type default))
-    (uuid 7ac49129-1121-4f92-99a3-33f9d54339cd)
-  )
-  (wire (pts (xy 132.08 139.7) (xy 132.08 129.54))
-    (stroke (width 0) (type default))
-    (uuid 7f02b57f-55f2-4f46-ba5e-8904649e1d9d)
-  )
-  (wire (pts (xy 130.81 100.33) (xy 137.16 100.33))
-    (stroke (width 0) (type default))
-    (uuid 968035ca-22e6-4e0e-ab50-b7531e04b039)
-  )
-  (wire (pts (xy 27.94 95.25) (xy 27.94 100.33))
-    (stroke (width 0) (type default))
-    (uuid 97ed79e4-91bd-447c-b239-7effa99689d6)
-  )
-  (wire (pts (xy 205.74 102.87) (xy 205.74 97.79))
-    (stroke (width 0) (type default))
-    (uuid a344a799-16b1-4452-8958-bc23da44901d)
-  )
-  (wire (pts (xy 73.66 100.33) (xy 123.19 100.33))
-    (stroke (width 0) (type default))
-    (uuid a925f3ce-ba30-46d0-9478-e4a622bb3697)
-  )
-  (wire (pts (xy 133.35 160.02) (xy 133.35 163.83))
-    (stroke (width 0) (type default))
-    (uuid aa3eee3b-fe2e-4a44-86f6-d6fcbcbf07ed)
-  )
-  (wire (pts (xy 29.21 90.17) (xy 35.56 90.17))
-    (stroke (width 0) (type default))
-    (uuid aaf1e4c7-3cd5-4081-8518-34578d6c367c)
-  )
-  (wire (pts (xy 35.56 99.06) (xy 35.56 100.33))
-    (stroke (width 0) (type default))
-    (uuid ab940173-7e59-446f-81d7-47eb048ee946)
-  )
-  (wire (pts (xy 154.94 82.55) (xy 154.94 90.17))
-    (stroke (width 0) (type default))
-    (uuid b1cbdb49-8cde-4312-b9b9-3dd5441b1f87)
-  )
-  (wire (pts (xy 95.25 127) (xy 116.84 127))
-    (stroke (width 0) (type default))
-    (uuid b89cfba1-d5c5-4207-894d-7d758db7c7ae)
-  )
-  (wire (pts (xy 127 149.86) (xy 133.35 149.86))
-    (stroke (width 0) (type default))
-    (uuid c30e5232-7901-417c-9e8b-9434894c259c)
-  )
-  (wire (pts (xy 77.47 127) (xy 95.25 127))
-    (stroke (width 0) (type default))
-    (uuid c98e9977-8464-4621-97cc-c5a690f7f3c6)
-  )
-  (wire (pts (xy 50.8 99.06) (xy 50.8 100.33))
-    (stroke (width 0) (type default))
-    (uuid cf5acca9-8965-422b-b68d-ffb006841cc5)
-  )
-  (wire (pts (xy 50.8 100.33) (xy 73.66 100.33))
-    (stroke (width 0) (type default))
-    (uuid d52ebc84-c7f0-47c8-a46c-fdb0e39f11cb)
-  )
-  (wire (pts (xy 74.93 128.27) (xy 74.93 127))
-    (stroke (width 0) (type default))
-    (uuid d7af42b2-27ae-4c2c-9e83-10c06663a38f)
-  )
-  (wire (pts (xy 205.74 97.79) (xy 217.17 97.79))
-    (stroke (width 0) (type default))
-    (uuid df91f87f-50f4-4a55-9bb0-4d111c346c4f)
-  )
-  (wire (pts (xy 114.3 139.7) (xy 132.08 139.7))
-    (stroke (width 0) (type default))
-    (uuid eab38ed9-4e16-493f-832f-07ba42a14a19)
-  )
-  (wire (pts (xy 133.35 149.86) (xy 134.62 149.86))
-    (stroke (width 0) (type default))
-    (uuid f3e80a03-be2a-4cdb-8e29-8f8cf59fce89)
-  )
-
-  (hierarchical_label "U_Idet" (shape input) (at 217.17 97.79 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 36b28794-3dbd-4f30-8b1a-96786d302ba3)
-  )
-  (hierarchical_label "GND" (shape input) (at 73.66 107.95 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3fb4fd51-b4d1-4705-a426-413ead830cac)
-  )
-  (hierarchical_label "GND" (shape input) (at 95.25 139.7 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5783f72d-42b5-4531-a1cf-1eba63dd1763)
-  )
-  (hierarchical_label "GND" (shape input) (at 149.86 149.86 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 652266be-49c4-4e91-96b7-b23c7a7f4eec)
-  )
-  (hierarchical_label "GND" (shape input) (at 205.74 110.49 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 732425cd-77aa-4d64-af6e-b3f9fa691a09)
-  )
-  (hierarchical_label "GND" (shape input) (at 179.07 105.41 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 76dc530a-965c-4775-b40a-bbb66d04b70c)
-  )
-  (hierarchical_label "GND" (shape input) (at 74.93 139.7 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 940808db-99c3-47b8-83fd-c44ec66b62b2)
-  )
-  (hierarchical_label "GND" (shape input) (at 133.35 163.83 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid aa6e43f9-b03f-444b-a59f-921e27590e50)
-  )
-  (hierarchical_label "+3.3V" (shape input) (at 127 149.86 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid bbd972f3-a432-4413-93a4-f5344deedb75)
-  )
-  (hierarchical_label "+3.3V" (shape input) (at 95.25 113.03 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e1d0cbb4-8714-42cc-88af-41cba7191ad2)
-  )
-  (hierarchical_label "GND" (shape input) (at 74.93 82.55 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f4e78cb1-a23e-41be-a306-807323963c69)
-  )
-
-  (symbol (lib_id "Device:R") (at 95.25 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0599bb65-eaa4-4014-8d5f-0be94e5209ca)
-    (property "Reference" "R27" (at 97.79 130.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0603-1 кОм±1%-0,062 Вт" (at 97.79 133.35 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 93.472 132.08 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.25 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 04336ceb-0dc8-4ae5-bc33-76343d8eb091))
-    (pin "1" (uuid e1742535-7d62-4a68-a707-d34c882748cf))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "R27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 205.74 97.79 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1035ce18-9cbb-4c5e-a81e-982c358b3e82)
-    (property "Reference" "TP26" (at 208.28 93.218 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 208.28 95.758 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 210.82 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 210.82 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 02d53691-6a23-4899-a024-d72401911a6a))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "TP26") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LMV358") (at 124.46 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 43d60ca9-c4b8-42af-a5fb-687c62fd8a65)
-    (property "Reference" "U7" (at 124.46 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LMV358IDT (SO-8)" (at 124.46 121.92 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm" (at 124.46 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf" (at 124.46 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "7" (uuid 09ec20cf-6a97-4244-aed8-1a08a1cb5ea9))
-    (pin "8" (uuid 3dda73a3-bdc8-40fa-859e-94ec9b37bf3f))
-    (pin "2" (uuid f0b422a8-3c0d-432a-8b46-0e21799568e6))
-    (pin "1" (uuid 763414b5-1948-4653-a6cb-0b54fa7261cd))
-    (pin "4" (uuid d0a69da5-efb7-41fb-9da5-61aabfd6693e))
-    (pin "3" (uuid ccf3e62c-b9e1-4185-af5d-7047594a09e9))
-    (pin "5" (uuid 6b3ba32d-675b-4a73-acf3-a207c8cfd5ef))
-    (pin "6" (uuid d3995f1b-6477-470a-85c3-195f19193845))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "U7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 193.04 97.79 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 50b9a4c6-ac83-4ca6-b3e4-6cec4d418c2d)
-    (property "Reference" "R23" (at 193.04 91.44 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0805-1 кОм±1%-0,125 Вт" (at 193.04 93.98 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 193.04 99.568 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.04 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid eb44e122-7244-4f95-9838-9fbeebb40640))
-    (pin "1" (uuid 40053125-0fe0-4d62-861f-cdabe36cddb1))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "R23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A") (at 74.93 86.36 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5206af7b-5f22-4aa8-b539-464dedf95e33)
-    (property "Reference" "D5" (at 77.47 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SMBJ3V3-E3/52 (D_SMB)" (at 77.47 87.63 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SMB" (at 74.93 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 74.93 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 06823fd9-9b92-4a46-9afc-e5214ca026fd))
-    (pin "2" (uuid 6d39bc5e-c551-4817-b21e-21534fee493f))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "D5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 77.47 127 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5303ed9e-49a9-40a4-a45d-b1229b4625ca)
-    (property "Reference" "TP27" (at 80.01 122.428 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 80.01 124.968 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 82.55 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 82.55 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 138a3e79-6360-49a2-88fe-ff5278a9682f))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "TP27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 22.86 92.71 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6f42b41c-5f98-401e-824f-ac69cc1f68b5)
-    (property "Reference" "J3" (at 22.86 101.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "DG141R-02" (at 22.86 99.06 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector:DG141R-02" (at 22.86 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 22.86 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 24ce358b-5cbe-4617-b2b3-fea589fd994c))
-    (pin "1" (uuid 705b9ab1-815a-484f-a992-31e6c2259557))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
-          (reference "J3") (unit 1)
-        )
-      )
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
-          (reference "J5") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/d8c1c2cc-b35b-4807-ad92-74712a6a9019"
-          (reference "J7") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/a9a83d47-401c-4097-be69-b82d0f62cb76"
-          (reference "J8") (unit 1)
-        )
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "J9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 138.43 90.17 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8180acec-39af-4699-b34f-8750260c5cbb)
-    (property "Reference" "R21" (at 138.43 83.82 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0805-1 кОм±1%-0,125 Вт" (at 138.43 86.36 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 138.43 91.948 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid bcac8b00-ff5a-4cc2-9ee6-116d721fe550))
-    (pin "1" (uuid ffdcf938-4edb-4a24-94ff-d8443719ff40))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "R21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 162.56 82.55 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 85ff2cf7-4a13-4a80-88ae-3c5a71e68f6d)
-    (property "Reference" "R20" (at 162.56 76.2 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0805-1 кОм±1%-0,125 Вт" (at 162.56 78.74 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 162.56 84.328 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 162.56 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 6619ee48-60f7-4d61-a828-a03a6f822b14))
-    (pin "1" (uuid ca8d7226-18b1-49cc-9359-62946f698c4e))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "R20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 74.93 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 92e21f10-46d1-4a9e-9aa0-cd6f5aa524f4)
-    (property "Reference" "C30" (at 78.74 130.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10uF 16V 0805" (at 78.74 133.35 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 75.8952 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.93 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 6be030d9-e849-42fa-bab2-7e742c64801a))
-    (pin "1" (uuid 77a9fbe1-507d-4b7a-a953-eb555dd12fec))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "C30") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 205.74 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 94d7b556-e7fa-4051-bef1-ed96d75d395c)
-    (property "Reference" "C29" (at 209.55 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0,1uF 100V 0805" (at 209.55 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 206.7052 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 205.74 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 760d3df6-37f0-4df4-b774-79e38ccd2125))
-    (pin "1" (uuid ece16649-d8ff-4089-b08a-ac06f6948862))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "C29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LMV358") (at 142.24 152.4 270) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a2f9ea08-b708-46e2-8170-6a5f21cdc33a)
-    (property "Reference" "U7" (at 142.24 144.78 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LMV358IDT (SO-8)" (at 142.24 147.32 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm" (at 142.24 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf" (at 142.24 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "7" (uuid 09ec20cf-6a97-4244-aed8-1a08a1cb5eaa))
-    (pin "8" (uuid 3dda73a3-bdc8-40fa-859e-94ec9b37bf40))
-    (pin "2" (uuid f0b422a8-3c0d-432a-8b46-0e21799568e7))
-    (pin "1" (uuid 763414b5-1948-4653-a6cb-0b54fa7261ce))
-    (pin "4" (uuid d0a69da5-efb7-41fb-9da5-61aabfd6693f))
-    (pin "3" (uuid ccf3e62c-b9e1-4185-af5d-7047594a09ea))
-    (pin "5" (uuid 6b3ba32d-675b-4a73-acf3-a207c8cfd5f0))
-    (pin "6" (uuid d3995f1b-6477-470a-85c3-195f19193846))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "U7") (unit 3)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A") (at 73.66 104.14 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a3e6f014-ab3e-4942-88a1-2ee81ab6099d)
-    (property "Reference" "D7" (at 76.2 102.87 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SMBJ3V3-E3/52 (D_SMB)" (at 76.2 105.41 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Diode_SMD:D_SMB" (at 73.66 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 73.66 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3f021004-3df1-419f-b2e3-1133f19c1df8))
-    (pin "2" (uuid 1b5a1961-1e19-4927-ba33-ffcddd3af134))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A") (at 179.07 101.6 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a913c388-5e85-4f5e-bb11-027648e78b19)
-    (property "Reference" "D6" (at 181.61 100.33 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SMBJ3V3-E3/52 (D_SMB)" (at 181.61 102.87 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Diode_SMD:D_SMB" (at 179.07 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 179.07 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 37b5dbbf-ed88-4339-a9a6-47c503203531))
-    (pin "2" (uuid 6401b6ab-e4db-4370-9163-40eafcd50ed1))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "D6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 137.16 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cbee9a6b-e5ab-40d5-a668-f989be364f8b)
-    (property "Reference" "R25" (at 139.7 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0805-1 кОм±1%-0,125 Вт" (at 139.7 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 135.382 110.49 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 137.16 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 4e55e350-fb74-4d75-a59f-c41f463e062d))
-    (pin "1" (uuid 03dee340-e778-40b9-a6e1-b14e471926ef))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "R25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 105.41 90.17 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cc821d7f-c070-4c1c-b517-ac9391ce8d07)
-    (property "Reference" "TP25" (at 107.95 85.598 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 107.95 88.138 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 110.49 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 110.49 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e61ccd68-ef0e-48d2-b430-3aa47fe50aae))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "TP25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 50.8 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d0260a22-d9a3-4617-afd7-c6b571789579)
-    (property "Reference" "C28" (at 54.61 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1uF 50V 0805" (at 54.61 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 51.7652 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 50.8 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid e1fb552e-d8b4-4eca-8d33-624dfdb1f5b5))
-    (pin "1" (uuid 8fbaa3dd-2635-4be4-beed-84444d1958c7))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "C28") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 35.56 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d6254b48-95c6-4acc-87d7-bf11f6682eb7)
-    (property "Reference" "R22" (at 38.1 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1206-33 Ом±5%-0,25 Вт" (at 38.1 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 33.782 95.25 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 35.56 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 2d123a38-a997-4354-b98f-0eab11027afd))
-    (pin "1" (uuid 570f8f82-6521-4a6a-ac2f-83ef114c6b75))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "R22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LMV358") (at 162.56 97.79 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid db27e1d7-9e9d-4c8c-9e80-fecc35fe59f2)
-    (property "Reference" "U7" (at 162.56 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LMV358IDT (SO-8)" (at 162.56 90.17 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm" (at 162.56 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf" (at 162.56 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "7" (uuid 09ec20cf-6a97-4244-aed8-1a08a1cb5eab))
-    (pin "8" (uuid 3dda73a3-bdc8-40fa-859e-94ec9b37bf41))
-    (pin "2" (uuid f0b422a8-3c0d-432a-8b46-0e21799568e8))
-    (pin "1" (uuid 763414b5-1948-4653-a6cb-0b54fa7261cf))
-    (pin "4" (uuid d0a69da5-efb7-41fb-9da5-61aabfd66940))
-    (pin "3" (uuid ccf3e62c-b9e1-4185-af5d-7047594a09eb))
-    (pin "5" (uuid 6b3ba32d-675b-4a73-acf3-a207c8cfd5f1))
-    (pin "6" (uuid d3995f1b-6477-470a-85c3-195f19193847))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "U7") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 95.25 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f0cda564-39d2-4ae0-ba6d-ec69650025fb)
-    (property "Reference" "R26" (at 97.79 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0603-1 кОм±1%-0,062 Вт" (at 97.79 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 93.472 119.38 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.25 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 06219e0a-5cdd-4852-a679-9bd1f4dde4b5))
-    (pin "1" (uuid 606e3c9d-0a76-4d6e-bf21-64f74b2604a8))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "R26") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 133.35 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f751d6b3-f59f-4b96-8565-6f633f7aa756)
-    (property "Reference" "C31" (at 137.16 154.94 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1uF 50V 0805" (at 137.16 157.48 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 134.3152 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 133.35 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid b96b42e0-50c1-43ad-83b2-1f95f2a3f99d))
-    (pin "1" (uuid f3db8442-00c7-4513-9f04-3244f97a6109))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "C31") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 127 100.33 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fbe57d8f-6728-4bc2-b100-d12dab85023b)
-    (property "Reference" "R24" (at 127 93.98 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0805-1 кОм±1%-0,125 Вт" (at 127 96.52 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 127 102.108 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 127 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid e62d9045-b9a5-4fe0-bf06-72b7a27eb53a))
-    (pin "1" (uuid efc8d92f-58a2-4478-ac42-2d52403ea90e))
-    (instances
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
-          (reference "R24") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e14c2951-d6a8-408a-8147-677bd2a28df7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:LMV358"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LMV358"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMV358_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV358_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV358_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Diode_TVS_AKL:SMBJ5.0A"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMBJ5.0A"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD_AKL:D_SMB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMB Unidirectional TVS diode, 5V, 600W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode unidirectional TVS SMBJ-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ5.0A_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SMBJ5.0A_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 35.56 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a6ee91d-feb0-46c6-a216-920ea9028a8e")
+	)
+	(junction
+		(at 95.25 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f31c435-2b76-4de3-9aad-603e9f019a50")
+	)
+	(junction
+		(at 154.94 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2328fd86-87dd-417e-a0ed-cade7113412c")
+	)
+	(junction
+		(at 133.35 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ca8d4e4-1cdd-47bc-a5a0-8bcc109440da")
+	)
+	(junction
+		(at 50.8 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b50a120-ef62-4099-b626-319fc7e9f936")
+	)
+	(junction
+		(at 105.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46cc4db4-3263-40e1-9e24-537351a0eb2e")
+	)
+	(junction
+		(at 35.56 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c5749cb-7622-4b93-b2a0-48bad831f43c")
+	)
+	(junction
+		(at 132.08 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e5b870a-0fcd-4903-8bf0-2c6fe8cf71ba")
+	)
+	(junction
+		(at 137.16 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82c80ce6-1189-4a48-a745-37fa10b4977a")
+	)
+	(junction
+		(at 74.93 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c95b127-7ee9-4223-aeac-2517a5852559")
+	)
+	(junction
+		(at 170.18 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e6c173-399a-4677-b1e6-abe855c80a28")
+	)
+	(junction
+		(at 179.07 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7356d1a-7294-4764-8150-b236364d49f6")
+	)
+	(junction
+		(at 77.47 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efcf503d-ca1b-4c08-91f3-8a1c13e29099")
+	)
+	(junction
+		(at 205.74 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f31c9e94-3bd9-4f3e-9350-b944abeb78ae")
+	)
+	(junction
+		(at 50.8 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4aada39-e60d-487a-9f1e-aef7d365bee6")
+	)
+	(junction
+		(at 73.66 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faf31572-d910-4f30-8500-bbc0d9e59bd6")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.25) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c1c2d2-666f-4e77-bedb-b21bda35ab3c")
+	)
+	(wire
+		(pts
+			(xy 170.18 97.79) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024522ec-c08f-43ad-9869-a432067c4f10")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 134.62 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10fff3a0-32c1-44d7-a4e1-a5306fc9a5ba")
+	)
+	(wire
+		(pts
+			(xy 27.94 92.71) (xy 29.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185580cd-6a12-4e5e-b9c2-b8fb9144980c")
+	)
+	(wire
+		(pts
+			(xy 27.94 100.33) (xy 35.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b76fc76-c623-4161-affb-29ad34587560")
+	)
+	(wire
+		(pts
+			(xy 170.18 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c21a862-cbc1-4cda-a594-72fcc8d48cca")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4a4f47-e0a5-476c-b420-81e7c075434f")
+	)
+	(wire
+		(pts
+			(xy 116.84 132.08) (xy 114.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2112df5c-0dde-4b46-aff4-6bd19c73a8e7")
+	)
+	(wire
+		(pts
+			(xy 35.56 90.17) (xy 50.8 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24151d9b-56a7-469c-bc18-7800ff0642b1")
+	)
+	(wire
+		(pts
+			(xy 74.93 135.89) (xy 74.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278245f4-d123-4211-b14b-75b3943e6e11")
+	)
+	(wire
+		(pts
+			(xy 133.35 149.86) (xy 133.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c06d6ae-a19e-4c05-b0b5-e3991e949f30")
+	)
+	(wire
+		(pts
+			(xy 158.75 82.55) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4a1e40-485b-4e4e-a583-fdcf92555a06")
+	)
+	(wire
+		(pts
+			(xy 50.8 90.17) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd3aad7-1379-49f0-b594-3fa87a15864a")
+	)
+	(wire
+		(pts
+			(xy 137.16 129.54) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34811362-58be-4b7e-87e6-2273a6c4bf07")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d001bc-b918-4d90-9c26-723ba97d8aac")
+	)
+	(wire
+		(pts
+			(xy 35.56 100.33) (xy 50.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416608c6-ef41-4e21-bdf9-020bcbe3ad09")
+	)
+	(wire
+		(pts
+			(xy 74.93 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e92d232-2f7b-40fb-9f40-563888d292be")
+	)
+	(wire
+		(pts
+			(xy 137.16 100.33) (xy 154.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510f3a28-9389-490d-bb33-e90fee0bd62e")
+	)
+	(wire
+		(pts
+			(xy 74.93 127) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549ae6e8-b9cf-443a-af22-38f20c5aab00")
+	)
+	(wire
+		(pts
+			(xy 179.07 97.79) (xy 189.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561629a2-c088-476e-ac18-39e9e5ae142d")
+	)
+	(wire
+		(pts
+			(xy 29.21 92.71) (xy 29.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575b2015-2476-4a38-83df-186e1f506360")
+	)
+	(wire
+		(pts
+			(xy 50.8 90.17) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a252b45-04aa-4e98-b1f2-9b2356ef897d")
+	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 95.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7de38c-db50-4386-be86-5ca2e4ed68e1")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f21764a-963c-4adc-99c0-3cf4284d13cf")
+	)
+	(wire
+		(pts
+			(xy 95.25 113.03) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a868e5-9b94-4701-bc69-d137697c7d0c")
+	)
+	(wire
+		(pts
+			(xy 170.18 82.55) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b4dbff-b07c-4749-b603-928d25067918")
+	)
+	(wire
+		(pts
+			(xy 196.85 97.79) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0698d5-d5a2-40a1-9572-caec53306307")
+	)
+	(wire
+		(pts
+			(xy 95.25 139.7) (xy 95.25 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743aff16-348a-490a-a16b-1f38f55d7641")
+	)
+	(wire
+		(pts
+			(xy 35.56 91.44) (xy 35.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745129c2-5460-41cc-af90-1c811a4e535a")
+	)
+	(wire
+		(pts
+			(xy 95.25 127) (xy 95.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a38118-31cd-4e23-8680-dcf81fc9dc89")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac49129-1121-4f92-99a3-33f9d54339cd")
+	)
+	(wire
+		(pts
+			(xy 132.08 139.7) (xy 132.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f02b57f-55f2-4f46-ba5e-8904649e1d9d")
+	)
+	(wire
+		(pts
+			(xy 130.81 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968035ca-22e6-4e0e-ab50-b7531e04b039")
+	)
+	(wire
+		(pts
+			(xy 27.94 95.25) (xy 27.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ed79e4-91bd-447c-b239-7effa99689d6")
+	)
+	(wire
+		(pts
+			(xy 205.74 102.87) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a344a799-16b1-4452-8958-bc23da44901d")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a925f3ce-ba30-46d0-9478-e4a622bb3697")
+	)
+	(wire
+		(pts
+			(xy 133.35 160.02) (xy 133.35 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3eee3b-fe2e-4a44-86f6-d6fcbcbf07ed")
+	)
+	(wire
+		(pts
+			(xy 29.21 90.17) (xy 35.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf1e4c7-3cd5-4081-8518-34578d6c367c")
+	)
+	(wire
+		(pts
+			(xy 35.56 99.06) (xy 35.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab940173-7e59-446f-81d7-47eb048ee946")
+	)
+	(wire
+		(pts
+			(xy 154.94 82.55) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cbdb49-8cde-4312-b9b9-3dd5441b1f87")
+	)
+	(wire
+		(pts
+			(xy 95.25 127) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89cfba1-d5c5-4207-894d-7d758db7c7ae")
+	)
+	(wire
+		(pts
+			(xy 127 149.86) (xy 133.35 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30e5232-7901-417c-9e8b-9434894c259c")
+	)
+	(wire
+		(pts
+			(xy 77.47 127) (xy 95.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98e9977-8464-4621-97cc-c5a690f7f3c6")
+	)
+	(wire
+		(pts
+			(xy 50.8 99.06) (xy 50.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5acca9-8965-422b-b68d-ffb006841cc5")
+	)
+	(wire
+		(pts
+			(xy 50.8 100.33) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52ebc84-c7f0-47c8-a46c-fdb0e39f11cb")
+	)
+	(wire
+		(pts
+			(xy 74.93 128.27) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7af42b2-27ae-4c2c-9e83-10c06663a38f")
+	)
+	(wire
+		(pts
+			(xy 205.74 97.79) (xy 217.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df91f87f-50f4-4a55-9bb0-4d111c346c4f")
+	)
+	(wire
+		(pts
+			(xy 114.3 139.7) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab38ed9-4e16-493f-832f-07ba42a14a19")
+	)
+	(wire
+		(pts
+			(xy 133.35 149.86) (xy 134.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e80a03-be2a-4cdb-8e29-8f8cf59fce89")
+	)
+	(hierarchical_label "U_Idet"
+		(shape input)
+		(at 217.17 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36b28794-3dbd-4f30-8b1a-96786d302ba3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 73.66 107.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fb4fd51-b4d1-4705-a426-413ead830cac")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 95.25 139.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5783f72d-42b5-4531-a1cf-1eba63dd1763")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 149.86 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "652266be-49c4-4e91-96b7-b23c7a7f4eec")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 205.74 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "732425cd-77aa-4d64-af6e-b3f9fa691a09")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 179.07 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76dc530a-965c-4775-b40a-bbb66d04b70c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 74.93 139.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "940808db-99c3-47b8-83fd-c44ec66b62b2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 133.35 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa6e43f9-b03f-444b-a59f-921e27590e50")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 127 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbd972f3-a432-4413-93a4-f5344deedb75")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 95.25 113.03 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1d0cbb4-8714-42cc-88af-41cba7191ad2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 74.93 82.55 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4e78cb1-a23e-41be-a306-807323963c69")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0599bb65-eaa4-4014-8d5f-0be94e5209ca")
+		(property "Reference" "R27"
+			(at 97.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603-1 кОм±1%-0,062 Вт"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 93.472 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04336ceb-0dc8-4ae5-bc33-76343d8eb091")
+		)
+		(pin "1"
+			(uuid "e1742535-7d62-4a68-a707-d34c882748cf")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1035ce18-9cbb-4c5e-a81e-982c358b3e82")
+		(property "Reference" "TP26"
+			(at 208.28 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 208.28 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02d53691-6a23-4899-a024-d72401911a6a")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 124.46 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43d60ca9-c4b8-42af-a5fb-687c62fd8a65")
+		(property "Reference" "U7"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV358IDT (SO-8)"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "09ec20cf-6a97-4244-aed8-1a08a1cb5ea9")
+		)
+		(pin "8"
+			(uuid "3dda73a3-bdc8-40fa-859e-94ec9b37bf3f")
+		)
+		(pin "2"
+			(uuid "f0b422a8-3c0d-432a-8b46-0e21799568e6")
+		)
+		(pin "1"
+			(uuid "763414b5-1948-4653-a6cb-0b54fa7261cd")
+		)
+		(pin "4"
+			(uuid "d0a69da5-efb7-41fb-9da5-61aabfd6693e")
+		)
+		(pin "3"
+			(uuid "ccf3e62c-b9e1-4185-af5d-7047594a09e9")
+		)
+		(pin "5"
+			(uuid "6b3ba32d-675b-4a73-acf3-a207c8cfd5ef")
+		)
+		(pin "6"
+			(uuid "d3995f1b-6477-470a-85c3-195f19193845")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50b9a4c6-ac83-4ca6-b3e4-6cec4d418c2d")
+		(property "Reference" "R23"
+			(at 193.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805-1 кОм±1%-0,125 Вт"
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 193.04 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb44e122-7244-4f95-9838-9fbeebb40640")
+		)
+		(pin "1"
+			(uuid "40053125-0fe0-4d62-861f-cdabe36cddb1")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A")
+		(at 74.93 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5206af7b-5f22-4aa8-b539-464dedf95e33")
+		(property "Reference" "D5"
+			(at 77.47 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ3V3-E3/52 (D_SMB)"
+			(at 77.47 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06823fd9-9b92-4a46-9afc-e5214ca026fd")
+		)
+		(pin "2"
+			(uuid "6d39bc5e-c551-4817-b21e-21534fee493f")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5303ed9e-49a9-40a4-a45d-b1229b4625ca")
+		(property "Reference" "TP27"
+			(at 80.01 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1"
+			(at 82.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "138a3e79-6360-49a2-88fe-ff5278a9682f")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 22.86 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f42b41c-5f98-401e-824f-ac69cc1f68b5")
+		(property "Reference" "J3"
+			(at 22.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG141R-02"
+			(at 22.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector:DG141R-02"
+			(at 22.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24ce358b-5cbe-4617-b2b3-fea589fd994c")
+		)
+		(pin "1"
+			(uuid "705b9ab1-815a-484f-a992-31e6c2259557")
+		)
+		(instances
+			(project "Плата симистров"
+				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8180acec-39af-4699-b34f-8750260c5cbb")
+		(property "Reference" "R21"
+			(at 138.43 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805-1 кОм±1%-0,125 Вт"
+			(at 138.43 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 138.43 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bcac8b00-ff5a-4cc2-9ee6-116d721fe550")
+		)
+		(pin "1"
+			(uuid "ffdcf938-4edb-4a24-94ff-d8443719ff40")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ff2cf7-4a13-4a80-88ae-3c5a71e68f6d")
+		(property "Reference" "R20"
+			(at 162.56 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805-1 кОм±1%-0,125 Вт"
+			(at 162.56 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 162.56 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6619ee48-60f7-4d61-a828-a03a6f822b14")
+		)
+		(pin "1"
+			(uuid "ca8d7226-18b1-49cc-9359-62946f698c4e")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92e21f10-46d1-4a9e-9aa0-cd6f5aa524f4")
+		(property "Reference" "C30"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 16V 0805"
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 75.8952 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6be030d9-e849-42fa-bab2-7e742c64801a")
+		)
+		(pin "1"
+			(uuid "77a9fbe1-507d-4b7a-a953-eb555dd12fec")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 205.74 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94d7b556-e7fa-4051-bef1-ed96d75d395c")
+		(property "Reference" "C29"
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,1uF 100V 0805"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 206.7052 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "760d3df6-37f0-4df4-b774-79e38ccd2125")
+		)
+		(pin "1"
+			(uuid "ece16649-d8ff-4089-b08a-ac06f6948862")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 142.24 152.4 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f9ea08-b708-46e2-8170-6a5f21cdc33a")
+		(property "Reference" "U7"
+			(at 142.24 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV358IDT (SO-8)"
+			(at 142.24 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
+			(at 142.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 142.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "09ec20cf-6a97-4244-aed8-1a08a1cb5eaa")
+		)
+		(pin "8"
+			(uuid "3dda73a3-bdc8-40fa-859e-94ec9b37bf40")
+		)
+		(pin "2"
+			(uuid "f0b422a8-3c0d-432a-8b46-0e21799568e7")
+		)
+		(pin "1"
+			(uuid "763414b5-1948-4653-a6cb-0b54fa7261ce")
+		)
+		(pin "4"
+			(uuid "d0a69da5-efb7-41fb-9da5-61aabfd6693f")
+		)
+		(pin "3"
+			(uuid "ccf3e62c-b9e1-4185-af5d-7047594a09ea")
+		)
+		(pin "5"
+			(uuid "6b3ba32d-675b-4a73-acf3-a207c8cfd5f0")
+		)
+		(pin "6"
+			(uuid "d3995f1b-6477-470a-85c3-195f19193846")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A")
+		(at 73.66 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3e6f014-ab3e-4942-88a1-2ee81ab6099d")
+		(property "Reference" "D7"
+			(at 76.2 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ3V3-E3/52 (D_SMB)"
+			(at 76.2 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f021004-3df1-419f-b2e3-1133f19c1df8")
+		)
+		(pin "2"
+			(uuid "1b5a1961-1e19-4927-ba33-ffcddd3af134")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A")
+		(at 179.07 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a913c388-5e85-4f5e-bb11-027648e78b19")
+		(property "Reference" "D6"
+			(at 181.61 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ3V3-E3/52 (D_SMB)"
+			(at 181.61 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37b5dbbf-ed88-4339-a9a6-47c503203531")
+		)
+		(pin "2"
+			(uuid "6401b6ab-e4db-4370-9163-40eafcd50ed1")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbee9a6b-e5ab-40d5-a668-f989be364f8b")
+		(property "Reference" "R25"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0805-1 кОм±1%-0,125 Вт"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.382 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e55e350-fb74-4d75-a59f-c41f463e062d")
+		)
+		(pin "1"
+			(uuid "03dee340-e778-40b9-a6e1-b14e471926ef")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc821d7f-c070-4c1c-b517-ac9391ce8d07")
+		(property "Reference" "TP25"
+			(at 107.95 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1"
+			(at 110.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e61ccd68-ef0e-48d2-b430-3aa47fe50aae")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0260a22-d9a3-4617-afd7-c6b571789579")
+		(property "Reference" "C28"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 50V 0805"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 51.7652 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1fb552e-d8b4-4eca-8d33-624dfdb1f5b5")
+		)
+		(pin "1"
+			(uuid "8fbaa3dd-2635-4be4-beed-84444d1958c7")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6254b48-95c6-4acc-87d7-bf11f6682eb7")
+		(property "Reference" "R22"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1206-33 Ом±5%-0,25 Вт"
+			(at 38.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 33.782 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d123a38-a997-4354-b98f-0eab11027afd")
+		)
+		(pin "1"
+			(uuid "570f8f82-6521-4a6a-ac2f-83ef114c6b75")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 162.56 97.79 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db27e1d7-9e9d-4c8c-9e80-fecc35fe59f2")
+		(property "Reference" "U7"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV358IDT (SO-8)"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "09ec20cf-6a97-4244-aed8-1a08a1cb5eab")
+		)
+		(pin "8"
+			(uuid "3dda73a3-bdc8-40fa-859e-94ec9b37bf41")
+		)
+		(pin "2"
+			(uuid "f0b422a8-3c0d-432a-8b46-0e21799568e8")
+		)
+		(pin "1"
+			(uuid "763414b5-1948-4653-a6cb-0b54fa7261cf")
+		)
+		(pin "4"
+			(uuid "d0a69da5-efb7-41fb-9da5-61aabfd66940")
+		)
+		(pin "3"
+			(uuid "ccf3e62c-b9e1-4185-af5d-7047594a09eb")
+		)
+		(pin "5"
+			(uuid "6b3ba32d-675b-4a73-acf3-a207c8cfd5f1")
+		)
+		(pin "6"
+			(uuid "d3995f1b-6477-470a-85c3-195f19193847")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0cda564-39d2-4ae0-ba6d-ec69650025fb")
+		(property "Reference" "R26"
+			(at 97.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603-1 кОм±1%-0,062 Вт"
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 93.472 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06219e0a-5cdd-4852-a679-9bd1f4dde4b5")
+		)
+		(pin "1"
+			(uuid "606e3c9d-0a76-4d6e-bf21-64f74b2604a8")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f751d6b3-f59f-4b96-8565-6f633f7aa756")
+		(property "Reference" "C31"
+			(at 137.16 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 50V 0805"
+			(at 137.16 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 134.3152 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b96b42e0-50c1-43ad-83b2-1f95f2a3f99d")
+		)
+		(pin "1"
+			(uuid "f3db8442-00c7-4513-9f04-3244f97a6109")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe57d8f-6728-4bc2-b100-d12dab85023b")
+		(property "Reference" "R24"
+			(at 127 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805-1 кОм±1%-0,125 Вт"
+			(at 127 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e62d9045-b9a5-4fe0-bf06-72b7a27eb53a")
+		)
+		(pin "1"
+			(uuid "efc8d92f-58a2-4478-ac42-2d52403ea90e")
+		)
+		(instances
+			(project "Доп плата печи"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/e5a0086d-c448-49f4-b3f8-34e98e7dad54"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
