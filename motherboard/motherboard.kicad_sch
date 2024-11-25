@@ -2387,7 +2387,7 @@
     (pin "9" (uuid f4ef7cec-93ff-4452-bc97-4b0f07795320))
     (pin "4" (uuid e1349567-1dff-4e2b-b393-d4538df3411e))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J5") (unit 1)
         )
@@ -2412,7 +2412,7 @@
     )
     (pin "1" (uuid 2177424d-4fbc-4f11-be83-c03c86871dba))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR032") (unit 1)
         )
@@ -2447,44 +2447,9 @@
     )
     (pin "1" (uuid 45f10718-7c76-4bb4-b989-fe71614ffb20))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 215.9 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 00651e5f-14e2-4cd8-95e3-a59ceff4a478)
-    (property "Reference" "#PWR0169" (at 215.9 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 215.9 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 215.9 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 215.9 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 23913c8c-1912-44fc-84aa-3b7fa92ded35))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0169") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2516,7 +2481,7 @@
     (pin "9" (uuid 83a6f1bc-58b8-4510-a836-c01aa25dbe16))
     (pin "4" (uuid eeca1299-7ab0-4d6b-bdfb-15f541f46048))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J2") (unit 1)
         )
@@ -2554,7 +2519,7 @@
     (pin "9" (uuid 9f459cee-4a08-4dc2-a41d-5670698a2e00))
     (pin "2" (uuid dbeeb2c2-13b2-411e-a666-7314bc0cbc7d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J30") (unit 1)
         )
@@ -2579,7 +2544,7 @@
     )
     (pin "1" (uuid 2996a3b7-9ba7-4435-b73d-85043ef9c492))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR074") (unit 1)
         )
@@ -2614,7 +2579,7 @@
     )
     (pin "1" (uuid f27e7b91-9946-43dc-9564-6ae0a87067c9))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0156") (unit 1)
         )
@@ -2658,7 +2623,7 @@
     (pin "9" (uuid 8171a4bb-bbf2-4038-be5c-a26f47ee3602))
     (pin "4" (uuid e952d2d7-412c-47de-ae6d-a2dc22f2fe4d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J19") (unit 1)
         )
@@ -2692,7 +2657,7 @@
     (pin "9" (uuid eec06b66-001f-4494-9473-ea8f2eee85de))
     (pin "4" (uuid e32882c1-b915-4cfd-8eb9-51ee2f5eca47))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J1") (unit 1)
         )
@@ -2717,7 +2682,7 @@
     )
     (pin "1" (uuid a03a7637-3479-4154-b9c3-e1e289186907))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR056") (unit 1)
         )
@@ -2755,7 +2720,7 @@
     (pin "1" (uuid 8ac1cef4-f0d1-4000-b0f5-8ab2582950bd))
     (pin "3" (uuid ba1a3677-11cf-463a-98ce-ec12aa68c484))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J29") (unit 1)
         )
@@ -2780,7 +2745,7 @@
     )
     (pin "1" (uuid 7828a318-d639-474c-82c7-6a60e8d6fba9))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR064") (unit 1)
         )
@@ -2815,7 +2780,7 @@
     )
     (pin "1" (uuid 7d7b5630-bb38-4093-8998-05be503dbd4b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H13") (unit 1)
         )
@@ -2840,7 +2805,7 @@
     )
     (pin "1" (uuid 441db833-c5f2-47ca-92fa-2974bf161234))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0142") (unit 1)
         )
@@ -2875,7 +2840,7 @@
     )
     (pin "1" (uuid 05e60100-d6a1-435a-8e86-9824da5fb997))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR05") (unit 1)
         )
@@ -2911,7 +2876,7 @@
     (pin "1" (uuid d7849e42-8858-4ab7-add8-ed75cbc870ad))
     (pin "2" (uuid af3f5d1e-1688-4410-b982-9168df9780b3))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D7") (unit 1)
         )
@@ -2919,41 +2884,6 @@
       (project "Плата основного контроллера"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "D1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 200.66 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0fa204dc-463f-4b16-8782-e289a73f961f)
-    (property "Reference" "#PWR0161" (at 200.66 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 200.66 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 200.66 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 200.66 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5f8f7a15-5d4e-44a0-8083-d324856056a9))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0161") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2976,7 +2906,7 @@
     )
     (pin "1" (uuid b9e98fdf-21ca-4e24-beef-caef65ab8932))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0150") (unit 1)
         )
@@ -3011,7 +2941,7 @@
     )
     (pin "1" (uuid 6c4baf81-f9af-44ee-922b-deccac942390))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H7") (unit 1)
         )
@@ -3036,7 +2966,7 @@
     )
     (pin "1" (uuid 0b0f5056-9208-4b6e-9483-8fff1f660a5f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR057") (unit 1)
         )
@@ -3080,7 +3010,7 @@
     (pin "9" (uuid c3afd741-6018-4b4f-8271-4cca735f6981))
     (pin "4" (uuid 4ec96e1f-2384-430d-9d00-0906d10c626a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J7") (unit 1)
         )
@@ -3114,7 +3044,7 @@
     (pin "9" (uuid bbab7e40-b1a1-42e7-9bd9-728e014210ec))
     (pin "4" (uuid a7e3f0bd-18d0-4e1d-9b4d-7cc8c070f936))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J23") (unit 1)
         )
@@ -3139,7 +3069,7 @@
     )
     (pin "1" (uuid 316a0112-2493-4973-b6a6-d7d5f18d5320))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0172") (unit 1)
         )
@@ -3152,41 +3082,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 185.42 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1710d3d3-6402-47c7-8daf-c62bac146070)
-    (property "Reference" "#PWR0159" (at 185.42 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 185.42 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 185.42 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 185.42 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 85683b43-2a08-4559-aea3-c6362d89dc92))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0159") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3209,7 +3104,7 @@
     )
     (pin "1" (uuid 37f73184-74a4-4344-a278-b4a27e908ded))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H8") (unit 1)
         )
@@ -3234,7 +3129,7 @@
     )
     (pin "1" (uuid 30b9548d-b01d-4fbe-9426-7071127547b0))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR065") (unit 1)
         )
@@ -3269,7 +3164,7 @@
     )
     (pin "1" (uuid 1fbbe33e-6877-4ef2-b8dc-a623a3899450))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR036") (unit 1)
         )
@@ -3304,7 +3199,7 @@
     )
     (pin "1" (uuid a63b8bd4-548a-4d2a-9783-d054663f2f5d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H10") (unit 1)
         )
@@ -3329,7 +3224,7 @@
     )
     (pin "1" (uuid c7994604-d095-4560-9b41-590e9b697c2f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR038") (unit 1)
         )
@@ -3364,7 +3259,7 @@
     )
     (pin "1" (uuid cc85b3a8-6031-4c43-8619-e5545efc2c55))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR040") (unit 1)
         )
@@ -3408,7 +3303,7 @@
     (pin "9" (uuid 799fea66-be34-45e3-b40f-50686b80b8b6))
     (pin "4" (uuid 5a541126-176b-45d8-bfd8-85407f9091d4))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J24") (unit 1)
         )
@@ -3433,7 +3328,7 @@
     )
     (pin "1" (uuid 83854407-46ba-4192-a807-69184667e34d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR051") (unit 1)
         )
@@ -3468,7 +3363,7 @@
     )
     (pin "1" (uuid 50f070df-b3af-4fcc-86e4-f9f47591fcb3))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0105") (unit 1)
         )
@@ -3503,7 +3398,7 @@
     )
     (pin "1" (uuid 8cfbfbc4-e4df-47d1-b529-7d18b86033bd))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR012") (unit 1)
         )
@@ -3554,7 +3449,7 @@
     (pin "1" (uuid 7dc0c8cd-fedc-420f-941d-21c13bbcdf14))
     (pin "2" (uuid 30a0fd5e-7560-406c-94db-c09854070e8d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "RV2") (unit 1)
         )
@@ -3585,7 +3480,7 @@
     (pin "1" (uuid cf79d028-ba21-4d2c-897c-5f387bfdf4d2))
     (pin "2" (uuid 7c11c8a8-eab7-470a-a18e-6204344f1f34))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D8") (unit 1)
         )
@@ -3615,7 +3510,7 @@
     )
     (pin "1" (uuid a386314c-46b0-400f-b4d3-714e14119b66))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0143") (unit 1)
         )
@@ -3650,7 +3545,7 @@
     )
     (pin "1" (uuid a09c611e-9afa-4064-8ce7-2ca60b9686a4))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR041") (unit 1)
         )
@@ -3685,7 +3580,7 @@
     )
     (pin "1" (uuid c646d70b-60c1-4e5a-9a3e-0e708ea13b8d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0148") (unit 1)
         )
@@ -3720,7 +3615,7 @@
     )
     (pin "1" (uuid 5f72fcd3-0fe1-45f7-929d-afb754db56ef))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0155") (unit 1)
         )
@@ -3755,7 +3650,7 @@
     )
     (pin "1" (uuid dc92c5f9-0183-4407-bed5-c8c3858163af))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR084") (unit 1)
         )
@@ -3790,7 +3685,7 @@
     )
     (pin "1" (uuid a3948486-bbe4-4071-aae7-5a88cf22a8e1))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR017") (unit 1)
         )
@@ -3825,7 +3720,7 @@
     )
     (pin "1" (uuid 12c16224-b329-4d34-9a3e-db0d0fb29f62))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR054") (unit 1)
         )
@@ -3860,7 +3755,7 @@
     )
     (pin "1" (uuid e5e55865-b4b5-4b85-b99b-c2388ebfef70))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0187") (unit 1)
         )
@@ -3895,7 +3790,7 @@
     )
     (pin "1" (uuid ca728f74-1457-40e1-af42-bd6932d2908f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR044") (unit 1)
         )
@@ -3930,7 +3825,7 @@
     )
     (pin "1" (uuid 3c158318-7673-4f71-9618-8f854f757737))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR095") (unit 1)
         )
@@ -3965,7 +3860,7 @@
     )
     (pin "1" (uuid d48585c3-a71c-4d50-bce6-9b84333449de))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR03") (unit 1)
         )
@@ -4000,7 +3895,7 @@
     )
     (pin "1" (uuid 581e1fd0-5ec9-480e-9fe6-11639596decf))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR047") (unit 1)
         )
@@ -4035,7 +3930,7 @@
     )
     (pin "1" (uuid 6d7cd600-b038-4229-9631-01d1958b7239))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR033") (unit 1)
         )
@@ -4070,7 +3965,7 @@
     )
     (pin "1" (uuid 38b62c2c-8681-42b7-8f8b-14ba90eb00fd))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0129") (unit 1)
         )
@@ -4105,7 +4000,7 @@
     )
     (pin "1" (uuid fcd736b2-3833-4be6-98d6-7495f1849d01))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0100") (unit 1)
         )
@@ -4141,7 +4036,7 @@
     (pin "1" (uuid bf7037d1-0432-40f8-a1ea-9cef8ddce4d6))
     (pin "2" (uuid afb09fcb-5f78-412d-b39b-b75e8509937d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D2") (unit 1)
         )
@@ -4184,7 +4079,7 @@
     (pin "9" (uuid 02a31f12-431d-4df9-8294-2f9b47754c54))
     (pin "2" (uuid 9b9f0ea1-2fea-4b51-b866-059b00bacee1))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J3") (unit 1)
         )
@@ -4209,7 +4104,7 @@
     )
     (pin "1" (uuid 7d5522b3-a083-4b99-9a64-e93e197dcbe8))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0104") (unit 1)
         )
@@ -4244,7 +4139,7 @@
     )
     (pin "1" (uuid 5f14dcaf-3389-4dea-8819-f16d11a94872))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0125") (unit 1)
         )
@@ -4279,7 +4174,7 @@
     )
     (pin "1" (uuid f7bd5fd5-70cc-4198-8f9a-8a28e2a2957d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR046") (unit 1)
         )
@@ -4315,7 +4210,7 @@
     (pin "1" (uuid 59c2b76f-2533-472b-9d11-cbd835f278c6))
     (pin "2" (uuid ced5e859-c339-44a0-b512-086e5c01db08))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D1") (unit 1)
         )
@@ -4345,7 +4240,7 @@
     )
     (pin "1" (uuid c30f4622-00a5-47bc-b6db-473ddf7ac4a5))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0122") (unit 1)
         )
@@ -4380,7 +4275,7 @@
     )
     (pin "1" (uuid 552ddbbf-3055-462a-b0cf-d8c35f3d59b4))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0140") (unit 1)
         )
@@ -4415,7 +4310,7 @@
     )
     (pin "1" (uuid ce32be25-a738-42af-bd02-eea9d6aa9e31))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR037") (unit 1)
         )
@@ -4450,7 +4345,7 @@
     )
     (pin "1" (uuid d15f23d5-94f4-4dab-8e67-8f457750ded7))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR02") (unit 1)
         )
@@ -4501,7 +4396,7 @@
     (pin "1" (uuid f0921fc8-0ff7-4ddd-8948-f209dd397f50))
     (pin "2" (uuid 6506c140-4a26-4d1b-b531-fc5e8750ee9f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "RV1") (unit 1)
         )
@@ -4531,7 +4426,7 @@
     )
     (pin "1" (uuid 78a0a254-213d-49c1-a8ba-8959fccaba74))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR049") (unit 1)
         )
@@ -4566,7 +4461,7 @@
     )
     (pin "1" (uuid 333f2172-9584-42b0-bca3-e7b665c106b8))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H6") (unit 1)
         )
@@ -4591,7 +4486,7 @@
     )
     (pin "1" (uuid 2aeb3ee6-55dd-4048-bf02-6752f37e16fd))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR080") (unit 1)
         )
@@ -4626,7 +4521,7 @@
     )
     (pin "1" (uuid b6b19272-00aa-42a0-84d2-8fe2c0af103a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0102") (unit 1)
         )
@@ -4661,7 +4556,7 @@
     )
     (pin "1" (uuid c50b5a71-d0f6-4a9c-a477-be561e6784ca))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0112") (unit 1)
         )
@@ -4696,7 +4591,7 @@
     )
     (pin "1" (uuid 04bdfdb2-1537-4762-a7ca-d811c203ad11))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR01") (unit 1)
         )
@@ -4731,44 +4626,9 @@
     )
     (pin "1" (uuid 529fec24-4773-4175-ba06-2b95199062e5))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0141") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GNDA") (at 266.7 158.75 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4ebe6f39-cd97-49ae-8269-8704b1a60fd5)
-    (property "Reference" "#PWR0167" (at 266.7 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 266.7 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 266.7 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 266.7 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b7e44ff5-f22d-486e-bf13-60f9704452d0))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0167") (unit 1)
         )
       )
       (project "Плата основного контроллера"
@@ -4810,7 +4670,7 @@
     (pin "9" (uuid 7befd011-64e6-48b4-9600-044033c0fadd))
     (pin "4" (uuid d16c8460-cc83-446e-8977-15e3a5d22fe8))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J18") (unit 1)
         )
@@ -4835,7 +4695,7 @@
     )
     (pin "1" (uuid b8118255-60e4-43b6-a777-069d02f2dc94))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR028") (unit 1)
         )
@@ -4870,7 +4730,7 @@
     )
     (pin "1" (uuid a4303b48-632a-431b-8232-9a88d728f84a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR019") (unit 1)
         )
@@ -4905,7 +4765,7 @@
     )
     (pin "1" (uuid 2519f0bb-977a-41a7-9c5f-d9274a7f9243))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR030") (unit 1)
         )
@@ -4940,7 +4800,7 @@
     )
     (pin "1" (uuid 5212edc8-3306-49fd-96d7-e2d6e982a566))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H11") (unit 1)
         )
@@ -4974,7 +4834,7 @@
     (pin "9" (uuid a62653c2-40bb-4818-bb30-8eccd00efdba))
     (pin "4" (uuid c3aeca70-cadb-4267-9f5e-ce544b6d786d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J4") (unit 1)
         )
@@ -4999,7 +4859,7 @@
     )
     (pin "1" (uuid 8ffedfdd-8b39-4348-8184-64fe7b4dd4ea))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0188") (unit 1)
         )
@@ -5034,7 +4894,7 @@
     )
     (pin "1" (uuid d716b107-9b1e-4bde-8989-ecdd78c3694b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR062") (unit 1)
         )
@@ -5069,7 +4929,7 @@
     )
     (pin "1" (uuid 07afee3a-d602-4594-82a9-47715a8ba7b4))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR069") (unit 1)
         )
@@ -5104,7 +4964,7 @@
     )
     (pin "1" (uuid e146d846-ddf9-4472-af5a-2087b14fb8fe))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0135") (unit 1)
         )
@@ -5139,7 +4999,7 @@
     )
     (pin "1" (uuid d5c8e1e2-aed8-43bd-89f2-d1e39f4e49d9))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR068") (unit 1)
         )
@@ -5183,7 +5043,7 @@
     (pin "9" (uuid 5358dccf-e8b0-4f66-a942-b427caf5f476))
     (pin "4" (uuid fb3431bc-a3d5-4752-8313-9915395fead8))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J17") (unit 1)
         )
@@ -5208,7 +5068,7 @@
     )
     (pin "1" (uuid f55eb121-eace-43d6-9f25-eab77fe2181e))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR014") (unit 1)
         )
@@ -5244,7 +5104,7 @@
     (pin "1" (uuid 277b96d0-f442-4fed-a825-9d79bb3e0c28))
     (pin "2" (uuid 1087ea53-55f6-4201-9322-6bf0c890d517))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D10") (unit 1)
         )
@@ -5275,7 +5135,7 @@
     (pin "1" (uuid 314cfda0-8d45-4138-be89-664d121a705f))
     (pin "2" (uuid 5f9bd31b-2c7a-4c99-80fb-bbb8f283f096))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D5") (unit 1)
         )
@@ -5305,7 +5165,7 @@
     )
     (pin "1" (uuid 88ebcedf-9bb4-4212-9134-13e6313a9f3a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0109") (unit 1)
         )
@@ -5349,7 +5209,7 @@
     (pin "9" (uuid da18b5ad-1b67-4b98-8e49-a48ecedbad3e))
     (pin "4" (uuid 1d19fb45-6f15-4bd1-8a1b-da26ddc9704e))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J6") (unit 1)
         )
@@ -5374,7 +5234,7 @@
     )
     (pin "1" (uuid e855e2d0-1964-4591-89d8-d755a073c289))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR060") (unit 1)
         )
@@ -5409,7 +5269,7 @@
     )
     (pin "1" (uuid 1f727bb6-45a6-446e-a43c-a34498439365))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H5") (unit 1)
         )
@@ -5434,7 +5294,7 @@
     )
     (pin "1" (uuid 8e2dabab-98ad-4aa6-b9ef-a019707789e3))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR023") (unit 1)
         )
@@ -5469,7 +5329,7 @@
     )
     (pin "1" (uuid 7042af7b-53c7-4063-8c9d-d5419dfb8666))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0101") (unit 1)
         )
@@ -5504,7 +5364,7 @@
     )
     (pin "1" (uuid d9fc61c9-c39a-454b-a959-99bce2a4fbf4))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR079") (unit 1)
         )
@@ -5548,7 +5408,7 @@
     (pin "9" (uuid a8d5e4e6-260d-4547-8fbf-2ff3eb186eb2))
     (pin "4" (uuid ac04ae81-252d-439f-9ee0-1a6c780beb5c))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J10") (unit 1)
         )
@@ -5573,7 +5433,7 @@
     )
     (pin "1" (uuid 00233d15-2a50-4420-a3a3-14813fbd30e7))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0134") (unit 1)
         )
@@ -5617,7 +5477,7 @@
     (pin "9" (uuid d5860a2d-9c0f-4b77-9eab-41e1f9df9fe8))
     (pin "4" (uuid 97f14238-7405-437e-850e-8b12289ccfbd))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J8") (unit 1)
         )
@@ -5642,7 +5502,7 @@
     )
     (pin "1" (uuid e381f3f0-cae1-4cea-8ba1-d3d81fdef290))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0123") (unit 1)
         )
@@ -5677,7 +5537,7 @@
     )
     (pin "1" (uuid 6b2546a4-4d64-499b-bd9b-e7bc04ee046f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0149") (unit 1)
         )
@@ -5712,7 +5572,7 @@
     )
     (pin "1" (uuid eeb3d63a-f85b-47c2-8920-274a3bde9148))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0151") (unit 1)
         )
@@ -5747,7 +5607,7 @@
     )
     (pin "1" (uuid 648c2ab6-b325-4233-9346-4b0b2649ceda))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR013") (unit 1)
         )
@@ -5760,41 +5620,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR011") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GNDA") (at 259.08 158.75 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 67275d09-938e-46d1-902e-7703e4de200f)
-    (property "Reference" "#PWR0166" (at 259.08 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 259.08 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 259.08 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 259.08 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 493b680d-da48-40a6-be0d-12aa030d111e))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0166") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -5817,7 +5642,7 @@
     )
     (pin "1" (uuid 8bf58891-4152-452a-9175-4506cf0f8672))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR034") (unit 1)
         )
@@ -5852,7 +5677,7 @@
     )
     (pin "1" (uuid 5864c1bd-27f5-4ee9-ad32-1945814f6d7a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR021") (unit 1)
         )
@@ -5887,7 +5712,7 @@
     )
     (pin "1" (uuid 1dad5c6e-9dcd-41f1-8b62-b8a4b1c8b082))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR093") (unit 1)
         )
@@ -5923,7 +5748,7 @@
     (pin "2" (uuid ebab0daf-bea9-43f4-a147-dd101241a99c))
     (pin "1" (uuid 9c8eadd3-1f48-483e-8a3e-0b263758b8a2))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "R1") (unit 1)
         )
@@ -5948,7 +5773,7 @@
     )
     (pin "1" (uuid 5385c411-2245-4d7d-90fd-61a3d8296bf9))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0130") (unit 1)
         )
@@ -5983,7 +5808,7 @@
     )
     (pin "1" (uuid d73c9f53-f99a-4b2a-9b05-b0bc87277568))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR077") (unit 1)
         )
@@ -6018,44 +5843,9 @@
     )
     (pin "1" (uuid 1d854207-bc53-426c-80d3-9af574be17ff))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR076") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GNDA") (at 251.46 158.75 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6f7d0936-6ac0-4d6d-813e-bcfb161cba8e)
-    (property "Reference" "#PWR0165" (at 251.46 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 251.46 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 251.46 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 251.46 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ab89f1e7-bec2-4035-84ad-180e84622740))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0165") (unit 1)
         )
       )
       (project "Плата основного контроллера"
@@ -6088,7 +5878,7 @@
     )
     (pin "1" (uuid ac853dd9-762c-492c-adc5-82540d613b4a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0103") (unit 1)
         )
@@ -6139,7 +5929,7 @@
     (pin "1" (uuid 67908bef-cb69-4c8c-b59e-c2ad1b8e2473))
     (pin "2" (uuid 335b645d-679a-4eee-82da-7b4d26d4f95c))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "RV5") (unit 1)
         )
@@ -6169,7 +5959,7 @@
     )
     (pin "1" (uuid df5ab63f-68e9-44be-8181-85405584fb04))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H14") (unit 1)
         )
@@ -6194,7 +5984,7 @@
     )
     (pin "1" (uuid ab8f0dbc-7d5e-4161-8bbd-5cd21b0fe5e1))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0116") (unit 1)
         )
@@ -6229,7 +6019,7 @@
     )
     (pin "1" (uuid 38f5e630-a474-4fd4-a146-d05e69011bd6))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR029") (unit 1)
         )
@@ -6264,44 +6054,9 @@
     )
     (pin "1" (uuid dadae5b0-d5cc-4613-a693-00c0429d570e))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0136") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GNDA") (at 243.84 158.75 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7ac10905-bbb1-453d-ad1b-0fb476b28683)
-    (property "Reference" "#PWR0164" (at 243.84 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 243.84 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 243.84 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 243.84 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid beee02f0-c6a6-4f5b-ac9e-46f3eaa8507f))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0164") (unit 1)
         )
       )
       (project "Плата основного контроллера"
@@ -6343,7 +6098,7 @@
     (pin "9" (uuid cba2c135-452d-45c1-890f-bd3c8a2b111c))
     (pin "4" (uuid c82dadab-6d4b-4ba8-8de4-f333871c6852))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J21") (unit 1)
         )
@@ -6368,7 +6123,7 @@
     )
     (pin "1" (uuid 2f5a390f-3e97-4525-ab69-f0fb42c340bc))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR094") (unit 1)
         )
@@ -6403,7 +6158,7 @@
     )
     (pin "1" (uuid 15e30b08-2b26-40f3-b88a-b55ae7e14d1a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0145") (unit 1)
         )
@@ -6439,7 +6194,7 @@
     (pin "1" (uuid e69de0f6-e15e-4c43-8df0-42937182b0cc))
     (pin "2" (uuid c641bf05-d603-4ce0-ad21-17ac485ee612))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D3") (unit 1)
         )
@@ -6469,7 +6224,7 @@
     )
     (pin "1" (uuid 6e8d50f7-75b4-4c7b-bc47-aa783dbfc1e2))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0132") (unit 1)
         )
@@ -6504,7 +6259,7 @@
     )
     (pin "1" (uuid a6beeadf-415f-49c0-9be7-5aa1dea7a247))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR081") (unit 1)
         )
@@ -6548,7 +6303,7 @@
     (pin "9" (uuid c850efbb-3f36-4b46-8604-76c29e73ed67))
     (pin "4" (uuid 80c23412-b0cf-4cca-a40d-fb49e0862f39))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J11") (unit 1)
         )
@@ -6573,7 +6328,7 @@
     )
     (pin "1" (uuid f9f97efa-e7d2-47f3-8d4c-b2e240fc5144))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR097") (unit 1)
         )
@@ -6608,7 +6363,7 @@
     )
     (pin "1" (uuid c71bed54-f888-46ec-8a8f-d0108aeaaef2))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0114") (unit 1)
         )
@@ -6643,7 +6398,7 @@
     )
     (pin "1" (uuid 750b7f28-c3aa-419b-99aa-6e793a2ab8a5))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR08") (unit 1)
         )
@@ -6678,7 +6433,7 @@
     )
     (pin "1" (uuid 4415600a-4b48-4e6e-8fa8-5dea40b67725))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR067") (unit 1)
         )
@@ -6713,7 +6468,7 @@
     )
     (pin "1" (uuid 94f17253-ea5a-4337-821a-c13849c8c421))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR048") (unit 1)
         )
@@ -6748,7 +6503,7 @@
     )
     (pin "1" (uuid eca7d0be-02df-43e1-8110-2bc3f378bed0))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR082") (unit 1)
         )
@@ -6783,7 +6538,7 @@
     )
     (pin "1" (uuid b8ad157c-0db6-4d8e-b3ed-f96c4b4f1fb0))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR090") (unit 1)
         )
@@ -6834,7 +6589,7 @@
     (pin "1" (uuid aa76aed4-2392-4839-af94-c8cd9d02aea7))
     (pin "2" (uuid 6c6c9311-bd2f-4403-ab62-e3d1e1a51a09))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "RV3") (unit 1)
         )
@@ -6864,7 +6619,7 @@
     )
     (pin "1" (uuid 5130fcb5-f76d-47ae-8472-a5bab7235581))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR098") (unit 1)
         )
@@ -6899,7 +6654,7 @@
     )
     (pin "1" (uuid b6579a2a-d20c-4500-aa41-ebfcd09c398e))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR099") (unit 1)
         )
@@ -6934,7 +6689,7 @@
     )
     (pin "1" (uuid 183fbdc2-0b31-476e-bec7-bed82dc47ba3))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0110") (unit 1)
         )
@@ -6947,41 +6702,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR046") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GNDA") (at 274.32 158.75 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8bb93ad5-0a6a-43dc-abe3-59692e8516dc)
-    (property "Reference" "#PWR0168" (at 274.32 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 274.32 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 274.32 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 274.32 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7bfde013-ff2d-4fbd-8a30-4d35eae69413))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0168") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -7004,7 +6724,7 @@
     )
     (pin "1" (uuid 8f9242c1-4995-44f8-8d4a-71282b9a60a0))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0153") (unit 1)
         )
@@ -7039,7 +6759,7 @@
     )
     (pin "1" (uuid 8bf7709e-6e64-45d2-8356-fc1882848675))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0173") (unit 1)
         )
@@ -7074,7 +6794,7 @@
     )
     (pin "1" (uuid 03cd67b6-6d90-416a-a65f-1d978ef3c9bb))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR088") (unit 1)
         )
@@ -7109,7 +6829,7 @@
     )
     (pin "1" (uuid 566a44ce-dd48-4348-b6ed-91ca9f4b258f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR052") (unit 1)
         )
@@ -7144,7 +6864,7 @@
     )
     (pin "1" (uuid 5a1745bc-feb2-4ecd-a2c2-9738518b070a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR066") (unit 1)
         )
@@ -7179,7 +6899,7 @@
     )
     (pin "1" (uuid 0a6ac0fd-7918-4879-9b37-448558c02147))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0124") (unit 1)
         )
@@ -7214,7 +6934,7 @@
     )
     (pin "1" (uuid 556499ad-ef39-40e9-b16b-36f880393571))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0152") (unit 1)
         )
@@ -7249,7 +6969,7 @@
     )
     (pin "1" (uuid 869caf0c-d203-476e-8a3d-9e81a8a32e7b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0120") (unit 1)
         )
@@ -7293,7 +7013,7 @@
     (pin "9" (uuid 8aa04600-b6a9-423f-a6a0-83e8011db0b6))
     (pin "4" (uuid 58c996ca-9e3b-488d-9a30-f20569d2b7c3))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J13") (unit 1)
         )
@@ -7318,7 +7038,7 @@
     )
     (pin "1" (uuid df4f136e-a2d6-4471-a234-a31f7508e6fd))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR022") (unit 1)
         )
@@ -7353,7 +7073,7 @@
     )
     (pin "1" (uuid d33e6056-b314-4930-b14a-73929c93aa1c))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H3") (unit 1)
         )
@@ -7378,7 +7098,7 @@
     )
     (pin "1" (uuid 40164b87-f90b-432c-8c12-a0f4ece12c85))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0185") (unit 1)
         )
@@ -7413,7 +7133,7 @@
     )
     (pin "1" (uuid 692a27e1-6a4c-47de-838e-b1b0b6754f29))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR04") (unit 1)
         )
@@ -7449,7 +7169,7 @@
     (pin "1" (uuid 0c21e476-214f-48b9-94e5-a184a2f0d89a))
     (pin "2" (uuid a98753a8-d83b-4e41-a64a-3c98e8f5d2e1))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D9") (unit 1)
         )
@@ -7479,7 +7199,7 @@
     )
     (pin "1" (uuid 5ef3e722-a1fb-4078-b7f4-40c28969769c))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0171") (unit 1)
         )
@@ -7514,7 +7234,7 @@
     )
     (pin "1" (uuid 58cc1c76-835a-464c-bded-72870e625c51))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0184") (unit 1)
         )
@@ -7558,7 +7278,7 @@
     (pin "9" (uuid f3cc55f1-84da-469e-8c6a-2caa645fd730))
     (pin "4" (uuid 21619d5c-a661-4e07-9849-2f281553751b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J22") (unit 1)
         )
@@ -7583,7 +7303,7 @@
     )
     (pin "1" (uuid 01d61e90-0f79-493f-b5ca-7c3a82dfa233))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR039") (unit 1)
         )
@@ -7618,44 +7338,9 @@
     )
     (pin "1" (uuid 7b90c4b8-747c-490a-8e7c-54506627faaf))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR042") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GNDA") (at 236.22 158.75 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a0f93f8b-d3e4-4631-a046-657270af1731)
-    (property "Reference" "#PWR0163" (at 236.22 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 236.22 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 236.22 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 236.22 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 549f0fb7-1657-48ac-969d-4fda2bb9ad81))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0163") (unit 1)
         )
       )
       (project "Плата основного контроллера"
@@ -7688,7 +7373,7 @@
     )
     (pin "1" (uuid bf2cabc8-7dae-4e35-b8b8-a863e5ad5a6e))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0190") (unit 1)
         )
@@ -7723,7 +7408,7 @@
     )
     (pin "1" (uuid aa7ef358-7187-43b7-90ff-175107e50216))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR078") (unit 1)
         )
@@ -7758,7 +7443,7 @@
     )
     (pin "1" (uuid 6ff59f9a-a301-45c7-a848-08f961ac53d6))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0146") (unit 1)
         )
@@ -7793,7 +7478,7 @@
     )
     (pin "1" (uuid 938b587f-5117-4bc0-b8dd-6dba92e0b230))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR018") (unit 1)
         )
@@ -7837,7 +7522,7 @@
     (pin "9" (uuid 1628cf71-0305-4c8b-91d6-b55723e69f82))
     (pin "4" (uuid c7c7d5c3-fa7b-4e98-aeeb-327fa9b25fe7))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J15") (unit 1)
         )
@@ -7863,7 +7548,7 @@
     (pin "1" (uuid 13c4fe9d-a87c-45a9-9036-b3e23c4bd9d5))
     (pin "2" (uuid bb060919-efbe-454d-803f-c17857c99b31))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D6") (unit 1)
         )
@@ -7893,7 +7578,7 @@
     )
     (pin "1" (uuid 0e8eae0a-0e18-4c86-ba32-c81115df373a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR035") (unit 1)
         )
@@ -7928,7 +7613,7 @@
     )
     (pin "1" (uuid f5c86dfb-22ed-41e6-ace8-1e24692a3ce4))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0119") (unit 1)
         )
@@ -7963,7 +7648,7 @@
     )
     (pin "1" (uuid c2423ebe-e9b0-4589-a87d-94f83448ce10))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H12") (unit 1)
         )
@@ -7988,7 +7673,7 @@
     )
     (pin "1" (uuid a757460f-26dd-4a4e-abf5-0e3f0880b52b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR072") (unit 1)
         )
@@ -8023,7 +7708,7 @@
     )
     (pin "1" (uuid c6407cb4-efe8-4618-a941-6083bf139037))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0147") (unit 1)
         )
@@ -8058,7 +7743,7 @@
     )
     (pin "1" (uuid 8372b5a6-db9c-4c1b-84fd-b4852b0146b8))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0108") (unit 1)
         )
@@ -8094,7 +7779,7 @@
     (pin "1" (uuid 9f614e82-62a7-419f-b889-f7aeb80653ce))
     (pin "2" (uuid 930f01ad-4808-448c-8b76-a59b096efba6))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J28") (unit 1)
         )
@@ -8119,7 +7804,7 @@
     )
     (pin "1" (uuid fa7110f0-0799-4196-b598-26f029eabc52))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR058") (unit 1)
         )
@@ -8154,44 +7839,9 @@
     )
     (pin "1" (uuid a7e5eb7f-d310-487e-912b-4e563096b96a))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0186") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GNDA") (at 228.6 158.75 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b5c95421-6574-4eb1-ab6c-b7431a1b812e)
-    (property "Reference" "#PWR0170" (at 228.6 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 228.6 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 228.6 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 228.6 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8f1eea5f-86d7-48b7-9dfe-296a89c34838))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0170") (unit 1)
         )
       )
       (project "Плата основного контроллера"
@@ -8224,7 +7874,7 @@
     )
     (pin "1" (uuid 5b3b5102-ba02-478b-99f4-6a9286e7e6e8))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0121") (unit 1)
         )
@@ -8259,7 +7909,7 @@
     )
     (pin "1" (uuid b03b2a84-24f3-4752-abba-21a76319c5a3))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0128") (unit 1)
         )
@@ -8294,7 +7944,7 @@
     )
     (pin "1" (uuid 50080f50-a431-4468-804e-59ce7173a174))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR085") (unit 1)
         )
@@ -8338,7 +7988,7 @@
     (pin "9" (uuid 4aa75d6f-d7b6-474a-991c-77139a49371b))
     (pin "4" (uuid a9589959-9959-4362-b747-63a6bce82d72))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J20") (unit 1)
         )
@@ -8363,7 +8013,7 @@
     )
     (pin "1" (uuid eae61ade-2ef3-42d3-8560-9d4f3aba557c))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR092") (unit 1)
         )
@@ -8399,7 +8049,7 @@
     (pin "1" (uuid 2990722b-b704-4486-8c70-46920285dcee))
     (pin "2" (uuid 499db35f-5877-4dfd-8eac-18d4c0683ff8))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "D4") (unit 1)
         )
@@ -8429,7 +8079,7 @@
     )
     (pin "1" (uuid 0db1a4b4-1633-46eb-872e-30dc99d3ae3b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR087") (unit 1)
         )
@@ -8442,41 +8092,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR046") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 193.04 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bc88992e-1f58-44ed-ad7d-424ef02572a5)
-    (property "Reference" "#PWR0160" (at 193.04 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 193.04 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 193.04 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 193.04 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 77a1f1d2-0c06-4cfc-9b06-2684a3b2ad9b))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0160") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -8499,7 +8114,7 @@
     )
     (pin "1" (uuid 4e003eee-4353-4fec-b5ec-6a8594b66797))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0107") (unit 1)
         )
@@ -8534,7 +8149,7 @@
     )
     (pin "1" (uuid 2e18e86e-58e9-4c2c-b841-e08f14c73a96))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0113") (unit 1)
         )
@@ -8569,7 +8184,7 @@
     )
     (pin "1" (uuid 48302bc2-62a2-422b-94b4-d22190adbf41))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR09") (unit 1)
         )
@@ -8604,7 +8219,7 @@
     )
     (pin "1" (uuid f330d21a-33d1-4ee5-a94c-a84648424981))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR091") (unit 1)
         )
@@ -8639,7 +8254,7 @@
     )
     (pin "1" (uuid 4ef8e75e-6ffd-4069-8cd7-a056c77bad2b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0182") (unit 1)
         )
@@ -8674,7 +8289,7 @@
     )
     (pin "1" (uuid 2ab545f1-2634-485c-a4bd-971d074d16a8))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR011") (unit 1)
         )
@@ -8709,7 +8324,7 @@
     )
     (pin "1" (uuid 550758e9-0e08-4a1e-ab07-5c0f9fb9283d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR061") (unit 1)
         )
@@ -8744,7 +8359,7 @@
     )
     (pin "1" (uuid 19a5cabb-ada0-43ed-ba83-6fe74185afdf))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0183") (unit 1)
         )
@@ -8779,7 +8394,7 @@
     )
     (pin "1" (uuid 526148bc-bb91-416d-bbc8-7b1cffc37723))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR075") (unit 1)
         )
@@ -8814,7 +8429,7 @@
     )
     (pin "1" (uuid 483b53c7-7948-4b58-aaa4-b2be73fa21d3))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H1") (unit 1)
         )
@@ -8839,7 +8454,7 @@
     )
     (pin "1" (uuid bc9800ca-2d64-45ad-a3cb-ca8334b0eec6))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0118") (unit 1)
         )
@@ -8874,7 +8489,7 @@
     )
     (pin "1" (uuid 21daaaa5-560d-4ced-a3b2-0e182e58226b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR096") (unit 1)
         )
@@ -8909,7 +8524,7 @@
     )
     (pin "1" (uuid c9ddc321-9532-46da-8f17-fe86003ab577))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0131") (unit 1)
         )
@@ -8944,7 +8559,7 @@
     )
     (pin "1" (uuid 00deedea-1ec8-4682-b548-4e2fa9557914))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR045") (unit 1)
         )
@@ -8979,7 +8594,7 @@
     )
     (pin "1" (uuid 9f7e5052-0f71-459f-9595-476d9dd537ce))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0106") (unit 1)
         )
@@ -9023,7 +8638,7 @@
     (pin "9" (uuid 491e4ef4-fc97-4d23-9a4a-080221e95906))
     (pin "4" (uuid a0292c7b-27d5-4668-b669-21ab1a45d770))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J16") (unit 1)
         )
@@ -9048,7 +8663,7 @@
     )
     (pin "1" (uuid e78b3ceb-3a8d-4dde-949b-44e55a7cd213))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR015") (unit 1)
         )
@@ -9083,7 +8698,7 @@
     )
     (pin "1" (uuid 097e5f2b-0622-4003-a90d-31ddf099f70d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR031") (unit 1)
         )
@@ -9118,7 +8733,7 @@
     )
     (pin "1" (uuid 64cb1044-6cd1-41bb-9064-ea73ae0bf514))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR025") (unit 1)
         )
@@ -9162,7 +8777,7 @@
     (pin "9" (uuid 3edde8be-dd2c-4410-9a76-add5c90d0e06))
     (pin "4" (uuid 4edd4138-e2f7-4e8c-8032-5cb3bdb9606b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J14") (unit 1)
         )
@@ -9203,7 +8818,7 @@
     (pin "1" (uuid 6b2d3c05-93a0-4c95-bfe9-60b563254163))
     (pin "2" (uuid db739862-b157-44d1-89cc-8a1f846902ad))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "RV4") (unit 1)
         )
@@ -9233,7 +8848,7 @@
     )
     (pin "1" (uuid 0109d5fb-016a-42e1-adce-7ead16b50bd0))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR063") (unit 1)
         )
@@ -9268,7 +8883,7 @@
     )
     (pin "1" (uuid 59bc1366-5a73-4b88-8f7d-ad9ce6db5f6d))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR073") (unit 1)
         )
@@ -9303,7 +8918,7 @@
     )
     (pin "1" (uuid 15e43783-2ac4-4206-bebc-d22da91d1792))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR050") (unit 1)
         )
@@ -9347,7 +8962,7 @@
     (pin "9" (uuid da3c1bb0-5526-4aae-9418-85503555fb95))
     (pin "4" (uuid f1ea46ea-ccbb-4aa4-bcc9-e68a80f130f2))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J25") (unit 1)
         )
@@ -9372,7 +8987,7 @@
     )
     (pin "1" (uuid 2b5555a8-162f-428a-8042-d959ca6e56d0))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H2") (unit 1)
         )
@@ -9397,7 +9012,7 @@
     )
     (pin "1" (uuid 995048e4-f179-4a12-8cfa-cfca0905adde))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0127") (unit 1)
         )
@@ -9441,7 +9056,7 @@
     (pin "9" (uuid 16af7f79-5295-4d60-a8e6-4703591c0bb5))
     (pin "4" (uuid 076eb3b8-1009-42d9-bcd8-f5eea8e4fb8f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J9") (unit 1)
         )
@@ -9466,44 +9081,9 @@
     )
     (pin "1" (uuid 34e07e7f-37b0-4317-a387-ced4bef23d89))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR07") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 208.28 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid da4ae506-75eb-4cb5-87ed-7e1d5c00bbe3)
-    (property "Reference" "#PWR0162" (at 208.28 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 208.28 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 208.28 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 208.28 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 70f9029e-4d62-4829-98ce-68f636d40031))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0162") (unit 1)
         )
       )
       (project "Плата основного контроллера"
@@ -9545,7 +9125,7 @@
     (pin "9" (uuid 77ab8e96-66de-48c6-ad9b-17fcbf59df15))
     (pin "4" (uuid afef6f6f-2162-4840-89b0-06096998e287))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "J12") (unit 1)
         )
@@ -9570,7 +9150,7 @@
     )
     (pin "1" (uuid 48989a53-4414-4e08-8c93-5aeb425a9b44))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0138") (unit 1)
         )
@@ -9605,7 +9185,7 @@
     )
     (pin "1" (uuid 6210477e-9154-4f7f-a04d-63575dfa4433))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR010") (unit 1)
         )
@@ -9640,7 +9220,7 @@
     )
     (pin "1" (uuid 9f191093-3d9d-4cef-a079-371858a6e74f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0189") (unit 1)
         )
@@ -9675,7 +9255,7 @@
     )
     (pin "1" (uuid 69545ede-cd8d-4561-93f2-4f9ab1ebd5f7))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0117") (unit 1)
         )
@@ -9710,7 +9290,7 @@
     )
     (pin "1" (uuid c3300e64-58a0-4435-9175-6ae5fee054eb))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0115") (unit 1)
         )
@@ -9748,7 +9328,7 @@
     (pin "3" (uuid 9387ccdc-9f13-4f93-92f9-e3f224ad4998))
     (pin "1" (uuid bd68998c-e508-4ddb-84a9-9d07a81803b6))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "L2") (unit 1)
         )
@@ -9778,7 +9358,7 @@
     )
     (pin "1" (uuid 869cd601-36a3-4c24-b306-2ef39457b20e))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0144") (unit 1)
         )
@@ -9813,7 +9393,7 @@
     )
     (pin "1" (uuid 20a4474e-7f00-49bd-b759-de887d804246))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0126") (unit 1)
         )
@@ -9848,7 +9428,7 @@
     )
     (pin "1" (uuid 2797d1de-2107-412a-9d8a-ac861606df65))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0133") (unit 1)
         )
@@ -9883,7 +9463,7 @@
     )
     (pin "1" (uuid 70365179-caa7-4b54-9bff-d12bd23bf30b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR027") (unit 1)
         )
@@ -9918,7 +9498,7 @@
     )
     (pin "1" (uuid 300a568d-3b98-4385-a094-916eb3efb53e))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR020") (unit 1)
         )
@@ -9953,7 +9533,7 @@
     )
     (pin "1" (uuid 1ed00876-887a-4083-a1b4-2833a9029a93))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "H4") (unit 1)
         )
@@ -9978,7 +9558,7 @@
     )
     (pin "1" (uuid 1e8282ba-69e2-406a-aef2-26338c4228e0))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR055") (unit 1)
         )
@@ -10013,7 +9593,7 @@
     )
     (pin "1" (uuid afd7b694-ed72-438d-8bfa-e50012cbb8d7))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR043") (unit 1)
         )
@@ -10048,7 +9628,7 @@
     )
     (pin "1" (uuid 56a6c2c5-8294-45c5-ab0f-840724793297))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0137") (unit 1)
         )
@@ -10083,7 +9663,7 @@
     )
     (pin "1" (uuid 1b973d9e-538d-4ee3-a871-41900344f5e6))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR016") (unit 1)
         )
@@ -10118,7 +9698,7 @@
     )
     (pin "1" (uuid e9450caf-35ba-419b-9c1a-362f28bdd843))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR06") (unit 1)
         )
@@ -10153,7 +9733,7 @@
     )
     (pin "1" (uuid 33856fbe-b8e6-42f2-ac98-51feaaadab4f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR083") (unit 1)
         )
@@ -10188,7 +9768,7 @@
     )
     (pin "1" (uuid ebb7defb-acc8-4b1a-bf93-78ab73162788))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0154") (unit 1)
         )
@@ -10223,7 +9803,7 @@
     )
     (pin "1" (uuid 819dfcee-fc63-46d8-b5a1-84cfe9f34e5b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR086") (unit 1)
         )
@@ -10258,7 +9838,7 @@
     )
     (pin "1" (uuid 4508670d-76dd-4a51-bbe5-c427e1f7989c))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0139") (unit 1)
         )
@@ -10293,7 +9873,7 @@
     )
     (pin "1" (uuid 8b604ce9-089f-4b21-81e8-117e93676dd4))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR0111") (unit 1)
         )
@@ -10328,7 +9908,7 @@
     )
     (pin "1" (uuid f130e016-0374-4c4f-a020-3bf8eb2ba232))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR053") (unit 1)
         )
@@ -10363,7 +9943,7 @@
     )
     (pin "1" (uuid f9968dd7-2e06-4a08-872b-ea7b5e473af5))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR059") (unit 1)
         )
@@ -10398,7 +9978,7 @@
     )
     (pin "1" (uuid bb8e03cf-d7cc-42a0-9ac2-02301730fe4f))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR024") (unit 1)
         )
@@ -10433,7 +10013,7 @@
     )
     (pin "1" (uuid 092852ec-d1cc-4726-94cd-3edce69b03f0))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR089") (unit 1)
         )
@@ -10468,7 +10048,7 @@
     )
     (pin "1" (uuid 09916d7d-a52f-4d84-b694-145fcbf0cf38))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR071") (unit 1)
         )
@@ -10503,7 +10083,7 @@
     )
     (pin "1" (uuid 4c7a9d50-776e-46cd-9ea5-2273fb0de577))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR026") (unit 1)
         )
@@ -10538,7 +10118,7 @@
     )
     (pin "1" (uuid 506b141b-38f7-440c-b2f6-1a7609a2ab5b))
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a"
           (reference "#PWR070") (unit 1)
         )
@@ -10551,76 +10131,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR046") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 177.8 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fd41d338-eed2-4975-bac5-c941c4fc5ac7)
-    (property "Reference" "#PWR0158" (at 177.8 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 177.8 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 177.8 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 177.8 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5fb36c61-9791-4148-8d3f-c66747ee03cc))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0158") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 170.18 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fd5a5eb6-a03c-43c8-b954-e9f2634806ea)
-    (property "Reference" "#PWR0157" (at 170.18 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 170.18 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 170.18 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 170.18 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 26a27ef2-577a-4ef2-a5f3-05cc67110bf9))
-    (instances
-      (project "Материнская плата"
-        (path "/018b6a61-1615-4570-940f-da85fe46e73a"
-          (reference "#PWR0157") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -10653,7 +10163,7 @@
       (uuid 30fee192-18f9-40ec-a4aa-93395a1f54ee)
     )
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a" (page "3"))
       )
     )
@@ -10678,7 +10188,7 @@
       (uuid 5d34a2b8-0985-4453-a3bc-49b9f3431097)
     )
     (instances
-      (project "Материнская плата"
+      (project "motherboard"
         (path "/018b6a61-1615-4570-940f-da85fe46e73a" (page "2"))
       )
     )

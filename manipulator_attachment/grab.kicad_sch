@@ -435,7 +435,7 @@
     (property "Value" "0603 10 кОм" (at 204.47 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric" (at 208.788 54.61 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 208.788 54.61 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.01 54.61 0)
@@ -444,7 +444,7 @@
     (pin "2" (uuid 9fab0977-9b71-4d95-bb49-7128e1ac5d9d))
     (pin "1" (uuid 9e0b6ed4-cf99-42bd-aab1-aee0319a9e53))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "R5") (unit 1)
         )
@@ -469,7 +469,7 @@
     )
     (pin "1" (uuid 237aed51-98d7-43e9-8348-ba814956123d))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR014") (unit 1)
         )
@@ -498,7 +498,7 @@
     (pin "1" (uuid 49e172ac-fe25-452a-b3e0-ef238100b1b6))
     (pin "2" (uuid c39084df-7950-43ab-8ce2-cff535eaa31b))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "C14") (unit 1)
         )
@@ -512,7 +512,7 @@
     (property "Reference" "C7" (at 118.999 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "47uF 63V SMD" (at 118.999 48.26 90)
+    (property "Value" "100uF 50V (SMD 8х10)" (at 118.999 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5" (at 114.3 52.3748 0)
@@ -524,7 +524,7 @@
     (pin "2" (uuid 473ceca7-1150-452f-a183-e72b8a2317fc))
     (pin "1" (uuid 90df0b5c-96f2-4803-bf05-6a59a5149a60))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "C7") (unit 1)
         )
@@ -553,7 +553,7 @@
     (pin "1" (uuid a1169e3c-1d99-4cbb-8bb5-9fc7132a21b9))
     (pin "2" (uuid bdaa4f03-c51a-4cb9-93e3-c0b2951d13d6))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "R6") (unit 1)
         )
@@ -586,7 +586,7 @@
     (pin "2" (uuid f2341482-96a8-4e67-a97b-b7995141dd5f))
     (pin "7" (uuid 17037d8c-8e26-4d56-9a05-6845de4b0b4c))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "U4") (unit 1)
         )

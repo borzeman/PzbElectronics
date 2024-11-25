@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.7999999999999999
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -138,37 +138,37 @@
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 5,
+          "td_height_ratio": 0.7,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_round_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.7
         },
         {
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 5,
+          "td_height_ratio": 0.7,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_rect_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.7
         },
         {
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 5,
+          "td_height_ratio": 0.7,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_track_end",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.7
         }
       ],
       "track_widths": [
@@ -181,6 +181,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.3
         },
         {
           "diameter": 1.0,
@@ -416,7 +420,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Плата дискретных входов.kicad_pro",
+    "filename": "digit_in_board.kicad_pro",
     "version": 1
   },
   "net_settings": {

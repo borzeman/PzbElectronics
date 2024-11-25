@@ -398,7 +398,7 @@
     (property "Value" "101 0603" (at 90.17 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric" (at 90.17 95.758 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 90.17 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 90.17 93.98 0)
@@ -407,7 +407,7 @@
     (pin "2" (uuid f3cef05c-e898-4ad0-a138-c9ef20762787))
     (pin "1" (uuid 6604656a-8855-4ea5-a1cf-8a12a50f43fc))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "R7") (unit 1)
         )
@@ -433,7 +433,7 @@
     (pin "1" (uuid 6b4031a5-6196-4eb5-a1dd-2cf5f01805e2))
     (pin "2" (uuid 0a68c2d3-850f-4902-9832-467d15ad1189))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "D5") (unit 1)
         )
@@ -459,7 +459,7 @@
     (pin "2" (uuid 3974ad25-d88e-444d-86f1-df9a8b17ec5a))
     (pin "1" (uuid e808bfb2-ddf8-4b60-bb55-d3ce43aef721))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "C15") (unit 1)
         )
@@ -486,7 +486,7 @@
     (pin "1" (uuid 594d0e21-6b89-4796-9511-2f46f674230a))
     (pin "3" (uuid 02f281e2-cf66-4657-b99a-15fbb1550c00))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "Q3") (unit 1)
         )

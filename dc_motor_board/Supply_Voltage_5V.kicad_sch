@@ -261,7 +261,7 @@
     (pin "1" (uuid e07e46c2-7b08-4e80-ba45-b8ae9b17f163))
     (pin "2" (uuid c83bc503-0803-49f8-b718-ecf0b8cd0467))
     (instances
-      (project "Плата насосов"
+      (project "dc_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R26") (unit 1)
         )
@@ -291,7 +291,7 @@
     (pin "1" (uuid f2efd37d-f205-43a3-b384-7cef8e89f9f5))
     (pin "2" (uuid 7b650536-61c2-4431-8918-2bece057c382))
     (instances
-      (project "Плата насосов"
+      (project "dc_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/86973487-7b27-4609-9d49-a37377210aac"
           (reference "U7") (unit 1)
         )
@@ -316,7 +316,7 @@
     )
     (pin "1" (uuid dbd4a109-8dd4-4dc1-9c91-df53fa7aaf59))
     (instances
-      (project "Плата насосов"
+      (project "dc_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/86973487-7b27-4609-9d49-a37377210aac"
           (reference "TP1") (unit 1)
         )
@@ -342,7 +342,7 @@
     (pin "1" (uuid 896faad6-dc75-4007-ae11-909843fce80b))
     (pin "2" (uuid 6a0be088-05d5-443c-8c34-a8caa8761126))
     (instances
-      (project "Плата насосов"
+      (project "dc_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/86973487-7b27-4609-9d49-a37377210aac"
           (reference "C39") (unit 1)
         )
@@ -359,7 +359,7 @@
     (property "Value" "0,1uF 100V 0603" (at 138.43 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 133.0452 113.03 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 133.0452 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 109.22 0)
@@ -368,7 +368,7 @@
     (pin "1" (uuid b0d92d54-019a-4142-9a3d-ce197e7e38d3))
     (pin "2" (uuid dac94a01-580b-4b5b-aacb-5004019a7269))
     (instances
-      (project "Плата насосов"
+      (project "dc_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/86973487-7b27-4609-9d49-a37377210aac"
           (reference "C40") (unit 1)
         )

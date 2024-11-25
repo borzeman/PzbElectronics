@@ -1738,7 +1738,7 @@
           (reference "#PWR0126") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "#PWR038") (unit 1)
         )
@@ -1790,7 +1790,7 @@
     )
     (pin "1" (uuid 4ee74bf7-39ff-4b92-a254-f3e0177ed689))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR020") (unit 1)
         )
@@ -1824,7 +1824,7 @@
     (pin "2" (uuid 66cc3375-a472-4569-90f3-f329d580997b))
     (pin "1" (uuid 6a1e6c86-00db-4f82-9859-bd9ae21fc71d))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R22") (unit 1)
         )
@@ -1854,7 +1854,7 @@
           (reference "#PWR0122") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "#PWR024") (unit 1)
         )
@@ -1906,7 +1906,7 @@
     )
     (pin "1" (uuid 0d0941f5-aae5-49b4-87c6-0406536058b9))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP13") (unit 1)
         )
@@ -1940,7 +1940,7 @@
     (pin "2" (uuid aadda042-b7e7-4162-8126-fea5b0ede49d))
     (pin "1" (uuid 0711b129-0e0b-41de-8a97-c3ed4986432d))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R23") (unit 1)
         )
@@ -1965,7 +1965,7 @@
     )
     (pin "1" (uuid 300d8280-d851-4d13-821d-e7f1f4087018))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP24") (unit 1)
         )
@@ -1998,7 +1998,7 @@
     )
     (pin "1" (uuid 8fdc79b0-bb9f-4f10-a230-48562faa6f23))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP7") (unit 1)
         )
@@ -2031,7 +2031,7 @@
     )
     (pin "1" (uuid 6414a9f9-5a17-4f04-b050-3da43d144137))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2070,7 +2070,7 @@
           (reference "C54") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C22") (unit 1)
         )
@@ -2113,7 +2113,7 @@
           (reference "#PWR0126") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "#PWR038") (unit 1)
         )
@@ -2157,7 +2157,7 @@
     (property "Value" "10uF 16V 0805" (at 172.72 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 169.8752 34.29 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 169.8752 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 30.48 0)
@@ -2171,7 +2171,7 @@
           (reference "C50") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C18") (unit 1)
         )
@@ -2209,7 +2209,7 @@
     )
     (pin "1" (uuid d0351b9d-d086-4f08-893b-e8a69de87452))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP11") (unit 1)
         )
@@ -2243,7 +2243,7 @@
     (pin "2" (uuid 31170f1b-b4d4-4ff4-a2d1-aa51d92d21de))
     (pin "1" (uuid 486df8fb-88ec-41e1-b3b4-ca5093432442))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R21") (unit 1)
         )
@@ -2268,7 +2268,7 @@
     )
     (pin "1" (uuid e6176b12-68be-4031-80d5-922c80f3dd08))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP18") (unit 1)
         )
@@ -2301,7 +2301,7 @@
     )
     (pin "1" (uuid 35995c23-9fdb-4763-86f8-e77b2fcd7861))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2334,7 +2334,7 @@
     )
     (pin "1" (uuid eb1f021d-c5ff-40fe-b17d-2da87861c2e5))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2367,7 +2367,7 @@
     )
     (pin "1" (uuid c303e764-8734-4591-927a-faf818c17562))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2415,7 +2415,7 @@
     (pin "14" (uuid 36a7cec8-c75a-41d8-8052-0e8aa8dfbfd9))
     (pin "6" (uuid c9998034-d2d0-47af-a60f-c262d8afab49))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "U4") (unit 1)
         )
@@ -2441,7 +2441,7 @@
     (pin "2" (uuid 64e1e8c7-17a3-457b-b774-19b6e0f85009))
     (pin "1" (uuid a587ec37-7302-4c48-b39f-02e962afaf92))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R15") (unit 1)
         )
@@ -2466,7 +2466,7 @@
     )
     (pin "1" (uuid 4f356964-8190-4b96-8e4a-3651fa684b8a))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2499,7 +2499,7 @@
     )
     (pin "1" (uuid 3a6070b1-1245-4867-8f85-28fb71ff065b))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP1") (unit 1)
         )
@@ -2524,7 +2524,7 @@
     (property "Value" "10uF 16V 0805" (at 172.72 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 169.8752 133.35 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 169.8752 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 129.54 0)
@@ -2538,7 +2538,7 @@
           (reference "C50") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C18") (unit 1)
         )
@@ -2576,7 +2576,7 @@
     )
     (pin "1" (uuid 9d128bfa-d7b2-42c6-919b-9da7a8454177))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2609,7 +2609,7 @@
     )
     (pin "1" (uuid a9cae3d7-4dc5-4439-9192-d09bc29ceb1d))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP4") (unit 1)
         )
@@ -2657,7 +2657,7 @@
     (pin "14" (uuid ead8898d-fd8a-4aae-8d8a-87b56de5c84b))
     (pin "6" (uuid 68a036cc-58c7-4fcb-8132-59e08c941fef))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "U7") (unit 1)
         )
@@ -2682,7 +2682,7 @@
     )
     (pin "1" (uuid 92e97d9f-9f7c-4132-a6e7-787b85795962))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP20") (unit 1)
         )
@@ -2720,7 +2720,7 @@
           (reference "#PWR0126") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "#PWR038") (unit 1)
         )
@@ -2772,7 +2772,7 @@
     )
     (pin "1" (uuid 4b45b037-d335-4dfb-b051-c979e31c6720))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP15") (unit 1)
         )
@@ -2805,7 +2805,7 @@
     )
     (pin "1" (uuid 53b5f157-8aab-46e6-91c9-40ba52138c61))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2839,7 +2839,7 @@
     (pin "2" (uuid ab38b40a-3935-4d8d-ac5f-567e63742ff3))
     (pin "1" (uuid d608273b-0b84-4a52-bb42-555970e66a42))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R14") (unit 1)
         )
@@ -2864,7 +2864,7 @@
     )
     (pin "1" (uuid 41fc5201-85e0-4b80-9213-d6ed48aabd01))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP21") (unit 1)
         )
@@ -2898,7 +2898,7 @@
     (pin "2" (uuid db9eec36-149d-4538-a232-536a5b364570))
     (pin "1" (uuid 7fbc1033-4e98-47da-a9c2-773125b42ea3))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R30") (unit 1)
         )
@@ -2923,7 +2923,7 @@
     )
     (pin "1" (uuid cb20706e-8ef5-4155-9f8e-27561c163c39))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2956,7 +2956,7 @@
     )
     (pin "1" (uuid 1b96084b-35a1-4eb0-9ae6-6ee7100446ca))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -2989,7 +2989,7 @@
     )
     (pin "1" (uuid 4a8afa8d-39d7-4706-943a-4b7b6668d7e0))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP23") (unit 1)
         )
@@ -3022,7 +3022,7 @@
     )
     (pin "1" (uuid b343ec92-8989-4570-ac4d-95d5cdb2eade))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP5") (unit 1)
         )
@@ -3055,7 +3055,7 @@
     )
     (pin "1" (uuid b6e8e6d5-b2b8-4cfc-8e69-03cda91e87ff))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3088,7 +3088,7 @@
     )
     (pin "1" (uuid 3a712278-b864-4713-84b1-83c99c5f7b3a))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3136,7 +3136,7 @@
     (pin "14" (uuid 4a895979-c2e5-47a4-865a-6e393614122a))
     (pin "6" (uuid 426d7b5f-cb06-4479-bfd1-69361e548c54))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "U8") (unit 1)
         )
@@ -3162,7 +3162,7 @@
     (pin "2" (uuid a1bf3443-8733-46bf-84c5-d808d845c440))
     (pin "1" (uuid f080a7a4-4053-4a22-bbc0-639b63a10ed0))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R26") (unit 1)
         )
@@ -3188,7 +3188,7 @@
     (pin "2" (uuid 8c45e2df-bd4d-42f4-b8a7-ebca42821de7))
     (pin "1" (uuid e13aee21-9dd7-43c3-a14a-daa5257cab35))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R29") (unit 1)
         )
@@ -3213,7 +3213,7 @@
     )
     (pin "1" (uuid 7bdfbaa3-cc8c-42bd-a07c-f23c9269058c))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP12") (unit 1)
         )
@@ -3246,7 +3246,7 @@
     )
     (pin "1" (uuid 86e1761e-8379-4fc4-b64a-e6b56549c1a7))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR04") (unit 1)
         )
@@ -3277,7 +3277,7 @@
     )
     (pin "1" (uuid 66543b66-5384-43c0-babc-0f994cfbe4a1))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3310,7 +3310,7 @@
     )
     (pin "1" (uuid 29f6f316-5a79-4f6e-b6ae-a15ab0070d54))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3343,7 +3343,7 @@
     )
     (pin "1" (uuid 4ae029b8-011d-4695-8b94-3776c43614d5))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP22") (unit 1)
         )
@@ -3376,7 +3376,7 @@
     )
     (pin "1" (uuid 239391a4-2f82-496d-b69a-a1af164ee14a))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP10") (unit 1)
         )
@@ -3409,7 +3409,7 @@
     )
     (pin "1" (uuid 47923782-a6f7-425b-9378-d0485dc57eca))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR04") (unit 1)
         )
@@ -3440,7 +3440,7 @@
     )
     (pin "1" (uuid 96f146a7-1b33-4199-b10f-16868428b995))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3479,7 +3479,7 @@
           (reference "C54") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C22") (unit 1)
         )
@@ -3517,7 +3517,7 @@
     )
     (pin "1" (uuid 74cd2058-f1c8-4aef-9bae-b9ef81d4e7f8))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP19") (unit 1)
         )
@@ -3550,7 +3550,7 @@
     )
     (pin "1" (uuid f0e5b5a5-685f-41e1-b44c-d2b4b0c1f44e))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR020") (unit 1)
         )
@@ -3584,7 +3584,7 @@
     (pin "2" (uuid fb825611-2db8-4e31-ae3b-31f23bb93a61))
     (pin "1" (uuid 8bb6b001-6072-46b4-bcee-426aea2e8e97))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R25") (unit 1)
         )
@@ -3609,7 +3609,7 @@
     )
     (pin "1" (uuid 01037cec-2c7b-4dea-b2e7-d11bb872295f))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3642,7 +3642,7 @@
     )
     (pin "1" (uuid e1d16e52-c922-4f99-a6a0-70a4ef9df1f9))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP3") (unit 1)
         )
@@ -3675,7 +3675,7 @@
     )
     (pin "1" (uuid 4df106a1-3c8a-44c3-845f-baa10a74237c))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3708,7 +3708,7 @@
     )
     (pin "1" (uuid 610fad41-2532-4311-a502-3d61f5a9f0fe))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3741,7 +3741,7 @@
     )
     (pin "1" (uuid f9639ed4-dcbf-42c6-ac95-bb8eefd20e93))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP8") (unit 1)
         )
@@ -3779,7 +3779,7 @@
           (reference "#PWR0122") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "#PWR024") (unit 1)
         )
@@ -3831,7 +3831,7 @@
     )
     (pin "1" (uuid df8918d9-5afe-4c7c-8aba-2f42efea06cb))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP17") (unit 1)
         )
@@ -3865,7 +3865,7 @@
     (pin "2" (uuid 1142c231-42a2-4001-9eca-106b3f2342f8))
     (pin "1" (uuid 870a4e52-c743-4b51-a0df-78c316f914e3))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R16") (unit 1)
         )
@@ -3890,7 +3890,7 @@
     )
     (pin "1" (uuid 607abd07-d02e-497f-9411-f3263f039ddb))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3923,7 +3923,7 @@
     )
     (pin "1" (uuid c930bfa3-f6c5-484d-82b9-75132ae62686))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP9") (unit 1)
         )
@@ -3956,7 +3956,7 @@
     )
     (pin "1" (uuid aa30b6a3-f1bd-40f7-a35c-2b3ef4a6db2e))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -3981,7 +3981,7 @@
     (property "Value" "10uF 16V 0805" (at 40.64 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 43.4848 85.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 43.4848 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 81.28 0)
@@ -3995,7 +3995,7 @@
           (reference "C50") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C18") (unit 1)
         )
@@ -4033,7 +4033,7 @@
     )
     (pin "1" (uuid b314e94f-67c4-43df-8a09-4f450ef42f5a))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP2") (unit 1)
         )
@@ -4066,7 +4066,7 @@
     )
     (pin "1" (uuid 57703507-a371-4ecb-92c6-af9e3132c6d4))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR04") (unit 1)
         )
@@ -4097,7 +4097,7 @@
     )
     (pin "1" (uuid 9e0e3962-b8ca-4dd9-b72c-aee92192bda6))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP14") (unit 1)
         )
@@ -4136,7 +4136,7 @@
           (reference "C54") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C22") (unit 1)
         )
@@ -4179,7 +4179,7 @@
           (reference "#PWR0122") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "#PWR024") (unit 1)
         )
@@ -4237,7 +4237,7 @@
           (reference "C54") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C22") (unit 1)
         )
@@ -4276,7 +4276,7 @@
     (pin "2" (uuid f54a33e6-bacf-4a51-b6d3-0e71d649663e))
     (pin "1" (uuid 96627f73-1b21-404a-bbdf-6fbedde8031a))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R27") (unit 1)
         )
@@ -4307,7 +4307,7 @@
           (reference "C54") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C22") (unit 1)
         )
@@ -4345,7 +4345,7 @@
     )
     (pin "1" (uuid 74644edc-d699-4cd1-962d-2833076026c7))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP16") (unit 1)
         )
@@ -4379,7 +4379,7 @@
     (pin "2" (uuid 02f1ea3b-d45e-405f-a0e5-5790f4cf089d))
     (pin "1" (uuid 1aac3454-b456-4496-82e8-527f18f0c2dc))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R24") (unit 1)
         )
@@ -4396,7 +4396,7 @@
     (property "Value" "10uF 16V 0805" (at 38.1 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 40.9448 134.62 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 40.9448 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 130.81 0)
@@ -4410,7 +4410,7 @@
           (reference "C50") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C18") (unit 1)
         )
@@ -4448,7 +4448,7 @@
     )
     (pin "1" (uuid 99b8c859-9f7b-4314-a070-c7c39974eff4))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )
@@ -4473,7 +4473,7 @@
     (property "Value" "10uF 16V 0805" (at 41.91 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 44.7548 35.56 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 44.7548 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 31.75 0)
@@ -4487,7 +4487,7 @@
           (reference "C50") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C18") (unit 1)
         )
@@ -4517,7 +4517,7 @@
     (property "Value" "10uF 16V 0805" (at 172.72 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 169.8752 83.82 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 169.8752 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 80.01 0)
@@ -4531,7 +4531,7 @@
           (reference "C50") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C18") (unit 1)
         )
@@ -4569,7 +4569,7 @@
     )
     (pin "1" (uuid b31850de-3cdf-4709-9bf2-789fb02391c6))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "TP6") (unit 1)
         )
@@ -4603,7 +4603,7 @@
     (pin "2" (uuid edeb3231-ef52-4497-b371-3ea3d68268f3))
     (pin "1" (uuid e0ea86fc-3f6f-4c97-a93f-f6ac7ef1b05c))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R20") (unit 1)
         )
@@ -4628,7 +4628,7 @@
     )
     (pin "1" (uuid 327e9665-18f3-4520-8540-9cf79085d296))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR020") (unit 1)
         )
@@ -4662,7 +4662,7 @@
     (pin "2" (uuid 4829b4e2-ebe9-4841-beff-88012deb2404))
     (pin "1" (uuid 3af78d34-67bd-420f-a121-13cfa1bd24aa))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R28") (unit 1)
         )
@@ -4693,7 +4693,7 @@
           (reference "C54") (unit 1)
         )
       )
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
           (reference "C22") (unit 1)
         )
@@ -4732,7 +4732,7 @@
     (pin "2" (uuid 748921ca-f206-4e6d-85e2-8a68e57c9a86))
     (pin "1" (uuid b9f92cbe-605e-4de0-bb0c-b42ef1ad4e1d))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
           (reference "R19") (unit 1)
         )
@@ -4757,7 +4757,7 @@
     )
     (pin "1" (uuid e0a46dc8-7ba3-4ea9-a451-6e246ad9e148))
     (instances
-      (project "Плата основного контроллера"
+      (project "controller_board-rounded"
         (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
           (reference "#PWR016") (unit 1)
         )

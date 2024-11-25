@@ -57,66 +57,6 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x02_Pin" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x02, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x02_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector:Conn_01x02_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -174,6 +114,82 @@
         (pin passive line (at -5.08 -2.54 0) (length 3.81)
           (name "Pin_2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x03_Pin" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x03, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x03_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 2.54)
+            (xy 0.8636 2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -658,6 +674,53 @@
         (pin passive line (at 0 -5.08 90) (length 1.27)
           (name "4" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:Fuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "F" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Fuse" (at -1.905 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "fuse" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Fuse" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*Fuse*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Fuse_0_1"
+        (rectangle (start -0.762 -2.54) (end 0.762 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Fuse_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2232,6 +2295,35 @@
         )
       )
     )
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "PCM_4ms_Power-symbol:+3.3VA" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 3.81 -1.27 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2305,6 +2397,71 @@
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "PCM_Diode_Schottky_AKL:1PS79SB30" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "1PS79SB30" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Diode_SMD_AKL:D_SOD-523" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.tme.eu/Document/b834b7aafe3a6b0253cfd236312b91c0/1PS79SB30.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode schottky 1PS79SB30" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SOD-523 Schottky diode, 40V, 200mA, Alternate KiCAD Library" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "1PS79SB30_0_1"
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+            (xy 1.27 0)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 1.905 -0.635)
+            (xy 1.905 -1.27)
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy 0.635 1.27)
+            (xy 0.635 0.635)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "1PS79SB30_1_1"
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2567,7 +2724,10 @@
   (junction (at 189.23 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 119cd942-6cd0-47a7-bf08-4a739c55c144)
   )
-  (junction (at 66.04 161.29) (diameter 0) (color 0 0 0 0)
+  (junction (at 82.55 182.88) (diameter 0) (color 0 0 0 0)
+    (uuid 1b190094-96c0-4e46-80f2-df70c7a46497)
+  )
+  (junction (at 104.14 165.1) (diameter 0) (color 0 0 0 0)
     (uuid 2236c552-8f6d-4fa4-8657-89f32bac0893)
   )
   (junction (at 251.46 140.97) (diameter 0) (color 0 0 0 0)
@@ -2579,22 +2739,25 @@
   (junction (at 198.12 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 40b007a8-0be6-4573-900b-451007301fb2)
   )
-  (junction (at 153.67 38.1) (diameter 0) (color 0 0 0 0)
+  (junction (at 90.17 165.1) (diameter 0) (color 0 0 0 0)
+    (uuid 94bc342a-eba3-41de-90c4-87c017550ca5)
+  )
+  (junction (at 160.02 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 96319a2e-c058-4404-b8ba-f55141a3e041)
   )
   (junction (at 252.73 16.51) (diameter 0) (color 0 0 0 0)
     (uuid a8d490ae-f3d1-47bb-9e73-8d998920dcce)
   )
-  (junction (at 93.98 111.76) (diameter 0) (color 0 0 0 0)
+  (junction (at 77.47 96.52) (diameter 0) (color 0 0 0 0)
     (uuid b90627b0-e9b2-409c-b688-8c05780df521)
   )
-  (junction (at 66.04 179.07) (diameter 0) (color 0 0 0 0)
+  (junction (at 99.06 182.88) (diameter 0) (color 0 0 0 0)
     (uuid c45f7542-280c-4bb8-b6c0-094e27c9de9b)
   )
   (junction (at 170.18 140.97) (diameter 0) (color 0 0 0 0)
     (uuid ccb48bfb-3dac-48f0-8058-ff0a80616f24)
   )
-  (junction (at 125.73 111.76) (diameter 0) (color 0 0 0 0)
+  (junction (at 109.22 96.52) (diameter 0) (color 0 0 0 0)
     (uuid db4fa815-9ebd-4f38-86b4-a542be77b977)
   )
   (junction (at 242.57 154.94) (diameter 0) (color 0 0 0 0)
@@ -2604,7 +2767,9 @@
     (uuid f951238c-67d2-4a48-abe7-a22d78c11b41)
   )
 
-  (wire (pts (xy 153.67 38.1) (xy 193.04 38.1))
+  (no_connect (at 21.59 110.49) (uuid cbb2906c-7049-43c3-ae51-067beea94770))
+
+  (wire (pts (xy 160.02 38.1) (xy 193.04 38.1))
     (stroke (width 0) (type default))
     (uuid 03122be8-5dac-41e7-ba80-9fe36ef9ec84)
   )
@@ -2612,31 +2777,35 @@
     (stroke (width 0) (type default))
     (uuid 0436407f-2084-4a7e-bfbf-01456be22c9e)
   )
-  (wire (pts (xy 29.21 97.79) (xy 39.37 97.79))
+  (wire (pts (xy 107.95 114.3) (xy 109.22 114.3))
     (stroke (width 0) (type default))
-    (uuid 1272ae49-1960-4605-81ae-47a2474a9ffc)
+    (uuid 07f603ab-9527-44ae-a2fb-7971ba375a81)
   )
-  (wire (pts (xy 57.15 179.07) (xy 66.04 179.07))
+  (wire (pts (xy 22.86 177.8) (xy 34.29 177.8))
     (stroke (width 0) (type default))
-    (uuid 128cc19d-cd04-4683-b470-36fcc9c35c05)
+    (uuid 15a4b6e0-f435-47b4-960c-cd166cd0d740)
   )
   (wire (pts (xy 210.82 16.51) (xy 229.87 16.51))
     (stroke (width 0) (type default))
     (uuid 18caf4aa-9aff-479b-8e40-3124a8f2bc9e)
   )
-  (wire (pts (xy 83.82 35.56) (xy 80.01 35.56))
+  (wire (pts (xy 22.86 182.88) (xy 58.42 182.88))
     (stroke (width 0) (type default))
-    (uuid 289c1c80-863a-4808-a930-41c51b1b0b3d)
+    (uuid 20b72fd1-2de3-4f86-b8f3-cf93795758a7)
+  )
+  (wire (pts (xy 82.55 182.88) (xy 99.06 182.88))
+    (stroke (width 0) (type default))
+    (uuid 22750d18-0783-4735-9b8c-6ac461e92dd6)
   )
   (wire (pts (xy 252.73 16.51) (xy 264.16 16.51))
     (stroke (width 0) (type default))
     (uuid 2b704e54-b7d6-4ab7-8660-a8beb385d374)
   )
-  (wire (pts (xy 44.45 168.91) (xy 44.45 176.53))
+  (wire (pts (xy 54.61 165.1) (xy 54.61 180.34))
     (stroke (width 0) (type default))
     (uuid 313e3264-f6fc-4588-b1ea-802c3520e254)
   )
-  (wire (pts (xy 127 111.76) (xy 125.73 111.76))
+  (wire (pts (xy 110.49 96.52) (xy 109.22 96.52))
     (stroke (width 0) (type default))
     (uuid 31e7ffd6-7808-4303-8a84-6e1adb456dd3)
   )
@@ -2644,9 +2813,17 @@
     (stroke (width 0) (type default))
     (uuid 334c8734-711a-4a2c-b48b-57926b6fd10c)
   )
+  (wire (pts (xy 66.04 182.88) (xy 82.55 182.88))
+    (stroke (width 0) (type default))
+    (uuid 34907dab-cd0f-44b8-8bb9-b8989ae34437)
+  )
   (wire (pts (xy 219.71 154.94) (xy 227.33 154.94))
     (stroke (width 0) (type default))
     (uuid 3778fd2c-5fad-47ad-9816-424a4ef5a369)
+  )
+  (wire (pts (xy 64.77 165.1) (xy 90.17 165.1))
+    (stroke (width 0) (type default))
+    (uuid 3c2a83ba-9c50-4d58-a66a-1e213ba967cf)
   )
   (wire (pts (xy 237.49 45.72) (xy 223.52 45.72))
     (stroke (width 0) (type default))
@@ -2660,27 +2837,19 @@
     (stroke (width 0) (type default))
     (uuid 4b84ab1d-a823-4d1b-ac3d-f0210cebea99)
   )
-  (wire (pts (xy 29.21 87.63) (xy 39.37 87.63))
+  (wire (pts (xy 21.59 107.95) (xy 31.75 107.95))
     (stroke (width 0) (type default))
     (uuid 4cfff74c-70e3-4bb2-a94a-deec9e5209cc)
-  )
-  (wire (pts (xy 27.94 181.61) (xy 33.02 181.61))
-    (stroke (width 0) (type default))
-    (uuid 4ea107c0-4638-4c06-830f-ed2e5d657726)
   )
   (wire (pts (xy 229.87 16.51) (xy 252.73 16.51))
     (stroke (width 0) (type default))
     (uuid 53f268aa-df64-42a6-9f02-ad319178c5d8)
   )
-  (wire (pts (xy 80.01 35.56) (xy 80.01 36.83))
-    (stroke (width 0) (type default))
-    (uuid 5b8fdbab-6e81-47e1-9358-105e6ec8115c)
-  )
   (wire (pts (xy 242.57 146.05) (xy 242.57 154.94))
     (stroke (width 0) (type default))
     (uuid 5e7f3907-9706-4673-b64e-71f9a931b580)
   )
-  (wire (pts (xy 175.26 33.02) (xy 189.23 33.02))
+  (wire (pts (xy 181.61 33.02) (xy 189.23 33.02))
     (stroke (width 0) (type default))
     (uuid 6c433f85-203a-40d0-8759-a61dc7e34cb5)
   )
@@ -2688,7 +2857,7 @@
     (stroke (width 0) (type default))
     (uuid 6fbd7d82-c79b-4707-924a-c4ab71d21396)
   )
-  (wire (pts (xy 91.44 134.62) (xy 91.44 138.43))
+  (wire (pts (xy 74.93 119.38) (xy 74.93 123.19))
     (stroke (width 0) (type default))
     (uuid 7068a27d-12ec-45a8-9ea9-c0d294f1f996)
   )
@@ -2708,17 +2877,25 @@
     (stroke (width 0) (type default))
     (uuid 7df0f2d6-a262-4d4b-81d4-277ac33c038c)
   )
-  (wire (pts (xy 93.98 105.41) (xy 93.98 111.76))
+  (wire (pts (xy 31.75 120.65) (xy 21.59 120.65))
+    (stroke (width 0) (type default))
+    (uuid 80543123-fdb6-4c08-9008-0a79ffa956c3)
+  )
+  (wire (pts (xy 77.47 90.17) (xy 77.47 96.52))
     (stroke (width 0) (type default))
     (uuid 80db0975-1e27-4c34-ac5b-45e5f329fca4)
   )
-  (wire (pts (xy 44.45 176.53) (xy 27.94 176.53))
-    (stroke (width 0) (type default))
-    (uuid 825d59cf-714b-4412-8689-be4a70d26c9f)
-  )
-  (wire (pts (xy 124.46 111.76) (xy 125.73 111.76))
+  (wire (pts (xy 107.95 96.52) (xy 109.22 96.52))
     (stroke (width 0) (type default))
     (uuid 8693998f-1e82-4be3-9b34-502fd1b1df29)
+  )
+  (wire (pts (xy 22.86 175.26) (xy 38.1 175.26))
+    (stroke (width 0) (type default))
+    (uuid 89a1abc6-524a-4c16-aa4c-54c03bd4ec2e)
+  )
+  (wire (pts (xy 90.17 165.1) (xy 104.14 165.1))
+    (stroke (width 0) (type default))
+    (uuid 9973dd39-1388-43ac-85cb-d431be0275cb)
   )
   (wire (pts (xy 220.98 146.05) (xy 219.71 146.05))
     (stroke (width 0) (type default))
@@ -2728,7 +2905,11 @@
     (stroke (width 0) (type default))
     (uuid 9e985488-a2b0-42c2-8735-b50414347903)
   )
-  (wire (pts (xy 125.73 106.68) (xy 125.73 111.76))
+  (wire (pts (xy 82.55 181.61) (xy 82.55 182.88))
+    (stroke (width 0) (type default))
+    (uuid 9efa64e9-751d-4fd9-af10-e5eca6d08548)
+  )
+  (wire (pts (xy 109.22 91.44) (xy 109.22 96.52))
     (stroke (width 0) (type default))
     (uuid 9f3e9c35-30e6-4cbe-a84f-a6775f37913b)
   )
@@ -2736,9 +2917,9 @@
     (stroke (width 0) (type default))
     (uuid a0f184d4-0bc7-4e8c-9778-7e1f468d56e8)
   )
-  (wire (pts (xy 27.94 179.07) (xy 49.53 179.07))
+  (wire (pts (xy 90.17 161.29) (xy 90.17 165.1))
     (stroke (width 0) (type default))
-    (uuid a4acfbe6-18f7-4361-b214-261147468f1c)
+    (uuid a5524acd-cfd7-471c-9194-3e214519c9e8)
   )
   (wire (pts (xy 254 43.18) (xy 250.19 43.18))
     (stroke (width 0) (type default))
@@ -2752,15 +2933,15 @@
     (stroke (width 0) (type default))
     (uuid b0bae328-e235-4eaa-b256-07827896baff)
   )
-  (wire (pts (xy 91.44 111.76) (xy 93.98 111.76))
+  (wire (pts (xy 74.93 96.52) (xy 77.47 96.52))
     (stroke (width 0) (type default))
     (uuid b2ed83ee-4542-4f08-8e97-c54707d58534)
   )
-  (wire (pts (xy 44.45 161.29) (xy 66.04 161.29))
+  (wire (pts (xy 54.61 165.1) (xy 57.15 165.1))
     (stroke (width 0) (type default))
     (uuid b493142c-cfcd-43b9-80c1-6e0d3d502234)
   )
-  (wire (pts (xy 93.98 134.62) (xy 91.44 134.62))
+  (wire (pts (xy 77.47 119.38) (xy 74.93 119.38))
     (stroke (width 0) (type default))
     (uuid bfb73fc4-406d-47fa-bb16-610b5504cb6d)
   )
@@ -2772,7 +2953,7 @@
     (stroke (width 0) (type default))
     (uuid c6db3a69-af68-41b7-8696-40c89b032bac)
   )
-  (wire (pts (xy 66.04 179.07) (xy 90.17 179.07))
+  (wire (pts (xy 99.06 182.88) (xy 111.76 182.88))
     (stroke (width 0) (type default))
     (uuid c963d011-df91-4e73-b18e-e039f4a362a9)
   )
@@ -2784,7 +2965,11 @@
     (stroke (width 0) (type default))
     (uuid d2160f5a-3655-4946-bd8f-0da72e627b2e)
   )
-  (wire (pts (xy 34.29 173.99) (xy 34.29 171.45))
+  (wire (pts (xy 22.86 180.34) (xy 54.61 180.34))
+    (stroke (width 0) (type default))
+    (uuid d4cbd938-c731-415a-be82-5f49c24b701f)
+  )
+  (wire (pts (xy 38.1 175.26) (xy 38.1 172.72))
     (stroke (width 0) (type default))
     (uuid d5c45ad9-f77e-4edd-9e5f-0ed302546429)
   )
@@ -2792,7 +2977,7 @@
     (stroke (width 0) (type default))
     (uuid d9479e80-7a8a-46aa-9833-4ca1578a0217)
   )
-  (wire (pts (xy 151.13 38.1) (xy 153.67 38.1))
+  (wire (pts (xy 157.48 38.1) (xy 160.02 38.1))
     (stroke (width 0) (type default))
     (uuid df8e22be-94d2-4366-ad42-11e2f71dcc0d)
   )
@@ -2816,15 +3001,11 @@
     (stroke (width 0) (type default))
     (uuid ee842ac2-3d46-43c0-914a-dd9d3c1bff7c)
   )
-  (wire (pts (xy 27.94 173.99) (xy 34.29 173.99))
-    (stroke (width 0) (type default))
-    (uuid f65f0a7d-ad78-4a9a-b92c-3bff90dc202e)
-  )
   (wire (pts (xy 237.49 45.72) (xy 237.49 66.04))
     (stroke (width 0) (type default))
     (uuid fa09204b-c8df-4957-af1e-95ed4241ae75)
   )
-  (wire (pts (xy 66.04 161.29) (xy 86.36 161.29))
+  (wire (pts (xy 104.14 165.1) (xy 114.3 165.1))
     (stroke (width 0) (type default))
     (uuid fad3227f-4955-46e9-85f6-fa78aca0c935)
   )
@@ -2832,18 +3013,23 @@
     (stroke (width 0) (type default))
     (uuid fc87b9ad-c110-483b-a362-afc81a7f9871)
   )
-  (wire (pts (xy 29.21 105.41) (xy 39.37 105.41))
-    (stroke (width 0) (type default))
-    (uuid fd4dc6f4-9e67-4b2c-97d2-04d936a8c426)
-  )
 
-  (rectangle (start 41.91 158.75) (end 82.55 193.04)
+  (rectangle (start 53.34 147.32) (end 68.58 196.85)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 8c78c0d1-599c-436b-8baa-09b012a535da)
+  )
+  (rectangle (start 69.85 146.05) (end 129.54 196.85)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid f9439477-0731-4a81-b64c-89500d0be679)
   )
 
-  (text "открытый коллектор" (at 43.18 187.96 0)
+  (text "защита\nот 24В" (at 57.15 193.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 190ad724-0e9f-458d-8813-70f53f99cd5a)
+  )
+  (text "открытый коллектор" (at 106.68 152.4 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d60712bc-6ecc-42c8-a81c-eb7f3b713422)
   )
@@ -2852,7 +3038,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0047a941-9a55-4685-8bf7-a32217c5805e)
   )
-  (label "magnit_signal" (at 86.36 161.29 0) (fields_autoplaced)
+  (label "magnit_signal" (at 114.3 165.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 02945dcd-fb8a-4372-86c9-649cf9ee1a72)
   )
@@ -2864,19 +3050,19 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0ae0e515-4581-4beb-a23c-ed743fc3e4ea)
   )
-  (label "UART_RX" (at 29.21 102.87 0) (fields_autoplaced)
+  (label "UART_RX" (at 21.59 125.73 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 11edcdae-05cb-4c6a-95fe-d25b873bf2ce)
   )
-  (label "NRST" (at 175.26 33.02 180) (fields_autoplaced)
+  (label "NRST" (at 181.61 33.02 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 12e5f7c4-3896-4b5e-b42e-266fc667684a)
   )
-  (label "magnit_signal" (at 93.98 116.84 180) (fields_autoplaced)
+  (label "magnit_signal" (at 77.47 101.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 19dc0d88-8aba-43b0-886f-1a963887cfa7)
   )
-  (label "Catch" (at 93.98 124.46 180) (fields_autoplaced)
+  (label "Catch" (at 77.47 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1da78e2a-e8f2-4724-b8cd-d8f0a144ac76)
   )
@@ -2884,7 +3070,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2028b71a-9763-4b9d-af28-2e1560559046)
   )
-  (label "ON{slash}OFF magnet" (at 93.98 129.54 180) (fields_autoplaced)
+  (label "RX_USART_1" (at 21.59 92.71 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 20e0ffb4-49cd-4f9f-ad24-e5507d0a4225)
+  )
+  (label "ON{slash}OFF magnet" (at 77.47 114.3 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 24c3be36-5272-4323-9540-100360229e89)
   )
@@ -2896,7 +3086,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2b5a6865-8d80-4017-9422-bc9ff4cc56e1)
   )
-  (label "Uncatch" (at 93.98 127 180) (fields_autoplaced)
+  (label "Uncatch" (at 77.47 111.76 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2e8e8645-ed72-4998-8472-0424a7178c44)
   )
@@ -2908,15 +3098,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 341e35cd-34a3-45a9-afb6-8b45210d8346)
   )
-  (label "A" (at 27.94 161.29 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3d5fd99a-89da-4632-9457-d21a620cb820)
-  )
-  (label "GPIO1" (at 29.21 107.95 0) (fields_autoplaced)
+  (label "GPIO1" (at 21.59 128.27 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4ec2171e-bc70-403f-befd-7996048545fc)
   )
-  (label "UART_TX" (at 29.21 100.33 0) (fields_autoplaced)
+  (label "TX_USART_1" (at 21.59 97.79 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5612df5f-b3af-4d31-a80c-a334891fd375)
+  )
+  (label "UART_TX" (at 21.59 123.19 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 56ad2e16-9e5f-4973-b68f-5ff315a88b5c)
   )
@@ -2928,15 +3118,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5ce1cbdc-4e5c-4aa1-b09b-da71978684db)
   )
-  (label "RX_USART_1" (at 83.82 22.86 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 5e48ab22-902e-46d9-a10c-9f9203ac287b)
-  )
-  (label "B" (at 27.94 158.75 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6063858e-722a-4929-9c6c-396ebe1af4e1)
-  )
-  (label "Contact-" (at 27.94 140.97 0) (fields_autoplaced)
+  (label "Contact-" (at 21.59 156.21 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 620a7131-f030-41b3-8a0d-28d60eb2f116)
   )
@@ -2944,15 +3126,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 65c52f87-00fa-485a-8574-fad63f4a59c6)
   )
-  (label "B" (at 105.41 25.4 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 667b3587-f505-4a70-ba9a-4b7175d8bbfc)
-  )
-  (label "Magnit-" (at 27.94 125.73 0) (fields_autoplaced)
+  (label "Magnit-" (at 21.59 144.78 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a81a902-8ad0-4055-8b22-e646ea2ba576)
   )
-  (label "SWDIO" (at 29.21 90.17 0) (fields_autoplaced)
+  (label "SWDIO" (at 21.59 113.03 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e3d841d-128c-4786-9367-60b7023d47ce)
   )
@@ -2968,7 +3146,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 74a7024a-b38a-469a-87da-492a7b4adf71)
   )
-  (label "SWCLK" (at 29.21 92.71 0) (fields_autoplaced)
+  (label "SWCLK" (at 21.59 115.57 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 81d2940e-61c1-443c-b56a-e5712a48a877)
   )
@@ -2976,11 +3154,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 87cabfc2-0f27-441c-a828-589756f403e1)
   )
-  (label "GPIO2" (at 29.21 110.49 0) (fields_autoplaced)
+  (label "GPIO2" (at 21.59 130.81 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 881e199f-7f8e-4d3d-9376-88ee4acc4c10)
   )
-  (label "Contact+" (at 27.94 138.43 0) (fields_autoplaced)
+  (label "Contact+" (at 21.59 153.67 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8880a5f2-cba3-4d55-b6ff-380645386f7d)
   )
@@ -2988,7 +3166,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8be2e31a-7894-46b3-8b19-b4ebeb774dc7)
   )
-  (label "gripper_signal" (at 90.17 179.07 0) (fields_autoplaced)
+  (label "DE_USART_1" (at 21.59 95.25 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8ced9110-559b-4cb7-a52d-41b3ae187bed)
+  )
+  (label "gripper_signal" (at 111.76 182.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8d6a1e94-b544-4941-8c3e-270157809c6f)
   )
@@ -2996,13 +3178,9 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 90279b9e-4815-402a-8450-462a604d9ec3)
   )
-  (label "magnit_signal_contr" (at 124.46 116.84 0) (fields_autoplaced)
+  (label "magnit_signal_contr" (at 107.95 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 970d3c08-1e34-40be-8744-74871fb27ad6)
-  )
-  (label "A" (at 105.41 22.86 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9a3020d5-3b7a-4e9d-82df-174e242c9e53)
   )
   (label "Contakt_signal_contr" (at 223.52 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3012,7 +3190,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9e7ef9bf-70f3-4a07-9c1a-f1588483a7f4)
   )
-  (label "Motor-" (at 27.94 146.05 0) (fields_autoplaced)
+  (label "Motor-" (at 21.59 161.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a020317f-e4f9-4edb-975d-b6c6cbf44587)
   )
@@ -3020,7 +3198,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a2485002-0843-4fcd-b940-9abe4a96811a)
   )
-  (label "Contakt_signal" (at 93.98 121.92 180) (fields_autoplaced)
+  (label "Contakt_signal" (at 77.47 106.68 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a9fa6c43-b159-47be-94ef-251f170deb37)
   )
@@ -3032,13 +3210,9 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b5fa53b6-3442-41f4-b05e-13c630552e48)
   )
-  (label "gripper_signal_contr" (at 124.46 119.38 0) (fields_autoplaced)
+  (label "gripper_signal_contr" (at 107.95 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b75d3452-0a3d-459c-8648-266ee212f43d)
-  )
-  (label "DE_USART_1" (at 83.82 25.4 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid bba66484-c69f-4314-9a9e-f5709b9cd641)
   )
   (label "Magnit+" (at 58.42 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3048,7 +3222,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid bd0fbbc8-56ef-4d21-b0ad-abc62cabbede)
   )
-  (label "Magnit+" (at 27.94 123.19 0) (fields_autoplaced)
+  (label "Magnit+" (at 21.59 142.24 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid be26d591-c2b5-4838-a728-758adec6abc3)
   )
@@ -3056,19 +3230,19 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bf6569cc-d71b-493c-a901-fab339dbc5f4)
   )
-  (label "NRST" (at 29.21 95.25 0) (fields_autoplaced)
+  (label "NRST" (at 21.59 118.11 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c168e0e9-ed1a-4845-a915-487cd10bb1b8)
   )
-  (label "ON{slash}OFF magnet_contr" (at 124.46 129.54 0) (fields_autoplaced)
+  (label "ON{slash}OFF magnet_contr" (at 109.22 114.3 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5afbed1-e576-45ff-8241-cdab6e66e9fc)
   )
-  (label "Uncatch_contr" (at 124.46 127 0) (fields_autoplaced)
+  (label "Uncatch_contr" (at 107.95 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cdc7d13f-447f-4b51-b0c6-9c40c1285f8b)
   )
-  (label "Catch_contr" (at 124.46 124.46 0) (fields_autoplaced)
+  (label "Catch_contr" (at 107.95 109.22 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cf693b37-6146-4e8a-a510-435d6e3f16be)
   )
@@ -3076,15 +3250,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d16dc2eb-22f5-4e3a-91ff-359b0f448856)
   )
-  (label "TX_USART_1" (at 83.82 27.94 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d9809ab7-f2b0-4054-be40-2ec1333ef5fe)
-  )
   (label "GPIO2" (at 193.04 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid da636391-b956-4d62-972f-6ee1d244f42f)
   )
-  (label "gripper_signal" (at 93.98 119.38 180) (fields_autoplaced)
+  (label "gripper_signal" (at 77.47 104.14 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e44c3515-0c75-4f4e-9bc1-625341e110d4)
   )
@@ -3092,11 +3262,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ea046573-2d66-40b3-84f3-1237164acb23)
   )
-  (label "Contakt_signal_contr" (at 124.46 121.92 0) (fields_autoplaced)
+  (label "Contakt_signal_contr" (at 107.95 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ecb24f67-b0ac-46dc-9bf0-ae66689763b8)
   )
-  (label "Motor+" (at 27.94 143.51 0) (fields_autoplaced)
+  (label "Motor+" (at 21.59 158.75 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ef407476-c880-4e18-a325-6022ece9401f)
   )
@@ -3126,7 +3296,7 @@
     )
     (pin "1" (uuid 762355cf-2822-4d24-ac73-905b12aadfd4))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "#PWR025") (unit 1)
         )
@@ -3159,7 +3329,7 @@
           (reference "#PWR04") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR03") (unit 1)
         )
@@ -3177,19 +3347,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 125.73 102.87 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 109.22 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0558cc99-c305-4ceb-b398-4148c8446476)
-    (property "Reference" "C3" (at 129.54 101.6 0)
+    (property "Reference" "C3" (at 113.03 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 100V 0603" (at 129.54 104.14 0)
+    (property "Value" "0,1uF 100V 0603" (at 113.03 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 126.6952 106.68 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 110.1852 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 125.73 102.87 0)
+    (property "Datasheet" "~" (at 109.22 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8f9f9e19-a799-4a41-94b0-55db93a01f5e))
@@ -3200,7 +3370,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C8") (unit 1)
         )
@@ -3218,24 +3388,24 @@
     )
   )
 
-  (symbol (lib_name "+24V_1") (lib_id "power:+24V") (at 34.29 171.45 0) (unit 1)
+  (symbol (lib_name "+24V_1") (lib_id "power:+24V") (at 38.1 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05b86172-428d-4c97-b478-42be4f654d0e)
-    (property "Reference" "#PWR025" (at 34.29 175.26 0)
+    (property "Reference" "#PWR025" (at 38.1 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+24V" (at 34.29 166.37 0)
+    (property "Value" "+24V" (at 38.1 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 34.29 171.45 0)
+    (property "Footprint" "" (at 38.1 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 34.29 171.45 0)
+    (property "Datasheet" "" (at 38.1 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f8b73fcf-4179-498a-ab55-108722c3d104))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "#PWR025") (unit 1)
         )
@@ -3269,7 +3439,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
@@ -3282,46 +3452,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 83.82 33.02 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 07247de9-dbff-441e-afd1-9ab98a961c4e)
-    (property "Reference" "#PWR01" (at 87.63 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 80.01 33.02 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 83.82 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 83.82 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0bacbecc-4082-4b8f-b915-c34be7256b4d))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "Плата управления Культи"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-      (project "Плата QR"
-        (path "/5de11a73-9d1a-46ee-891f-a56220952d72"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3344,9 +3474,33 @@
     )
     (pin "1" (uuid e8c07524-34fc-4222-9078-d251d8daec53))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 149.86 176.53 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0e4d7a20-e8bb-4b55-8f11-4bc141605e92)
+    (property "Reference" "H2" (at 152.4 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 152.4 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 149.86 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 149.86 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -3361,7 +3515,7 @@
     (property "Value" "0603-150 Ом±5%-0,0625 Вт" (at 267.97 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_4ms_Resistor:R_0603" (at 266.7 62.738 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 266.7 62.738 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.7 60.96 0)
@@ -3375,7 +3529,7 @@
           (reference "R4") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "R2") (unit 1)
         )
@@ -3415,7 +3569,7 @@
           (reference "#PWR011") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR013") (unit 1)
         )
@@ -3450,7 +3604,7 @@
     )
     (pin "1" (uuid 3bd4e9fd-1eb5-4579-9d6b-26201888b822))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "#PWR025") (unit 1)
         )
@@ -3461,19 +3615,19 @@
     )
   )
 
-  (symbol (lib_id "power:GNDD") (at 153.67 45.72 0) (unit 1)
+  (symbol (lib_id "power:GNDD") (at 160.02 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16c5f15c-9095-4da3-9689-c63311366474)
-    (property "Reference" "#PWR010" (at 153.67 52.07 0)
+    (property "Reference" "#PWR010" (at 160.02 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDD" (at 153.67 49.53 0)
+    (property "Value" "GNDD" (at 160.02 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 153.67 45.72 0)
+    (property "Footprint" "" (at 160.02 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 153.67 45.72 0)
+    (property "Datasheet" "" (at 160.02 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bd953cb4-116a-4a74-9c0a-8d624081df4b))
@@ -3483,7 +3637,7 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR012") (unit 1)
         )
@@ -3525,7 +3679,7 @@
           (reference "Q1") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "Q1") (unit 1)
         )
@@ -3543,24 +3697,24 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 66.04 186.69 0) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 99.06 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17e3c909-9f2f-4fd2-8347-20fe9f531434)
-    (property "Reference" "#PWR045" (at 66.04 193.04 0)
+    (property "Reference" "#PWR045" (at 99.06 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 66.04 191.77 0)
+    (property "Value" "GND" (at 99.06 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 66.04 186.69 0)
+    (property "Footprint" "" (at 99.06 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 66.04 186.69 0)
+    (property "Datasheet" "" (at 99.06 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6dd8a1f0-cc61-4e2a-bbf7-2c6c7f943903))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR045") (unit 1)
         )
@@ -3596,7 +3750,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR01") (unit 1)
         )
@@ -3638,7 +3792,7 @@
           (reference "Q2") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "Q2") (unit 1)
         )
@@ -3651,55 +3805,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "Q5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 22.86 161.29 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1fced648-23e6-4eb3-b997-667814c4fbdd)
-    (property "Reference" "J11" (at 19.05 151.13 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "DS-1031-01 - 1x2 (rs485)" (at 13.97 154.94 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (at 22.86 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 22.86 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b0631826-7e70-41bd-8a28-90fc4b74010c))
-    (pin "2" (uuid 46ab148d-69bd-4139-83ba-faeadd4cccb9))
-    (instances
-      (project "ПА и коммутации"
-        (path "/01ec6d4e-01f6-4418-8d0d-9a096b2f6fe1/241e52ac-0c69-469d-a24a-91effe2338b5/4ff6c499-209e-4211-8846-0435770cf970"
-          (reference "J11") (unit 1)
-        )
-      )
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
-          (reference "J1") (unit 1)
-        )
-      )
-      (project "Плата управления Культи"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "J9") (unit 1)
-        )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "J4") (unit 1)
-        )
-      )
-      (project "ИБП"
-        (path "/7f9c4bef-f4d3-43c4-a705-13842880c98b/1611fad4-4804-4f3c-93d6-d31c4fe12484/4ff6c499-209e-4211-8846-0435770cf970"
-          (reference "J10") (unit 1)
-        )
-      )
-      (project "CommonControl"
-        (path "/a9e9e342-f9db-4619-97dc-0478dd4d5ea3/4ff6c499-209e-4211-8846-0435770cf970"
-          (reference "J11") (unit 1)
         )
       )
     )
@@ -3722,7 +3827,7 @@
     )
     (pin "1" (uuid 9422cead-be3b-476c-bc7e-b32bd6bbde1c))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR019") (unit 1)
         )
@@ -3758,7 +3863,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR011") (unit 1)
         )
@@ -3794,7 +3899,7 @@
     (pin "1" (uuid 3e439692-c230-4638-8fd4-70d8520a933e))
     (pin "2" (uuid 91ac72a2-647a-4f92-8d3c-c198215b5a90))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C11") (unit 1)
         )
@@ -3829,7 +3934,7 @@
           (reference "#PWR014") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR017") (unit 1)
         )
@@ -3847,25 +3952,84 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 44.45 165.1 0) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 90.17 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 44ba0a7f-bb4b-450c-abcd-20d3b70c49fd)
-    (property "Reference" "R3" (at 46.99 163.83 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1.6k 0805" (at 46.99 166.37 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric" (at 42.672 165.1 90)
+    (uuid 3e505e6b-64ef-49fa-bfba-b54684b5ebb0)
+    (property "Reference" "#PWR054" (at 90.17 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 44.45 165.1 0)
+    (property "Value" "GND" (at 90.17 177.8 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 62eeb4bd-ca98-4b3e-98b6-0c5f5005e600))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "#PWR054") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "+24V_1") (lib_id "power:+24V") (at 82.55 173.99 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3f55a229-531b-4c00-b91e-5b3cff1c3ad6)
+    (property "Reference" "#PWR025" (at 82.55 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+24V" (at 82.55 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 82.55 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 82.55 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 790c2f55-870b-49f7-b07d-7fbb2395a636))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
+          (reference "#PWR025") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 90.17 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 44ba0a7f-bb4b-450c-abcd-20d3b70c49fd)
+    (property "Reference" "R3" (at 92.71 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "24k 0603" (at 92.71 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 88.392 157.48 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 90.17 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fc0b6070-aa0a-4c4b-8adb-2626e0c075d2))
     (pin "2" (uuid 611bb953-eda2-4d21-a163-7f4e4d296b24))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "R3") (unit 1)
         )
@@ -3890,7 +4054,7 @@
     )
     (pin "1" (uuid 7e9189b9-396a-4214-96bf-885d06077c6a))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "#PWR025") (unit 1)
         )
@@ -3924,7 +4088,7 @@
           (reference "D2") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "D2") (unit 1)
         )
@@ -3942,19 +4106,45 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 151.13 38.1 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 90.17 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4f4c005b-1f8b-4095-bf98-d4ea0829e104)
-    (property "Reference" "#PWR09" (at 154.94 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 147.32 38.1 90)
+    (uuid 4ee162e0-8bbe-4599-a376-1a218eee68ae)
+    (property "Reference" "R16" (at 92.71 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 151.13 38.1 0)
+    (property "Value" "3.6k 0603" (at 92.71 170.18 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 88.392 168.91 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 151.13 38.1 0)
+    (property "Datasheet" "~" (at 90.17 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ea952a68-f7ca-4916-b787-4450e96d21fa))
+    (pin "2" (uuid 1e8c5abe-4fb3-4af9-8ab4-420aa899746b))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "R16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 157.48 38.1 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4f4c005b-1f8b-4095-bf98-d4ea0829e104)
+    (property "Reference" "#PWR09" (at 161.29 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 153.67 38.1 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 157.48 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 157.48 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0fff9aee-fcd4-488c-9f01-01b140716feb))
@@ -3964,7 +4154,7 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR010") (unit 1)
         )
@@ -3983,12 +4173,12 @@
   )
 
   (symbol (lib_id "Device:C") (at 189.23 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fb72506-c12b-40aa-871c-a049ce447833)
     (property "Reference" "C3" (at 193.04 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 100V 0603" (at 193.04 29.21 0)
+    (property "Value" "0,1uF 100V 0603" (at 170.18 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 190.1952 31.75 0)
@@ -4005,7 +4195,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C3") (unit 1)
         )
@@ -4023,19 +4213,19 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x04_Pin") (at 22.86 140.97 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x04_Pin") (at 16.51 156.21 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 5b0ec71b-b994-440f-a97f-152919e76758)
-    (property "Reference" "J6" (at 23.495 133.35 0)
+    (property "Reference" "J6" (at 17.145 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Control" (at 23.495 135.89 0)
+    (property "Value" "Control" (at 17.145 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm" (at 22.86 140.97 0)
+    (property "Footprint" "Connector:PAD_1.5x2mm_4" (at 16.51 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 22.86 140.97 0)
+    (property "Datasheet" "~" (at 16.51 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "3" (uuid 4e9c1670-6277-4da3-8222-82c62d1cb3ad))
@@ -4043,7 +4233,7 @@
     (pin "1" (uuid 2e491d69-74b6-4864-abe1-de8341eb3cce))
     (pin "2" (uuid 1c53bc54-d869-484d-a079-36f325a2d813))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "J6") (unit 1)
         )
@@ -4074,7 +4264,7 @@
     (pin "3" (uuid a74e5e8c-eb8a-4aab-a63a-12dc3ae0a3a8))
     (pin "4" (uuid 002fc423-7c5d-40af-a991-a726114dfd27))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "Y1") (unit 1)
         )
@@ -4105,7 +4295,7 @@
     (pin "1" (uuid 56d33072-53ae-4ef7-94a9-afdbee6835de))
     (pin "2" (uuid 9834d28f-a4ba-4dc8-ab8b-1cd20eaeba21))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C12") (unit 1)
         )
@@ -4118,24 +4308,24 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:+3.3VA") (at 91.44 111.76 90) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:+3.3VA") (at 74.93 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d067657-ee38-420e-a005-320395b0f3b7)
-    (property "Reference" "#PWR030" (at 92.71 107.95 0)
+    (property "Reference" "#PWR030" (at 76.2 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3VA" (at 87.63 111.76 90)
+    (property "Value" "+3.3VA" (at 71.12 96.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 91.44 111.76 0)
+    (property "Footprint" "" (at 74.93 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Datasheet" "" (at 91.44 111.76 0)
+    (property "Datasheet" "" (at 74.93 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 149eade6-124c-4311-ab55-819e99606642))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR030") (unit 1)
         )
@@ -4228,7 +4418,7 @@
           (reference "U3") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "U1") (unit 1)
         )
@@ -4264,7 +4454,7 @@
     (pin "1" (uuid 7cb0dfa8-2309-4af4-8ac2-a04658e629b6))
     (pin "2" (uuid 21caeb08-d965-4cd8-ad1c-2bfadfdedc81))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C10") (unit 1)
         )
@@ -4272,6 +4462,30 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 138.43 176.53 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6c1cc3db-6595-42af-8cbe-efc751b3974d)
+    (property "Reference" "H1" (at 140.97 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 140.97 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 138.43 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 138.43 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -4294,7 +4508,7 @@
     )
     (pin "1" (uuid 8f8ce2ca-08bf-41ed-983f-56aabd8844aa))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR038") (unit 1)
         )
@@ -4326,7 +4540,7 @@
     (pin "1" (uuid 5ecc580e-766e-48f5-b8aa-9296ea700fdd))
     (pin "2" (uuid e10a60c9-d4f5-4f74-8d18-003025d16594))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C2") (unit 1)
         )
@@ -4339,19 +4553,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 93.98 101.6 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 77.47 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a23d2e4-7f52-4a95-b87d-61de8400180b)
-    (property "Reference" "C3" (at 97.79 100.33 0)
+    (property "Reference" "C3" (at 81.28 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 100V 0603" (at 97.79 102.87 0)
+    (property "Value" "0,1uF 100V 0603" (at 81.28 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 94.9452 105.41 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 78.4352 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 93.98 101.6 0)
+    (property "Datasheet" "~" (at 77.47 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cbaa811a-8b64-43a8-a684-dfaab0da4851))
@@ -4362,7 +4576,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C7") (unit 1)
         )
@@ -4375,36 +4589,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDD") (at 80.01 36.83 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7e619768-3930-4316-9f65-c97cf7df5202)
-    (property "Reference" "#PWR08" (at 80.01 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDD" (at 80.01 40.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 80.01 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 80.01 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e0f4780a-f06c-40b3-a40e-849ac0b1580d))
-    (instances
-      (project "Плата управления Культи"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -4427,7 +4611,7 @@
     )
     (pin "1" (uuid 5280f025-32d5-45a2-9b28-6bf9277d1594))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR09") (unit 1)
         )
@@ -4459,7 +4643,7 @@
     (pin "1" (uuid 74040b19-4245-464c-9cf7-880077c58c59))
     (pin "2" (uuid a72e8b32-ff2b-4337-a569-7b6c2d6860b3))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "L1") (unit 1)
         )
@@ -4490,7 +4674,7 @@
     (pin "1" (uuid eac1ef61-f05f-4d5c-aa7a-4f8858f150c1))
     (pin "2" (uuid c57f6af4-a37a-4cb9-8656-b84aadc1f4cf))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C5") (unit 1)
         )
@@ -4520,7 +4704,7 @@
     )
     (pin "1" (uuid 886fe9cd-6a19-4fca-8320-0c5c04368d24))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR018") (unit 1)
         )
@@ -4534,25 +4718,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 53.34 179.07 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:R") (at 82.55 177.8 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 91aed0e4-7eb9-4529-860c-e22465017ed7)
-    (property "Reference" "R4" (at 53.34 172.72 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "R4" (at 74.93 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1.6k 0805" (at 53.34 175.26 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "24k 0603" (at 71.12 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric" (at 53.34 180.848 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 84.328 177.8 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 53.34 179.07 0)
+    (property "Datasheet" "~" (at 82.55 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 331b1515-7b78-49e0-9563-af300652f72e))
     (pin "2" (uuid 8a54e822-61bb-4cca-b95b-4b01a221842c))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "R4") (unit 1)
         )
@@ -4577,7 +4761,7 @@
     )
     (pin "1" (uuid 95cab575-8b02-4cf4-a30b-cf1755182376))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR039") (unit 1)
         )
@@ -4590,25 +4774,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:BZV55B3V3") (at 66.04 182.88 270) (unit 1)
+  (symbol (lib_id "Diode:BZV55B3V3") (at 99.06 186.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96cd78eb-d4e2-49f4-833e-71fbd7dfec1e)
-    (property "Reference" "D4" (at 68.58 181.61 90)
+    (property "Reference" "D4" (at 101.6 185.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BZV55B3V3" (at 68.58 184.15 90)
+    (property "Value" "BZV55B3V3" (at 101.6 187.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 61.595 182.88 0)
+    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 94.615 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" (at 66.04 182.88 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" (at 99.06 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 879cd01d-90ad-45af-b44f-5b636f94e9c3))
     (pin "2" (uuid cfdb2004-5b33-4670-bf15-866d39073920))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "D4") (unit 1)
         )
@@ -4638,7 +4822,7 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR04") (unit 1)
         )
@@ -4656,19 +4840,50 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Socket") (at 22.86 125.73 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a405a2be-031e-4ae1-b1ed-8a8445e3b8df)
-    (property "Reference" "J11" (at 26.67 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Magnit" (at 29.21 119.38 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm" (at 22.86 125.73 0)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 82.55 190.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9bb744c3-e87a-4ee0-a703-477bfea1c7a4)
+    (property "Reference" "#PWR055" (at 82.55 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 22.86 125.73 0)
+    (property "Value" "GND" (at 82.55 195.58 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 82.55 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 82.55 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 90f6b896-68b9-4679-be8c-538163f2f50e))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "#PWR055") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Socket") (at 16.51 144.78 180) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid a405a2be-031e-4ae1-b1ed-8a8445e3b8df)
+    (property "Reference" "J11" (at 20.32 134.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Magnit" (at 22.86 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector:PAD_1.5x2mm_2" (at 16.51 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 16.51 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9b270fc6-2df6-40d7-8bc2-0fa403ac5f18))
@@ -4684,10 +4899,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "Плата управления Культи"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "J9") (unit 1)
-        )
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "J2") (unit 1)
         )
@@ -4714,7 +4926,7 @@
     (property "Value" "0603-150 Ом±5%-0,0625 Вт" (at 266.7 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_4ms_Resistor:R_0603" (at 265.43 44.958 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 265.43 44.958 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 265.43 43.18 0)
@@ -4728,7 +4940,7 @@
           (reference "R4") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "R1") (unit 1)
         )
@@ -4741,6 +4953,34 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "+24V_1") (lib_id "power:+24V") (at 90.17 153.67 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a904dd9d-c2de-4f07-bc37-e1944ed4d49d)
+    (property "Reference" "#PWR025" (at 90.17 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+24V" (at 90.17 148.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 76639d49-4dbc-47d8-a7e3-58dd57862070))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
+          (reference "#PWR025") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -4764,7 +5004,7 @@
     (pin "1" (uuid 6059c37f-8d2c-403a-8c8a-92796c0bbe08))
     (pin "2" (uuid 3e907070-3efb-4389-a49b-a5dfb2a01904))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C9") (unit 1)
         )
@@ -4777,25 +5017,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:BZV55B3V3") (at 66.04 165.1 270) (unit 1)
+  (symbol (lib_id "Diode:BZV55B3V3") (at 104.14 168.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad27c7ab-791f-4a27-9b80-4406218d0981)
-    (property "Reference" "D3" (at 68.58 163.83 90)
+    (property "Reference" "D3" (at 106.68 167.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BZV55B3V3" (at 68.58 166.37 90)
+    (property "Value" "BZV55B3V3" (at 106.68 170.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 61.595 165.1 0)
+    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 99.695 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" (at 66.04 165.1 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" (at 104.14 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 34b7a0d0-3f07-4d9f-8321-f370cb0f16ab))
     (pin "2" (uuid 28048039-aef2-40e8-8f35-880d39d27cee))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "D3") (unit 1)
         )
@@ -4803,19 +5043,71 @@
     )
   )
 
-  (symbol (lib_id "power:GNDD") (at 39.37 97.79 90) (unit 1)
+  (symbol (lib_id "PCM_Diode_Schottky_AKL:1PS79SB30") (at 62.23 182.88 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b084b2e9-0c06-42c0-8bbb-767d4b66397f)
+    (property "Reference" "D10" (at 61.9125 176.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1PS79SB30" (at 61.9125 179.07 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 62.23 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.tme.eu/Document/b834b7aafe3a6b0253cfd236312b91c0/1PS79SB30.pdf" (at 62.23 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 9078e625-013c-4398-b714-48fca20d577b))
+    (pin "1" (uuid b2766fa7-642b-40d8-8507-2cc2339881e7))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "D10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Fuse") (at 38.1 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b2802881-5898-48c5-a98b-dde0abc6a381)
+    (property "Reference" "F1" (at 40.64 167.64 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "045201.5MRL" (at 40.64 170.18 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453" (at 36.322 168.91 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 38.1 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid afe9c2b9-9d1f-4781-8ec4-ebee8a5d9c74))
+    (pin "1" (uuid 02dafa4b-7902-48c0-9077-cca4d3ff1aeb))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "F1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 31.75 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2ee70ee-f41e-4011-a309-69f95539f300)
-    (property "Reference" "#PWR023" (at 45.72 97.79 0)
+    (property "Reference" "#PWR023" (at 38.1 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDD" (at 43.18 97.79 90)
+    (property "Value" "GNDD" (at 35.56 120.65 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 39.37 97.79 0)
+    (property "Footprint" "" (at 31.75 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 39.37 97.79 0)
+    (property "Datasheet" "" (at 31.75 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49d29996-ecfc-46fc-b37f-e01ea1c3ca74))
@@ -4825,7 +5117,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR026") (unit 1)
         )
@@ -4870,7 +5162,7 @@
           (reference "#PWR024") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR032") (unit 1)
         )
@@ -4905,7 +5197,7 @@
     )
     (pin "1" (uuid fb21d5d5-89b1-4cfa-9fa0-338a52cc32af))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR037") (unit 1)
         )
@@ -4919,46 +5211,28 @@
     )
   )
 
-  (symbol (lib_id "power:GNDD") (at 39.37 105.41 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ba24fe1a-1074-4797-aa1e-68c7559abfae)
-    (property "Reference" "#PWR023" (at 45.72 105.41 0)
+  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 16.51 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid babd734b-ba5c-4fe8-a544-e9c1274108f0)
+    (property "Reference" "J6" (at 17.78 86.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "DS1031-01-1х03 (PLL - 1х3) (rs485)" (at 33.02 88.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" (at 16.51 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDD" (at 43.18 105.41 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 39.37 105.41 0)
+    (property "Datasheet" "~" (at 16.51 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 39.37 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4cddd034-5194-4672-ab83-f90e26431ecd))
+    (pin "2" (uuid c8203db9-ff92-4d0f-b017-ea9a6cef7c92))
+    (pin "1" (uuid 9ccba6f0-2474-46b8-a7c6-52758fc67a32))
+    (pin "3" (uuid 3abab8c5-9683-4c86-892f-6d387787dc3f))
     (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR029") (unit 1)
-        )
-      )
-      (project "Плата QR"
-        (path "/5de11a73-9d1a-46ee-891f-a56220952d72"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR0103") (unit 1)
-        )
-      )
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR022") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -4981,7 +5255,7 @@
     )
     (pin "1" (uuid 9a90ba05-1dab-4cac-877c-4c902ce59d54))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR022") (unit 1)
         )
@@ -5012,7 +5286,7 @@
     (pin "1" (uuid be32b7b8-1730-413d-a735-f6bd29539805))
     (pin "2" (uuid 0a3cd7eb-ca33-487d-9346-53a355153ee3))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C6") (unit 1)
         )
@@ -5042,7 +5316,7 @@
     )
     (pin "1" (uuid 64e5e209-9ff5-4876-8941-5a0a338bec29))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR040") (unit 1)
         )
@@ -5056,24 +5330,24 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 91.44 138.43 0) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 74.93 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c972d0ff-2049-4c39-a577-9cd257a61b6b)
-    (property "Reference" "#PWR034" (at 91.44 144.78 0)
+    (property "Reference" "#PWR034" (at 74.93 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 91.44 143.51 0)
+    (property "Value" "GND" (at 74.93 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 91.44 138.43 0)
+    (property "Footprint" "" (at 74.93 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 91.44 138.43 0)
+    (property "Datasheet" "" (at 74.93 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49493528-095e-4792-bfa2-7a940dcc0302))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR034") (unit 1)
         )
@@ -5087,24 +5361,50 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 66.04 168.91 0) (unit 1)
+  (symbol (lib_id "PCM_Diode_Schottky_AKL:1PS79SB30") (at 60.96 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cca0cabb-0666-4fc4-8bb5-2b6cf0acc831)
-    (property "Reference" "#PWR042" (at 66.04 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 66.04 173.99 0)
+    (uuid cb9932a7-e632-4070-95c2-a2e92db7d729)
+    (property "Reference" "D9" (at 60.6425 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 66.04 168.91 0)
+    (property "Value" "1PS79SB30" (at 60.6425 161.29 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 60.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 66.04 168.91 0)
+    (property "Datasheet" "https://www.tme.eu/Document/b834b7aafe3a6b0253cfd236312b91c0/1PS79SB30.pdf" (at 60.96 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 9fcf14e7-196d-4c5c-8c99-d05fcf5ab91a))
+    (pin "1" (uuid 0cd9f39a-437d-429d-9d5a-e66211e6d428))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "D9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 104.14 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cca0cabb-0666-4fc4-8bb5-2b6cf0acc831)
+    (property "Reference" "#PWR042" (at 104.14 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 104.14 177.8 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 104.14 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 104.14 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 522769dc-0146-41e8-947e-b88ce2bf7d65))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR042") (unit 1)
         )
@@ -5118,19 +5418,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 153.67 41.91 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 160.02 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d16f901a-e49c-48d7-af5e-25a17f1bcc0b)
-    (property "Reference" "C3" (at 157.48 40.64 0)
+    (property "Reference" "C3" (at 163.83 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 100V 0603" (at 157.48 43.18 0)
+    (property "Value" "0,1uF 100V 0603" (at 163.83 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 154.6352 45.72 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 160.9852 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 153.67 41.91 0)
+    (property "Datasheet" "~" (at 160.02 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 18b6355a-630b-4a42-a650-c09d05b1f4cd))
@@ -5141,7 +5441,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C4") (unit 1)
         )
@@ -5159,24 +5459,48 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 33.02 181.61 90) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 161.29 176.53 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d1e4cfcf-c938-47d0-b43b-5b68001e6c67)
+    (property "Reference" "H3" (at 163.83 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 163.83 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 161.29 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 161.29 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 34.29 177.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d310a8e4-70bd-425a-8ba1-4c70d9ffd09e)
-    (property "Reference" "#PWR044" (at 39.37 181.61 0)
+    (property "Reference" "#PWR044" (at 40.64 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 36.83 181.61 90)
+    (property "Value" "GND" (at 38.1 177.8 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 33.02 181.61 0)
+    (property "Footprint" "" (at 34.29 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 33.02 181.61 0)
+    (property "Datasheet" "" (at 34.29 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a7c59057-ec52-4921-b143-fecf2dd9667f))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR044") (unit 1)
         )
@@ -5190,19 +5514,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 127 111.76 270) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 110.49 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6a412a6-284d-4dcc-a555-348f2d2a2921)
-    (property "Reference" "#PWR01" (at 123.19 111.76 0)
+    (property "Reference" "#PWR01" (at 106.68 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 130.81 111.76 90)
+    (property "Value" "+3V3" (at 114.3 96.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 127 111.76 0)
+    (property "Footprint" "" (at 110.49 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 127 111.76 0)
+    (property "Datasheet" "" (at 110.49 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f96683da-63f1-46a0-a089-e2b23eab8d67))
@@ -5212,7 +5536,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR031") (unit 1)
         )
@@ -5250,7 +5574,7 @@
     (pin "1" (uuid 74cc38a9-f22d-4aa7-80c3-b2f82d5972b1))
     (pin "4" (uuid 10e7000c-9acb-42c3-94c0-d4844e0790eb))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "U3") (unit 1)
         )
@@ -5285,7 +5609,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR036") (unit 1)
         )
@@ -5298,6 +5622,30 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 170.18 176.53 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid db1a0b14-67aa-48a8-90e2-b8418f9eb164)
+    (property "Reference" "H4" (at 172.72 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 172.72 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 170.18 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 170.18 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -5320,7 +5668,7 @@
     )
     (pin "1" (uuid dc64f275-977b-4135-ac51-e00e403cae81))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR07") (unit 1)
         )
@@ -5350,7 +5698,7 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR05") (unit 1)
         )
@@ -5368,19 +5716,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 39.37 87.63 270) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 31.75 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5590a11-7bb3-4b2d-8f4f-fe9c8fd5f394)
-    (property "Reference" "#PWR022" (at 35.56 87.63 0)
+    (property "Reference" "#PWR022" (at 27.94 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 43.18 87.63 90)
+    (property "Value" "+3V3" (at 35.56 107.95 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 39.37 87.63 0)
+    (property "Footprint" "" (at 31.75 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 39.37 87.63 0)
+    (property "Datasheet" "" (at 31.75 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6a9cfec3-9d68-427e-bd23-c8fbaac607e4))
@@ -5390,7 +5738,7 @@
           (reference "#PWR022") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR025") (unit 1)
         )
@@ -5430,7 +5778,7 @@
     )
     (pin "1" (uuid 1d6931be-6e15-4889-a4db-13b134bb938d))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR041") (unit 1)
         )
@@ -5465,7 +5813,7 @@
           (reference "#PWR021") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR021") (unit 1)
         )
@@ -5483,19 +5831,19 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x04_Pin") (at 22.86 176.53 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x04_Pin") (at 17.78 177.8 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e855760a-c9a8-4744-9e92-bc5f45123358)
-    (property "Reference" "J2" (at 23.495 168.91 0)
+    (property "Reference" "J2" (at 18.415 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "IN_VCC_DO" (at 23.495 171.45 0)
+    (property "Value" "IN_VCC_DO" (at 18.415 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm" (at 22.86 176.53 0)
+    (property "Footprint" "Connector:PAD_1.5x2mm_4" (at 17.78 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 22.86 176.53 0)
+    (property "Datasheet" "~" (at 17.78 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "3" (uuid b89b9270-305f-4ccd-a1c3-2205c113045c))
@@ -5503,7 +5851,7 @@
     (pin "1" (uuid a6ef4ae8-00f6-486b-afcf-13301f9a3403))
     (pin "2" (uuid d3c4ea12-a6ae-4d37-aa0f-307fca8b54ee))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "J2") (unit 1)
         )
@@ -5514,19 +5862,45 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x10_Pin") (at 24.13 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ea3fe81a-c437-4546-85ca-16f8c73a26b2)
-    (property "Reference" "J1" (at 24.765 82.55 0)
-      (effects (font (size 1.27 1.27)))
+  (symbol (lib_id "Device:R") (at 82.55 186.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e9311ef6-1958-4c73-9135-9db7f9c416b3)
+    (property "Reference" "R17" (at 85.09 185.42 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DS-1031-01 - 1x10 (prog)" (at 29.21 85.09 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "3.6k 0603" (at 85.09 187.96 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x10_P1.27mm_Vertical" (at 24.13 97.79 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.772 186.69 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 24.13 97.79 0)
+    (property "Datasheet" "~" (at 82.55 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e5719c93-8299-4c9f-a1e1-508291ae0c3f))
+    (pin "2" (uuid cee93615-64f0-4bf2-a5a7-bd8e7e857886))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "R17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x10_Pin") (at 16.51 118.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ea3fe81a-c437-4546-85ca-16f8c73a26b2)
+    (property "Reference" "J1" (at 17.145 102.87 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "DS1031-01-1х10 (PLL - 1x10) (prog)" (at 33.02 105.41 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x10_P1.27mm_Vertical" (at 16.51 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 16.51 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "3" (uuid 39d69d34-4616-4164-9c97-7537b2f910e7))
@@ -5540,7 +5914,7 @@
     (pin "9" (uuid 46f19f77-5913-4b71-8f6f-2bd3ba8ec2e4))
     (pin "6" (uuid 5f1a18b7-62cf-4685-913d-496f7c710676))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "J1") (unit 1)
         )
@@ -5548,24 +5922,24 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 93.98 97.79 180) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 77.47 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb5adb71-68d0-4d94-905a-8e5d7f9b30a3)
-    (property "Reference" "#PWR027" (at 93.98 91.44 0)
+    (property "Reference" "#PWR027" (at 77.47 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 93.98 92.71 0)
+    (property "Value" "GND" (at 77.47 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 93.98 97.79 0)
+    (property "Footprint" "" (at 77.47 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 93.98 97.79 0)
+    (property "Datasheet" "" (at 77.47 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 25bb506d-042a-404b-b772-d674d5e6ee8c))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR027") (unit 1)
         )
@@ -5579,19 +5953,19 @@
     )
   )
 
-  (symbol (lib_id "power:GNDD") (at 124.46 134.62 90) (unit 1)
+  (symbol (lib_id "power:GNDD") (at 107.95 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f132f6de-528e-4bf8-878f-fe042e5d0722)
-    (property "Reference" "#PWR010" (at 130.81 134.62 0)
+    (property "Reference" "#PWR010" (at 114.3 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDD" (at 128.27 134.62 90)
+    (property "Value" "GNDD" (at 111.76 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 124.46 134.62 0)
+    (property "Footprint" "" (at 107.95 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 124.46 134.62 0)
+    (property "Datasheet" "" (at 107.95 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bfd0660b-7b2c-4022-9891-1a24e2d2df0c))
@@ -5601,7 +5975,7 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR033") (unit 1)
         )
@@ -5636,7 +6010,7 @@
     )
     (pin "1" (uuid 9825b29b-eff8-420d-ae19-12e49ae1cad8))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR020") (unit 1)
         )
@@ -5649,19 +6023,19 @@
     )
   )
 
-  (symbol (lib_id "Isolator:π163M3x") (at 109.22 124.46 0) (unit 1)
+  (symbol (lib_id "Isolator:π163M3x") (at 92.71 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5cc3284-2cbc-4612-a589-424bc97da8f1)
-    (property "Reference" "U2" (at 109.22 104.14 0)
+    (property "Reference" "U2" (at 92.71 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "π163M3x" (at 109.22 106.68 0)
+    (property "Value" "π163M3x" (at 92.71 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (at 109.22 139.065 0)
+    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (at 92.71 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/1643970/ETC/PAI162M30.html" (at 100.33 101.6 0)
+    (property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/1643970/ETC/PAI162M30.html" (at 83.82 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "16" (uuid cd04bc80-6c54-4b9b-86cd-7cf2ca0f7cc9))
@@ -5681,7 +6055,7 @@
     (pin "9" (uuid 496fbdb4-8535-4871-b046-a5bdd8669150))
     (pin "11" (uuid f6e464c6-626d-4100-a6c4-0f15260f41a3))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "U2") (unit 1)
         )
@@ -5706,7 +6080,7 @@
     )
     (pin "1" (uuid 62ef459f-dda0-46a8-9348-f22b3f42eb5c))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR024") (unit 1)
         )
@@ -5719,19 +6093,19 @@
     )
   )
 
-  (symbol (lib_id "power:GNDD") (at 125.73 99.06 180) (unit 1)
+  (symbol (lib_id "power:GNDD") (at 109.22 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6fa2b1b-6f19-4ec7-a14c-729c5e50cc12)
-    (property "Reference" "#PWR010" (at 125.73 92.71 0)
+    (property "Reference" "#PWR010" (at 109.22 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDD" (at 125.73 95.25 0)
+    (property "Value" "GNDD" (at 109.22 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 125.73 99.06 0)
+    (property "Footprint" "" (at 109.22 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 125.73 99.06 0)
+    (property "Datasheet" "" (at 109.22 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 05cfde50-a58d-4c2d-8559-ca0d62b1ab2d))
@@ -5741,7 +6115,7 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR028") (unit 1)
         )
@@ -5776,7 +6150,7 @@
     )
     (pin "1" (uuid c6a84a96-a01b-4688-9aef-48d89574e0dd))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "#PWR023") (unit 1)
         )
@@ -5806,7 +6180,7 @@
     )
     (pin "1" (uuid 81acb48b-4a03-4bf9-9ac2-591e42c95f0c))
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "#PWR025") (unit 1)
         )
@@ -5840,7 +6214,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "D1") (unit 1)
         )
@@ -5854,51 +6228,6 @@
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "D1") (unit 1)
         )
-      )
-    )
-  )
-
-  (sheet (at 83.82 20.32) (size 21.59 20.32)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1feb9ab3-0f3b-4f73-b79c-a46973061a98)
-    (property "Sheetname" "Rs485" (at 83.82 19.6084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "RS485.kicad_sch" (at 83.82 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "De" input (at 83.82 25.4 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b0387c99-395d-41c6-982d-874e9b2bfbd8)
-    )
-    (pin "GND" input (at 83.82 35.56 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2e0f2770-bdfa-485e-8ac0-7006b90fa83a)
-    )
-    (pin "+3.3V" input (at 83.82 33.02 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 743e6797-3ff1-48e0-b1af-ce0a791d9e96)
-    )
-    (pin "A" output (at 105.41 22.86 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2671721d-f215-450e-b479-ad207acd3462)
-    )
-    (pin "B" output (at 105.41 25.4 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 94edc242-2fdf-4784-b07d-83bf1f93b56e)
-    )
-    (pin "Tx" input (at 83.82 27.94 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid bf124030-9bbd-49d4-948b-a125a07e800d)
-    )
-    (pin "Rx" output (at 83.82 22.86 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e44fe107-fa36-40bc-a0c5-106f1258fb87)
-    )
-    (instances
-      (project "Плата управления Культи"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260" (page "4"))
       )
     )
   )
@@ -5926,7 +6255,7 @@
       (uuid ceed5c51-4286-4086-8dac-a5f6cfdf6e38)
     )
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260" (page "5"))
       )
     )
@@ -5963,7 +6292,7 @@
       (uuid 07a03a8f-29d8-48ef-bbf9-33ceeca44588)
     )
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260" (page "3"))
       )
     )
@@ -6020,7 +6349,7 @@
       (uuid 44339a01-213c-4dbd-8609-0a0a446b3cc0)
     )
     (instances
-      (project "Плата управления Культи"
+      (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260" (page "2"))
       )
     )
