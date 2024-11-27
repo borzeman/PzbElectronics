@@ -5,71 +5,11 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
+    (symbol "Connector:Conn_01x10_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 12.7 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x02_Pin" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x02, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x02_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x03_Pin" (at 0 -5.08 0)
+      (property "Value" "Conn_01x10_Pin" (at 0 -15.24 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -84,13 +24,45 @@
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x03, script generated" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x10, script generated" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x03_Pin_1_1"
+      (symbol "Conn_01x10_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -12.7)
+            (xy 0.8636 -12.7)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -10.16)
+            (xy 0.8636 -10.16)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -7.62)
+            (xy 0.8636 -7.62)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -5.08)
+            (xy 0.8636 -5.08)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
         (polyline
           (pts
             (xy 1.27 -2.54)
@@ -115,6 +87,46 @@
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
+        (polyline
+          (pts
+            (xy 1.27 5.08)
+            (xy 0.8636 5.08)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 7.62)
+            (xy 0.8636 7.62)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 10.16)
+            (xy 0.8636 10.16)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -12.573) (end 0 -12.827)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 -10.033) (end 0 -10.287)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 -7.493) (end 0 -7.747)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 -4.953) (end 0 -5.207)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
         (rectangle (start 0.8636 -2.413) (end 0 -2.667)
           (stroke (width 0.1524) (type default))
           (fill (type outline))
@@ -127,17 +139,57 @@
           (stroke (width 0.1524) (type default))
           (fill (type outline))
         )
-        (pin passive line (at 5.08 2.54 180) (length 3.81)
+        (rectangle (start 0.8636 5.207) (end 0 4.953)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 7.747) (end 0 7.493)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 10.287) (end 0 10.033)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 10.16 180) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 5.08 0 180) (length 3.81)
+        (pin passive line (at 5.08 -12.7 180) (length 3.81)
+          (name "Pin_10" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 7.62 180) (length 3.81)
           (name "Pin_2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+        (pin passive line (at 5.08 5.08 180) (length 3.81)
           (name "Pin_3" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_5" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_6" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -5.08 180) (length 3.81)
+          (name "Pin_7" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -7.62 180) (length 3.81)
+          (name "Pin_8" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -10.16 180) (length 3.81)
+          (name "Pin_9" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -173,83 +225,6 @@
         (pin passive line (at 0 0 90) (length 2.54)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_02x03_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_02x03_Odd_Even" (at 1.27 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_02x03_Odd_Even_1_1"
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 3.81 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 2.667) (end 2.54 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -507,6 +482,121 @@
         (pin passive line (at 0 -3.81 90) (length 2.794)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:Crystal_GND24" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Y" (at 3.175 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Crystal_GND24" (at 3.175 3.175 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "quartz ceramic resonator oscillator" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Four pin crystal, GND on pins 2 and 4" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Crystal*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Crystal_GND24_0_1"
+        (rectangle (start -1.143 2.54) (end 1.143 -2.54)
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -2.032 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 -1.27)
+            (xy -2.032 1.27)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -3.81)
+            (xy 0 -3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 3.556)
+            (xy 0 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.032 -1.27)
+            (xy 2.032 1.27)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.032 0)
+            (xy 2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -2.286)
+            (xy -2.54 -3.556)
+            (xy 2.54 -3.556)
+            (xy 2.54 -2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 2.286)
+            (xy -2.54 3.556)
+            (xy 2.54 3.556)
+            (xy 2.54 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Crystal_GND24_1_1"
+        (pin passive line (at -3.81 0 0) (length 1.27)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 5.08 270) (length 1.27)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 1.27)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -5.08 90) (length 1.27)
+          (name "4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2532,7 +2622,7 @@
     (uuid f5fe1419-12be-431d-96ac-f1a7bee61781)
   )
 
-  (no_connect (at 269.24 95.25) (uuid 47a2d8e3-9536-4e3e-a27d-b4ba925fb832))
+  (no_connect (at 259.08 86.36) (uuid 0759a940-198e-4499-a11b-400937e9a26d))
 
   (wire (pts (xy 194.31 34.29) (xy 194.31 33.02))
     (stroke (width 0) (type default))
@@ -2598,9 +2688,9 @@
     (stroke (width 0) (type default))
     (uuid 1796f4e2-5349-449b-a98d-ac9b52da0202)
   )
-  (wire (pts (xy 254 92.71) (xy 256.54 92.71))
+  (wire (pts (xy 160.02 88.9) (xy 163.83 88.9))
     (stroke (width 0) (type default))
-    (uuid 18022b78-9883-458e-84bc-72bdedad2488)
+    (uuid 1a0a0248-367a-4c23-a887-2262024424ac)
   )
   (wire (pts (xy 100.33 24.13) (xy 100.33 22.86))
     (stroke (width 0) (type default))
@@ -2650,6 +2740,10 @@
     (stroke (width 0) (type default))
     (uuid 35662a10-895c-42e2-9590-5a94f7e533e9)
   )
+  (wire (pts (xy 163.83 88.9) (xy 163.83 92.71))
+    (stroke (width 0) (type default))
+    (uuid 35d1a39c-7d44-4131-94b6-67e4fc1c4819)
+  )
   (wire (pts (xy 246.38 149.86) (xy 246.38 153.67))
     (stroke (width 0) (type default))
     (uuid 362c0d49-8fec-4042-9395-411bd6930f09)
@@ -2681,6 +2775,10 @@
   (wire (pts (xy 34.29 44.45) (xy 50.8 44.45))
     (stroke (width 0) (type default))
     (uuid 4b35f70d-1bfb-49cc-b7b2-6271564d9274)
+  )
+  (wire (pts (xy 259.08 83.82) (xy 266.7 83.82))
+    (stroke (width 0) (type default))
+    (uuid 4c39386c-4cc2-40be-a99f-23e1569820e5)
   )
   (wire (pts (xy 25.4 49.53) (xy 25.4 52.07))
     (stroke (width 0) (type default))
@@ -2721,6 +2819,10 @@
   (wire (pts (xy 213.36 123.19) (xy 213.36 127))
     (stroke (width 0) (type default))
     (uuid 69977fae-9025-43ef-b1b3-3b5656f44fda)
+  )
+  (wire (pts (xy 146.05 88.9) (xy 146.05 92.71))
+    (stroke (width 0) (type default))
+    (uuid 6a359240-7dfd-4dac-9eea-d82949cc5997)
   )
   (wire (pts (xy 143.51 52.07) (xy 161.29 52.07))
     (stroke (width 0) (type default))
@@ -2970,6 +3072,10 @@
     (stroke (width 0) (type default))
     (uuid cd94506e-9da7-49c5-bbd4-8d32d9e8cfd5)
   )
+  (wire (pts (xy 152.4 88.9) (xy 146.05 88.9))
+    (stroke (width 0) (type default))
+    (uuid cf3a795f-0e82-4b2f-856a-4b2edd8c0b3d)
+  )
   (wire (pts (xy 19.05 173.99) (xy 15.24 173.99))
     (stroke (width 0) (type default))
     (uuid cf619bcc-f4a0-4a62-8e31-c2a00bc0e191)
@@ -2977,6 +3083,10 @@
   (wire (pts (xy 242.57 41.91) (xy 246.38 41.91))
     (stroke (width 0) (type default))
     (uuid d0bb1e4a-7cd0-4b27-acc5-482648745e42)
+  )
+  (wire (pts (xy 259.08 96.52) (xy 267.97 96.52))
+    (stroke (width 0) (type default))
+    (uuid d32c3fdd-8d31-4997-b04a-eb3784ea8af1)
   )
   (wire (pts (xy 229.87 156.21) (xy 237.49 156.21))
     (stroke (width 0) (type default))
@@ -3067,33 +3177,29 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 18a777bd-78b0-43e1-abc9-ca6442cee180)
   )
-  (label "GPIO1" (at 100.33 110.49 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 18f309f4-ce7d-4583-9911-32ecd88a95e1)
-  )
   (label "RTS" (at 104.14 46.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2241b39e-be64-4bb2-98d2-45e93836f20f)
   )
-  (label "NRST" (at 256.54 97.79 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 24156f21-b953-4009-aa1b-59b2e88e0dbb)
+  (label "GPIO2" (at 259.08 106.68 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2dd4352a-8191-4ed4-87b7-1880d487355b)
   )
   (label "DE_USART_1" (at 228.6 64.77 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3393ddd7-0030-4c34-b1e2-f40a619fb9ff)
   )
-  (label "SWCLK" (at 256.54 95.25 180) (fields_autoplaced)
+  (label "OSC_IN" (at 198.12 44.45 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3adf9098-177e-4588-b00b-0d211b3b05ea)
-  )
-  (label "GPIO2" (at 100.33 113.03 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4836b02d-77d9-4583-8888-7f52ae0b7f85)
+    (uuid 3b24e6c7-dfcf-420a-bbaa-821e693ef258)
   )
   (label "GPIO1" (at 198.12 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4de907e6-5ce1-4316-aec9-a4f7cfbbb646)
+  )
+  (label "NRST" (at 259.08 93.98 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 57b44662-58ed-4fa7-b365-2bf819a7ea34)
   )
   (label "GPIO2" (at 198.12 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3106,6 +3212,10 @@
   (label "RX_USART_1" (at 139.7 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5f8506f9-f552-4140-a2a0-df84e8264c5d)
+  )
+  (label "OSC_OUT" (at 163.83 88.9 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 693f9e5b-f405-4dbf-9b66-067e0c27c185)
   )
   (label "RTS_cont" (at 139.7 46.99 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3123,6 +3233,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 773d212f-27f3-42d7-bd61-d3d4a15f332a)
   )
+  (label "SWCLK" (at 259.08 88.9 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 77c60a0a-b927-4543-a7a2-188b96c96263)
+  )
   (label "SIM_3" (at 53.34 114.3 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7be2fdb2-f177-41e0-96a3-aedc2209e79d)
@@ -3131,13 +3245,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7e2d52b0-daa2-47c6-841a-b9e2670d6686)
   )
+  (label "GPIO1" (at 259.08 104.14 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 87067082-b322-41f7-9fb9-7818880e5796)
+  )
+  (label "UART_TX" (at 259.08 99.06 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8a53a35b-91de-4a37-88b7-fa7352d6a7d5)
+  )
   (label "RTS_cont" (at 198.12 97.79 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 92975b69-00b7-4e38-8284-599610a22b39)
-  )
-  (label "UART_RX" (at 100.33 96.52 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9d4478e5-dbf8-4365-9db2-80c24447bc77)
   )
   (label "UART_DE" (at 198.12 95.25 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3147,21 +3265,29 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9fa4641e-5736-4cec-a0fc-7c435a800f62)
   )
+  (label "OSC_OUT" (at 198.12 46.99 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid a3dbac40-e3d0-4740-8444-655fa14bb7b3)
+  )
   (label "SIM_4" (at 231.14 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b6caee7e-97f5-47c0-aec1-4884ee372d77)
-  )
-  (label "UART_TX" (at 100.33 93.98 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c01ddc9a-56ba-4d2b-b9c7-79f28ee3ce2e)
   )
   (label "SIM_1" (at 231.14 102.87 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c1a2fb51-8e68-4576-a9dc-105a8c389dfb)
   )
-  (label "SWDIO" (at 269.24 92.71 0) (fields_autoplaced)
+  (label "OSC_IN" (at 146.05 88.9 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c8b636ae-59ca-4cb9-820a-36309566bf7c)
+  )
+  (label "UART_RX" (at 259.08 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cfd904d9-3f70-415c-a894-50e61a0587a7)
+    (uuid cbbd8b48-32c4-4f66-a337-c8141f7ac9f7)
+  )
+  (label "SWDIO" (at 259.08 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ce51399b-cda6-4cce-9c55-85f20fabaded)
   )
   (label "DE_USART_1" (at 139.7 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3211,10 +3337,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f7fedde7-6468-4eab-ad9f-ca67a2ae19a9)
   )
-  (label "UART_DE" (at 100.33 91.44 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fd2a2ec1-9ad8-4329-aaec-ba9bb71f97fc)
-  )
   (label "UART_RX" (at 198.12 72.39 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fef6a670-08f9-4b17-b45b-f4556bf96bdd)
@@ -3238,7 +3360,7 @@
     (pin "1" (uuid 1dca2613-327a-41a5-b0c8-3ac536b41309))
     (pin "2" (uuid eb76e7f9-f8fa-4983-ab8d-0e973ef3c3f5))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "L1") (unit 1)
         )
@@ -3251,16 +3373,46 @@
     )
   )
 
+  (symbol (lib_id "power:GNDD") (at 156.21 93.98 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0356d8fb-8768-4263-b791-739ee2fff04f)
+    (property "Reference" "#PWR056" (at 156.21 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 156.21 97.79 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 156.21 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 156.21 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e0194edc-e20a-40e6-b5db-899eee0328e3))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 194.31 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03976a0d-a7eb-4c9b-8f0a-f2f5f3baed72)
     (property "Reference" "C6" (at 190.5 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 50V 0805" (at 190.5 27.94 0)
+    (property "Value" "0,1uF 100V 0603" (at 190.5 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 193.3448 25.4 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 193.3448 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 194.31 29.21 0)
@@ -3269,7 +3421,7 @@
     (pin "1" (uuid 59ff2102-55a3-4165-84db-5ec68425d1cd))
     (pin "2" (uuid d13f7174-2c40-44de-bfac-ab37d86a041c))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C6") (unit 1)
         )
@@ -3299,7 +3451,7 @@
     )
     (pin "1" (uuid f8ca48ea-bc2a-4f82-8aa9-f816d9ce2a03))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR028") (unit 1)
         )
@@ -3329,7 +3481,7 @@
     )
     (pin "1" (uuid 6bad16b9-7dc4-45c3-bc38-1a8c9c986954))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR01") (unit 1)
         )
@@ -3359,7 +3511,7 @@
     )
     (pin "1" (uuid 5daead0e-8e96-4b8b-9b2d-3c18a0145b43))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR02") (unit 1)
         )
@@ -3390,7 +3542,7 @@
     (pin "1" (uuid 36683364-a7c5-499c-9473-4b98512ba3ca))
     (pin "2" (uuid 0e33ffd4-4ec5-4b91-ad6b-cf62cda810e8))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C10") (unit 1)
         )
@@ -3421,7 +3573,7 @@
     (pin "1" (uuid 8fea13b8-a44e-4c4e-bea6-ded485ea0bf6))
     (pin "2" (uuid b4e163f7-8be7-4259-9dc4-6ccf51ee84c8))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C4") (unit 1)
         )
@@ -3452,7 +3604,7 @@
     (pin "2" (uuid 6ad6f290-b9a9-4fc1-b16d-2fb60513db2e))
     (pin "1" (uuid 451a5e0e-bf38-46cf-84a0-03ddf838fc8e))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "R7") (unit 1)
         )
@@ -3482,7 +3634,7 @@
     )
     (pin "1" (uuid 40c86392-d156-4b74-8890-9122eedbf8cb))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "TP22") (unit 1)
         )
@@ -3515,7 +3667,7 @@
     )
     (pin "1" (uuid c090c00e-dd7a-4505-8f3f-c4c25b0f059b))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR017") (unit 1)
         )
@@ -3545,7 +3697,7 @@
     )
     (pin "1" (uuid 582fd224-d46a-4144-90c1-674c8974583b))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR031") (unit 1)
         )
@@ -3575,7 +3727,7 @@
     )
     (pin "1" (uuid c208963b-2070-42df-bf3b-550a871aa486))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR016") (unit 1)
         )
@@ -3605,7 +3757,7 @@
     )
     (pin "1" (uuid cc17f8a3-a308-488c-ba23-49f6e68cb34e))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR018") (unit 1)
         )
@@ -3635,7 +3787,7 @@
     )
     (pin "1" (uuid 3f897ca3-67ab-46d0-bac3-e1ed13d00b5d))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR045") (unit 1)
         )
@@ -3643,6 +3795,36 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 267.97 96.52 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2701e0f1-aa76-4012-a8c5-5ce7b380dbfc)
+    (property "Reference" "#PWR023" (at 274.32 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 271.78 96.52 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 267.97 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 267.97 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c546eaab-17ca-4ed8-8cb3-6f4b48633ad4))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "dc_motor_board"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -3666,7 +3848,7 @@
     (pin "2" (uuid d85ac0e8-ac02-41f2-b6e6-e8d52263859b))
     (pin "1" (uuid 3cf5de13-e53a-4ee9-ab3a-4864ed800fcc))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "R5") (unit 1)
         )
@@ -3674,6 +3856,37 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 163.83 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 339adb1a-ced2-4ec4-95b4-8d30b7825037)
+    (property "Reference" "C30" (at 167.64 95.25 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "20pF 50V 0603" (at 167.64 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 164.7952 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid db164413-e65e-4919-b8ea-d21d6779c26a))
+    (pin "2" (uuid 9ddc5dcd-500e-4d20-8d16-e2d55e0d7ce8))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "C30") (unit 1)
+        )
+      )
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -3698,7 +3911,7 @@
     (pin "1" (uuid f83a7fcf-29a4-44a7-b7c9-f378118f6065))
     (pin "2" (uuid 44877bf2-f46c-4f78-8eab-4babad00c7bb))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "Q2") (unit 1)
         )
@@ -3737,7 +3950,7 @@
     (pin "1" (uuid 9f8e9461-ad43-4eae-9d56-a4e489217983))
     (pin "6" (uuid 1a8a72fd-8d34-45a9-a4cd-adbbdfb35032))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "RS1") (unit 1)
         )
@@ -3750,68 +3963,31 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 95.25 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 38cefedd-5eee-436a-8d51-4951da8d0e49)
-    (property "Reference" "J7" (at 96.52 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "DebbagUSART (PinHeader_01x03_P2.54mm)" (at 96.52 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 95.25 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.25 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 31fe0698-05fb-4680-bc15-d0ef31a97613))
-    (pin "2" (uuid 2de55504-2577-49f3-8c01-734367b72689))
-    (pin "3" (uuid e14d221c-6428-4303-b33a-e8c26bf5f458))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
-          (reference "J7") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "J7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 254 92.71 0) (unit 1)
+  (symbol (lib_id "power:GNDD") (at 146.05 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3d394839-6516-4c70-8bbb-bc1d51edd973)
-    (property "Reference" "#PWR022" (at 254 96.52 0)
+    (uuid 37ce1332-30c3-4a40-84e2-9731bfad6ed8)
+    (property "Reference" "#PWR057" (at 146.05 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 254 87.63 0)
+    (property "Value" "GNDD" (at 146.05 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 254 92.71 0)
+    (property "Footprint" "" (at 146.05 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 254 92.71 0)
+    (property "Datasheet" "" (at 146.05 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4546891-47aa-43e3-92a6-17cb93d52a16))
+    (pin "1" (uuid 4d43a1df-8073-43df-924a-f446763dd26f))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
-      (project "Плата внешних шаговых двигателей"
+      (project "Плата дискретных входов"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR0102") (unit 1)
-        )
-      )
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -3834,7 +4010,7 @@
     )
     (pin "1" (uuid 21f3ca16-8018-4ec9-8df0-63c1179e09e8))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR035") (unit 1)
         )
@@ -3864,7 +4040,7 @@
     )
     (pin "1" (uuid ec4af7d1-fdcb-43e4-8ad8-1962ba14c468))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR04") (unit 1)
         )
@@ -3872,6 +4048,45 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x10_Pin") (at 254 93.98 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 450d1441-3b1d-4298-b6f4-141309b9b4c6)
+    (property "Reference" "J1" (at 256.54 77.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PLL-10 (Prog)" (at 256.54 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x10_P1.27mm_Vertical" (at 254 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 254 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "5" (uuid 5e75feee-be91-4c0d-8e01-e0acd199aebf))
+    (pin "1" (uuid f4e44123-c590-449d-b85f-974e9428795a))
+    (pin "10" (uuid 67cd4f5b-def8-46b9-a679-e8e915d6ba5b))
+    (pin "9" (uuid 7d7784cc-d842-4b21-95d0-6072849d0c5a))
+    (pin "7" (uuid 5cdb48fb-7573-4bf9-99f5-151d3bd02daf))
+    (pin "2" (uuid 605f2291-4a84-4b05-90c6-ba3540e1da5d))
+    (pin "6" (uuid b056a610-ee68-4960-8e5c-94cf3015c9bf))
+    (pin "3" (uuid 997ee3ef-7c10-4c1e-999f-54e95301123e))
+    (pin "4" (uuid 94fb14ec-9139-4060-89f4-c1e2eb4ee2bb))
+    (pin "8" (uuid 47c4ea7e-fdd2-40a8-b0f0-b5c34cc8eaa0))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "dc_motor_board"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -3894,7 +4109,7 @@
     )
     (pin "1" (uuid 64a58e42-2878-4708-96e8-3c2e91d1c6b4))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR011") (unit 1)
         )
@@ -3913,7 +4128,7 @@
     (property "Reference" "C2" (at 120.65 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" " 270 pf X7R 1206 2000v 202R18W271KW4E" (at 125.73 16.51 90)
+    (property "Value" "270 pf X7R 1206 2000v 202R18W271KW4E" (at 125.73 16.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_1210_3225Metric_Pad1.42x2.65mm" (at 129.54 19.3548 0)
@@ -3925,7 +4140,7 @@
     (pin "1" (uuid a34d95f1-54d9-4e4b-aad8-cd6cbfb836db))
     (pin "2" (uuid edf4b692-0a61-4f4a-9ba4-f67df3bc40ce))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C2") (unit 1)
         )
@@ -3955,7 +4170,7 @@
     )
     (pin "1" (uuid f12cbefd-8c3a-49bf-bfd7-2cfc8899268f))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "TP19") (unit 1)
         )
@@ -3988,7 +4203,7 @@
     )
     (pin "1" (uuid 3a9e4893-7e5d-4a81-9bf9-20d85298a5fc))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR021") (unit 1)
         )
@@ -3996,41 +4211,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR014") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDD") (at 269.24 97.79 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5b18284a-ba52-4762-bfbc-7af58b17315b)
-    (property "Reference" "#PWR023" (at 275.59 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDD" (at 273.05 97.79 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 269.24 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 269.24 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 42c2dad7-6d70-4793-aca7-236d2310de67))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "#PWR0103") (unit 1)
-        )
-      )
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4053,7 +4233,7 @@
     )
     (pin "1" (uuid 21c97f6f-6c3a-40a4-9e59-379b53e2521c))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR019") (unit 1)
         )
@@ -4084,7 +4264,7 @@
     (pin "2" (uuid b8010513-d5a1-45ba-811d-83f96f05fc5a))
     (pin "1" (uuid 2583f29c-fbff-4825-b718-4f711a601ef1))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "R6") (unit 1)
         )
@@ -4114,7 +4294,7 @@
     )
     (pin "1" (uuid 19156227-6df9-48fa-bc1a-4d0c97003ad5))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR030") (unit 1)
         )
@@ -4133,10 +4313,10 @@
     (property "Reference" "C8" (at 106.68 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0,1uF 100V 0805" (at 109.22 69.85 90)
+    (property "Value" "0,1uF 100V 0603" (at 109.22 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 101.9048 59.69 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 101.9048 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.87 63.5 0)
@@ -4145,7 +4325,7 @@
     (pin "1" (uuid 214c2a33-8551-4ba4-be23-f7c5d0aa1aee))
     (pin "2" (uuid d355f751-cc17-48c8-83af-1520209b5e7a))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C8") (unit 1)
         )
@@ -4238,7 +4418,7 @@
     (pin "64" (uuid ac5e46f2-f764-4e7c-a613-b1c836a0030a))
     (pin "9" (uuid e4065f55-b0d2-494b-b36f-3edb5ac57d6f))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "U3") (unit 1)
         )
@@ -4268,7 +4448,7 @@
     )
     (pin "1" (uuid be4e0ba0-c150-4008-a30e-40938a8ef449))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR020") (unit 1)
         )
@@ -4307,7 +4487,7 @@
     (pin "1" (uuid 3f4bf2e2-bbd5-4175-9c1f-e6f26a8093cc))
     (pin "6" (uuid 939d9427-ac4e-44ba-ac9c-cc3bb964a35d))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "RS2") (unit 1)
         )
@@ -4337,7 +4517,7 @@
     )
     (pin "1" (uuid 6b064498-8bd5-4868-be5e-a4ba13c9448e))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR03") (unit 1)
         )
@@ -4368,7 +4548,7 @@
     (pin "1" (uuid 7286aac1-85fb-4f8a-8db3-288b4056f88b))
     (pin "2" (uuid 94cec8d0-ef9d-4480-9daf-20ce200d86ed))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "D1") (unit 1)
         )
@@ -4398,7 +4578,7 @@
     )
     (pin "1" (uuid 1d6fcc02-39b7-498d-9569-8bdbe380d1ee))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR010") (unit 1)
         )
@@ -4429,7 +4609,7 @@
     (pin "2" (uuid 321b7276-826d-4770-a4c3-11aebd5dc6cc))
     (pin "1" (uuid debb6dad-9c09-488e-89bb-573e115e972f))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "R2") (unit 1)
         )
@@ -4461,7 +4641,7 @@
     (pin "1" (uuid f02689af-f532-426e-adc3-def19b227f81))
     (pin "2" (uuid 2c37254a-19e9-42ba-9fe6-9256ca718b17))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "Q1") (unit 1)
         )
@@ -4492,7 +4672,7 @@
     (pin "1" (uuid c0961dbf-8af3-4e44-ba5e-b1ef6307e923))
     (pin "2" (uuid b832cfd7-9717-4ee1-9d09-d3474333509b))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "F1") (unit 1)
         )
@@ -4523,7 +4703,7 @@
     (pin "1" (uuid 6420ca5a-6758-44b0-bd29-28a374ad5cdf))
     (pin "2" (uuid f5e5ebf1-d3da-45d5-af48-d1b07cc8e635))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C11") (unit 1)
         )
@@ -4542,7 +4722,7 @@
     (property "Reference" "C14" (at 68.58 180.721 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47uF 63V D10,5" (at 66.04 186.69 0)
+    (property "Value" "47uF 63V D6.3 H11" (at 66.04 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "PCM_Capacitor_THT_AKL:CP_Radial_D6.3mm_P2.50mm" (at 65.7352 186.69 0)
@@ -4554,7 +4734,7 @@
     (pin "1" (uuid 87b3db40-7c97-4f9a-b7b2-04efdb35c450))
     (pin "2" (uuid 54f4a64d-9633-4795-aab9-9219a2dba1ab))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C14") (unit 1)
         )
@@ -4568,15 +4748,15 @@
   )
 
   (symbol (lib_id "Device:C") (at 175.26 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8dcddc07-f926-4853-adb8-339346e5a74d)
     (property "Reference" "C7" (at 179.07 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 50V 0805" (at 179.07 44.45 0)
+    (property "Value" "0,1uF 100V 0603" (at 171.45 57.15 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 176.2252 46.99 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 176.2252 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 175.26 43.18 0)
@@ -4585,7 +4765,7 @@
     (pin "1" (uuid 2c820bd0-85dc-45da-a29f-35572aa903e1))
     (pin "2" (uuid 47968322-3a78-4186-a81f-6075423bb6d6))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C7") (unit 1)
         )
@@ -4615,7 +4795,7 @@
     )
     (pin "1" (uuid aa967937-4dc8-4ef8-b81c-aa4437c0dc66))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR024") (unit 1)
         )
@@ -4646,7 +4826,7 @@
     (pin "1" (uuid 756b31ec-1c95-418e-abd3-2d5c06d48799))
     (pin "2" (uuid 560d3e47-205c-4556-9244-d8c9586135ec))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C1") (unit 1)
         )
@@ -4676,7 +4856,7 @@
     )
     (pin "1" (uuid efb453e8-b56a-4e4f-bc59-3e0ec7ceb494))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR015") (unit 1)
         )
@@ -4695,10 +4875,10 @@
     (property "Reference" "C5" (at 46.99 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0,1uF 100V 0805" (at 43.18 26.67 90)
+    (property "Value" "0,1uF 100V 0603" (at 43.18 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 60.96 25.7048 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 60.96 25.7048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 57.15 26.67 0)
@@ -4707,7 +4887,7 @@
     (pin "1" (uuid 9fe27fd6-c7f6-4f21-aeae-e620441d2d41))
     (pin "2" (uuid 7fd87dc4-049f-4730-b077-5a7b8061d76e))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C5") (unit 1)
         )
@@ -4752,7 +4932,7 @@
     (pin "4" (uuid 282fbfe2-eec5-49cc-ba77-cf15d4e13fc4))
     (pin "5" (uuid 43e69ada-e99d-44ec-8b72-db794af59d5e))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "U1") (unit 1)
         )
@@ -4777,7 +4957,7 @@
     )
     (pin "1" (uuid ebcf1388-25d5-4c58-ba40-b9335d149753))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "TP21") (unit 1)
         )
@@ -4788,6 +4968,37 @@
         )
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
           (reference "TP5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 146.05 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a31f1638-0865-4367-bf5f-203fb396fc9d)
+    (property "Reference" "C29" (at 138.43 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "20pF 50V 0603" (at 128.27 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 147.0152 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 146.05 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fe632e69-f3f6-4e34-b98a-9751c84b6486))
+    (pin "2" (uuid e3df743a-782a-42c0-94b1-fce38a2e02c2))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "C29") (unit 1)
+        )
+      )
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -4811,7 +5022,7 @@
     (pin "2" (uuid 7c998481-817c-43a3-aaf0-c1f49a3a0792))
     (pin "1" (uuid d1273598-e45c-4990-afbd-d74986dd9fa8))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "R4") (unit 1)
         )
@@ -4841,7 +5052,7 @@
     )
     (pin "1" (uuid f50d7a3e-b9a9-4ba4-b78c-8c716400a6f7))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "TP23") (unit 1)
         )
@@ -4852,37 +5063,6 @@
         )
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
           (reference "TP5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 95.25 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid acb7c8eb-e179-437d-805d-1f3e63d4c868)
-    (property "Reference" "J8" (at 96.52 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Debbag GPIO (PinHeader_01x02_P2.54mm)" (at 96.52 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 95.25 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.25 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1f4bfedf-9589-42ae-b2f6-a77f3e9990dc))
-    (pin "2" (uuid e907177d-13f1-4d16-b6f3-5a46799e02e4))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
-          (reference "J8") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "J8") (unit 1)
         )
       )
     )
@@ -4906,7 +5086,7 @@
     (pin "1" (uuid ad75001d-e5a8-4a73-91b4-f3df6b19a20e))
     (pin "2" (uuid 4aff5566-55a1-487f-b4a5-720cbd9e24d8))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "R8") (unit 1)
         )
@@ -4943,7 +5123,7 @@
     (pin "5" (uuid d54b9278-d8bf-4b60-b308-44db493f4d21))
     (pin "3" (uuid df4dce16-a104-41d5-a986-33602338f67e))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "U2") (unit 1)
         )
@@ -4973,7 +5153,7 @@
     )
     (pin "1" (uuid f4fb49f7-8d56-42a4-91c9-cd1d4a20a6b4))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR025") (unit 1)
         )
@@ -5004,7 +5184,7 @@
     (pin "2" (uuid 3501645e-b4a3-4e4d-9254-4f15d8b6ad1d))
     (pin "1" (uuid 9b4770a4-7267-453e-be82-b60266cab286))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "R1") (unit 1)
         )
@@ -5034,7 +5214,7 @@
     )
     (pin "1" (uuid d9465406-4649-44d3-9554-f37527db40e1))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR029") (unit 1)
         )
@@ -5064,7 +5244,7 @@
     )
     (pin "1" (uuid 11b6fcce-ba29-4d1e-ab02-d6cee29c5130))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "TP24") (unit 1)
         )
@@ -5097,7 +5277,7 @@
     )
     (pin "1" (uuid dcd16fa7-aaae-4a53-832c-ba3de02e7e3d))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR09") (unit 1)
         )
@@ -5127,7 +5307,7 @@
     )
     (pin "1" (uuid 38b4db17-b18f-4190-8c2c-9d72127134a9))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR06") (unit 1)
         )
@@ -5156,7 +5336,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "H2") (unit 1)
         )
@@ -5186,7 +5366,7 @@
     )
     (pin "1" (uuid 453117e1-e9af-4bfe-bc9f-15bc33f840fa))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR07") (unit 1)
         )
@@ -5216,7 +5396,7 @@
     )
     (pin "1" (uuid 826b5f67-e9cc-4845-a659-8d7084197723))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR027") (unit 1)
         )
@@ -5246,7 +5426,7 @@
     )
     (pin "1" (uuid 1e8cf812-b907-424f-b061-aa43b8d548e3))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR026") (unit 1)
         )
@@ -5276,7 +5456,7 @@
     )
     (pin "1" (uuid f58e80df-9f51-4683-b6a4-de615c0b3571))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR014") (unit 1)
         )
@@ -5284,6 +5464,66 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR080") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 156.21 83.82 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d2666767-7d84-40b2-b360-16c39adec654)
+    (property "Reference" "#PWR051" (at 156.21 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 156.21 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 156.21 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 156.21 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fb7c1ac1-99dc-4197-a4b2-559e3454fe3b))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "#PWR051") (unit 1)
+        )
+      )
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "#PWR089") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 163.83 100.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d66adeab-8383-4723-9b71-a4f364609a17)
+    (property "Reference" "#PWR058" (at 163.83 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 163.83 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 163.83 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0d8b7056-660a-4603-b8e9-d79b4174a128))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -5306,7 +5546,7 @@
     )
     (pin "1" (uuid 0d724035-3a5f-4207-9ef7-064bc16b20dc))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR034") (unit 1)
         )
@@ -5336,7 +5576,7 @@
     )
     (pin "1" (uuid 4bbdcca4-4d94-4d51-b5e3-cdb6b3c61b3c))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR033") (unit 1)
         )
@@ -5366,7 +5606,7 @@
     )
     (pin "1" (uuid 6808a6e4-6294-4f6f-85c4-7c0d5076680f))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR05") (unit 1)
         )
@@ -5385,7 +5625,7 @@
     (property "Reference" "C13" (at 226.06 152.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" " 270 pf X7R 1206 2000v 202R18W271KW4E" (at 226.06 163.83 90)
+    (property "Value" "270 pf X7R 1206 2000v 202R18W271KW4E" (at 226.06 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_1210_3225Metric_Pad1.42x2.65mm" (at 229.87 155.2448 0)
@@ -5397,7 +5637,7 @@
     (pin "1" (uuid de3a48fb-ae20-44d4-9607-da536ba9cb26))
     (pin "2" (uuid 4166dc4f-2902-42e3-b77a-1e0fefadb214))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C13") (unit 1)
         )
@@ -5428,7 +5668,7 @@
     (pin "1" (uuid f40b28a2-3781-41c9-96a8-4398690a9646))
     (pin "2" (uuid cb6aedb2-a0f4-4ebc-82e8-4daf9eccc9bc))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C12") (unit 1)
         )
@@ -5436,46 +5676,6 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 261.62 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid eab3e729-7ff3-40e8-82b1-389af189a5ba)
-    (property "Reference" "J1" (at 262.89 86.36 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Prog (PinHeader_2x03_P2.54mm)" (at 262.89 88.9 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (at 261.62 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 261.62 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "3" (uuid 1c1bc981-e2c3-4924-8ba0-8645b273cdfc))
-    (pin "1" (uuid 93f06e08-d909-4159-a73a-d777ed36bfcf))
-    (pin "6" (uuid 139e9b75-9d2a-436b-9da8-36b50cda61a2))
-    (pin "5" (uuid fb31ff08-8f3b-4270-8633-f7715e5bf144))
-    (pin "2" (uuid d00c9267-bd8d-42f6-8f48-585805e6053f))
-    (pin "4" (uuid 47ec14e7-5f33-4c6b-be64-c9577801f5ac))
-    (instances
-      (project "Плата симистров"
-        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
-          (reference "J1") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "J1") (unit 1)
-        )
-      )
-      (project "Доп плата печи"
-        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
-          (reference "J2") (unit 1)
         )
       )
     )
@@ -5498,7 +5698,7 @@
     )
     (pin "1" (uuid c13b2ba8-b520-45a4-b429-f1577d019498))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR012") (unit 1)
         )
@@ -5529,7 +5729,7 @@
     (pin "1" (uuid cebb622c-d14f-4223-a053-930d896c27d7))
     (pin "2" (uuid d42cc750-2c31-409b-92e1-de2c58133c16))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "D2") (unit 1)
         )
@@ -5537,6 +5737,39 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Crystal_GND24") (at 156.21 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ee64e36d-aa4f-4dcc-9136-0330e7542e3f)
+    (property "Reference" "Y1" (at 157.48 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Crystal_3225 8MHz" (at 158.75 77.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_3225-4Pin_3.2x2.5mm" (at 156.21 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 156.21 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 368ada45-cdb5-4019-af88-5b333c7cc411))
+    (pin "2" (uuid ccd9a52e-01e8-4b52-a49a-48c8fbcd0f90))
+    (pin "3" (uuid c25ff55d-cb75-403c-b0cd-1fd877d12464))
+    (pin "4" (uuid 7bbdf4c6-8ca9-4351-8bf0-bc79a2c94bdb))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "Y1") (unit 1)
+        )
+      )
+      (project "Плата дискретных входов"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -5560,7 +5793,7 @@
     (pin "2" (uuid c7b7e705-ddc5-427a-b937-89f2a69cae8d))
     (pin "1" (uuid 367d5caf-bdde-4b70-9a0c-d27f633b2079))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "R3") (unit 1)
         )
@@ -5590,7 +5823,7 @@
     )
     (pin "1" (uuid c57e5c15-40bd-4f53-8e10-415f45b56bc1))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR032") (unit 1)
         )
@@ -5623,7 +5856,7 @@
     (pin "1" (uuid 77df2f2d-f1ab-46e1-9388-d550036272e4))
     (pin "4" (uuid afd0c0b2-ff31-4632-b701-ca0e9a01162c))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "U4") (unit 1)
         )
@@ -5642,10 +5875,10 @@
     (property "Reference" "C9" (at 137.16 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0,1uF 100V 0805" (at 139.7 62.23 90)
+    (property "Value" "0,1uF 100V 0603" (at 139.7 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 142.5448 55.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 142.5448 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 143.51 59.69 0)
@@ -5654,7 +5887,7 @@
     (pin "1" (uuid 37963e84-8fa3-4f0f-a183-9c4ddfb1ef63))
     (pin "2" (uuid 0047655e-7dbd-43f5-8096-acd644efdfa2))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C9") (unit 1)
         )
@@ -5683,7 +5916,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "H1") (unit 1)
         )
@@ -5691,6 +5924,41 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 266.7 83.82 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f595c460-5a13-446a-b9f3-145a4dcacb4a)
+    (property "Reference" "#PWR022" (at 262.89 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 270.51 83.82 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 266.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 266.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e90c4cb5-df6c-48bb-9133-64a8e5fe02b2))
+    (instances
+      (project "triac_board"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "dc_motor_board"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "#PWR054") (unit 1)
+        )
+      )
+      (project "Доп плата печи"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5713,7 +5981,7 @@
     )
     (pin "1" (uuid 2ea1ae10-66a4-40c0-be1c-503b0d9fe290))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR08") (unit 1)
         )
@@ -5732,10 +6000,10 @@
     (property "Reference" "C3" (at 238.76 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 50V 0805" (at 238.76 22.86 0)
+    (property "Value" "0,1uF 100V 0603" (at 238.76 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 235.9152 25.4 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 235.9152 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 21.59 0)
@@ -5744,7 +6012,7 @@
     (pin "1" (uuid 3a5ae245-6760-4360-8345-3d6a6a891618))
     (pin "2" (uuid 7bb8d286-2cd7-4b8d-852b-f935b967b27e))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "C3") (unit 1)
         )
@@ -5774,7 +6042,7 @@
     )
     (pin "1" (uuid 4664e974-0ed4-4ec1-9f46-af38536db3e1))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "TP20") (unit 1)
         )
@@ -5825,7 +6093,7 @@
       (uuid bffc4fff-860d-472c-ae63-f417b9823116)
     )
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17" (page "2"))
       )
     )

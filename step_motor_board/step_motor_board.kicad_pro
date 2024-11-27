@@ -135,7 +135,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
+          "td_on_pad_in_zone": true,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": true,
@@ -181,6 +181,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.3
         },
         {
           "diameter": 1.2,
@@ -416,7 +420,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Плата внешних шаговых двигателей.kicad_pro",
+    "filename": "step_motor_board.kicad_pro",
     "version": 1
   },
   "net_settings": {

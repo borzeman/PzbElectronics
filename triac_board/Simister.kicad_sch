@@ -791,12 +791,12 @@
   )
 
   (symbol (lib_id "Device:R") (at 114.3 52.07 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 17f64d1a-eb95-4540-929a-c780f3c7ec4f)
     (property "Reference" "R12" (at 114.3 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2512-180 Ом±5%-1 Вт" (at 114.3 48.26 90)
+    (property "Value" "2512-180 Ом±5%-1 Вт" (at 113.03 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "PCM_Resistor_SMD_AKL:R_2512_6332Metric" (at 114.3 50.292 90)
@@ -808,7 +808,7 @@
     (pin "2" (uuid 4bcc798f-d412-40c9-854d-babbc42bd4ae))
     (pin "1" (uuid 30e7c6d6-fe5b-4f0e-83c9-3bfbe082449a))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "R12") (unit 1)
         )
@@ -842,7 +842,7 @@
     )
     (pin "1" (uuid 9e0e3b25-501e-414b-b3d5-0ee1fcd3af62))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
           (reference "#PWR049") (unit 1)
         )
@@ -880,7 +880,7 @@
     (pin "2" (uuid 498ed962-844f-4052-9754-2e9cf5e6e0a8))
     (pin "1" (uuid 8f431bd0-7726-431f-8eb3-3d24738a0abf))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
           (reference "C28") (unit 1)
         )
@@ -915,7 +915,7 @@
     (pin "2" (uuid 50996cfe-d2ff-429b-b020-c9e0cdaffa43))
     (pin "1" (uuid c16254b7-ed52-46dc-8a51-7a485dea2bc8))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "C18") (unit 1)
         )
@@ -949,7 +949,7 @@
     )
     (pin "1" (uuid 8cc2f930-a6d1-489c-8b17-eba0770589fd))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "TP11") (unit 1)
         )
@@ -980,10 +980,10 @@
     (property "Reference" "C23" (at 73.66 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 50V 0805" (at 73.66 54.61 0)
+    (property "Value" "0,1uF 100V 0603" (at 73.66 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 76.5048 52.07 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 76.5048 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 55.88 0)
@@ -992,7 +992,7 @@
     (pin "2" (uuid fc782ca4-593e-4b77-8892-399fba034f89))
     (pin "1" (uuid bc2f6f77-d06c-4c16-9b33-68100d5ef3b2))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
           (reference "C23") (unit 1)
         )
@@ -1030,7 +1030,7 @@
     (pin "2" (uuid 04c9be9d-c8de-4f2c-afd5-008b65b41a61))
     (pin "1" (uuid be8f7ec9-14ab-4b8e-b991-b5cd5a8c339a))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "R13") (unit 1)
         )
@@ -1066,7 +1066,7 @@
     (pin "1" (uuid 2341269f-cfa7-476a-a8af-a4e4bbdcca21))
     (pin "2" (uuid aafbf2d4-2bff-47b4-a110-1418df6a3048))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "Q1") (unit 1)
         )
@@ -1110,7 +1110,7 @@
     (pin "3" (uuid 2500b01f-f9f2-4911-8096-5d7808261385))
     (pin "1" (uuid 47157b20-dc45-487d-bb9a-28111478597d))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "Q3") (unit 1)
         )
@@ -1149,7 +1149,7 @@
     (pin "4" (uuid c34b8df1-348e-4e3c-a827-579830819523))
     (pin "3" (uuid 837ec01f-5ad0-48b0-bfd0-aec333e9b937))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
           (reference "OC5") (unit 1)
         )
@@ -1184,7 +1184,7 @@
     (pin "2" (uuid 6cae3d4e-b100-43ec-ad40-1f848c14bc61))
     (pin "1" (uuid 03f5b6ce-74ac-4037-aa9d-963ceff9cb1f))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "R14") (unit 1)
         )
@@ -1219,7 +1219,7 @@
     (pin "2" (uuid 842ba042-610b-49b9-b493-1a5f3c33830d))
     (pin "1" (uuid dd612263-b3ca-49a3-bf7c-58d05b374b47))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "R15") (unit 1)
         )
@@ -1253,7 +1253,7 @@
     )
     (pin "1" (uuid ffb6bc6b-7d89-4457-ab5d-81f8ed7f877c))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
           (reference "TP12") (unit 1)
         )
@@ -1295,7 +1295,7 @@
     )
     (pin "1" (uuid 783ebc14-f85a-4bef-bd7a-cd7f00a8b361))
     (instances
-      (project "Плата симистров"
+      (project "triac_board"
         (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
           (reference "#PWR021") (unit 1)
         )
