@@ -117,82 +117,6 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x03_Pin" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x03, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x03_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 2.54)
-            (xy 0.8636 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 2.54 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector:Conn_01x04_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
@@ -470,6 +394,41 @@
         (pin passive line (at 5.08 -10.16 180) (length 3.81)
           (name "Pin_9" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2736,8 +2695,14 @@
   (junction (at 229.87 16.51) (diameter 0) (color 0 0 0 0)
     (uuid 2c6b1b61-7f14-4d38-9740-774a7118dbfe)
   )
+  (junction (at 251.46 151.13) (diameter 0) (color 0 0 0 0)
+    (uuid 2d9e59fd-2ed5-44fa-ba4b-bdc8eb650fb6)
+  )
   (junction (at 198.12 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 40b007a8-0be6-4573-900b-451007301fb2)
+  )
+  (junction (at 170.18 151.13) (diameter 0) (color 0 0 0 0)
+    (uuid 4615be16-8395-415d-aa6d-1ced5f5a77d4)
   )
   (junction (at 90.17 165.1) (diameter 0) (color 0 0 0 0)
     (uuid 94bc342a-eba3-41de-90c4-87c017550ca5)
@@ -2763,6 +2728,9 @@
   (junction (at 242.57 154.94) (diameter 0) (color 0 0 0 0)
     (uuid de78dd42-5397-4659-830c-b60cc3f69d99)
   )
+  (junction (at 255.27 140.97) (diameter 0) (color 0 0 0 0)
+    (uuid f6055314-564f-4af4-86f0-ffe32cc8fb28)
+  )
   (junction (at 219.71 154.94) (diameter 0) (color 0 0 0 0)
     (uuid f951238c-67d2-4a48-abe7-a22d78c11b41)
   )
@@ -2777,7 +2745,7 @@
     (stroke (width 0) (type default))
     (uuid 0436407f-2084-4a7e-bfbf-01456be22c9e)
   )
-  (wire (pts (xy 107.95 114.3) (xy 109.22 114.3))
+  (wire (pts (xy 107.95 114.3) (xy 142.24 114.3))
     (stroke (width 0) (type default))
     (uuid 07f603ab-9527-44ae-a2fb-7971ba375a81)
   )
@@ -2796,6 +2764,10 @@
   (wire (pts (xy 82.55 182.88) (xy 99.06 182.88))
     (stroke (width 0) (type default))
     (uuid 22750d18-0783-4735-9b8c-6ac461e92dd6)
+  )
+  (wire (pts (xy 25.4 77.47) (xy 29.21 77.47))
+    (stroke (width 0) (type default))
+    (uuid 26a84396-309e-4155-9ba5-e68b358fa918)
   )
   (wire (pts (xy 252.73 16.51) (xy 264.16 16.51))
     (stroke (width 0) (type default))
@@ -2829,9 +2801,17 @@
     (stroke (width 0) (type default))
     (uuid 3e71d372-0445-4d2a-aaff-307d26034c8a)
   )
+  (wire (pts (xy 107.95 111.76) (xy 133.35 111.76))
+    (stroke (width 0) (type default))
+    (uuid 41106d69-27ac-463a-b129-4047b2b52729)
+  )
   (wire (pts (xy 219.71 146.05) (xy 219.71 154.94))
     (stroke (width 0) (type default))
     (uuid 4240f132-8e8a-40a4-9d94-d4bdfb6983e8)
+  )
+  (wire (pts (xy 107.95 106.68) (xy 133.35 106.68))
+    (stroke (width 0) (type default))
+    (uuid 45c78370-a3a3-4175-a0c5-8bb2c4d364d9)
   )
   (wire (pts (xy 151.13 71.12) (xy 144.78 71.12))
     (stroke (width 0) (type default))
@@ -2841,13 +2821,25 @@
     (stroke (width 0) (type default))
     (uuid 4cfff74c-70e3-4bb2-a94a-deec9e5209cc)
   )
+  (wire (pts (xy 251.46 151.13) (xy 259.08 151.13))
+    (stroke (width 0) (type default))
+    (uuid 522aba01-e02f-4730-b6e3-05219ad4c8ef)
+  )
   (wire (pts (xy 229.87 16.51) (xy 252.73 16.51))
     (stroke (width 0) (type default))
     (uuid 53f268aa-df64-42a6-9f02-ad319178c5d8)
   )
+  (wire (pts (xy 255.27 140.97) (xy 260.35 140.97))
+    (stroke (width 0) (type default))
+    (uuid 5bc64c9a-9062-476c-a039-ee3e43edf7b8)
+  )
   (wire (pts (xy 242.57 146.05) (xy 242.57 154.94))
     (stroke (width 0) (type default))
     (uuid 5e7f3907-9706-4673-b64e-71f9a931b580)
+  )
+  (wire (pts (xy 62.23 106.68) (xy 77.47 106.68))
+    (stroke (width 0) (type default))
+    (uuid 608828c2-2613-4308-8630-51a5f4053d98)
   )
   (wire (pts (xy 181.61 33.02) (xy 189.23 33.02))
     (stroke (width 0) (type default))
@@ -2860,6 +2852,10 @@
   (wire (pts (xy 74.93 119.38) (xy 74.93 123.19))
     (stroke (width 0) (type default))
     (uuid 7068a27d-12ec-45a8-9ea9-c0d294f1f996)
+  )
+  (wire (pts (xy 107.95 101.6) (xy 133.35 101.6))
+    (stroke (width 0) (type default))
+    (uuid 71ccf14f-718c-452b-9460-5d229637302e)
   )
   (wire (pts (xy 210.82 16.51) (xy 210.82 27.94))
     (stroke (width 0) (type default))
@@ -2877,6 +2873,10 @@
     (stroke (width 0) (type default))
     (uuid 7df0f2d6-a262-4d4b-81d4-277ac33c038c)
   )
+  (wire (pts (xy 86.36 36.83) (xy 87.63 36.83))
+    (stroke (width 0) (type default))
+    (uuid 7f4d79bb-0bcd-4a21-80ab-a6c2d23cf656)
+  )
   (wire (pts (xy 31.75 120.65) (xy 21.59 120.65))
     (stroke (width 0) (type default))
     (uuid 80543123-fdb6-4c08-9008-0a79ffa956c3)
@@ -2889,9 +2889,21 @@
     (stroke (width 0) (type default))
     (uuid 8693998f-1e82-4be3-9b34-502fd1b1df29)
   )
+  (wire (pts (xy 107.95 109.22) (xy 140.97 109.22))
+    (stroke (width 0) (type default))
+    (uuid 88a93e8e-5eab-4889-b722-0d54f3b08195)
+  )
   (wire (pts (xy 22.86 175.26) (xy 38.1 175.26))
     (stroke (width 0) (type default))
     (uuid 89a1abc6-524a-4c16-aa4c-54c03bd4ec2e)
+  )
+  (wire (pts (xy 107.95 104.14) (xy 140.97 104.14))
+    (stroke (width 0) (type default))
+    (uuid 93e9d645-d596-4dfa-80dc-305fda037b51)
+  )
+  (wire (pts (xy 53.34 114.3) (xy 77.47 114.3))
+    (stroke (width 0) (type default))
+    (uuid 95daf0b2-dd9a-4596-9b33-ccd5ac4253bb)
   )
   (wire (pts (xy 90.17 165.1) (xy 104.14 165.1))
     (stroke (width 0) (type default))
@@ -2917,6 +2929,10 @@
     (stroke (width 0) (type default))
     (uuid a0f184d4-0bc7-4e8c-9778-7e1f468d56e8)
   )
+  (wire (pts (xy 62.23 101.6) (xy 77.47 101.6))
+    (stroke (width 0) (type default))
+    (uuid a2eae0a2-adf9-4535-9c10-c4782d07c98d)
+  )
   (wire (pts (xy 90.17 161.29) (xy 90.17 165.1))
     (stroke (width 0) (type default))
     (uuid a5524acd-cfd7-471c-9194-3e214519c9e8)
@@ -2929,7 +2945,11 @@
     (stroke (width 0) (type default))
     (uuid ad090eca-2e3c-44f2-9bae-973eb7d2a62c)
   )
-  (wire (pts (xy 251.46 148.59) (xy 251.46 152.4))
+  (wire (pts (xy 54.61 104.14) (xy 77.47 104.14))
+    (stroke (width 0) (type default))
+    (uuid b082f819-7cf3-470b-baa0-f01f9f2de981)
+  )
+  (wire (pts (xy 251.46 148.59) (xy 251.46 151.13))
     (stroke (width 0) (type default))
     (uuid b0bae328-e235-4eaa-b256-07827896baff)
   )
@@ -2941,9 +2961,17 @@
     (stroke (width 0) (type default))
     (uuid b493142c-cfcd-43b9-80c1-6e0d3d502234)
   )
+  (wire (pts (xy 62.23 111.76) (xy 77.47 111.76))
+    (stroke (width 0) (type default))
+    (uuid be42d397-979c-4f79-92df-1e9e8dbe1654)
+  )
   (wire (pts (xy 77.47 119.38) (xy 74.93 119.38))
     (stroke (width 0) (type default))
     (uuid bfb73fc4-406d-47fa-bb16-610b5504cb6d)
+  )
+  (wire (pts (xy 166.37 151.13) (xy 170.18 151.13))
+    (stroke (width 0) (type default))
+    (uuid c1d165a0-246e-414d-8781-c84e29189820)
   )
   (wire (pts (xy 234.95 154.94) (xy 242.57 154.94))
     (stroke (width 0) (type default))
@@ -2953,6 +2981,10 @@
     (stroke (width 0) (type default))
     (uuid c6db3a69-af68-41b7-8696-40c89b032bac)
   )
+  (wire (pts (xy 54.61 109.22) (xy 77.47 109.22))
+    (stroke (width 0) (type default))
+    (uuid c908cb14-08cd-4024-899e-9238e2e7eeba)
+  )
   (wire (pts (xy 99.06 182.88) (xy 111.76 182.88))
     (stroke (width 0) (type default))
     (uuid c963d011-df91-4e73-b18e-e039f4a362a9)
@@ -2961,7 +2993,7 @@
     (stroke (width 0) (type default))
     (uuid d08a8991-099d-4611-85c1-f9405630c77c)
   )
-  (wire (pts (xy 170.18 149.86) (xy 170.18 152.4))
+  (wire (pts (xy 170.18 149.86) (xy 170.18 151.13))
     (stroke (width 0) (type default))
     (uuid d2160f5a-3655-4946-bd8f-0da72e627b2e)
   )
@@ -2972,6 +3004,10 @@
   (wire (pts (xy 38.1 175.26) (xy 38.1 172.72))
     (stroke (width 0) (type default))
     (uuid d5c45ad9-f77e-4edd-9e5f-0ed302546429)
+  )
+  (wire (pts (xy 170.18 151.13) (xy 170.18 152.4))
+    (stroke (width 0) (type default))
+    (uuid d879e8c5-b523-4fdf-81ab-bd8f0f1fb8c6)
   )
   (wire (pts (xy 242.57 140.97) (xy 251.46 140.97))
     (stroke (width 0) (type default))
@@ -2997,9 +3033,17 @@
     (stroke (width 0) (type default))
     (uuid e9477ce8-55a7-48a1-9ae8-559e393f49a2)
   )
-  (wire (pts (xy 251.46 140.97) (xy 260.35 140.97))
+  (wire (pts (xy 251.46 151.13) (xy 251.46 152.4))
+    (stroke (width 0) (type default))
+    (uuid ee59cd34-d730-40db-bdb7-529c6c6fbed6)
+  )
+  (wire (pts (xy 251.46 140.97) (xy 255.27 140.97))
     (stroke (width 0) (type default))
     (uuid ee842ac2-3d46-43c0-914a-dd9d3c1bff7c)
+  )
+  (wire (pts (xy 25.4 80.01) (xy 29.21 80.01))
+    (stroke (width 0) (type default))
+    (uuid f3aeda4a-3ec2-4434-b36f-38638846372e)
   )
   (wire (pts (xy 237.49 45.72) (xy 237.49 66.04))
     (stroke (width 0) (type default))
@@ -3070,8 +3114,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2028b71a-9763-4b9d-af28-2e1560559046)
   )
-  (label "RX_USART_1" (at 21.59 92.71 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (label "RX_USART_1" (at 87.63 27.94 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 20e0ffb4-49cd-4f9f-ad24-e5507d0a4225)
   )
   (label "ON{slash}OFF magnet" (at 77.47 114.3 180) (fields_autoplaced)
@@ -3098,12 +3142,16 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 341e35cd-34a3-45a9-afb6-8b45210d8346)
   )
+  (label "B" (at 100.33 27.94 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 36cd2e2d-b8c0-432e-b27a-7da9c4bbe907)
+  )
   (label "GPIO1" (at 21.59 128.27 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4ec2171e-bc70-403f-befd-7996048545fc)
   )
-  (label "TX_USART_1" (at 21.59 97.79 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (label "TX_USART_1" (at 87.63 22.86 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5612df5f-b3af-4d31-a80c-a334891fd375)
   )
   (label "UART_TX" (at 21.59 123.19 0) (fields_autoplaced)
@@ -3166,8 +3214,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8be2e31a-7894-46b3-8b19-b4ebeb774dc7)
   )
-  (label "DE_USART_1" (at 21.59 95.25 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (label "DE_USART_1" (at 87.63 25.4 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8ced9110-559b-4cb7-a52d-41b3ae187bed)
   )
   (label "gripper_signal" (at 111.76 182.88 0) (fields_autoplaced)
@@ -3177,6 +3225,10 @@
   (label "Contakt_signal" (at 30.48 31.75 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 90279b9e-4815-402a-8450-462a604d9ec3)
+  )
+  (label "B" (at 29.21 80.01 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 94e0b516-9355-4e00-8b73-2f7b749ff80f)
   )
   (label "magnit_signal_contr" (at 107.95 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3238,6 +3290,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5afbed1-e576-45ff-8241-cdab6e66e9fc)
   )
+  (label "A" (at 100.33 24.13 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ca10c2bb-43ef-4136-8f50-a41f61848add)
+  )
   (label "Uncatch_contr" (at 107.95 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cdc7d13f-447f-4b51-b0c6-9c40c1285f8b)
@@ -3245,6 +3301,10 @@
   (label "Catch_contr" (at 107.95 109.22 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cf693b37-6146-4e8a-a510-435d6e3f16be)
+  )
+  (label "A" (at 29.21 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cf7e1c92-c847-462c-8ab4-e2fc80d6f8d7)
   )
   (label "TX_USART_1" (at 223.52 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3301,7 +3361,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3410,7 +3470,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -3452,6 +3512,53 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 133.35 111.76 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 0a116d93-c7d6-48c8-99da-76ad0973b798)
+    (property "Reference" "TP1" (at 138.43 109.032 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 135.382 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 133.35 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 133.35 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c0ff0005-2b2a-4189-8b7d-7d39f137590e))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP11") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -3501,6 +3608,53 @@
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 133.35 101.6 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 0fa36fc5-9174-40dc-b23d-934bacdb3135)
+    (property "Reference" "TP1" (at 138.43 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 135.382 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 133.35 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 133.35 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 00bbf3bd-b685-4763-ad9c-5029690706a6))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP7") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -3700,7 +3854,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 99.06 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17e3c909-9f2f-4fd2-8347-20fe9f531434)
-    (property "Reference" "#PWR045" (at 99.06 196.85 0)
+    (property "Reference" "#PWR048" (at 99.06 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 195.58 0)
@@ -3716,13 +3870,60 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 140.97 104.14 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 19daedac-0849-466c-8159-5bf4892a2f39)
+    (property "Reference" "TP1" (at 146.05 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 143.002 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 140.97 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 140.97 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fd672369-121d-45a4-8cc9-5e422d5d7079))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP8") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -3810,6 +4011,147 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 166.37 151.13 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 1c81a44b-b662-44bc-8ec4-b6e2ea807a34)
+    (property "Reference" "TP1" (at 161.29 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 164.338 148.59 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 166.37 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 166.37 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ec5aed0b-2750-413d-ae91-d7703c7ed624))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "G1") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 255.27 140.97 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 1ca65feb-2b4b-4297-b021-9498c4807304)
+    (property "Reference" "TP1" (at 254 135.89 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 257.81 138.938 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 260.35 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 260.35 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3ed8120c-2437-491c-83eb-8eeca03c09d8))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP19") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 62.23 111.76 90) (mirror x) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 1df59293-5837-45f4-be7b-bd79c354b8f3)
+    (property "Reference" "TP1" (at 57.15 109.032 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 60.198 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 62.23 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 62.23 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ac417366-7390-451f-b84b-626d10c9cdf2))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP17") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 100.33 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bd01e08-8689-4b0a-b836-bfabfb0ef085)
@@ -3876,6 +4218,100 @@
       (project "Плата внешних шаговых двигателей"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR079") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 54.61 109.22 90) (mirror x) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 34837ebd-feeb-4cb0-a596-f5aa964181dd)
+    (property "Reference" "TP1" (at 49.53 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 52.578 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 54.61 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 54.61 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5524c37-3232-4881-9626-e55413ef1bda))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP16") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 62.23 101.6 90) (mirror x) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 3494cb46-b906-4f43-b3dc-3182d617b193)
+    (property "Reference" "TP1" (at 57.15 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 60.198 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 62.23 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 62.23 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 74e284ec-5c15-439b-a876-5db7d0126c79))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP13") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -3952,10 +4388,57 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 259.08 151.13 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 3e3133ad-289d-43f9-ba3e-efb76b5cfe31)
+    (property "Reference" "TP1" (at 264.16 149.86 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 261.112 153.67 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 259.08 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 259.08 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b0b49786-4b68-4de1-9377-619e0078acfa))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "GD1") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 90.17 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e505e6b-64ef-49fa-bfba-b54684b5ebb0)
-    (property "Reference" "#PWR054" (at 90.17 179.07 0)
+    (property "Reference" "#PWR043" (at 90.17 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 177.8 0)
@@ -3971,7 +4454,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
@@ -4005,7 +4488,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -4109,7 +4592,7 @@
   (symbol (lib_id "Device:R") (at 90.17 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ee162e0-8bbe-4599-a376-1a218eee68ae)
-    (property "Reference" "R16" (at 92.71 167.64 0)
+    (property "Reference" "R4" (at 92.71 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.6k 0603" (at 92.71 170.18 0)
@@ -4126,7 +4609,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "R16") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4238,7 +4721,7 @@
           (reference "J6") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -4308,10 +4791,57 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 133.35 106.68 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 5ca2fb63-afda-4393-a32d-059b50207ed2)
+    (property "Reference" "TP1" (at 138.43 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 135.382 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 133.35 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 133.35 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4f705c04-d3c4-4fa4-b9a0-ac9649c00849))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP9") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "PCM_4ms_Power-symbol:+3.3VA") (at 74.93 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d067657-ee38-420e-a005-320395b0f3b7)
-    (property "Reference" "#PWR030" (at 76.2 92.71 0)
+    (property "Reference" "#PWR027" (at 76.2 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 71.12 96.52 90)
@@ -4327,7 +4857,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4436,6 +4966,53 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 140.97 109.22 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 6465325e-5ea6-402f-8d6a-b97601d664d8)
+    (property "Reference" "TP1" (at 146.05 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 143.002 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 140.97 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 140.97 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5af9d7f4-027b-439d-a88f-0422cd6811c9))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP10") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 170.18 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 648762c9-e460-4a04-8699-0c92ac9e9054)
@@ -4491,10 +5068,57 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 62.23 106.68 90) (mirror x) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 7135a403-2c57-440f-b655-b2b1db46a8a9)
+    (property "Reference" "TP1" (at 57.15 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 60.198 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 62.23 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 62.23 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a7d12072-5266-482a-85b5-98fc25b40f25))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP15") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 198.12 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74f7c767-5eb4-4450-99d7-aae05f1c4166)
-    (property "Reference" "#PWR038" (at 198.12 158.75 0)
+    (property "Reference" "#PWR037" (at 198.12 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 157.48 0)
@@ -4510,7 +5134,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
@@ -4721,7 +5345,7 @@
   (symbol (lib_id "Device:R") (at 82.55 177.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91aed0e4-7eb9-4529-860c-e22465017ed7)
-    (property "Reference" "R4" (at 74.93 175.26 0)
+    (property "Reference" "R5" (at 74.93 175.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "24k 0603" (at 71.12 177.8 0)
@@ -4738,7 +5362,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4747,7 +5371,7 @@
   (symbol (lib_id "power:GNDD") (at 251.46 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 953766e2-803d-455e-aa31-bf8f8de30a2b)
-    (property "Reference" "#PWR039" (at 251.46 158.75 0)
+    (property "Reference" "#PWR038" (at 251.46 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 251.46 156.21 0)
@@ -4763,7 +5387,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -4777,7 +5401,7 @@
   (symbol (lib_id "Diode:BZV55B3V3") (at 99.06 186.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96cd78eb-d4e2-49f4-833e-71fbd7dfec1e)
-    (property "Reference" "D4" (at 101.6 185.42 90)
+    (property "Reference" "D6" (at 101.6 185.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BZV55B3V3" (at 101.6 187.96 90)
@@ -4794,7 +5418,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "D4") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -4843,7 +5467,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 82.55 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bb744c3-e87a-4ee0-a703-477bfea1c7a4)
-    (property "Reference" "#PWR055" (at 82.55 196.85 0)
+    (property "Reference" "#PWR047" (at 82.55 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 195.58 0)
@@ -4859,7 +5483,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
@@ -4901,7 +5525,53 @@
       )
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
+        )
+      )
+      (project "ИБП"
+        (path "/7f9c4bef-f4d3-43c4-a705-13842880c98b/1611fad4-4804-4f3c-93d6-d31c4fe12484/4ff6c499-209e-4211-8846-0435770cf970"
+          (reference "J10") (unit 1)
+        )
+      )
+      (project "CommonControl"
+        (path "/a9e9e342-f9db-4619-97dc-0478dd4d5ea3/4ff6c499-209e-4211-8846-0435770cf970"
+          (reference "J11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Socket") (at 20.32 80.01 180) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid a42cd6fc-f13c-45c4-8e31-1f469ea7cebf)
+    (property "Reference" "J11" (at 24.13 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "RS485" (at 26.67 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector:PAD_1.5x2mm_2" (at 20.32 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 20.32 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bfbdbb5c-5318-47b8-8cbb-bc0a6d6a1884))
+    (pin "2" (uuid af0cd1ad-20ed-4aff-af25-8626081732a3))
+    (instances
+      (project "ПА и коммутации"
+        (path "/01ec6d4e-01f6-4418-8d0d-9a096b2f6fe1/241e52ac-0c69-469d-a24a-91effe2338b5/4ff6c499-209e-4211-8846-0435770cf970"
+          (reference "J11") (unit 1)
+        )
+      )
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "J1") (unit 1)
         )
       )
       (project "ИБП"
@@ -4980,7 +5650,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -5020,7 +5690,7 @@
   (symbol (lib_id "Diode:BZV55B3V3") (at 104.14 168.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad27c7ab-791f-4a27-9b80-4406218d0981)
-    (property "Reference" "D3" (at 106.68 167.64 90)
+    (property "Reference" "D4" (at 106.68 167.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BZV55B3V3" (at 106.68 170.18 90)
@@ -5037,7 +5707,47 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 87.63 34.29 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b083fb93-29d5-4ae5-8f8c-516e240d615b)
+    (property "Reference" "#PWR09" (at 91.44 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 83.82 34.29 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 87.63 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 87.63 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2c7a1ba6-ad5e-4566-a7a3-5fef062adcab))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "Плата QR"
+        (path "/5de11a73-9d1a-46ee-891f-a56220952d72"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5046,7 +5756,7 @@
   (symbol (lib_id "PCM_Diode_Schottky_AKL:1PS79SB30") (at 62.23 182.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b084b2e9-0c06-42c0-8bbb-767d4b66397f)
-    (property "Reference" "D10" (at 61.9125 176.53 0)
+    (property "Reference" "D5" (at 61.9125 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1PS79SB30" (at 61.9125 179.07 0)
@@ -5063,7 +5773,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "D10") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -5119,7 +5829,7 @@
       )
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "Плата QR"
@@ -5164,7 +5874,7 @@
       )
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "Плата QR"
@@ -5183,7 +5893,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 170.18 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5426300-840b-43b0-8a08-2088d272968f)
-    (property "Reference" "#PWR037" (at 170.18 158.75 0)
+    (property "Reference" "#PWR036" (at 170.18 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 157.48 0)
@@ -5199,40 +5909,13 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "#PWR024") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 16.51 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid babd734b-ba5c-4fe8-a544-e9c1274108f0)
-    (property "Reference" "J6" (at 17.78 86.36 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "DS1031-01-1х03 (PLL - 1х3) (rs485)" (at 33.02 88.9 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" (at 16.51 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 16.51 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid c8203db9-ff92-4d0f-b017-ea9a6cef7c92))
-    (pin "1" (uuid 9ccba6f0-2474-46b8-a7c6-52758fc67a32))
-    (pin "3" (uuid 3abab8c5-9683-4c86-892f-6d387787dc3f))
-    (instances
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "J6") (unit 1)
         )
       )
     )
@@ -5333,7 +6016,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 74.93 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c972d0ff-2049-4c39-a577-9cd257a61b6b)
-    (property "Reference" "#PWR034" (at 74.93 129.54 0)
+    (property "Reference" "#PWR032" (at 74.93 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 128.27 0)
@@ -5349,7 +6032,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
@@ -5364,7 +6047,7 @@
   (symbol (lib_id "PCM_Diode_Schottky_AKL:1PS79SB30") (at 60.96 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb9932a7-e632-4070-95c2-a2e92db7d729)
-    (property "Reference" "D9" (at 60.6425 158.75 0)
+    (property "Reference" "D3" (at 60.6425 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1PS79SB30" (at 60.6425 161.29 0)
@@ -5381,7 +6064,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "D9") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -5390,7 +6073,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 104.14 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cca0cabb-0666-4fc4-8bb5-2b6cf0acc831)
-    (property "Reference" "#PWR042" (at 104.14 179.07 0)
+    (property "Reference" "#PWR044" (at 104.14 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 177.8 0)
@@ -5406,7 +6089,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
@@ -5486,7 +6169,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 34.29 177.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d310a8e4-70bd-425a-8ba1-4c70d9ffd09e)
-    (property "Reference" "#PWR044" (at 40.64 177.8 0)
+    (property "Reference" "#PWR046" (at 40.64 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 177.8 90)
@@ -5502,13 +6185,100 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
           (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 86.36 36.83 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d3e5cc52-6137-464f-8bb1-a36cdfd226a0)
+    (property "Reference" "#PWR010" (at 80.01 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 82.55 36.83 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 86.36 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 86.36 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fdc3f3eb-992b-493e-afc9-a199981ce271))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "Плата QR"
+        (path "/5de11a73-9d1a-46ee-891f-a56220952d72"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 53.34 114.3 90) (mirror x) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid d6499418-3ac5-45e3-8482-f15097d0b976)
+    (property "Reference" "TP1" (at 48.26 113.03 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 51.308 116.84 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 53.34 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.34 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f3ebb3a1-7a3b-46f4-bd7e-dd2fbdce089f))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP18") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -5538,7 +6308,7 @@
       )
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "Плата QR"
@@ -5611,7 +6381,7 @@
       )
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "Плата QR"
@@ -5627,25 +6397,48 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 170.18 176.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid db1a0b14-67aa-48a8-90e2-b8418f9eb164)
-    (property "Reference" "H4" (at 172.72 175.26 0)
+  (symbol (lib_id "Connector:TestPoint") (at 142.24 114.3 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid df33c547-636b-46c2-9cb6-54a15db83208)
+    (property "Reference" "TP1" (at 147.32 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 172.72 177.8 0)
+    (property "Value" "TestPoint" (at 144.272 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 170.18 176.53 0)
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 142.24 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 170.18 176.53 0)
+    (property "Datasheet" "~" (at 142.24 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 3fea0a54-fd01-4065-9741-24972f52e443))
     (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
       (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "H4") (unit 1)
+          (reference "TP12") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -5654,7 +6447,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:+3.3VA") (at 30.48 34.29 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0bb1579-47f4-4525-89bb-afe222ff6aa7)
-    (property "Reference" "#PWR07" (at 31.75 38.1 0)
+    (property "Reference" "#PWR06" (at 31.75 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 26.67 34.29 90)
@@ -5670,7 +6463,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -5740,7 +6533,7 @@
       )
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "Плата QR"
@@ -5856,7 +6649,7 @@
           (reference "J2") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "J5") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -5865,7 +6658,7 @@
   (symbol (lib_id "Device:R") (at 82.55 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9311ef6-1958-4c73-9135-9db7f9c416b3)
-    (property "Reference" "R17" (at 85.09 185.42 0)
+    (property "Reference" "R6" (at 85.09 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.6k 0603" (at 85.09 187.96 0)
@@ -5882,7 +6675,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "R17") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5891,10 +6684,10 @@
   (symbol (lib_id "Connector:Conn_01x10_Pin") (at 16.51 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea3fe81a-c437-4546-85ca-16f8c73a26b2)
-    (property "Reference" "J1" (at 17.145 102.87 0)
+    (property "Reference" "J3" (at 17.145 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DS1031-01-1х10 (PLL - 1x10) (prog)" (at 33.02 105.41 0)
+    (property "Value" "DS1031-01-1х10 (PLL - 1x10) (prog)" (at 13.97 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x10_P1.27mm_Vertical" (at 16.51 118.11 0)
@@ -5916,7 +6709,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -5925,7 +6718,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 77.47 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb5adb71-68d0-4d94-905a-8e5d7f9b30a3)
-    (property "Reference" "#PWR027" (at 77.47 76.2 0)
+    (property "Reference" "#PWR023" (at 77.47 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 77.47 77.47 0)
@@ -5941,7 +6734,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/7c715f16-0b91-4751-ae3f-9d2fd77d1747"
           (reference "#PWR019") (unit 1)
@@ -5977,7 +6770,7 @@
       )
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "Плата QR"
@@ -6066,7 +6859,7 @@
   (symbol (lib_id "power:GNDD") (at 162.56 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f65c4ff3-8526-410c-a6f2-48baa11cbaca)
-    (property "Reference" "#PWR024" (at 162.56 88.9 0)
+    (property "Reference" "#PWR025" (at 162.56 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 162.56 86.36 0)
@@ -6082,7 +6875,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "Плата дискретных входов"
@@ -6117,7 +6910,7 @@
       )
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "Плата QR"
@@ -6133,10 +6926,57 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 54.61 104.14 90) (mirror x) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid f930b69e-e019-44cb-8835-0b90e615c7d0)
+    (property "Reference" "TP1" (at 49.53 100.33 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 52.578 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 54.61 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 54.61 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2a6251aa-32d0-48bd-978d-b51e6873e130))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP14") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GNDD") (at 144.78 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9ea5e5f-7f79-40a1-9b9e-2851a532b6f8)
-    (property "Reference" "#PWR023" (at 144.78 88.9 0)
+    (property "Reference" "#PWR024" (at 144.78 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 144.78 86.36 0)
@@ -6152,7 +6992,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "Плата дискретных входов"
@@ -6351,6 +7191,51 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 87.63 19.05) (size 12.7 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f40078cf-8924-44e5-bd99-ff6246a9c2a6)
+    (property "Sheetname" "RS485" (at 87.63 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RS485.kicad_sch" (at 87.63 39.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "Tx" input (at 87.63 22.86 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1741e44d-43a7-4791-92a5-3de5ee1b81b7)
+    )
+    (pin "De" input (at 87.63 25.4 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid bebb79ef-2941-4dd5-860d-8b3522fdde6a)
+    )
+    (pin "GND" input (at 87.63 36.83 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 3d932c3d-5b69-4470-9d42-d945796be076)
+    )
+    (pin "Rx" output (at 87.63 27.94 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e62bcad4-7d8a-41ef-b967-d2960b4e9709)
+    )
+    (pin "+3.3V" input (at 87.63 34.29 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 192c3b98-f07f-4413-bf8f-e6b07ef02176)
+    )
+    (pin "A" output (at 100.33 24.13 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 535991fc-b7d2-4a90-9267-453693758e7c)
+    )
+    (pin "B" output (at 100.33 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 59a1cf60-b5f4-4a7f-9d0c-41c26fcb723e)
+    )
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260" (page "5"))
       )
     )
   )

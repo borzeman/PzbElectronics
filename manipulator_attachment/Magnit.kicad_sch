@@ -392,7 +392,7 @@
   (symbol (lib_id "Device:R") (at 90.17 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 300a42fd-1b79-4360-b0c1-f31389f18927)
-    (property "Reference" "R7" (at 90.17 87.63 90)
+    (property "Reference" "R9" (at 90.17 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "101 0603" (at 90.17 90.17 90)
@@ -409,7 +409,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -418,7 +418,7 @@
   (symbol (lib_id "PCM_Diode_Schottky_AKL:SS16") (at 109.22 71.12 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 321718c8-0c3b-4e6c-9537-ebc244746c0f)
-    (property "Reference" "D5" (at 106.68 69.5325 90)
+    (property "Reference" "D7" (at 106.68 69.5325 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SS16" (at 106.68 72.0725 90)
@@ -435,7 +435,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/5efd83d5-7b96-4f3a-b42e-52d434a47456"
-          (reference "D5") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )

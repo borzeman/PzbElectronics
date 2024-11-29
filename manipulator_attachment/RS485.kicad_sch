@@ -91,11 +91,11 @@
         )
       )
     )
-    (symbol "Device:L_Coupled_1423" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:L_Coupled_1243" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at 0 4.445 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "L_Coupled_1423" (at 0 -4.445 0)
+      (property "Value" "L_Coupled_1243" (at 0 -4.445 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -113,7 +113,7 @@
       (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "L_Coupled_1423_0_1"
+      (symbol "L_Coupled_1243_0_1"
         (circle (center -3.048 -1.27) (radius 0.254)
           (stroke (width 0) (type default))
           (fill (type outline))
@@ -195,12 +195,12 @@
           (fill (type none))
         )
       )
-      (symbol "L_Coupled_1423_1_1"
+      (symbol "L_Coupled_1243_1_1"
         (pin passive line (at -5.08 2.54 0) (length 2.54)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 -2.54 0) (length 2.54)
+        (pin passive line (at 5.08 2.54 180) (length 2.54)
           (name "2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -208,7 +208,7 @@
           (name "3" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
+        (pin passive line (at -5.08 -2.54 0) (length 2.54)
           (name "4" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
@@ -988,159 +988,185 @@
         )
       )
     )
-    (symbol "PCM_Diode_TVS_AKL:SMBJ10CA" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 5.08 0)
+    (symbol "PCM_Diode_TVS_AKL:SM712" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SMBJ10CA" (at 0 2.54 0)
+      (property "Value" "SM712" (at 0 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Diode_SMD_AKL:D_SMB_TVS" (at 0 0 0)
+      (property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23" (at 0 8.89 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 0 0 0)
+      (property "Datasheet" "https://www.tme.eu/Document/75933fc1842e5f5f3391c0542bf992c7/SM712.pdf" (at 0 8.89 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "diode TVS bidirectional SMBJ-CA" (at 0 0 0)
+      (property "ki_keywords" "dual tvs diode bidirectional SM712" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "SMB Bidirectional TVS Diode, 10V, 600W, Alternate KiCAD Library" (at 0 0 0)
+      (property "ki_description" "SOT-23 Dual bidirectional TVS diode, 12V/7V, 600W, Alternate KiCAD Library" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SMBJ10CA_0_1"
-        (polyline
-          (pts
-            (xy 0 -1.27)
-            (xy -0.508 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
+      (symbol "SM712_0_1"
+        (circle (center -3.81 0) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
         )
         (polyline
           (pts
-            (xy 0 1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0.508 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
+            (xy -6.35 0)
+            (xy -3.81 0)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 0)
-            (xy -2.54 1.27)
+            (xy 2.54 -2.54)
+            (xy 5.08 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 5.08 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 2.54)
+            (xy -3.81 2.54)
+            (xy -3.81 -2.54)
+            (xy -2.54 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "SM712_1_1"
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy 1.27 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.54)
+            (xy 1.27 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -3.81)
+            (xy -0.508 -3.81)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -3.81)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0.508 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy -0.508 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 3.81)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 3.81)
+            (xy 0.508 3.81)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -3.81)
             (xy -2.54 -1.27)
-            (xy 0 0)
+            (xy 0 -2.54)
+            (xy -2.54 -3.81)
           )
           (stroke (width 0.254) (type default))
           (fill (type outline))
         )
         (polyline
           (pts
-            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+            (xy -2.54 3.81)
+            (xy 0 2.54)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy 2.54 -3.81)
             (xy 2.54 -1.27)
-            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
             (xy 2.54 1.27)
+            (xy 2.54 3.81)
+            (xy 0 2.54)
           )
           (stroke (width 0.254) (type default))
           (fill (type outline))
         )
-      )
-      (symbol "SMBJ10CA_1_1"
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 7.62 -2.54 180) (length 2.54)
+          (name "A1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 7.62 2.54 180) (length 2.54)
+          (name "A2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-      )
-    )
-    (symbol "PCM_Diode_TVS_AKL:SMBJ5.0A" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SMBJ5.0A" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Diode_SMD_AKL:D_SMB" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode unidirectional TVS SMBJ-A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "SMB Unidirectional TVS diode, 5V, 600W, Alternate KiCAD Library" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SMBJ5.0A_0_1"
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-            (xy 1.27 0)
-            (xy -1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "SMBJ5.0A_1_1"
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
+        (pin passive line (at -7.62 0 0) (length 2.54)
+          (name "Com" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1167,11 +1193,11 @@
   (junction (at 132.08 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 1ae0d393-9f2b-4a90-9797-b5d7be6c23f3)
   )
+  (junction (at 228.6 91.44) (diameter 0) (color 0 0 0 0)
+    (uuid 1be8b0a9-ea8c-4e5f-8170-d5dda70ccbe0)
+  )
   (junction (at 41.91 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 20d9f217-a7e8-4e80-a0ce-2bacd4e2d6e3)
-  )
-  (junction (at 227.33 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid 20e77f8b-829e-4a10-b358-c620789ac8b8)
   )
   (junction (at 144.78 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 26d2917a-ae17-4a3f-a230-be55d3506545)
@@ -1191,9 +1217,6 @@
   (junction (at 127 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 5c2971ca-409a-45de-9cf9-63b2e06ba150)
   )
-  (junction (at 227.33 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid 6a2e55b6-38ee-483a-9f75-b7760cfd147e)
-  )
   (junction (at 41.91 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 6c6f8a2a-a4cc-4a12-98ad-bea9d7307d2f)
   )
@@ -1208,6 +1231,9 @@
   )
   (junction (at 134.62 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 840df029-878a-4b4d-bbff-caf7f9602c35)
+  )
+  (junction (at 128.27 105.41) (diameter 0) (color 0 0 0 0)
+    (uuid 8d8537c0-7992-4118-9a8e-d8c4c1bb99c8)
   )
   (junction (at 83.82 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 9317557a-d367-44ac-a8a2-8d9ada3fea71)
@@ -1229,6 +1255,9 @@
   )
   (junction (at 123.19 101.6) (diameter 0) (color 0 0 0 0)
     (uuid d267fca7-8fab-4749-a473-65bd8eb6f687)
+  )
+  (junction (at 223.52 83.82) (diameter 0) (color 0 0 0 0)
+    (uuid e6bb85d6-0df0-405a-9fca-332377a7fc89)
   )
   (junction (at 52.07 106.68) (diameter 0) (color 0 0 0 0)
     (uuid e8176313-38fa-4240-8430-41775a4d996f)
@@ -1264,6 +1293,10 @@
     (stroke (width 0) (type default))
     (uuid 13dcf76d-2831-4f7a-a7f1-00b2af278852)
   )
+  (wire (pts (xy 228.6 91.44) (xy 241.3 91.44))
+    (stroke (width 0) (type default))
+    (uuid 142a0298-c7e5-456e-8600-cfba9e013bf6)
+  )
   (wire (pts (xy 123.19 46.99) (xy 127 46.99))
     (stroke (width 0) (type default))
     (uuid 15bccc74-b757-4f88-9f00-6dbfc809e246)
@@ -1276,15 +1309,15 @@
     (stroke (width 0) (type default))
     (uuid 1d9958cd-c4d5-4e2d-ad02-88aa4add791e)
   )
+  (wire (pts (xy 241.3 88.9) (xy 241.3 91.44))
+    (stroke (width 0) (type default))
+    (uuid 1e05e9c6-7d0d-4d87-be45-b6c3223cb55f)
+  )
   (wire (pts (xy 127 76.2) (xy 127 59.69))
     (stroke (width 0) (type default))
     (uuid 20f5ab48-df99-4862-82b1-8b499e6ca5f1)
   )
-  (wire (pts (xy 214.63 88.9) (xy 214.63 91.44))
-    (stroke (width 0) (type default))
-    (uuid 23aaaef6-3101-44d6-b6f9-af12554bbd77)
-  )
-  (wire (pts (xy 245.11 80.01) (xy 267.97 80.01))
+  (wire (pts (xy 251.46 83.82) (xy 274.32 83.82))
     (stroke (width 0) (type default))
     (uuid 24e40607-2ffa-49f8-a1d8-0dff2ff65a4b)
   )
@@ -1296,17 +1329,17 @@
     (stroke (width 0) (type default))
     (uuid 2daee623-130e-4832-983e-6b40f45eb9cb)
   )
-  (wire (pts (xy 179.07 83.82) (xy 200.66 83.82))
+  (wire (pts (xy 223.52 83.82) (xy 241.3 83.82))
+    (stroke (width 0) (type default))
+    (uuid 2dba9850-e5e9-4aa8-b80d-c490a838812b)
+  )
+  (wire (pts (xy 179.07 83.82) (xy 193.04 83.82))
     (stroke (width 0) (type default))
     (uuid 2ea85cb7-03e8-429f-bf4d-fb6781811bea)
   )
   (wire (pts (xy 92.71 78.74) (xy 78.74 78.74))
     (stroke (width 0) (type default))
     (uuid 30920c1a-4271-43a6-b37b-d50ebc033576)
-  )
-  (wire (pts (xy 210.82 88.9) (xy 214.63 88.9))
-    (stroke (width 0) (type default))
-    (uuid 3be86318-35ed-4946-81e8-2091b21c6b42)
   )
   (wire (pts (xy 138.43 59.69) (xy 134.62 59.69))
     (stroke (width 0) (type default))
@@ -1320,15 +1353,15 @@
     (stroke (width 0) (type default))
     (uuid 3f06772b-396d-40b3-aec5-0913a1f0da84)
   )
-  (wire (pts (xy 245.11 91.44) (xy 267.97 91.44))
+  (wire (pts (xy 251.46 88.9) (xy 274.32 88.9))
     (stroke (width 0) (type default))
     (uuid 406a2f14-8105-4490-9350-5981d19ed33c)
   )
-  (wire (pts (xy 179.07 91.44) (xy 200.66 91.44))
+  (wire (pts (xy 179.07 91.44) (xy 195.58 91.44))
     (stroke (width 0) (type default))
     (uuid 43b964f1-9e87-4e2c-bcc2-f91c89d3c37b)
   )
-  (wire (pts (xy 210.82 83.82) (xy 214.63 83.82))
+  (wire (pts (xy 200.66 83.82) (xy 223.52 83.82))
     (stroke (width 0) (type default))
     (uuid 444fd01c-6b13-4864-83d8-548e7a1e739a)
   )
@@ -1336,17 +1369,9 @@
     (stroke (width 0) (type default))
     (uuid 478b5510-d110-496d-8b56-b170d6248c61)
   )
-  (wire (pts (xy 214.63 83.82) (xy 214.63 80.01))
-    (stroke (width 0) (type default))
-    (uuid 4b2d4520-b8eb-47e6-a490-2eecdeaf4c77)
-  )
   (wire (pts (xy 123.19 86.36) (xy 128.27 86.36))
     (stroke (width 0) (type default))
     (uuid 4b7650c8-aad3-42d7-b6a0-73eaccb67b53)
-  )
-  (wire (pts (xy 227.33 77.47) (xy 227.33 80.01))
-    (stroke (width 0) (type default))
-    (uuid 4bec71a5-e790-41ea-a0b7-5d28cada59af)
   )
   (wire (pts (xy 123.19 96.52) (xy 123.19 99.06))
     (stroke (width 0) (type default))
@@ -1376,17 +1401,13 @@
     (stroke (width 0) (type default))
     (uuid 57d8f499-1c8a-4ea0-bad6-7626b310c59d)
   )
-  (wire (pts (xy 214.63 91.44) (xy 227.33 91.44))
+  (wire (pts (xy 128.27 105.41) (xy 133.35 105.41))
     (stroke (width 0) (type default))
-    (uuid 603b41f6-0762-4860-856a-c3c5cbb1334e)
+    (uuid 5aa77b62-dd6d-41a0-a008-3133f2376028)
   )
   (wire (pts (xy 144.78 78.74) (xy 144.78 83.82))
     (stroke (width 0) (type default))
     (uuid 637765d9-7d9a-48c5-9267-6b21eaed7cf9)
-  )
-  (wire (pts (xy 214.63 80.01) (xy 227.33 80.01))
-    (stroke (width 0) (type default))
-    (uuid 64b18562-347e-42df-adb1-ce9ced523e66)
   )
   (wire (pts (xy 123.19 99.06) (xy 128.27 99.06))
     (stroke (width 0) (type default))
@@ -1412,6 +1433,10 @@
     (stroke (width 0) (type default))
     (uuid 74f64839-d4d4-4fec-baa5-68691324b8d5)
   )
+  (wire (pts (xy 128.27 105.41) (xy 128.27 106.68))
+    (stroke (width 0) (type default))
+    (uuid 768bdd69-67d5-42b8-83cf-2f8039950d54)
+  )
   (wire (pts (xy 92.71 99.06) (xy 92.71 101.6))
     (stroke (width 0) (type default))
     (uuid 7796d890-d10f-4eb6-8538-385bc3ce0e83)
@@ -1423,14 +1448,6 @@
   (wire (pts (xy 92.71 83.82) (xy 52.07 83.82))
     (stroke (width 0) (type default))
     (uuid 79e78479-96b4-4b6a-9663-79d81567bd2e)
-  )
-  (wire (pts (xy 227.33 91.44) (xy 227.33 97.79))
-    (stroke (width 0) (type default))
-    (uuid 7ba0025d-9de3-4f5d-a862-c6000c595904)
-  )
-  (wire (pts (xy 227.33 80.01) (xy 237.49 80.01))
-    (stroke (width 0) (type default))
-    (uuid 7bb28486-a080-4b71-b6d8-aa54c11ec641)
   )
   (wire (pts (xy 78.74 68.58) (xy 78.74 78.74))
     (stroke (width 0) (type default))
@@ -1444,7 +1461,7 @@
     (stroke (width 0) (type default))
     (uuid 8657f753-a119-4337-9fce-a329fa4777cc)
   )
-  (wire (pts (xy 128.27 99.06) (xy 128.27 106.68))
+  (wire (pts (xy 128.27 99.06) (xy 128.27 105.41))
     (stroke (width 0) (type default))
     (uuid 86bba425-a19f-41b7-a890-1525058db4d9)
   )
@@ -1460,10 +1477,6 @@
     (stroke (width 0) (type default))
     (uuid 889e67f1-af9f-47ed-924d-8e45d8cbf8b1)
   )
-  (wire (pts (xy 227.33 105.41) (xy 227.33 107.95))
-    (stroke (width 0) (type default))
-    (uuid 88caec7e-38ac-4edf-8cbb-1487f059c6f9)
-  )
   (wire (pts (xy 41.91 106.68) (xy 52.07 106.68))
     (stroke (width 0) (type default))
     (uuid 8c0107c4-67b4-4030-b300-026fec5b6810)
@@ -1475,6 +1488,10 @@
   (wire (pts (xy 128.27 86.36) (xy 128.27 91.44))
     (stroke (width 0) (type default))
     (uuid 9466fb20-bfd8-4f3a-991b-884a5e27a7b5)
+  )
+  (wire (pts (xy 228.6 91.44) (xy 228.6 93.98))
+    (stroke (width 0) (type default))
+    (uuid 9a5fc182-2d6b-4053-bd3c-4ed29a8b5069)
   )
   (wire (pts (xy 128.27 91.44) (xy 144.78 91.44))
     (stroke (width 0) (type default))
@@ -1488,7 +1505,7 @@
     (stroke (width 0) (type default))
     (uuid 9f481456-c279-4c0b-9ff9-f2a49664d292)
   )
-  (wire (pts (xy 227.33 91.44) (xy 237.49 91.44))
+  (wire (pts (xy 203.2 91.44) (xy 228.6 91.44))
     (stroke (width 0) (type default))
     (uuid a09f277e-2f30-42e5-a2ba-119341569855)
   )
@@ -1507,10 +1524,6 @@
   (wire (pts (xy 78.74 68.58) (xy 78.74 55.88))
     (stroke (width 0) (type default))
     (uuid ade153d9-f7f1-436c-a57b-764bfc22a99d)
-  )
-  (wire (pts (xy 200.66 88.9) (xy 200.66 91.44))
-    (stroke (width 0) (type default))
-    (uuid aee2b59e-ff84-43e4-bd86-956043beb467)
   )
   (wire (pts (xy 104.14 124.46) (xy 96.52 124.46))
     (stroke (width 0) (type default))
@@ -1535,10 +1548,6 @@
   (wire (pts (xy 123.19 124.46) (xy 123.19 106.68))
     (stroke (width 0) (type default))
     (uuid c1f1faa6-06a1-4254-a352-43d5c64aa012)
-  )
-  (wire (pts (xy 227.33 80.01) (xy 227.33 81.28))
-    (stroke (width 0) (type default))
-    (uuid c280795d-9287-413c-bbb5-fe1322898253)
   )
   (wire (pts (xy 81.28 55.88) (xy 85.09 55.88))
     (stroke (width 0) (type default))
@@ -1588,6 +1597,10 @@
     (stroke (width 0) (type default))
     (uuid ed930c3f-13c7-478b-a115-c045f31d2e56)
   )
+  (wire (pts (xy 223.52 83.82) (xy 223.52 93.98))
+    (stroke (width 0) (type default))
+    (uuid ee0f1c16-61e5-4af0-b0ac-91fe8e739fc5)
+  )
   (wire (pts (xy 123.19 83.82) (xy 132.08 83.82))
     (stroke (width 0) (type default))
     (uuid fb25b93c-8330-4019-a9d3-283fb815d8ba)
@@ -1633,7 +1646,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5e456aef-aa3e-4bc9-8536-9c1a15f88ed3)
   )
-  (hierarchical_label "B" (shape output) (at 267.97 91.44 0) (fields_autoplaced)
+  (hierarchical_label "B" (shape output) (at 274.32 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c1fb1fe6-b6bb-4563-b0c0-8b2cbb42c3f1)
   )
@@ -1641,7 +1654,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ce189a4e-2261-479d-b124-d1332e38d4a9)
   )
-  (hierarchical_label "A" (shape output) (at 267.97 80.01 0) (fields_autoplaced)
+  (hierarchical_label "A" (shape output) (at 274.32 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d00400c9-c194-4cda-9114-90c9d811b271)
   )
@@ -1654,19 +1667,19 @@
     (uuid dfde121c-ebdb-40da-911f-455795d81fe7)
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND2") (at 227.33 107.95 0) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND2") (at 226.06 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 010e1a03-9e59-47b1-af19-bba9cfa6cbd9)
-    (property "Reference" "#PWR045" (at 227.33 114.3 0)
+    (property "Reference" "#PWR045" (at 226.06 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND2" (at 227.33 113.03 0)
+    (property "Value" "GND2" (at 226.06 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 227.33 107.95 0)
+    (property "Footprint" "" (at 226.06 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 227.33 107.95 0)
+    (property "Datasheet" "" (at 226.06 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5db7ba44-69b8-4f87-abc7-de4a3c18d05c))
@@ -1677,8 +1690,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "#PWR053") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -1713,8 +1726,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "TP5") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP6") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -1755,8 +1768,8 @@
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C19") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C21") (unit 1)
         )
       )
       (project "Плата QR"
@@ -1799,8 +1812,8 @@
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C22") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C24") (unit 1)
         )
       )
       (project "Плата QR"
@@ -1839,8 +1852,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "#PWR049") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -1875,8 +1888,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "TP2") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP3") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -1885,36 +1898,6 @@
         )
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
           (reference "TP1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND2") (at 227.33 69.85 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 15b56526-4b4b-4b91-95b0-35934a83b6d3)
-    (property "Reference" "#PWR046" (at 227.33 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND2" (at 227.33 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 227.33 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 227.33 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fa20722c-0d70-4cc9-a012-67a7a49c0de8))
-    (instances
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
-          (reference "#PWR046") (unit 1)
-        )
-      )
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -1943,8 +1926,55 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "#PWR047") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "#PWR050") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 133.35 105.41 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 3eeecbe1-ff68-4fec-8cd8-4d04518166be)
+    (property "Reference" "TP1" (at 138.43 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 135.382 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 133.35 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 133.35 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cd53461e-5ab9-4970-9737-af88b5836f30))
+    (instances
+      (project "Плата основного контроллера"
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/aa98b9ed-d882-4e12-89ef-5fad349452f5"
+          (reference "TP1") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20"
+          (reference "TP28") (unit 1)
+        )
+        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
+          (reference "TP37") (unit 1)
+        )
+      )
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "G2") (unit 1)
+        )
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
+          (reference "TP12") (unit 1)
+        )
+      )
+      (project "Плата внешних шаговых двигателей"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+          (reference "TP22") (unit 1)
+        )
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -1977,8 +2007,8 @@
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C23") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C25") (unit 1)
         )
       )
       (project "Плата QR"
@@ -1994,19 +2024,19 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 241.3 80.01 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 196.85 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43801fb5-20f7-4adc-bfdf-fec83dd74f3f)
-    (property "Reference" "R157" (at 241.3 74.93 90)
+    (property "Reference" "R157" (at 196.85 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1206-100 Ом±5%-0,25 Вт" (at 241.3 77.47 90)
+    (property "Value" "1206-100 Ом±5%-0,25 Вт" (at 196.85 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_4ms_Resistor:R_1206_3216Metric" (at 241.3 81.788 90)
+    (property "Footprint" "PCM_4ms_Resistor:R_1206_3216Metric" (at 196.85 85.598 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 241.3 80.01 0)
+    (property "Datasheet" "~" (at 196.85 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 14a06b08-3947-41a2-ba0f-70e11beadfde))
@@ -2023,8 +2053,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "R9") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "R13") (unit 1)
         )
       )
       (project "Плата дискретных входов"
@@ -2040,37 +2070,6 @@
       (project "CommonControl"
         (path "/a9e9e342-f9db-4619-97dc-0478dd4d5ea3/4ff6c499-209e-4211-8846-0435770cf970"
           (reference "R157") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_Diode_TVS_AKL:SMBJ10CA") (at 227.33 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 43fd1a22-da10-42d3-aa5a-e42f643dc93a)
-    (property "Reference" "D5" (at 229.87 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SMBJ10CA" (at 229.87 87.63 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "PCM_Diode_SMD_AKL:D_SMB" (at 227.33 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 227.33 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 6b25c1ce-50ef-4562-8fae-174dcb0255ef))
-    (pin "1" (uuid 69329383-9947-4f1a-bf3e-bef20cf8f72a))
-    (instances
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
-          (reference "D5") (unit 1)
-        )
-      )
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "D7") (unit 1)
         )
       )
     )
@@ -2105,8 +2104,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "TP3") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP4") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -2147,8 +2146,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C24") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C26") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -2186,8 +2185,8 @@
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C16") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C18") (unit 1)
         )
       )
       (project "Плата QR"
@@ -2232,8 +2231,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "R12") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "R16") (unit 1)
         )
       )
       (project "Плата дискретных входов"
@@ -2249,6 +2248,33 @@
       (project "CommonControl"
         (path "/a9e9e342-f9db-4619-97dc-0478dd4d5ea3/4ff6c499-209e-4211-8846-0435770cf970"
           (reference "R159") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "PCM_Diode_TVS_AKL:SM712") (at 226.06 101.6 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7373e046-2d08-4df1-96c0-44e7a1c31e64)
+    (property "Reference" "D8" (at 232.41 100.9015 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "PSM712" (at 232.41 103.4415 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 217.17 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.tme.eu/Document/75933fc1842e5f5f3391c0542bf992c7/SM712.pdf" (at 217.17 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid fb5fb0a0-6e31-4647-ab01-ddb846bccc68))
+    (pin "3" (uuid 7d2a6118-152d-4c41-8de2-339989f0f8fd))
+    (pin "1" (uuid 96cd77bb-0798-4f90-a18d-563e3105a29a))
+    (instances
+      (project "manipulator_attachment"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -2301,8 +2327,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "U5") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "U6") (unit 1)
         )
       )
       (project "ИБП"
@@ -2318,81 +2344,19 @@
     )
   )
 
-  (symbol (lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A") (at 227.33 73.66 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7e0d6b67-0769-4014-905b-69ac5ea13521)
-    (property "Reference" "D2" (at 224.79 74.93 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SMBJ5.0A" (at 224.79 72.39 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "PCM_Diode_SMD_AKL:D_SMB" (at 227.33 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 227.33 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2812a85b-0d9f-416b-8c29-30dcdd113e16))
-    (pin "2" (uuid adfcc2c2-4290-4532-9e7f-4ba9f9cde0f6))
-    (instances
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
-          (reference "D2") (unit 1)
-        )
-      )
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "D6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A") (at 227.33 101.6 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 83f9e851-3c88-4243-8a19-7025c8c096c8)
-    (property "Reference" "D1" (at 229.87 100.33 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SMBJ5.0A" (at 229.87 102.87 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "PCM_Diode_SMD_AKL:D_SMB" (at 227.33 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf" (at 227.33 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6a8067c2-d66a-486a-98ff-5693b753adba))
-    (pin "2" (uuid 5858c57e-b3dc-43f3-b640-7069e3761969))
-    (instances
-      (project "Плата основного контроллера"
-        (path "/0ad4c27f-47f6-4faf-ae8a-ed32884f7b20/19eab971-6820-47d1-9de9-b0218f019cc5"
-          (reference "D1") (unit 1)
-        )
-      )
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "D8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:L_Coupled_1423") (at 205.74 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:L_Coupled_1243") (at 246.38 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8eaf9187-ea7e-45a1-a224-6b971bd700ed)
-    (property "Reference" "L1" (at 205.359 78.74 0)
+    (property "Reference" "L1" (at 246.38 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "B82790S0253N201" (at 205.359 81.28 0)
+    (property "Value" "DLW21SN900SQ2L" (at 246.38 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB" (at 205.74 86.36 0)
+    (property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB" (at 246.38 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 205.74 86.36 0)
+    (property "Datasheet" "~" (at 246.38 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid ad4329f4-5b17-4ad2-9de3-6ed1f59d007b))
@@ -2406,7 +2370,7 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
           (reference "L2") (unit 1)
         )
       )
@@ -2422,7 +2386,7 @@
     (property "Value" "0603-10 кОм±5%-0,0625 Вт" (at 54.61 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric" (at 50.292 102.87 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 50.292 102.87 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.07 102.87 0)
@@ -2442,8 +2406,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "R13") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "R17") (unit 1)
         )
       )
       (project "ИБП"
@@ -2488,8 +2452,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "TP4") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP5") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -2503,19 +2467,19 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 241.3 91.44 270) (unit 1)
+  (symbol (lib_id "Device:R") (at 199.39 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2ba75e4-f71e-46d9-9b3a-f54ee3ce17c5)
-    (property "Reference" "R157" (at 241.3 96.52 90)
+    (property "Reference" "R157" (at 199.39 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1206-100 Ом±5%-0,25 Вт" (at 241.3 93.98 90)
+    (property "Value" "1206-100 Ом±5%-0,25 Вт" (at 199.39 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_4ms_Resistor:R_1206_3216Metric" (at 241.3 89.662 90)
+    (property "Footprint" "PCM_4ms_Resistor:R_1206_3216Metric" (at 199.39 89.662 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 241.3 91.44 0)
+    (property "Datasheet" "~" (at 199.39 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 37c22a17-da8c-4bc5-bdd3-de72599fceb5))
@@ -2532,8 +2496,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "R10") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "R14") (unit 1)
         )
       )
       (project "Плата дискретных входов"
@@ -2577,8 +2541,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "#PWR050") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -2611,8 +2575,8 @@
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C17") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C19") (unit 1)
         )
       )
       (project "Плата QR"
@@ -2657,8 +2621,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "R8") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "R12") (unit 1)
         )
       )
       (project "Плата дискретных входов"
@@ -2706,8 +2670,8 @@
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C21") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C23") (unit 1)
         )
       )
       (project "Плата QR"
@@ -2750,8 +2714,8 @@
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C18") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C20") (unit 1)
         )
       )
       (project "Плата QR"
@@ -2790,8 +2754,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "#PWR052") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -2826,8 +2790,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "TP1") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "TP2") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -2864,8 +2828,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "#PWR048") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -2898,8 +2862,8 @@
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260"
           (reference "C1") (unit 1)
         )
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "C20") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "C22") (unit 1)
         )
       )
       (project "Плата QR"
@@ -2924,7 +2888,7 @@
     (property "Value" "0603-10 кОм±5%-0,0625 Вт" (at 71.12 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric" (at 66.802 92.71 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 66.802 92.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 92.71 0)
@@ -2944,8 +2908,8 @@
         )
       )
       (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/1feb9ab3-0f3b-4f73-b79c-a46973061a98"
-          (reference "R11") (unit 1)
+        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/f40078cf-8924-44e5-bd99-ff6246a9c2a6"
+          (reference "R15") (unit 1)
         )
       )
       (project "ИБП"

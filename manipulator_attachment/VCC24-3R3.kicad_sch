@@ -276,7 +276,7 @@
   (symbol (lib_id "Device:C") (at 142.24 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 621a677e-c55e-4aa1-9d21-89c4c0ef786b)
-    (property "Reference" "C26" (at 146.05 115.57 90)
+    (property "Reference" "C17" (at 146.05 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0,1uF 100V 0603" (at 148.59 115.57 90)
@@ -293,7 +293,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "C26") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -307,13 +307,13 @@
   (symbol (lib_id "Device:R") (at 107.95 106.68 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 8a9a2d6f-77e3-4707-a2e1-7b61efcd845f)
-    (property "Reference" "R15" (at 107.95 104.14 90)
+    (property "Reference" "R11" (at 107.95 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1206 opt" (at 107.95 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (at 107.95 104.902 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 107.95 104.902 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 106.68 0)
@@ -324,7 +324,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "R15") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -344,7 +344,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.21 97.79 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e1ad4d7-8d48-43e4-b709-285349db7b34)
-    (property "Reference" "TP6" (at 158.75 94.488 0)
+    (property "Reference" "TP1" (at 158.75 94.488 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 157.48 92.71 90)
@@ -360,7 +360,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "TP6") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -374,7 +374,7 @@
   (symbol (lib_id "Device:C") (at 119.38 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e08a61bc-7dd7-478b-9be3-9aca709b3557)
-    (property "Reference" "C25" (at 123.19 115.57 90)
+    (property "Reference" "C16" (at 123.19 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0,33uF 50V 0603" (at 125.73 115.57 90)
@@ -391,7 +391,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "C25") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
@@ -405,7 +405,7 @@
   (symbol (lib_id "Regulator_Linear:L78L33_SOT89") (at 133.35 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5de5798-0303-4080-866f-d8d4b4a0a12d)
-    (property "Reference" "U6" (at 133.35 91.44 0)
+    (property "Reference" "U5" (at 133.35 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L78L33_SOT89" (at 133.35 93.98 0)
@@ -423,7 +423,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -432,13 +432,13 @@
   (symbol (lib_id "Device:R") (at 107.95 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0dafe88-553f-4398-b075-3cf2dc3affc8)
-    (property "Reference" "R14" (at 107.95 95.25 90)
+    (property "Reference" "R10" (at 107.95 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1206-620 Ом±5%-0,25 Вт" (at 107.95 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (at 107.95 96.012 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 107.95 96.012 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 97.79 0)
@@ -449,7 +449,7 @@
     (instances
       (project "manipulator_attachment"
         (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "R14") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "Плата внешних шаговых двигателей"
