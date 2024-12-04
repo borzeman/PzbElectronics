@@ -600,6 +600,68 @@
         )
       )
     )
+    (symbol "Device:FerriteBead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "FB" (at -3.81 0.635 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "FerriteBead" (at 3.81 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "L ferrite bead inductor filter" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Ferrite bead" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -1.2192)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 1.2954)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.7686 0.4064)
+            (xy -1.7018 2.2606)
+            (xy 2.7686 -0.3048)
+            (xy 1.6764 -2.159)
+            (xy -2.7686 0.4064)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "FerriteBead_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:Fuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "F" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -2560,7 +2622,7 @@
   (junction (at 237.49 154.94) (diameter 0) (color 0 0 0 0)
     (uuid 24a1bbeb-4c88-4623-9b4b-b083ed121274)
   )
-  (junction (at 180.34 38.1) (diameter 0) (color 0 0 0 0)
+  (junction (at 184.15 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 273e0b6b-6293-4f96-b553-4c69b1f24b3d)
   )
   (junction (at 161.29 50.8) (diameter 0) (color 0 0 0 0)
@@ -2748,7 +2810,7 @@
     (stroke (width 0) (type default))
     (uuid 29ec43fe-22f7-43ec-8ce0-16f556833be4)
   )
-  (wire (pts (xy 180.34 33.02) (xy 194.31 33.02))
+  (wire (pts (xy 189.23 33.02) (xy 194.31 33.02))
     (stroke (width 0) (type default))
     (uuid 2b5958af-d5bb-4793-84f4-a0a9016bf30f)
   )
@@ -2884,10 +2946,6 @@
     (stroke (width 0) (type default))
     (uuid 54c7b664-dc5c-4f27-a31e-5be5d8b2aa14)
   )
-  (wire (pts (xy 177.8 38.1) (xy 180.34 38.1))
-    (stroke (width 0) (type default))
-    (uuid 5960ffdc-cbf7-4adb-a4b1-9cd3cf686028)
-  )
   (wire (pts (xy 242.57 45.72) (xy 228.6 45.72))
     (stroke (width 0) (type default))
     (uuid 5c8a40d3-d725-4b04-b805-38ad3e3c6166)
@@ -2935,6 +2993,10 @@
   (wire (pts (xy 31.75 182.88) (xy 31.75 185.42))
     (stroke (width 0) (type default))
     (uuid 68d76d3c-642e-4bc6-8e6b-3506e68d5c02)
+  )
+  (wire (pts (xy 179.07 38.1) (xy 184.15 38.1))
+    (stroke (width 0) (type default))
+    (uuid 69998ffd-3352-4897-ac69-18f04be0c5fa)
   )
   (wire (pts (xy 64.77 185.42) (xy 64.77 187.96))
     (stroke (width 0) (type default))
@@ -3160,7 +3222,7 @@
     (stroke (width 0) (type default))
     (uuid f071b0c2-be5a-44b6-b2dc-e5654c4d5cb6)
   )
-  (wire (pts (xy 180.34 38.1) (xy 198.12 38.1))
+  (wire (pts (xy 184.15 38.1) (xy 198.12 38.1))
     (stroke (width 0) (type default))
     (uuid f1bb33e1-9e0d-4cf1-88d3-9de565bd85ef)
   )
@@ -3197,7 +3259,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0028918b-49a0-4a98-a3f9-cc8704cfe9f8)
   )
-  (label "NRST" (at 180.34 33.02 180) (fields_autoplaced)
+  (label "NRST" (at 189.23 33.02 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 055339c9-89c2-4ab4-9b54-f1336ec63941)
   )
@@ -3419,7 +3481,7 @@
     )
     (pin "1" (uuid 6c87c6cc-d99e-4ea1-a2e5-26b730ef4e1a))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR079") (unit 1)
         )
@@ -3444,7 +3506,7 @@
     )
     (pin "1" (uuid b2fae82b-eb8b-4a70-9775-0c166ce57902))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR016") (unit 1)
         )
@@ -3470,7 +3532,7 @@
     (pin "1" (uuid c493d1e1-bb59-41ab-80f4-642df5bd2ce3))
     (pin "2" (uuid 1de2ae2b-bced-4674-9838-ad65a69af139))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C13") (unit 1)
         )
@@ -3496,7 +3558,7 @@
     (pin "2" (uuid 9ef65e04-0195-40f0-86a5-4e17aa887cc7))
     (pin "1" (uuid 41631595-30f4-4fbc-b4b9-b4f7b24e7eb3))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R3") (unit 1)
         )
@@ -3522,7 +3584,7 @@
     (pin "1" (uuid 654106d8-278f-4065-a6f3-7f02957e4dde))
     (pin "2" (uuid 3e8fe6f8-e90b-4fed-8486-a26aea7de431))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C10") (unit 1)
         )
@@ -3548,7 +3610,7 @@
     (pin "1" (uuid 7d0d1dd1-93f3-4f53-a63b-d0295be27909))
     (pin "2" (uuid dec99ec1-9e75-481c-b6c0-db7572519cad))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C42") (unit 1)
         )
@@ -3573,7 +3635,7 @@
     )
     (pin "1" (uuid 692e895e-10fa-4db3-9b66-1d5b33a34a23))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR011") (unit 1)
         )
@@ -3598,7 +3660,7 @@
     )
     (pin "1" (uuid 34b65a01-0492-477f-add1-d10d11cde6ba))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR09") (unit 1)
         )
@@ -3624,7 +3686,7 @@
     (pin "1" (uuid d4be0e06-8e58-42bb-b875-0e29f2b38670))
     (pin "2" (uuid b68a18f4-4f6b-4992-b400-7ae414f7142d))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C43") (unit 1)
         )
@@ -3649,7 +3711,7 @@
     )
     (pin "1" (uuid 7d3e1f76-6edb-437f-91e5-2c662bae06f7))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR037") (unit 1)
         )
@@ -3674,7 +3736,7 @@
     )
     (pin "1" (uuid 1bded7dd-8aa7-4786-844a-4889c00dd934))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR019") (unit 1)
         )
@@ -3701,7 +3763,7 @@
     (pin "1" (uuid 4fa852af-404a-4acb-93c1-5d47e81095db))
     (pin "2" (uuid 2fd8a506-8fb5-4ff2-aeda-8abfc2d05994))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "Q5") (unit 1)
         )
@@ -3726,7 +3788,7 @@
     )
     (pin "1" (uuid 31d036a0-233a-4c8a-a2e5-8f55e0235487))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -3820,7 +3882,7 @@
     (pin "64" (uuid 1e73117f-f1bd-4ec1-a95b-826f867a9d1c))
     (pin "9" (uuid 05d41a18-9a65-4766-ac41-fc25781c9fd4))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "U3") (unit 1)
         )
@@ -3845,7 +3907,7 @@
     )
     (pin "1" (uuid 76319b5e-f225-4a32-9d15-d321b73b6faf))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -3876,7 +3938,7 @@
     )
     (pin "1" (uuid d12d9135-61f8-4945-ae1f-ecdd9eac0204))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -3907,7 +3969,7 @@
     )
     (pin "1" (uuid 15e8a862-2f35-4ddd-aad3-77960effe1fd))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR02") (unit 1)
         )
@@ -3933,7 +3995,7 @@
     (pin "2" (uuid 293487be-a9f9-4416-ac25-56aa6df54600))
     (pin "1" (uuid 9143b165-16a2-4e7c-9711-50bbeca1ada2))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R6") (unit 1)
         )
@@ -3959,7 +4021,7 @@
     (pin "2" (uuid d573baf2-3014-483b-a613-26721cd19bc5))
     (pin "1" (uuid af2aef89-cced-49e5-a82e-2a87b27d0fa3))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R8") (unit 1)
         )
@@ -3987,7 +4049,7 @@
     (pin "3" (uuid 3cfb452a-b968-4034-9b97-bcf536167f11))
     (pin "4" (uuid 1f75c849-65dc-424c-a268-a60a0757ae12))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "Y1") (unit 1)
         )
@@ -4013,7 +4075,7 @@
     (pin "1" (uuid 1dba1c2a-2236-48ad-96bc-55e140d6df41))
     (pin "2" (uuid f3c36c91-a9fa-4bdd-b8d6-dacb326cf889))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C11") (unit 1)
         )
@@ -4038,7 +4100,7 @@
     )
     (pin "1" (uuid 01847e1d-c230-4ede-ba8a-7d3b60948ce0))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR020") (unit 1)
         )
@@ -4063,7 +4125,7 @@
     )
     (pin "1" (uuid 9b0a8cfc-7b95-425b-a9a1-efd6402814dc))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR043") (unit 1)
         )
@@ -4095,7 +4157,7 @@
     (pin "5" (uuid 846321a1-30e9-4967-83e7-a9d4a91afa92))
     (pin "3" (uuid e91751b0-6441-4cfd-bb1d-c425b018e0e7))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "U1") (unit 1)
         )
@@ -4120,7 +4182,7 @@
     )
     (pin "1" (uuid cf82969c-730a-4889-8b21-04f0b4952111))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR033") (unit 1)
         )
@@ -4145,7 +4207,7 @@
     )
     (pin "1" (uuid b6c14b4f-7649-49f7-aef0-40230c10bd9a))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR046") (unit 1)
         )
@@ -4171,7 +4233,7 @@
     (pin "1" (uuid 41639b44-fdbe-4b82-8624-7baa4d8a7afd))
     (pin "2" (uuid 8824c0bb-68e2-489e-b5a9-568f0f08f589))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C1") (unit 1)
         )
@@ -4180,12 +4242,12 @@
   )
 
   (symbol (lib_id "Device:C") (at 194.31 27.94 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 530c794e-c285-4c36-9b0d-4a4af4bc69cf)
-    (property "Reference" "C6" (at 190.5 29.21 0)
+    (property "Reference" "C6" (at 190.5 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 100V 0603" (at 190.5 26.67 0)
+    (property "Value" "0,1uF 100V 0603" (at 191.77 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 193.3448 24.13 0)
@@ -4197,7 +4259,7 @@
     (pin "1" (uuid 3947210d-4581-4827-9529-fdd21f37a4d5))
     (pin "2" (uuid 8fbac260-fcd2-4f59-a4e5-2503cb884c55))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C6") (unit 1)
         )
@@ -4222,7 +4284,7 @@
     )
     (pin "1" (uuid 72dc386f-caa3-473c-a321-372986de9b42))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR080") (unit 1)
         )
@@ -4247,7 +4309,7 @@
     )
     (pin "1" (uuid afc364c8-d581-4460-bb8c-bbf22353de08))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR01") (unit 1)
         )
@@ -4272,7 +4334,7 @@
     )
     (pin "1" (uuid 5acefada-5460-4faa-a698-a24792e6d450))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -4304,7 +4366,7 @@
     (pin "1" (uuid 6b37a33d-9c42-4527-a6e6-66a600ab60b7))
     (pin "2" (uuid 4943e739-0943-4673-ac60-e1b6e7f8a34d))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C4") (unit 1)
         )
@@ -4329,7 +4391,7 @@
     )
     (pin "1" (uuid b8008333-3818-483c-a349-1490d899feac))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR0109") (unit 1)
         )
@@ -4359,7 +4421,7 @@
     )
     (pin "1" (uuid d4d3b92a-fe53-45c0-8406-e8c8ba358542))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR06") (unit 1)
         )
@@ -4367,24 +4429,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 177.8 38.1 90) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 171.45 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62ce77bb-bfb4-475f-8c4b-68722f92bb29)
-    (property "Reference" "#PWR08" (at 181.61 38.1 0)
+    (property "Reference" "#PWR08" (at 175.26 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 173.99 38.1 90)
+    (property "Value" "+3V3" (at 167.64 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.8 38.1 0)
+    (property "Footprint" "" (at 171.45 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 177.8 38.1 0)
+    (property "Datasheet" "" (at 171.45 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d8621cb6-68e7-4ff6-8d18-2e32694f6072))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR08") (unit 1)
         )
@@ -4409,7 +4471,7 @@
     )
     (pin "1" (uuid fce01d99-73b9-4249-9b15-268a12045e5c))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR015") (unit 1)
         )
@@ -4434,7 +4496,7 @@
     )
     (pin "1" (uuid 12924b7c-b31e-4f0a-9f20-988cfc3f062d))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -4466,7 +4528,7 @@
     (pin "1" (uuid ddae2535-32a0-4797-9c88-2fa77225bee4))
     (pin "2" (uuid 6d5316a6-c102-48a7-b838-fdf0859d8a0c))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C9") (unit 1)
         )
@@ -4491,7 +4553,7 @@
     )
     (pin "1" (uuid 41c335e6-c2e9-407e-9fa9-4403ca979fbb))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR0110") (unit 1)
         )
@@ -4519,7 +4581,7 @@
     (pin "1" (uuid 0fbdf9a4-6aa5-4cb6-a2db-a3ad571eec98))
     (pin "4" (uuid d71c905c-e441-4dd7-99fe-1f9424e73b6a))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "U5") (unit 1)
         )
@@ -4544,7 +4606,7 @@
     )
     (pin "1" (uuid a367e5aa-3cbd-460e-bbd7-3cde2ad343df))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -4575,7 +4637,7 @@
     )
     (pin "1" (uuid 3a6222e2-66ea-462c-9ae0-1feca69dec0a))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR0104") (unit 1)
         )
@@ -4600,7 +4662,7 @@
     )
     (pin "1" (uuid a02b3e4f-c68e-453a-9af3-65fbb25502a8))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR04") (unit 1)
         )
@@ -4625,7 +4687,7 @@
     )
     (pin "1" (uuid 97718c37-4c8d-45b2-b302-d115126c6755))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -4657,7 +4719,7 @@
     (pin "1" (uuid 457e149b-370e-4551-87bc-ab0a4c289daa))
     (pin "2" (uuid 6db1eb77-c81b-41cd-9256-5c58394c5f17))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R7") (unit 1)
         )
@@ -4691,7 +4753,7 @@
     (pin "1" (uuid 1a07c51f-b495-4f97-ab8e-f161f17b87e1))
     (pin "6" (uuid c4f9cb29-e721-4ce7-9843-0a2a6dbd7739))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "RS2") (unit 1)
         )
@@ -4716,7 +4778,7 @@
     )
     (pin "1" (uuid 19959926-7a13-49f9-bf93-4f412c094974))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR049") (unit 1)
         )
@@ -4741,7 +4803,7 @@
     )
     (pin "1" (uuid 123de371-d1d1-439b-bd3f-4cbe766fa231))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR050") (unit 1)
         )
@@ -4766,7 +4828,7 @@
     )
     (pin "1" (uuid ee91c7e5-41c4-4a77-ae9c-f970e3f0d6eb))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR018") (unit 1)
         )
@@ -4791,9 +4853,35 @@
     )
     (pin "1" (uuid 3393f45b-77bf-4429-a284-f98e23a2eaff))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR036") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:FerriteBead") (at 175.26 38.1 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 83fec226-06ed-411c-a5ea-67245a5e4305)
+    (property "Reference" "FB1" (at 175.2092 30.48 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BLM18KG101TH1" (at 175.2092 33.02 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 175.26 39.878 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://cdn.promelec.ru/upload/items/2024/05/03/blm18kg101th1d.pdf" (at 175.26 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 7ee02ad6-10f9-45ac-9cf5-2d7c1de50e61))
+    (pin "1" (uuid 1f99751f-38d3-48f1-9eef-0e36ab2d1cd2))
+    (instances
+      (project "step_motor_board"
+        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+          (reference "FB1") (unit 1)
         )
       )
     )
@@ -4817,7 +4905,7 @@
     (pin "2" (uuid 6f5892ce-a777-4925-995b-f617ffc96d59))
     (pin "1" (uuid b44da901-d07a-4a22-9a17-83d230b00df6))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R4") (unit 1)
         )
@@ -4843,7 +4931,7 @@
     (pin "1" (uuid 34a6d1f0-3bb9-4331-98a5-d3f40f9d7d4c))
     (pin "2" (uuid 78bd4b0e-c9ab-4dd4-99a2-5aa0f887e766))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C2") (unit 1)
         )
@@ -4868,7 +4956,7 @@
     )
     (pin "1" (uuid d1a58f48-c9d9-4cfd-bff7-dc6216821dfb))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -4899,7 +4987,7 @@
     )
     (pin "1" (uuid 2e9bcf72-4cb3-4d0f-850e-c865b9f11043))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -4913,25 +5001,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 180.34 41.91 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 184.15 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9dc3276e-bdda-4c8e-9cec-c41909b01d29)
-    (property "Reference" "C7" (at 184.15 40.64 0)
+    (property "Reference" "C7" (at 187.96 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0,1uF 100V 0603" (at 176.53 55.88 90)
+    (property "Value" "0,1uF 100V 0603" (at 180.34 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 181.3052 45.72 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 185.1152 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 180.34 41.91 0)
+    (property "Datasheet" "~" (at 184.15 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 17c80f9c-61b4-49e0-a46d-014cf8cd3dc1))
     (pin "2" (uuid 668760c7-9799-419c-839a-5e2ba1a2082c))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C7") (unit 1)
         )
@@ -4957,7 +5045,7 @@
     (pin "1" (uuid 09b6d7a3-3dee-49e5-b85b-5d0a13379b0a))
     (pin "2" (uuid a84dfb6a-db78-4cac-ac8e-f558f8bcaf46))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C12") (unit 1)
         )
@@ -4965,24 +5053,24 @@
     )
   )
 
-  (symbol (lib_id "power:GNDD") (at 180.34 45.72 0) (unit 1)
+  (symbol (lib_id "power:GNDD") (at 184.15 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0ca7aa0-f2f5-420f-a594-5fccd222b1c0)
-    (property "Reference" "#PWR010" (at 180.34 52.07 0)
+    (property "Reference" "#PWR010" (at 184.15 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDD" (at 180.34 49.53 0)
+    (property "Value" "GNDD" (at 184.15 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 180.34 45.72 0)
+    (property "Footprint" "" (at 184.15 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 180.34 45.72 0)
+    (property "Datasheet" "" (at 184.15 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b5e8be8f-536f-4410-af90-bf56623b7d45))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR010") (unit 1)
         )
@@ -5008,7 +5096,7 @@
     (pin "2" (uuid 8bc662cf-7557-4fd3-91c9-e3b482edc64f))
     (pin "1" (uuid 3a68a3dc-3ff3-46a1-a4e3-95079a9d7faa))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R1") (unit 1)
         )
@@ -5034,7 +5122,7 @@
     (pin "2" (uuid bafad83e-c239-4acc-9d8a-397f5d2f246a))
     (pin "1" (uuid ab4232d0-eb39-416e-b4d5-1c090c65380e))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R5") (unit 1)
         )
@@ -5059,7 +5147,7 @@
     )
     (pin "1" (uuid 06fc9058-f16a-4750-a06c-6a3d65329d0f))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR039") (unit 1)
         )
@@ -5084,7 +5172,7 @@
     )
     (pin "1" (uuid b1555208-f42b-45a8-a0e9-35527fdae382))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -5116,7 +5204,7 @@
     (pin "1" (uuid 851af53d-753b-4405-b7d3-b05d2612e7b6))
     (pin "2" (uuid 6922afc6-78fa-4147-92e5-91742486b2a1))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C5") (unit 1)
         )
@@ -5142,7 +5230,7 @@
     (pin "1" (uuid 683c7fba-623f-487e-93d5-77be3711a0b3))
     (pin "2" (uuid 327b3f31-4367-452b-b016-4950b68ca48d))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "D2") (unit 1)
         )
@@ -5166,7 +5254,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "H2") (unit 1)
         )
@@ -5192,7 +5280,7 @@
     (pin "1" (uuid 60bf8ead-8619-4354-b148-64b34ed7d449))
     (pin "2" (uuid e3909636-ed55-4da9-99d2-3d7273a9f979))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C14") (unit 1)
         )
@@ -5217,7 +5305,7 @@
     )
     (pin "1" (uuid 57e3a7ca-5dd0-4693-a068-67a03ff2e544))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR051") (unit 1)
         )
@@ -5242,7 +5330,7 @@
     )
     (pin "1" (uuid 9c8420e9-4d9f-4808-88b6-89fec9267739))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR05") (unit 1)
         )
@@ -5267,7 +5355,7 @@
     )
     (pin "1" (uuid cd76a84a-46c8-40ad-8bf2-48eb6aa7d456))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR03") (unit 1)
         )
@@ -5293,7 +5381,7 @@
     (pin "1" (uuid d48b2029-af3d-4aae-80bc-388e6bcdc6c2))
     (pin "2" (uuid bbf53b17-ecb6-4c13-8229-d7a323e20693))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "D1") (unit 1)
         )
@@ -5320,7 +5408,7 @@
     (pin "1" (uuid 8181e4b0-4d87-46de-b89a-69673734931f))
     (pin "2" (uuid 2956dfb2-398a-46cf-8bc8-2b80df163cde))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "Q4") (unit 1)
         )
@@ -5345,7 +5433,7 @@
     )
     (pin "1" (uuid 8e262c42-32fe-4a5b-824e-233287bd3d7d))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR040") (unit 1)
         )
@@ -5379,7 +5467,7 @@
     (pin "1" (uuid c2cd72fb-314d-47a5-9046-439861b39620))
     (pin "6" (uuid 73a8e23a-73e2-4590-90a4-da22ae65ab64))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "RS1") (unit 1)
         )
@@ -5404,7 +5492,7 @@
     )
     (pin "1" (uuid b248cc56-d706-4fdf-aea9-27f13f15711e))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR042") (unit 1)
         )
@@ -5438,7 +5526,7 @@
     (pin "7" (uuid 61520857-a6b1-4ffc-8e01-6ab4b319ea4c))
     (pin "1" (uuid 7f099b8f-2d89-4750-8dbb-5a7248554e98))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "J1") (unit 1)
         )
@@ -5463,7 +5551,7 @@
     )
     (pin "1" (uuid 241aec1b-afc3-486e-94d7-cca99ab84bf0))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR022") (unit 1)
         )
@@ -5488,7 +5576,7 @@
     )
     (pin "1" (uuid 196000d0-c25f-484f-9094-aa7dc6209acc))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR017") (unit 1)
         )
@@ -5514,7 +5602,7 @@
     (pin "1" (uuid 716ecc25-e63e-4d60-863c-bef3b4c958e0))
     (pin "2" (uuid f42b7b04-b222-4990-86f5-d58dc516cec8))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "L1") (unit 1)
         )
@@ -5554,7 +5642,7 @@
     (pin "5" (uuid e484ecd4-a7af-49ec-81f0-29915889cbe9))
     (pin "12" (uuid 20108058-af76-4cc7-930c-16fdfff47ee6))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "U9") (unit 1)
         )
@@ -5580,7 +5668,7 @@
     (pin "1" (uuid 96904cab-a3b6-44c9-96a4-92dbfbe7aa38))
     (pin "2" (uuid 99bbeb14-970d-4d35-8537-de5e0097a535))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "F1") (unit 1)
         )
@@ -5604,7 +5692,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "H1") (unit 1)
         )
@@ -5629,7 +5717,7 @@
     )
     (pin "1" (uuid ab125e9c-c81d-4d14-a414-3fc0fe4b0430))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR07") (unit 1)
         )
@@ -5655,7 +5743,7 @@
     (pin "1" (uuid e2e39f66-d63c-415f-8b84-17e4b7aa66eb))
     (pin "2" (uuid cf063ede-6454-4475-9b65-c34da3f3ca1f))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C3") (unit 1)
         )
@@ -5680,7 +5768,7 @@
     )
     (pin "1" (uuid d0a2ea9c-5fae-4fcb-bb8d-1a2c9499f716))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR021") (unit 1)
         )
@@ -5705,7 +5793,7 @@
     )
     (pin "1" (uuid d93e4072-e972-46ae-b4b4-f3b4aa5eeb6f))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
           (reference "TP20") (unit 1)
         )
@@ -5736,7 +5824,7 @@
     )
     (pin "1" (uuid dc345d85-1d8c-42f6-8558-ae38e25799d3))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR0105") (unit 1)
         )
@@ -5761,7 +5849,7 @@
     )
     (pin "1" (uuid cdb4ca6b-4ab4-4667-bd33-950dea03ecd0))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR014") (unit 1)
         )
@@ -5787,7 +5875,7 @@
     (pin "1" (uuid 338d86b2-8535-4e55-af9f-6ad36f7ee909))
     (pin "2" (uuid bbd2d384-f037-4b15-af33-6407419d4fe9))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "C8") (unit 1)
         )
@@ -5813,7 +5901,7 @@
     (pin "2" (uuid a8ea8ff1-20ed-4a72-baa7-19405531c87f))
     (pin "1" (uuid ee33cf4d-c86a-4de5-9b5f-30d285fc313b))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "R2") (unit 1)
         )
@@ -5838,7 +5926,7 @@
     )
     (pin "1" (uuid 41a35518-c6bc-472f-a040-dad3a2cfd2ea))
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
           (reference "#PWR041") (unit 1)
         )
@@ -5877,7 +5965,7 @@
       (uuid 5173e188-b8dd-416c-aee3-57e64701cdfe)
     )
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0" (page "2"))
       )
     )
@@ -5910,7 +5998,7 @@
       (uuid 01649b50-ecb8-4167-8250-e5c49e65ca9d)
     )
     (instances
-      (project "Плата внешних шаговых двигателей"
+      (project "step_motor_board"
         (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0" (page "3"))
       )
     )
