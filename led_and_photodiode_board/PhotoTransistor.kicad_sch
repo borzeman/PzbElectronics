@@ -5,6 +5,108 @@
 	(uuid "49b4260d-0b6b-42aa-8852-830b9f5cab75")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -568,6 +670,12 @@
 		)
 	)
 	(junction
+		(at 149.86 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9d71f47-23cc-4873-a580-dca8368d1a6b")
+	)
+	(junction
 		(at 114.3 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -611,6 +719,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 81.28) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d54bedd-c3fd-4378-a6cc-6ff7691c3fc7")
+	)
+	(wire
+		(pts
 			(xy 114.3 95.25) (xy 114.3 93.98)
 		)
 		(stroke
@@ -651,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 81.28) (xy 158.75 81.28)
+			(xy 114.3 81.28) (xy 149.86 81.28)
 		)
 		(stroke
 			(width 0)
@@ -711,7 +829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 112.522 72.39 90)
 			(effects
 				(font
@@ -776,6 +894,102 @@
 				)
 				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d5a058c7-4cd5-4199-af28-2aaa74390f1d"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ee8bfe-c31d-4bf9-91b0-0c684e018b83")
+		(property "Reference" "TP10"
+			(at 152.4 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 152.4 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "795031f2-1c81-469d-95aa-62e6c018ce67")
+		)
+		(instances
+			(project "led_and_photodiode_board"
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/0977c011-39d0-471d-8aa5-7f407eb622a6"
+					(reference "TP12")
+					(unit 1)
+				)
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/1b94c0c2-73a3-4050-affb-5df934f96227"
+					(reference "TP13")
+					(unit 1)
+				)
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/1b9b2a97-f786-4ef5-b6cc-aebd24dc418d"
+					(reference "TP16")
+					(unit 1)
+				)
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/20069201-a7df-404d-a108-91235c67cded"
+					(reference "TP15")
+					(unit 1)
+				)
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/3afd6b05-c46c-413a-9632-e04437a9ec27"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/b7bfd3a7-f84b-4505-93c3-b4165154746d"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/c1e20937-668c-41c4-90bc-c83aabfb5482"
+					(reference "TP11")
+					(unit 1)
+				)
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d5a058c7-4cd5-4199-af28-2aaa74390f1d"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -1093,7 +1307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.2152 78.74 0)
 			(effects
 				(font
