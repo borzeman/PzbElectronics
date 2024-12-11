@@ -2533,18 +2533,17 @@
 		)
 		(uuid "ffba1ef5-c311-44d0-ad21-92ae02f7e546")
 	)
-	(text "20mA"
+	(text "35мА"
 		(exclude_from_sim no)
-		(at 62.23 58.42 0)
+		(at 58.166 32.766 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "a76b93ac-0347-4026-b940-e042b8353c8a")
+		(uuid "47d8689a-cc6c-4d43-8873-f999a5c96af9")
 	)
-	(text "160mA"
+	(text "280mA"
 		(exclude_from_sim no)
 		(at 40.64 25.4 0)
 		(effects
@@ -2556,7 +2555,7 @@
 		(uuid "cc76561b-8d0b-49a1-a5ff-3cf4fa85e203")
 	)
 	(label "Vref"
-		(at 114.3 64.77 180)
+		(at 114.3 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2578,7 +2577,7 @@
 		(uuid "06c902c0-7ab1-402d-9b06-83f0ff91e811")
 	)
 	(label "OUT3"
-		(at 143.51 69.85 0)
+		(at 143.51 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2589,7 +2588,7 @@
 		(uuid "1423cdf2-63c2-4195-9aa2-8bf19445e6a9")
 	)
 	(label "Collector4"
-		(at 114.3 78.74 180)
+		(at 114.3 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2666,7 +2665,7 @@
 		(uuid "40011aa8-994f-4ff0-ae5e-3d8ac7b46edf")
 	)
 	(label "OUT4"
-		(at 143.51 72.39 0)
+		(at 143.51 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2721,7 +2720,7 @@
 		(uuid "4cbfdd10-5efa-4687-b0ac-183c4140d12a")
 	)
 	(label "OUT2"
-		(at 143.51 67.31 0)
+		(at 143.51 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2732,7 +2731,7 @@
 		(uuid "53b151ef-ec4b-48b0-8abf-2350531a0e66")
 	)
 	(label "Collector2"
-		(at 114.3 73.66 180)
+		(at 114.3 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2776,7 +2775,7 @@
 		(uuid "62343401-a434-4036-801c-9f3d7aca9f29")
 	)
 	(label "Collector3"
-		(at 114.3 76.2 180)
+		(at 114.3 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2798,7 +2797,7 @@
 		(uuid "68fbe8ff-d307-4fe5-92de-3a2fbf01537b")
 	)
 	(label "OUT1"
-		(at 143.51 64.77 0)
+		(at 143.51 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2831,7 +2830,7 @@
 		(uuid "842c9859-7f65-44f0-883b-e26d5a44616f")
 	)
 	(label "+24_FT_1"
-		(at 114.3 62.23 180)
+		(at 114.3 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2884,6 +2883,17 @@
 			(justify left bottom)
 		)
 		(uuid "a436ba4f-c1fe-4e1e-aafe-07fa17ca2706")
+	)
+	(label "+5V"
+		(at 38.1 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2729546-f545-4186-a024-9c2437e07d5b")
 	)
 	(label "OUT1"
 		(at 201.93 147.32 180)
@@ -2940,6 +2950,17 @@
 		)
 		(uuid "c7cf4357-e024-41ee-b35a-1f0296510388")
 	)
+	(label "+5V"
+		(at 251.46 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc1a3537-4acc-48ca-b7ed-739082daa9d6")
+	)
 	(label "+24_FT_1"
 		(at 180.34 81.28 180)
 		(fields_autoplaced yes)
@@ -2962,8 +2983,19 @@
 		)
 		(uuid "e43a7c98-156e-44d4-9b3e-fc1335938f9f")
 	)
+	(label "+24_LED_1"
+		(at 227.33 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e54e1569-65e2-4dd0-ad12-f844f80dd7a6")
+	)
 	(label "Collector1"
-		(at 114.3 71.12 180)
+		(at 114.3 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2972,17 +3004,6 @@
 			(justify right bottom)
 		)
 		(uuid "e61f08ff-dd60-49f4-bc55-fa75966498d7")
-	)
-	(label "+24_LED_1"
-		(at 38.1 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6c809c1-4ba3-492f-be59-dab97beeddaa")
 	)
 	(label "Collector5"
 		(at 114.3 106.68 180)
@@ -3171,7 +3192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2512-820 Ом±5%-1 Вт"
+		(property "Value" "2512-100 Ом±5%-1 Вт"
 			(at 241.3 34.29 0)
 			(effects
 				(font
@@ -3434,7 +3455,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ae06721-0aec-4722-b173-a895436dbba0")
 		(property "Reference" "R7"
 			(at 214.63 49.53 0)
@@ -3445,8 +3465,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2512-820 Ом±5%-1 Вт"
-			(at 214.63 52.07 0)
+		(property "Value" "2512-100 Ом±5%-1 Вт"
+			(at 211.582 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3589,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e824397-4e41-4b88-9969-90006500c34e")
 		(property "Reference" "R3"
 			(at 114.3 49.53 0)
@@ -3580,8 +3599,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2512-820 Ом±5%-1 Вт"
-			(at 114.3 52.07 0)
+		(property "Value" "2512-100 Ом±5%-1 Вт"
+			(at 110.236 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2512-820 Ом±5%-1 Вт"
+		(property "Value" "2512-100 Ом±5%-1 Вт"
 			(at 138.43 34.29 0)
 			(effects
 				(font
@@ -4051,7 +4070,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5398f825-0c8e-4e87-8185-2cc4ea0d2b11")
 		(property "Reference" "R1"
 			(at 67.31 49.53 0)
@@ -4062,8 +4080,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2512-820 Ом±5%-1 Вт"
-			(at 67.31 52.07 0)
+		(property "Value" "2512-100 Ом±5%-1 Вт"
+			(at 57.404 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2512-820 Ом±5%-1 Вт"
+		(property "Value" "2512-100 Ом±5%-1 Вт"
 			(at 187.96 34.29 0)
 			(effects
 				(font
@@ -4747,7 +4765,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2512-820 Ом±5%-1 Вт"
+		(property "Value" "2512-100 Ом±5%-1 Вт"
 			(at 90.17 34.29 0)
 			(effects
 				(font
@@ -6962,7 +6980,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc3e8761-2ed4-4d3c-8438-dca8d5f326f6")
 		(property "Reference" "R5"
 			(at 163.83 49.53 0)
@@ -6973,8 +6990,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2512-820 Ом±5%-1 Вт"
-			(at 163.83 52.07 0)
+		(property "Value" "2512-100 Ом±5%-1 Вт"
+			(at 160.782 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7100,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 59.69)
+		(at 114.3 64.77)
 		(size 29.21 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -7095,7 +7112,7 @@
 		)
 		(uuid "1204a8b4-a85b-4559-b5eb-ffb947470012")
 		(property "Sheetname" "Comparator1"
-			(at 114.3 58.9784 0)
+			(at 114.3 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7121,7 @@
 			)
 		)
 		(property "Sheetfile" "Outrepiter.kicad_sch"
-			(at 114.3 81.8646 0)
+			(at 114.3 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7130,7 @@
 			)
 		)
 		(pin "+24V" input
-			(at 114.3 62.23 180)
+			(at 114.3 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +7140,7 @@
 			(uuid "b173b309-bdb9-4e84-9520-931eac943aac")
 		)
 		(pin "OUT1" output
-			(at 143.51 64.77 0)
+			(at 143.51 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7150,7 @@
 			(uuid "cc30fb9f-b0ba-4682-8c7a-c5c50d79fed5")
 		)
 		(pin "OUT2" output
-			(at 143.51 67.31 0)
+			(at 143.51 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7160,7 @@
 			(uuid "e1077fd2-190b-4b3b-bd0f-467f61dc1d51")
 		)
 		(pin "Vref" input
-			(at 114.3 64.77 180)
+			(at 114.3 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +7170,7 @@
 			(uuid "2b25a9b9-7d44-412e-9a93-777f135c5cc7")
 		)
 		(pin "Collector4" input
-			(at 114.3 78.74 180)
+			(at 114.3 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7180,7 @@
 			(uuid "8a9f4359-4544-4929-8c9b-54446e2d759b")
 		)
 		(pin "Collector1" input
-			(at 114.3 71.12 180)
+			(at 114.3 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,7 +7190,7 @@
 			(uuid "8f43fd49-360c-473f-ae93-e31c8b46ebb6")
 		)
 		(pin "Collector3" input
-			(at 114.3 76.2 180)
+			(at 114.3 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7200,7 @@
 			(uuid "977f0e70-a97b-441f-837c-5faf65809720")
 		)
 		(pin "Collector2" input
-			(at 114.3 73.66 180)
+			(at 114.3 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7210,7 @@
 			(uuid "ac57d1a7-438c-41bb-982e-d5fd4d4aa9dd")
 		)
 		(pin "OUT3" output
-			(at 143.51 69.85 0)
+			(at 143.51 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,7 +7220,7 @@
 			(uuid "354a5bc5-b695-453a-9ad9-fe1b87c18579")
 		)
 		(pin "OUT4" output
-			(at 143.51 72.39 0)
+			(at 143.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,6 +7777,64 @@
 			(project "led_and_photodiode_board"
 				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 76.2)
+		(size 24.13 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d646e062-c8ff-42ae-96fd-2578fb64ac11")
+		(property "Sheetname" "DC-DC 24-5V"
+			(at 227.33 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DC-DC 24-5V.kicad_sch"
+			(at 227.33 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" output
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97ce73f2-50da-4903-8d71-d51dbbb99970")
+		)
+		(pin "+24V" input
+			(at 227.33 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cca724ab-2d0d-46b2-9279-2b256d1fc26d")
+		)
+		(instances
+			(project "led_and_photodiode_board"
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64"
+					(page "13")
 				)
 			)
 		)
