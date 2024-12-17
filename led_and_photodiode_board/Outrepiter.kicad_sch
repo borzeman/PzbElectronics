@@ -926,6 +926,12 @@
 		(color 0 0 0 0)
 		(uuid "d5b9aa57-5f8b-4f0c-a37f-47f6efe7734c")
 	)
+	(junction
+		(at 160.02 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecd2df42-725f-42d8-83df-75ec077b4b77")
+	)
 	(wire
 		(pts
 			(xy 111.76 50.8) (xy 123.19 50.8)
@@ -935,6 +941,16 @@
 			(type default)
 		)
 		(uuid "03ac4bd7-dd52-4663-a2e0-adb598fa956e")
+	)
+	(wire
+		(pts
+			(xy 160.02 118.11) (xy 153.67 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095d15c5-b445-4735-862e-6155fb3719e8")
 	)
 	(wire
 		(pts
@@ -968,6 +984,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 53.34) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273f304a-e3ff-4800-a456-c3bff8061b63")
+	)
+	(wire
+		(pts
+			(xy 162.56 74.93) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c33b6c2-7054-4c1f-82c5-bdbe6f66de9b")
+	)
+	(wire
+		(pts
 			(xy 121.92 152.4) (xy 121.92 157.48)
 		)
 		(stroke
@@ -998,7 +1034,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 74.93) (xy 165.1 74.93)
+			(xy 161.29 96.52) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5622df-af47-4e4c-a932-b203650e7d09")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1025,16 +1071,6 @@
 			(type default)
 		)
 		(uuid "58f74f08-82db-4981-aa6a-a07b2b1c581c")
-	)
-	(wire
-		(pts
-			(xy 153.67 118.11) (xy 167.64 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643e3068-3540-44dc-9934-7213daa90848")
 	)
 	(wire
 		(pts
@@ -1068,6 +1104,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 95.25) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820d7160-42fc-407b-b4a2-c92fd05b9dce")
+	)
+	(wire
+		(pts
 			(xy 120.65 55.88) (xy 123.19 55.88)
 		)
 		(stroke
@@ -1078,7 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 53.34) (xy 165.1 53.34)
+			(xy 161.29 52.07) (xy 165.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1095,6 +1141,16 @@
 			(type default)
 		)
 		(uuid "9df1778a-2401-4e6f-9365-fbd91dbd2ab9")
+	)
+	(wire
+		(pts
+			(xy 160.02 118.11) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81c3aae-cd3a-40c3-bb99-0dc0a3eb5f74")
 	)
 	(wire
 		(pts
@@ -1158,13 +1214,33 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 166.37 96.52)
+			(xy 161.29 95.25) (xy 166.37 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da18b9be-7e20-4847-a8f0-e27fb96509ca")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f73e74-52ec-4d71-8f50-ec013cd08f14")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 161.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8c8023-862b-4592-bbb7-a65ac36b09c0")
 	)
 	(wire
 		(pts
@@ -1292,7 +1368,7 @@
 	)
 	(hierarchical_label "OUT2"
 		(shape output)
-		(at 165.1 74.93 0)
+		(at 165.1 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1316,7 +1392,7 @@
 	)
 	(hierarchical_label "OUT1"
 		(shape output)
-		(at 165.1 53.34 0)
+		(at 165.1 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1328,7 +1404,7 @@
 	)
 	(hierarchical_label "OUT3"
 		(shape output)
-		(at 166.37 96.52 0)
+		(at 166.37 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1380,7 +1456,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2901DR"
+		(property "Value" "LM2901DR (SOIC-14)"
 			(at 144.78 88.9 0)
 			(effects
 				(font
@@ -1487,7 +1563,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 1кОм 0,062Вт"
+		(property "Value" "0603 1 кОм±5%-0,062Вт"
 			(at 125.222 48.26 90)
 			(effects
 				(font
@@ -1558,7 +1634,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 1кОм 0,062Вт"
+		(property "Value" "0603 1 кОм±5%-0,062Вт"
 			(at 127.762 113.03 90)
 			(effects
 				(font
@@ -1630,7 +1706,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2901DR"
+		(property "Value" "LM2901DR (SOIC-14)"
 			(at 146.05 110.49 0)
 			(effects
 				(font
@@ -1737,7 +1813,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 1кОм 0,062Вт"
+		(property "Value" "0603 1 кОм±5%-0,062Вт"
 			(at 127 61.214 90)
 			(effects
 				(font
@@ -1809,7 +1885,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2901DR"
+		(property "Value" "LM2901DR (SOIC-14)"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -1916,7 +1992,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 1кОм 0,062Вт"
+		(property "Value" "0603 1 кОм±5%-0,062Вт"
 			(at 129.54 125.984 90)
 			(effects
 				(font
@@ -2057,7 +2133,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 1кОм 0,062Вт"
+		(property "Value" "0603 1 кОм±5%-0,062Вт"
 			(at 129.54 104.394 90)
 			(effects
 				(font
@@ -2129,7 +2205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF 100V 0805"
+		(property "Value" "0805 0,1uF 100V"
 			(at 128.27 172.72 90)
 			(effects
 				(font
@@ -2201,7 +2277,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 1кОм 0,062Вт"
+		(property "Value" "0603 1 кОм±5%-0,062Вт"
 			(at 125.222 69.85 90)
 			(effects
 				(font
@@ -2272,7 +2348,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 1кОм 0,062Вт"
+		(property "Value" "0603 1 кОм±5%-0,062Вт"
 			(at 126.492 91.44 90)
 			(effects
 				(font
@@ -2415,7 +2491,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 1кОм 0,062Вт"
+		(property "Value" "0603 1 кОм±5%-0,062Вт"
 			(at 127 82.804 90)
 			(effects
 				(font
@@ -2487,7 +2563,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2901DR"
+		(property "Value" "LM2901DR (SOIC-14)"
 			(at 143.51 67.31 0)
 			(effects
 				(font
@@ -2723,7 +2799,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 160.02 119.38 0)
+		(at 160.02 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2732,7 +2808,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2bf5431-7b04-4512-b20b-49b1d14955e1")
 		(property "Reference" "TP24"
-			(at 162.56 114.8079 0)
+			(at 162.56 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2817,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.56 117.3479 0)
+			(at 162.56 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2827,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 165.1 119.38 0)
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2836,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 119.38 0)
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2845,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 160.02 119.38 0)
+			(at 160.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2887,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2901DR"
+		(property "Value" "LM2901DR (SOIC-14)"
 			(at 135.89 149.86 90)
 			(effects
 				(font
