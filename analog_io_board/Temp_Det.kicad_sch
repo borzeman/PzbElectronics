@@ -1,935 +1,357 @@
-(kicad_sch
-	(version 20231120)
-	(generator "eeschema")
-	(generator_version "8.0")
-	(uuid "afa6a7a9-6272-4113-868d-e2388f19bb3a")
-	(paper "A4")
-	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Sensor_Temperature:MAX31855KASA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MAX31855KASA"
-				(at 1.27 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 25.4 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Cold Junction Termocouple Interface SPI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MAX31855KASA_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MAX31855KASA_1_1"
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "T+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "V_CC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 127 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d70bc898-0ec6-4ad6-ba3c-631cc6ffd356")
-	)
-	(wire
-		(pts
-			(xy 137.16 85.09) (xy 144.78 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "144c656a-1731-4f72-a190-bb3de4112de9")
-	)
-	(wire
-		(pts
-			(xy 127 62.23) (xy 127 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee893b8-9b78-4bde-a1a1-a5a80bc1c21e")
-	)
-	(wire
-		(pts
-			(xy 127 66.04) (xy 124.46 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302ce193-71d6-4007-b540-68d3b0eff90c")
-	)
-	(wire
-		(pts
-			(xy 137.16 80.01) (xy 144.78 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "372d4117-c2fc-4d8b-9002-39765e803952")
-	)
-	(wire
-		(pts
-			(xy 127 66.04) (xy 127 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4388d8e5-1dd8-40ba-b741-5c1564c5a8f1")
-	)
-	(wire
-		(pts
-			(xy 116.84 82.55) (xy 116.84 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43f1dd85-c0fb-4bb9-a1a5-f0c72eee6589")
-	)
-	(wire
-		(pts
-			(xy 71.12 85.09) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed972ad-ad80-4292-b7c3-b8d8cb3d48fb")
-	)
-	(wire
-		(pts
-			(xy 71.12 82.55) (xy 116.84 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65009386-9c28-4ee8-ae19-c7e8c852227a")
-	)
-	(wire
-		(pts
-			(xy 127 92.71) (xy 127 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8770ddf8-8238-42fa-90dd-3a17b1eb0fe3")
-	)
-	(wire
-		(pts
-			(xy 137.16 77.47) (xy 144.78 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b440e2a-871d-48a4-9bec-ef9f2e86e3b6")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 127 95.25 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "23fbcc2f-7674-47ab-88c4-1402bdf25c43")
-	)
-	(hierarchical_label "CS"
-		(shape input)
-		(at 144.78 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43908061-7864-49a9-948c-637d9465184e")
-	)
-	(hierarchical_label "Vcc"
-		(shape input)
-		(at 127 62.23 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52c742d0-8d29-450f-8ab0-109388f48ce3")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 116.84 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "547aba5d-4591-42e5-b9b1-1952cadf8ab8")
-	)
-	(hierarchical_label "MISO"
-		(shape input)
-		(at 144.78 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d47c8750-e226-4497-870c-ca5aec32c51f")
-	)
-	(hierarchical_label "CLK"
-		(shape input)
-		(at 144.78 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f885bc42-d465-4e4d-a4cf-442abeff06ad")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 120.65 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bd76757-9b6a-4a87-a716-3978abb5f701")
-		(property "Reference" "C23"
-			(at 119.38 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,1uF 100V 0805"
-			(at 121.92 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 124.46 65.0748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f602735-ecca-4c8b-9d3d-808bdb98fc44")
-		)
-		(pin "1"
-			(uuid "e21f6f58-269c-4a2d-b32e-3edfdf001b73")
-		)
-		(instances
-			(project "Плата симистров"
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
-					(reference "C23")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-					(reference "C17")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-					(reference "C20")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-			(project "Доп плата печи"
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/a9a83d47-401c-4097-be69-b82d0f62cb76"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/d8c1c2cc-b35b-4807-ad92-74712a6a9019"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 66.04 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "141e0981-8682-469b-a507-a7f1f7157205")
-		(property "Reference" "J3"
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DG141R-02"
-			(at 66.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:DG141R-02"
-			(at 66.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1cbe0eda-6c79-4e9b-895b-5ef23f92ff19")
-		)
-		(pin "1"
-			(uuid "bfbf50fc-42a0-4a9b-8c13-00f3f3d6ecdb")
-		)
-		(instances
-			(project "Плата симистров"
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "Доп плата печи"
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/a9a83d47-401c-4097-be69-b82d0f62cb76"
-					(reference "J8")
-					(unit 1)
-				)
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/d8c1c2cc-b35b-4807-ad92-74712a6a9019"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 127 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "496fbeb1-cc17-4652-be75-a83718b224c9")
-		(property "Reference" "U8"
-			(at 129.1941 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX31855KASA (SOIC-8)"
-			(at 129.1941 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "0cc40e14-7c2b-41cb-9631-3ba20c079492")
-		)
-		(pin "2"
-			(uuid "dccf4530-8758-40db-9332-ffcd3e583859")
-		)
-		(pin "7"
-			(uuid "e7585f56-b9f3-40aa-acff-250784a1aa48")
-		)
-		(pin "3"
-			(uuid "8fbefb43-8fac-439f-b4f3-f8f3566449cc")
-		)
-		(pin "1"
-			(uuid "4435b714-c7e8-40fb-a993-4c4ea0f217ee")
-		)
-		(pin "5"
-			(uuid "937c8fa3-b591-4947-9235-9279c94fb990")
-		)
-		(pin "4"
-			(uuid "bfba1424-9407-4701-bbb4-3b2b3eab3c1d")
-		)
-		(instances
-			(project "Доп плата печи"
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/a9a83d47-401c-4097-be69-b82d0f62cb76"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/d8c1c2cc-b35b-4807-ad92-74712a6a9019"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid afa6a7a9-6272-4113-868d-e2388f19bb3a)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x02_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Sensor_Temperature:MAX31855KASA" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -7.62 8.89 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "MAX31855KASA" (at 1.27 8.89 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 25.4 -8.89 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "Cold Junction Termocouple Interface SPI" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Cold Junction K-type Termocouple Interface, SPI, SO8" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MAX31855KASA_0_1"
+        (rectangle (start -7.62 7.62) (end 7.62 -7.62)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "MAX31855KASA_1_1"
+        (pin power_in line (at 0 -10.16 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -10.16 -2.54 0) (length 2.54)
+          (name "T-" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -10.16 2.54 0) (length 2.54)
+          (name "T+" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 10.16 270) (length 2.54)
+          (name "V_CC" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 10.16 5.08 180) (length 2.54)
+          (name "SCK" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 10.16 -2.54 180) (length 2.54)
+          (name "~{CS}" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin tri_state line (at 10.16 2.54 180) (length 2.54)
+          (name "SO" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 127 66.04) (diameter 0) (color 0 0 0 0)
+    (uuid d70bc898-0ec6-4ad6-ba3c-631cc6ffd356)
+  )
+
+  (wire (pts (xy 137.16 85.09) (xy 144.78 85.09))
+    (stroke (width 0) (type default))
+    (uuid 144c656a-1731-4f72-a190-bb3de4112de9)
+  )
+  (wire (pts (xy 127 62.23) (xy 127 66.04))
+    (stroke (width 0) (type default))
+    (uuid 2ee893b8-9b78-4bde-a1a1-a5a80bc1c21e)
+  )
+  (wire (pts (xy 127 66.04) (xy 124.46 66.04))
+    (stroke (width 0) (type default))
+    (uuid 302ce193-71d6-4007-b540-68d3b0eff90c)
+  )
+  (wire (pts (xy 137.16 80.01) (xy 144.78 80.01))
+    (stroke (width 0) (type default))
+    (uuid 372d4117-c2fc-4d8b-9002-39765e803952)
+  )
+  (wire (pts (xy 127 66.04) (xy 127 72.39))
+    (stroke (width 0) (type default))
+    (uuid 4388d8e5-1dd8-40ba-b741-5c1564c5a8f1)
+  )
+  (wire (pts (xy 116.84 82.55) (xy 116.84 80.01))
+    (stroke (width 0) (type default))
+    (uuid 43f1dd85-c0fb-4bb9-a1a5-f0c72eee6589)
+  )
+  (wire (pts (xy 71.12 85.09) (xy 116.84 85.09))
+    (stroke (width 0) (type default))
+    (uuid 5ed972ad-ad80-4292-b7c3-b8d8cb3d48fb)
+  )
+  (wire (pts (xy 71.12 82.55) (xy 116.84 82.55))
+    (stroke (width 0) (type default))
+    (uuid 65009386-9c28-4ee8-ae19-c7e8c852227a)
+  )
+  (wire (pts (xy 127 92.71) (xy 127 95.25))
+    (stroke (width 0) (type default))
+    (uuid 8770ddf8-8238-42fa-90dd-3a17b1eb0fe3)
+  )
+  (wire (pts (xy 137.16 77.47) (xy 144.78 77.47))
+    (stroke (width 0) (type default))
+    (uuid 9b440e2a-871d-48a4-9bec-ef9f2e86e3b6)
+  )
+
+  (hierarchical_label "GND" (shape input) (at 127 95.25 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 23fbcc2f-7674-47ab-88c4-1402bdf25c43)
+  )
+  (hierarchical_label "CS" (shape input) (at 144.78 85.09 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 43908061-7864-49a9-948c-637d9465184e)
+  )
+  (hierarchical_label "Vcc" (shape input) (at 127 62.23 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 52c742d0-8d29-450f-8ab0-109388f48ce3)
+  )
+  (hierarchical_label "GND" (shape input) (at 116.84 66.04 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 547aba5d-4591-42e5-b9b1-1952cadf8ab8)
+  )
+  (hierarchical_label "MISO" (shape input) (at 144.78 80.01 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d47c8750-e226-4497-870c-ca5aec32c51f)
+  )
+  (hierarchical_label "CLK" (shape input) (at 144.78 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f885bc42-d465-4e4d-a4cf-442abeff06ad)
+  )
+
+  (symbol (lib_id "Device:C") (at 120.65 66.04 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0bd76757-9b6a-4a87-a716-3978abb5f701)
+    (property "Reference" "C23" (at 119.38 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0,1uF 100V 0603" (at 121.92 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 124.46 65.0748 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 120.65 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 8f602735-ecca-4c8b-9d3d-808bdb98fc44))
+    (pin "1" (uuid e21f6f58-269c-4a2d-b32e-3edfdf001b73))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
+          (reference "C23") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
+          (reference "C17") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
+          (reference "C20") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
+          (reference "C23") (unit 1)
+        )
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
+          (reference "C26") (unit 1)
+        )
+      )
+      (project "analog_io_board"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
+          (reference "C16") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
+          (reference "C19") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/d8c1c2cc-b35b-4807-ad92-74712a6a9019"
+          (reference "C26") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/a9a83d47-401c-4097-be69-b82d0f62cb76"
+          (reference "C27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 66.04 85.09 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 141e0981-8682-469b-a507-a7f1f7157205)
+    (property "Reference" "J3" (at 66.04 76.2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "DG141R-02" (at 66.04 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector:DG141R-02" (at 66.04 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.04 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 1cbe0eda-6c79-4e9b-895b-5ef23f92ff19))
+    (pin "1" (uuid bfbf50fc-42a0-4a9b-8c13-00f3f3d6ecdb))
+    (instances
+      (project "Плата симистров"
+        (path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2"
+          (reference "J3") (unit 1)
+        )
+      )
+      (project "analog_io_board"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c"
+          (reference "J5") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/d8c1c2cc-b35b-4807-ad92-74712a6a9019"
+          (reference "J7") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/a9a83d47-401c-4097-be69-b82d0f62cb76"
+          (reference "J8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Sensor_Temperature:MAX31855KASA") (at 127 82.55 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 496fbeb1-cc17-4652-be75-a83718b224c9)
+    (property "Reference" "U8" (at 129.1941 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MAX31855KASA (SOIC-8)" (at 129.1941 72.39 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 152.4 91.44 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf" (at 127 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "6" (uuid 0cc40e14-7c2b-41cb-9631-3ba20c079492))
+    (pin "2" (uuid dccf4530-8758-40db-9332-ffcd3e583859))
+    (pin "7" (uuid e7585f56-b9f3-40aa-acff-250784a1aa48))
+    (pin "3" (uuid 8fbefb43-8fac-439f-b4f3-f8f3566449cc))
+    (pin "1" (uuid 4435b714-c7e8-40fb-a993-4c4ea0f217ee))
+    (pin "5" (uuid 937c8fa3-b591-4947-9235-9279c94fb990))
+    (pin "4" (uuid bfba1424-9407-4701-bbb4-3b2b3eab3c1d))
+    (instances
+      (project "analog_io_board"
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/d8c1c2cc-b35b-4807-ad92-74712a6a9019"
+          (reference "U8") (unit 1)
+        )
+        (path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/a9a83d47-401c-4097-be69-b82d0f62cb76"
+          (reference "U11") (unit 1)
+        )
+      )
+    )
+  )
 )
