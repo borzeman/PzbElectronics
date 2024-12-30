@@ -1,468 +1,1206 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid ff0e843e-a230-4c2d-b21e-627472dddc3b)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 6.858 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_0_1"
-        (circle (center 0 3.302) (radius 0.762)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_1_1"
-        (pin passive line (at 0 0 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Regulator_Linear:L78L33_SOT89" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -3.81 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "L78L33_SOT89" (at -0.635 3.175 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" (at 0 -1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Voltage Regulator 100mA Positive" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?89*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "L78L33_SOT89_0_1"
-        (rectangle (start -5.08 1.905) (end 5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "L78L33_SOT89_1_1"
-        (pin power_out line (at 7.62 0 180) (length 2.54)
-          (name "OUT" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -7.62 0 0) (length 2.54)
-          (name "IN" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 119.38 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 2818ec59-1b6f-4d3b-b8c7-b6b239ddc71d)
-  )
-  (junction (at 142.24 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 59b9dce9-ffbd-41d2-a424-4a71454966c9)
-  )
-  (junction (at 100.33 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 6661004e-499c-44b6-a3c1-4a57e4beaf05)
-  )
-  (junction (at 156.21 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 7e6adcaf-98b8-423f-9f17-1267e13ba6ab)
-  )
-  (junction (at 114.3 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid cdeb7bcd-e970-4b1c-9220-ba225325f2ab)
-  )
-
-  (wire (pts (xy 142.24 97.79) (xy 156.21 97.79))
-    (stroke (width 0) (type default))
-    (uuid 08e8f57e-d150-41d1-bd9e-5b6dc81a18cd)
-  )
-  (wire (pts (xy 111.76 106.68) (xy 114.3 106.68))
-    (stroke (width 0) (type default))
-    (uuid 152bf110-08f9-4c0e-9206-d95e1ddb0c35)
-  )
-  (wire (pts (xy 142.24 104.14) (xy 142.24 97.79))
-    (stroke (width 0) (type default))
-    (uuid 283b3fda-3cd2-4239-bab7-e40c49a80202)
-  )
-  (wire (pts (xy 100.33 106.68) (xy 100.33 97.79))
-    (stroke (width 0) (type default))
-    (uuid 4f35016d-38ae-4615-a0af-b91367feccf6)
-  )
-  (wire (pts (xy 114.3 97.79) (xy 111.76 97.79))
-    (stroke (width 0) (type default))
-    (uuid 7594f607-3478-4b3e-bebc-b1ba279c1ef7)
-  )
-  (wire (pts (xy 114.3 106.68) (xy 114.3 97.79))
-    (stroke (width 0) (type default))
-    (uuid 8fba3481-f754-4ed2-8d4d-c83e3c7401d8)
-  )
-  (wire (pts (xy 104.14 106.68) (xy 100.33 106.68))
-    (stroke (width 0) (type default))
-    (uuid 992cd94c-fbb1-45ec-a7dc-6c3e5b844f4e)
-  )
-  (wire (pts (xy 85.09 97.79) (xy 100.33 97.79))
-    (stroke (width 0) (type default))
-    (uuid 9a659d7c-20f6-4efb-9e20-4c3711d7112e)
-  )
-  (wire (pts (xy 119.38 97.79) (xy 119.38 104.14))
-    (stroke (width 0) (type default))
-    (uuid a0de75bd-b0e1-493a-8bfc-9779548d0a21)
-  )
-  (wire (pts (xy 140.97 97.79) (xy 142.24 97.79))
-    (stroke (width 0) (type default))
-    (uuid a248fb01-8bbd-463d-9f18-56bfd1311aef)
-  )
-  (wire (pts (xy 156.21 97.79) (xy 163.83 97.79))
-    (stroke (width 0) (type default))
-    (uuid a604a545-7139-4f54-8048-3b732b2af9a0)
-  )
-  (wire (pts (xy 119.38 97.79) (xy 114.3 97.79))
-    (stroke (width 0) (type default))
-    (uuid b819b6e4-fa6e-459e-b57f-a60981a2391d)
-  )
-  (wire (pts (xy 104.14 97.79) (xy 100.33 97.79))
-    (stroke (width 0) (type default))
-    (uuid bc25a29a-6fb3-4e28-a524-f7e609de73d0)
-  )
-  (wire (pts (xy 125.73 97.79) (xy 119.38 97.79))
-    (stroke (width 0) (type default))
-    (uuid cbd57b8d-f6e3-4315-98b7-32e51e55ef73)
-  )
-  (wire (pts (xy 133.35 105.41) (xy 133.35 111.76))
-    (stroke (width 0) (type default))
-    (uuid f0f931c2-eef5-4baf-b013-d5f75a9c5e17)
-  )
-
-  (hierarchical_label "GND" (shape input) (at 142.24 111.76 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 73c8acbb-c8d4-4497-9f4b-c2b0e60a6e59)
-  )
-  (hierarchical_label "GND" (shape input) (at 133.35 111.76 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ac5f9c0b-137e-495a-bf22-83bb5075f4ae)
-  )
-  (hierarchical_label "GND" (shape input) (at 119.38 111.76 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid be0435c5-9c24-44e7-9318-ad2ebe9cad35)
-  )
-  (hierarchical_label "+24V" (shape input) (at 85.09 97.79 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ff34f9a3-fbc8-4b02-977d-e3cfaec9154a)
-  )
-  (hierarchical_label "+3,3V" (shape output) (at 163.83 97.79 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ffe6da1c-53cb-4fad-b6b3-67f45569e7be)
-  )
-
-  (symbol (lib_id "Device:C") (at 142.24 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 621a677e-c55e-4aa1-9d21-89c4c0ef786b)
-    (property "Reference" "C17" (at 146.05 115.57 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0,1uF 100V 0603" (at 148.59 115.57 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 143.2052 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 142.24 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 932020e6-6be9-4e10-8538-97b9c6c10aa7))
-    (pin "2" (uuid 5d2a0dd7-9490-4b7e-aeed-5ec85ead45e8))
-    (instances
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "C17") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
-          (reference "C24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 107.95 106.68 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 8a9a2d6f-77e3-4707-a2e1-7b61efcd845f)
-    (property "Reference" "R11" (at 107.95 104.14 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1206 opt" (at 107.95 101.6 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 107.95 104.902 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.95 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 58e375ac-2f31-434d-85b6-1dce64886b0c))
-    (pin "2" (uuid 1e59fd3d-cb8e-4054-943c-df2ac9c0a324))
-    (instances
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "R11") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "R26") (unit 1)
-        )
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
-          (reference "R47") (unit 1)
-        )
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
-          (reference "R29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 156.21 97.79 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8e1ad4d7-8d48-43e4-b709-285349db7b34)
-    (property "Reference" "TP1" (at 158.75 94.488 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 157.48 92.71 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1" (at 161.29 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 161.29 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 530a546b-4668-46ac-9be1-99dd0d0003c9))
-    (instances
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "TP1") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
-          (reference "TP3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 119.38 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e08a61bc-7dd7-478b-9be3-9aca709b3557)
-    (property "Reference" "C16" (at 123.19 115.57 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0,33uF 50V 0603" (at 125.73 115.57 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 120.3452 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 119.38 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bb7f2e6a-5885-48d1-b0af-f46899471af6))
-    (pin "2" (uuid 74b14d46-4d20-486d-baad-936f78a29014))
-    (instances
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "C16") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
-          (reference "C23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Regulator_Linear:L78L33_SOT89") (at 133.35 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e5de5798-0303-4080-866f-d8d4b4a0a12d)
-    (property "Reference" "U5" (at 133.35 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "L78L33_SOT89" (at 133.35 93.98 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 133.35 92.71 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" (at 133.35 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "3" (uuid c21ef817-e0d5-41e6-b424-0527eb817038))
-    (pin "2" (uuid c4cfd21e-bd85-447c-911e-0a2bfed99fd8))
-    (pin "1" (uuid 2fe040d0-9231-426d-8d15-90760b5fbfca))
-    (instances
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "U5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 107.95 97.79 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f0dafe88-553f-4398-b075-3cf2dc3affc8)
-    (property "Reference" "R10" (at 107.95 95.25 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1206-620 Ом±5%-0,25 Вт" (at 107.95 92.71 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 107.95 96.012 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.95 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1b40b88c-199c-4455-bca5-67a98e4a3ff7))
-    (pin "2" (uuid 2c3b9f5e-85a2-4d80-b971-ec88768aa45c))
-    (instances
-      (project "manipulator_attachment"
-        (path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
-          (reference "R10") (unit 1)
-        )
-      )
-      (project "Плата внешних шаговых двигателей"
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
-          (reference "R26") (unit 1)
-        )
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
-          (reference "R47") (unit 1)
-        )
-        (path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
-          (reference "R29") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ff0e843e-a230-4c2d-b21e-627472dddc3b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:L78L33_SOT89"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L78L33_SOT89"
+				(at -0.635 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L78L33_SOT89_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "L78L33_SOT89_1_1"
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 119.38 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2818ec59-1b6f-4d3b-b8c7-b6b239ddc71d")
+	)
+	(junction
+		(at 142.24 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59b9dce9-ffbd-41d2-a424-4a71454966c9")
+	)
+	(junction
+		(at 100.33 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6661004e-499c-44b6-a3c1-4a57e4beaf05")
+	)
+	(junction
+		(at 156.21 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e6adcaf-98b8-423f-9f17-1267e13ba6ab")
+	)
+	(junction
+		(at 114.3 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdeb7bcd-e970-4b1c-9220-ba225325f2ab")
+	)
+	(wire
+		(pts
+			(xy 142.24 97.79) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e8f57e-d150-41d1-bd9e-5b6dc81a18cd")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152bf110-08f9-4c0e-9206-d95e1ddb0c35")
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283b3fda-3cd2-4239-bab7-e40c49a80202")
+	)
+	(wire
+		(pts
+			(xy 100.33 106.68) (xy 100.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f35016d-38ae-4615-a0af-b91367feccf6")
+	)
+	(wire
+		(pts
+			(xy 114.3 97.79) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7594f607-3478-4b3e-bebc-b1ba279c1ef7")
+	)
+	(wire
+		(pts
+			(xy 114.3 106.68) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fba3481-f754-4ed2-8d4d-c83e3c7401d8")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992cd94c-fbb1-45ec-a7dc-6c3e5b844f4e")
+	)
+	(wire
+		(pts
+			(xy 85.09 97.79) (xy 100.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a659d7c-20f6-4efb-9e20-4c3711d7112e")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0de75bd-b0e1-493a-8bfc-9779548d0a21")
+	)
+	(wire
+		(pts
+			(xy 140.97 97.79) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a248fb01-8bbd-463d-9f18-56bfd1311aef")
+	)
+	(wire
+		(pts
+			(xy 156.21 97.79) (xy 163.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a604a545-7139-4f54-8048-3b732b2af9a0")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b819b6e4-fa6e-459e-b57f-a60981a2391d")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 100.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc25a29a-6fb3-4e28-a524-f7e609de73d0")
+	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd57b8d-f6e3-4315-98b7-32e51e55ef73")
+	)
+	(wire
+		(pts
+			(xy 133.35 105.41) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f931c2-eef5-4baf-b013-d5f75a9c5e17")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 142.24 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73c8acbb-c8d4-4497-9f4b-c2b0e60a6e59")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 133.35 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac5f9c0b-137e-495a-bf22-83bb5075f4ae")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 119.38 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be0435c5-9c24-44e7-9318-ad2ebe9cad35")
+	)
+	(hierarchical_label "+24V"
+		(shape input)
+		(at 85.09 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff34f9a3-fbc8-4b02-977d-e3cfaec9154a")
+	)
+	(hierarchical_label "+3,3V"
+		(shape output)
+		(at 163.83 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffe6da1c-53cb-4fad-b6b3-67f45569e7be")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "621a677e-c55e-4aa1-9d21-89c4c0ef786b")
+		(property "Reference" "C17"
+			(at 146.05 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,1uF 100V 0603"
+			(at 148.59 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 143.2052 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "932020e6-6be9-4e10-8538-97b9c6c10aa7")
+		)
+		(pin "2"
+			(uuid "5d2a0dd7-9490-4b7e-aeed-5ec85ead45e8")
+		)
+		(instances
+			(project "manipulator_attachment"
+				(path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "Плата внешних шаговых двигателей"
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a9a2d6f-77e3-4707-a2e1-7b61efcd845f")
+		(property "Reference" "R11"
+			(at 107.95 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206 opt"
+			(at 107.95 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 107.95 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58e375ac-2f31-434d-85b6-1dce64886b0c")
+		)
+		(pin "2"
+			(uuid "1e59fd3d-cb8e-4054-943c-df2ac9c0a324")
+		)
+		(instances
+			(project "manipulator_attachment"
+				(path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "Плата внешних шаговых двигателей"
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e1ad4d7-8d48-43e4-b709-285349db7b34")
+		(property "Reference" "TP1"
+			(at 158.75 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 157.48 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "530a546b-4668-46ac-9be1-99dd0d0003c9")
+		)
+		(instances
+			(project "manipulator_attachment"
+				(path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "Плата внешних шаговых двигателей"
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e08a61bc-7dd7-478b-9be3-9aca709b3557")
+		(property "Reference" "C16"
+			(at 123.19 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,33uF 50V 0603"
+			(at 125.73 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 120.3452 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb7f2e6a-5885-48d1-b0af-f46899471af6")
+		)
+		(pin "2"
+			(uuid "74b14d46-4d20-486d-baad-936f78a29014")
+		)
+		(instances
+			(project "manipulator_attachment"
+				(path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+			(project "Плата внешних шаговых двигателей"
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:L78L33_SOT89")
+		(at 133.35 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5de5798-0303-4080-866f-d8d4b4a0a12d")
+		(property "Reference" "U5"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L78L33_SOT89"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c21ef817-e0d5-41e6-b424-0527eb817038")
+		)
+		(pin "2"
+			(uuid "c4cfd21e-bd85-447c-911e-0a2bfed99fd8")
+		)
+		(pin "1"
+			(uuid "2fe040d0-9231-426d-8d15-90760b5fbfca")
+		)
+		(instances
+			(project "manipulator_attachment"
+				(path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0dafe88-553f-4398-b075-3cf2dc3affc8")
+		(property "Reference" "R10"
+			(at 107.95 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206-620 Ом±5%-0,25 Вт"
+			(at 107.95 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 107.95 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b40b88c-199c-4455-bca5-67a98e4a3ff7")
+		)
+		(pin "2"
+			(uuid "2c3b9f5e-85a2-4d80-b971-ec88768aa45c")
+		)
+		(instances
+			(project "manipulator_attachment"
+				(path "/3077e151-2eda-4625-b5d8-67761d2c8260/23337fc6-6221-49f6-bc02-55ab26aefecf"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "Плата внешних шаговых двигателей"
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/0d239b34-7914-40bc-9b83-7e562c30defe"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/7f8f7dc9-8c50-44ed-985c-35a6d8c67be0/1f6eaeee-a46e-4730-b225-3a410300814a"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
