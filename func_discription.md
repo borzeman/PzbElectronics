@@ -132,8 +132,27 @@
 - slave_blink_workmode
 - slave_blink
 
-**slave_012**:
-проверка дочернего RS
+**slave_012_triac**:
+- slave_init
+- slave_parad
+
+**slave_012_analog**:
+- slave_init
+- slave_parad
+
+**slave_012_digit**:
+- slave_init
+- slave_parad
+
+**slave_012_dc**:
+- slave_init
+- slave_parad
+
+**slave_012_step**:
+- slave_init
+- slave_parad
+
+**slave_012_QR**:
 - slave_init
 - slave_parad
 
@@ -303,3 +322,35 @@
 - slave_QR_load
 - slave_blink_workmode
 - slave_blink
+
+---
+
+Сценарий 4
+
+**master_040**:
+- master_init
+- master_blink
+
+**slave_040_triac**:
+- slave_init
+- slave_parad
+
+**slave_040_analog**:
+- slave_init
+- slave_parad
+
+**slave_040_digit**:
+- slave_init
+- slave_parad
+
+**slave_040_dc**:
+- slave_init
+- slave_parad
+
+**slave_040_step**:
+- slave_init
+- slave_parad
+
+**slave_040_QR**:
+- slave_init
+- slave_parad
