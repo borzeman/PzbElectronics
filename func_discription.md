@@ -57,6 +57,26 @@
 
 **master_blink_pass** - сравнивает замеры первого теста с последующими, если расхождения в пределах нормы - сигнализирует индикаторным светодиодом об успешном прохождении теста (пульсы по 2 сек, на протяжении 30 сек), иначе пульсы по 5 сек.
 
+**master_RS_aggregator** - слушает внутренний RS, получает сообщения от всех Slave-плат, склеивает их, разделяя переносом строки (\n), и добавляет порядковый номер платы перед каждым сообщением. Итоговое сообщение отправляет во внешний RS или UART
+
+**slave_step_accelerate** - плавно разгоняет ШД с 0 до максимальной скорости за 10 секунд. На 7-9 секундах мигает светодиодом 1 раз в секунду (7-8-9), на 10 секунде - максимальная скорость, на 11 секунде - резкий останов.
+
+**slave_dc_accelerate** - плавно разгоняет ДПТ с 0 до максимальной скорости за 10 секунд. На 7-9 секундах мигает светодиодом 1 раз в секунду (7-8-9), на 10 секунде - максимальная скорость, на 11 секунде - резкий останов.
+
+**slave_triac_gradual** - плавно открывает симисторы от 0% до 50% за 10 секунд. На 7-9 секундах мигает светодиодом 1 раз в секунду (7-8-9), на 10 секунде - открытие симисторов 50%, на 11 секунде - полностью закрывает симисторы.
+
+**slave_analog_sequence** - после получения команды на старт совершает 10 коротких пульсов индикаторным светодиодом по 200 мс, затем 3 пульса по 1 сек. Вместе с последним пульсом подаёт питание на реле печи, через 5 сек питание снимается. Сразу после получения команды на старт открывает симисторы, питающие вентиляторы, на 50%.
+
+**slave_step_RS_state** - отправляет состояние концевиков (0 - открыт, 1 - закрыт) по внутреннему RS.
+
+**slave_digit_RS_state** - отправляет состояние фототранзисторов (0 - открыт, 1 - закрыт) по внутреннему RS.
+
+**slave_dc_load_gradual** - на протяжении 30 сек разгоняет ДПТ до максимальной скорости и отправляет в UART текущее желаемое значение скорости вращения.
+
+**slave_digit_load_UART** - нагружает стенд со спиралями и отправляет состояние фототранзисторов в UART.
+
+**slave_blink_3_pulses** - после инициализации совершает 3 пульса индикаторным светодиодом по 500 мс и больше ничего не делает.
+
 
 ### Прошивки
 
@@ -218,7 +238,7 @@
 
 **slave_022_step_load**:
 - slave_init
-- slave_digit_load_max
+- slave_step_load_max
 - slave_blink_workmode
 - slave_blink
 
@@ -359,70 +379,162 @@
 
 Сценарий 5
 
-получение символов "r" и "s" и вывод соответствующих деталей или инициация выполнения нагрузочной программы
+
 **master_050**:
+- master_init
+- master_repeater
+- master_load
+- master_blink_pass
 
-
-Эта прошивка, получив команду "s" от хоста, отправляет сигнал для изменения состояния RTS (шоб дочерние платы спамили изменение RTS туда-суда)
 **master_050_RTS_changer**:
+- master_init
+- master_RTS_changer
+- master_blink_pass
 
+**master_050_RS_talker**:
+- master_init
+- master_RS_aggregator
+- master_blink_pass
 
+**slave_050_triac_load**:
+- slave_init
+- slave_triac_load
+- slave_blink_workmode
+- slave_blink
 
-дочерние прошивки грузят по 30 секунд и плавно мерцают светодиодом
-**slave_050_triac_load**
-**slave_050_analog_load**
-**slave_050_digit_load**
-**slave_050_dc_load**
-**slave_050_step_load**
-**slave_050_QR_load**
+**slave_050_analog_load**:
+- slave_init
+- slave_analog_load
+- slave_analog_readout
+- slave_blink_workmode
+- slave_blink
 
+**slave_050_digit_load**:
+- slave_init
+- slave_digit_load
+- slave_blink_workmode
+- slave_blink
 
-эти прошивки меняют состояние линии RTS и дублируют состояние светодиодом
-**slave_050_triac_RTS_changer**
-**slave_050_analog_RTS_changer**
-**slave_050_digit_RTS_changer**
-**slave_050_dc_RTS_changer**
-**slave_050_step_RTS_changer**
-**slave_050_QR_RTS_changer**
+**slave_050_dc_load**:
+- slave_init
+- slave_dc_load
+- slave_blink_workmode
+- slave_blink
 
-Эта прошивка на протяжении 10 секунда разгоняет ШД с 0 до максимальной скорости. На 7 секунде начать мигать светодиодом 1 раз в секунду (7-8-9), 10 сек макс скорость, 11 сек - резкий останов. 
-**slave_050_step_acc**
+**slave_050_step_load**:
+- slave_init
+- slave_step_load
+- slave_blink_workmode
+- slave_blink
 
+**slave_050_QR_load**:
+- slave_init
+- slave_QR_load
+- slave_blink_workmode
+- slave_blink
 
-Эта прошивка на протяжении 10 секунда разгоняет ДПТ с 0 до максимальной скорости. На 7 секунде начать мигать светодиодом 1 раз в секунду (7-8-9), 10 сек макс скорость, 11 сек - резкий останов. 
-**slave_050_dc_acc**
+**slave_050_triac_RTS_changer**:
+- slave_init
+- slave_RTS_updown
+- slave_triac_load
+- slave_blink_workmode
 
+**slave_050_analog_RTS_changer**:
+- slave_init
+- slave_RTS_updown
+- slave_analog_readout
+- slave_blink_workmode
 
-Эта прошивка на протяжении 10 секунд открывает симисторы от 0% до 50%. На 7 секунде начать мигать светодиодом 1 раз в секунду (7-8-9), 10 сек макс мощность, 11 сек - закрыть симисторы полностью.
-**slave_050_triac**
+**slave_050_digit_RTS_changer**:
+- slave_init
+- slave_RTS_updown
+- slave_digit_load
+- slave_blink_workmode
 
+**slave_050_dc_RTS_changer**:
+- slave_init
+- slave_RTS_updown
+- slave_dc_load
+- slave_blink_workmode
 
+**slave_050_step_RTS_changer**:
+- slave_init
+- slave_RTS_updown
+- slave_step_load
+- slave_blink_workmode
 
-Прошивка после получения команды на старт совершает 10 коротких пульсов индикаторным светодиодом по 200мс потом 3 пульса по 1 сек, вместе с последним пульсом подаётся питание на реле печи, через 5 сек питание снимается + сразу же после получения команды на старт - открывает симисторы, питающие вентиляторы на 50%
-**slave_050_analog**
+**slave_050_QR_RTS_changer**:
+- slave_init
+- slave_RTS_updown
+- slave_QR_load
+- slave_blink_workmode
 
+**slave_050_step_acc**:
+- slave_init
+- **slave_step_accelerate**
+- slave_blink_workmode
+- slave_blink
 
-Прошивка слушает дочерний RS, после получения сообщения от всех дочерних плат - шлёт во внешний RS конкатенированную строку из сообщений, полученных по внутреннему RS
-**master_050_RS_talker**
+**slave_050_dc_acc**:
+- slave_init
+- **slave_dc_accelerate**
+- slave_blink_workmode
+- slave_blink
 
-Эта группа прошивок шлёт по внутреннему RS попеременно 0\1
-**slave_050_triac_RS_talker**
-**slave_050_analog_RS_talker**
-**slave_050_dc_RS_talker**
-**slave_050_QR_RS_talker**
+**slave_050_triac**:
+- slave_init
+- **slave_triac_gradual**
+- slave_blink_workmode
+- slave_blink
 
-эта прошивка вместо попеременной отправки 0\1 шлёт состояние концевиков (0 - открыт, 1 - закрыт)
-**slave_050_step_RS_talker**
+**slave_050_analog**:
+- slave_init
+- **slave_analog_sequence**
+- slave_blink_workmode
+- slave_blink
 
-эта прошивка вместо попеременной отправки 0\1 шлёт состояние фототранзисторов (0 - открыт, 1 - закрыт)
-**slave_050_digit_RS_talker**
+**slave_050_triac_RS_talker**:
+- slave_init
+- slave_parad
+- slave_blink_workmode
 
-Эта прошивка на протяжении 30 сек разгоняет ДПТ до максимальной скорости + шлёт в UART текущее желаемое значение скорости вращения
-**slave_051_dc_load**
+**slave_050_analog_RS_talker**:
+- slave_init
+- slave_parad
+- slave_blink_workmode
 
-Эта прошивка нагружает стенд со спиралями + шлёт состояние фототранзисторов в UART
-**slave_051_digit_load**
+**slave_050_dc_RS_talker**:
+- slave_init
+- slave_parad
+- slave_blink_workmode
 
-Эта прошивка после инициализации совершит 3 пульса индикаторным светодиодом по 500мс и больше ничего не делает
-**slave_051_NOTHING**
+**slave_050_QR_RS_talker**:
+- slave_init
+- slave_parad
+- slave_blink_workmode
 
+**slave_050_step_RS_talker**:
+- slave_init
+- slave_step_RS_state
+- slave_blink_workmode
+
+**slave_050_digit_RS_talker**:
+- slave_init
+- slave_digit_RS_state
+- slave_blink_workmode
+
+**slave_051_dc_load**:
+- slave_init
+- slave_dc_load_gradual
+- slave_blink_workmode
+- slave_blink
+
+**slave_051_digit_load**:
+- slave_init
+- slave_digit_load_UART
+- slave_blink_workmode
+- slave_blink
+
+**slave_051_NOTHING**:
+- slave_init
+- slave_blink_3_pulses
