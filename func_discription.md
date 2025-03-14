@@ -67,6 +67,24 @@
 
 **master_RTS_changer** - контроллер master платы после получения команды от оператора ("s") отправляет команду на все slave платы, чтобы они спамили сменой состояние RTS на противоположное и обратно, затем мониторит фронты (восходящие, если линия была опущена и наоборот), если видит восходящий фронт - зажигает индикаторный светодиод на плате, если нисходящий фронт - гасит.
 
+**master_start_rts_spam** - контроллер master платы отправляет "s" в дочерний USART
+
+**master_rts_check** - master проверяет, работают ли rts линии
+    проверяет, что все rts == 0
+    шлёт "c" в дочерний usart
+    пауза 1 мкс
+    проверяет, что все rts == 1
+    индикация тест пройден/провален
+    
+**slave_rts_spam** - быстро переключает rts
+    (запускается, если пришёл символ 's')
+    пауза (значение из константы; будет отличаться в прошивках каждой платы)
+    в цикле переключать rts
+    
+**slave_rts_check** - по команде мастера переключает rts
+    (запускается, если пришёл символ 'c')
+    тогглит пин rts
+
 **master_load** - после получения стартового символа разослать по дочерним платам команды на максимальную загрузку в течении 2 мин (это может быть сообщение в шину, например "010" для конкретной прошивки, чтоб лишние платы не включились, если их вдруг забыли достать или "s")
 
 **master_repeater** - пересылает показания датчика тока и термопар в UART терминал
@@ -388,11 +406,9 @@
 - master_load
 - master_blink_pass
 
-**master_050_RTS_changer**:
-- master_init
-- master_RTS_changer
-- master_RTS_logger_numerator
-- master_blink_pass
+**master_050_RTS_interrupt**:
+- master_start_rts_spam
+- master_rts_check
 
 **master_050_RS_talker**:
 - master_init
@@ -471,6 +487,30 @@
 - slave_RTS_updown
 - slave_QR_load
 - slave_blink_workmode
+
+**slave_050_triac_RTS_spam**:
+- slave_rts_spam
+- slave_rts_check
+
+**slave_050_analog_RTS_spam**:
+- slave_rts_spam
+- slave_rts_check
+
+**slave_050_digit_RTS_spam**:
+- slave_rts_spam
+- slave_rts_check
+
+**slave_050_dc_RTS_spam**:
+- slave_rts_spam
+- slave_rts_check
+
+**slave_050_step_RTS_spam**:
+- slave_rts_spam
+- slave_rts_check
+
+**slave_050_QR_RTS_spam**:
+- slave_rts_spam
+- slave_rts_check
 
 **slave_050_step_acc**:
 - slave_init

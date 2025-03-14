@@ -372,7 +372,7 @@
 
 **Master:**
 **master_050**
-**master_050_RTS_changer**
+**master_050_RTS_interrupt**
 **master_050_RS_talker**
 
 **Slave:**
@@ -435,12 +435,12 @@
 24. Отключить питание 24В
 25. Загрузить прошивку **master_050_RTS_interrupt** в Master-плату.
 26. Загрузить в дочерние платы прошивки: 
-**slave_050_triac_RTS_changer**
-**slave_050_analog_RTS_changer**
-**slave_050_digit_RTS_changer**
-**slave_050_dc_RTS_changer**
-**slave_050_step_RTS_changer**
-**slave_050_QR_RTS_changer**
+**slave_050_triac_RTS_spam**
+**slave_050_analog_RTS_spam**
+**slave_050_digit_RTS_spam**
+**slave_050_dc_RTS_spam**
+**slave_050_step_RTS_spam**
+**slave_050_QR_RTS_spam**
 27. Подать питание 24В
 \\5.1.5|
 28. Отправить команду "s" в UART терминал
