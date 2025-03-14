@@ -304,16 +304,6 @@
 - master_load
 
 
-**master_031**:
-- master_init
-- master_RTS_changer
-- master_RTS_logger
-- master_blink_pass
-- master_load
-- master_load
-- master_load
-
-
 **slave_030_triac_load**:
 - slave_init
 - slave_triac_load
