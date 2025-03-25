@@ -261,7 +261,6 @@
 **master_030**:
 - waiting_signal
 - master_repeater
-- master_blink_pass
 - master_load
 - master_load
 - master_load
