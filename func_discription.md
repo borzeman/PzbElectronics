@@ -20,7 +20,29 @@
 **slave_parad** - проверка rs
     Ждёт предыдущий символ (константа) в usart
     Шлёт свой символ (другая константа) в usart
-**slave_triac_load** - открывает симисторы на 25\50\75\100% в цикле 30 секунд. Дважды
+
+**slave_triac_noise** - симисторы работают, создавая максимум э.м. наводок и помех
+    симисторы работают парами (1, 2) и (3, 4)
+        т.е. в любой момент времени работают либо 1-й и 2-й, либо 3-й и 4-й
+    на старте первой работает пара (1, 2)
+    в цикле
+        (1, 2) работают секунду
+        (3, 4) работают секунду
+        (1, 2) работают секунду
+        (3, 4) работают секунду
+        2 секунды работают по 50%
+            нечётные пп включены (1, 2)
+            чётные пп включены (3, 4)
+
+**slave_triac_real_load_1** - реалистичный сценарий работы симисторной платы (залить на 1-ю симисторную)
+    пауза 30 секунд
+    включает нагреватели 1 и 3 на 100% на 30 секунд
+
+**slave_triac_real_load_2** - реалистичный сценарий работы симисторной платы (залить на 2-ю симисторную)
+    включает нагреватель 1 на 50% на 60 секунд
+    
+**slave_triac_max_load** - максимальная нагрузка на симисторную плату
+    включает нагреватели 1 и 3 на 100% на 45 секунд
 
 **slave_analog_load** - открывает симисторы на 25\50\75\100% в цикле 30 секунд. Дважды
 
@@ -135,7 +157,7 @@
 **slave_011_triac_load**:
 - waiting_signal
 - slave_RTS_updown
-- slave_triac_load
+- slave_triac_noise
 - active_signal
 - test_pass_signal
 Комментарий:
@@ -215,7 +237,7 @@
 **slave_013_triac_load**:
 - waiting_signal
 - slave_parad
-- slave_triac_load
+- slave_triac_noise
 - test_pass_signal
 Комментарий:
     если пришёл 's', triac_load параллельно parad
@@ -304,9 +326,15 @@
 - active_signal
 - test_pass_signal
 
-**slave_024_triac_load**:
+**slave_024_1_triac_load**:
 - waiting_signal
-- slave_triac_load
+- slave_triac_real_load_1
+- active_signal
+- test_pass_signal
+
+**slave_024_2_triac_load**:
+- waiting_signal
+- slave_triac_real_load_2
 - active_signal
 - test_pass_signal
 
@@ -332,7 +360,7 @@
 
 **slave_030_triac_load**:
 - waiting_signal
-- slave_triac_load
+- slave_triac_max_load
 - active_signal
 - test_pass_signal
 
