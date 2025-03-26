@@ -297,9 +297,6 @@
 - slave_digit_load
 - active_signal
 - test_pass_signal
-Комментарии
-    перед slave_digit_load дожидается срабатывания входов от 1-го до 8-го последовательно
-        если порядок нарушен, ошибка
 
 **slave_021_step_load**:
 - waiting_signal
