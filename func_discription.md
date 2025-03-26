@@ -32,9 +32,33 @@
     ШИМ 50% на все выходы
     через 60 секунд выключает
 
-**slave_step_load** - ШД вращается в любую сторону со скоростью 500мм/с и максимальным для конкретного ШД ускорением до последовательного нажатия на все 4 концевика, потом вращается в другую сторону. Нажать на все концевики последовательно ещё раз - ШД остановится, после этого загорится светодиод.
+**slave_step_noise** - ШД движется, создавая максимум э.м. наводок и помех
+    в цикле
+        движения с параметрами
+            speed = 600 mm/sec
+            accel = 3000 mm/sec^2
+        между движениями пауза 300 мс
+        при каждом движении меняется направление
+        расстояние выбирается случайно в промежутке 10 - 30 мм
+        на 1 мм приходится 80 шагов
 
-**slave_step_load_max** - Оба ШД с максимальным ускорением и скоростью совершают рваные движения на протяжении 60 сек, при нажатии на любой из концевиков движение ставится на паузу, при отпускании - возвращается. Зажечь индикаторный светодиод.
+**slave_step_real_load** - реалистичный сценарий работы ШД
+    в цикле
+        движения с параметрами
+            speed = 600 mm/sec
+            accel = 3000 mm/sec^2
+        при каждом движении меняется направление
+        на 1 мм приходится 80 шагов
+        делает 4 движения по 50 мм, затем 2 движения по 200 мм
+
+**slave_step_max_24v_load** - максимальная нагрузка ШД на силовую линию
+    в цикле
+        движения с параметрами
+            speed = 600 mm/sec
+            accel = 3000 mm/sec^2
+            расстояние = 20 мм
+        при каждом движении меняется направление
+        на 1 мм приходится 80 шагов
 
 **slave_step_load_min** - ШД вращается в любую сторону со скоростью 1 шаг\сек, после нажатия на 1 или 2 концевик - меняет направление вращения, если была хотя бы 1 сработка концевика - спустя 60 сек с момента старта - зажечь индикаторный светодиод. (отладочные GPIO дублируют сработку 3 и 4 концевиков)
 
@@ -137,7 +161,7 @@
 **slave_011_step_load**:
 - waiting_signal
 - slave_RTS_updown
-- slave_step_load
+- slave_step_noise
 - active_signal
 - test_pass_signal
 Комментарий:
@@ -213,7 +237,7 @@
 **slave_013_step_load**:
 - waiting_signal
 - slave_parad
-- slave_step_load
+- slave_step_noise
 - test_pass_signal
 Комментарий:
     если пришёл 's', step_load параллельно parad
@@ -247,13 +271,7 @@
 
 **slave_021_step_load**:
 - waiting_signal
-- slave_step_load
-- active_signal
-- test_pass_signal
-
-**slave_022_step_load**:
-- waiting_signal
-- slave_step_load_max
+- slave_step_real_load
 - active_signal
 - test_pass_signal
 
@@ -267,12 +285,6 @@
 - waiting_signal
 - slave_QR_load
 - test_pass_signal
-- active_signal
-- test_pass_signal
-
-**slave_023_step_load**:
-- waiting_signal
-- slave_step_load_min
 - active_signal
 - test_pass_signal
 
@@ -334,7 +346,7 @@
 
 **slave_030_step_load**:
 - waiting_signal
-- slave_step_load_max
+- slave_step_max_24v_load
 - active_signal
 - test_pass_signal
 
