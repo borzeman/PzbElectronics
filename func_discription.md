@@ -40,11 +40,18 @@
 
 **slave_triac_real_load_2** - реалистичный сценарий работы симисторной платы (залить на 2-ю симисторную)
     включает нагреватель 1 на 50% на 60 секунд
-    
+
 **slave_triac_max_load** - максимальная нагрузка на симисторную плату
     включает нагреватели 1 и 3 на 100% на 45 секунд
 
-**slave_analog_load** - открывает симисторы на 25\50\75\100% в цикле 30 секунд. Дважды
+**slave_analog_noise** - вентиляторы работают, создавая максимум э.м. наводок и помех
+    симисторы работают на 50% (включены в чётные пп, выключены в нечётные)
+
+**slave_analog_real_load** - реалистичный сценарий работы аналоговой платы
+    открывает оба симистора на 100% на 3 минуты
+
+**slave_analog_max_load** - максимальная нагрузка симисторной платы
+    открывает оба симистора на 100% на 3 минуты
 
 **slave_analog_get_temp_cur** - при получении команды "r", отправить на Master текущие значение температуры и датчика тока.
 
@@ -166,7 +173,7 @@
 **slave_011_analog_load**:
 - waiting_signal
 - slave_RTS_updown
-- slave_analog_load
+- slave_analog_noise
 - active_signal
 - test_pass_signal
 Комментарий:
@@ -245,7 +252,7 @@
 **slave_013_analog_load**:
 - waiting_signal
 - slave_parad
-- slave_analog_load
+- slave_analog_noise
 - test_pass_signal
 Комментарий:
     если пришёл 's', analog_load параллельно parad
@@ -337,8 +344,7 @@
 
 **slave_024_analog_load**:
 - waiting_signal
-- slave_analog_load
-- slave_analog_get_temp_cur
+- slave_analog_real_load
 - slave_analog_relay_switcher
 - active_signal
 - test_pass_signal
@@ -364,7 +370,7 @@
 
 **slave_030_analog_load**:
 - waiting_signal
-- slave_analog_get_temp_cur
+- slave_analog_max_load
 - active_signal
 - test_pass_signal
 
