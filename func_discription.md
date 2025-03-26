@@ -137,6 +137,19 @@
     ждать символ 'l'
         если символ не приходит в течение секунды, сигнал ошибки и прекратить тест
 
+**master_lim_switch_check** - пересылает сигнал оператора для проверки концевиков
+    если в отладочный usart пришёл 'c', отправляет 'c' в дочерний usart
+
+**slave_stepper_lim_switch_check** - проверяет наводки на концевики
+    ждёт 'c' в usart
+    проверяет, что все концевики == 0
+    на фоне, до получения 'c' в usart
+        при любых изменениях сигнала концевиков test_pass_fail
+    после получения 'c' в usart отключает мониторинг
+    ждёт 'c' в usart
+    проверяет, что все концевики == 1
+    при любых изменениях сигнала концевиков test_pass_fail
+
 ### Прошивки
 
 ---
@@ -162,6 +175,9 @@
 - master_blink
 - master_load
 - active_signal
+
+**master_014**:
+- master_lim_switch_check
 
 **slave_010**:
 - waiting_signal
@@ -296,6 +312,12 @@
 - test_pass_signal
 Комментарий:
     если пришёл 's', qr_load параллельно parad
+
+**slave_014_step_load**:
+- waiting_signal
+- slave_stepper_lim_switch_check
+- active_signal
+- test_pass_signal
 
 ---
 
