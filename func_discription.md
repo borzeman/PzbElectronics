@@ -137,7 +137,7 @@
     ждать символ 'l'
         если символ не приходит в течение секунды, сигнал ошибки и прекратить тест
 
-**master_lim_switch_check** - пересылает сигнал оператора для проверки концевиков
+**master_lim_switch_photo_check** - пересылает сигнал оператора для проверки концевиков и оптопар
     если в отладочный usart пришёл 'c', отправляет 'c' в дочерний usart
 
 **slave_stepper_lim_switch_check** - проверяет наводки на концевики
@@ -149,6 +149,17 @@
     ждёт 'c' в usart
     проверяет, что все концевики == 1
     при любых изменениях сигнала концевиков test_pass_fail
+
+**slave_di_photo_check** - проверяет наводки на фототранзисторы
+    ждёт 'c' в usart
+    включает `out_1`
+    проверяет, что все оптопары == 0
+    на фоне, до получения 'c' в usart
+        при любых изменениях сигнала оптопар test_pass_fail
+    после получения 'c' в usart отключает мониторинг
+    ждёт 'c' в usart
+    проверяет, что все оптопары == 1
+    при любых изменениях сигнала оптопар test_pass_fail
 
 **master_current_check** - проводит проверку датчика тока
     ждёт 's' в отладочном usart
@@ -226,7 +237,7 @@
 - active_signal
 
 **master_014**:
-- master_lim_switch_check
+- master_lim_switch_photo_check
 
 **master_015**:
 - master_current_check
@@ -368,6 +379,12 @@
 **slave_014_step_load**:
 - waiting_signal
 - slave_stepper_lim_switch_check
+- active_signal
+- test_pass_signal
+
+**slave_014_di_load**:
+- waiting_signal
+- slave_di_photo_check
 - active_signal
 - test_pass_signal
 
