@@ -460,31 +460,22 @@
 Сценарий 4
 
 **master_040**:
-- waiting_signal
 - master_blink
-- master_repeater
 
 **slave_040_triac**:
-- waiting_signal
 - slave_parad
 
 **slave_040_analog**:
-- waiting_signal
 - slave_parad
-- slave_analog_get_temp_cur
 
 **slave_040_digit**:
-- waiting_signal
 - slave_parad
 
 **slave_040_dc**:
-- waiting_signal
 - slave_parad
 
 **slave_040_step**:
-- waiting_signal
 - slave_parad
 
 **slave_040_QR**:
-- waiting_signal
 - slave_parad
