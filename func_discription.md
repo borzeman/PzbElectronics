@@ -237,108 +237,72 @@
 
 блок нагрузочных прошивок для теста 011
 **slave_011_triac_load**:
-- waiting_signal
 - slave_RTS_updown
 - slave_triac_noise
-- active_signal
-- test_pass_signal
 
 **slave_011_analog_load**:
-- waiting_signal
 - slave_RTS_updown
 - slave_analog_noise
-- active_signal
-- test_pass_signal
 
 **slave_011_digit_load**:
-- waiting_signal
 - slave_RTS_updown
 - slave_digit_load
-- active_signal
-- test_pass_signal
 
 **slave_011_dc_load**:
-- waiting_signal
 - slave_RTS_updown
 - slave_dc_noise
-- active_signal
-- test_pass_signal
 
 **slave_011_step_load**:
-- waiting_signal
 - slave_RTS_updown
 - slave_step_noise
-- active_signal
-- test_pass_signal
 
 **slave_011_QR_load**:
-- waiting_signal
 - slave_RTS_updown
 - slave_QR_load
-- active_signal
-- test_pass_signal
 
 **slave_012_triac**:
-- waiting_signal
 - slave_parad
 
 **slave_012_analog**:
-- waiting_signal
 - slave_parad
 
 **slave_012_digit**:
-- waiting_signal
 - slave_parad
 
 **slave_012_dc**:
-- waiting_signal
 - slave_parad
 
 **slave_012_step**:
-- waiting_signal
 - slave_parad
 
 **slave_012_QR**:
-- waiting_signal
 - slave_parad
 
 
 блок нагрузочных прошивок для теста 013
 **slave_013_triac_load**:
-- waiting_signal
 - slave_parad
 - slave_triac_noise
-- test_pass_signal
 
 **slave_013_analog_load**:
-- waiting_signal
 - slave_parad
 - slave_analog_noise
-- test_pass_signal
 
 **slave_013_digit_load**:
-- waiting_signal
 - slave_parad
 - slave_digit_load
-- test_pass_signal
 
 **slave_013_dc_load**:
-- waiting_signal
 - slave_parad
 - slave_dc_noise
-- test_pass_signal
 
 **slave_013_step_load**:
-- waiting_signal
 - slave_parad
 - slave_step_noise
-- test_pass_signal
 
 **slave_013_QR_load**:
-- waiting_signal
 - slave_parad
 - slave_QR_load
-- test_pass_signal
 
 **slave_014_step_load**:
 - waiting_signal
