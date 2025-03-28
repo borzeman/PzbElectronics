@@ -95,6 +95,7 @@
             расстояние = 20 мм
         при каждом движении меняется направление
         на 1 мм приходится 80 шагов
+    через 2 минуты выключает
 
 **slave_dc_noise** - ДПТ двигаются, создавая максимум э.м. наводок и помех
     оба двигателя работают на 100%
@@ -107,6 +108,7 @@
 **slave_dc_max_24v_load** - максимальная нагрузка ДПТ на силовую линию
     оба двигателя работают на 100%
     раз в 2 секунды одновременно меняет направление обоих двигателей
+    через 2 минуты выключает
 
 **slave_QR_load** - настраивает usart обоих сканеров на чтение
 
@@ -426,41 +428,32 @@
 
 
 **slave_030_triac_load**:
-- waiting_signal
-- slave_triac_max_load
-- active_signal
-- test_pass_signal
-
+в цикле:
+    ждёт символ 's'
+    запускает `slave_triac_max_load`
 
 **slave_030_analog_load**:
-- waiting_signal
-- slave_analog_max_load
-- active_signal
-- test_pass_signal
+в цикле:
+    ждёт символ 's'
+    запускает `slave_analog_max_load`
 
 **slave_030_digit_load**:
-- waiting_signal
-- slave_digit_load
-- active_signal
-- test_pass_signal
+в цикле:
+    ждёт символ 's'
+    запускает `slave_digit_load`
 
 **slave_030_dc_load**:
-- waiting_signal
-- slave_dc_max_24v_load
-- active_signal
-- test_pass_signal
+в цикле:
+    ждёт символ 's'
+    запускает `slave_dc_max_24v_load`
 
 **slave_030_step_load**:
-- waiting_signal
-- slave_step_max_24v_load
-- active_signal
-- test_pass_signal
+в цикле:
+    ждёт символ 's'
+    запускает `slave_step_max_24v_load`
 
 **slave_030_QR_load**:
-- waiting_signal
 - slave_QR_load
-- active_signal
-- test_pass_signal
 
 ---
 
