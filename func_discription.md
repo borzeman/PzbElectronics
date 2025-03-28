@@ -309,19 +309,13 @@
     при любых изменениях сигнала оптопар взводит rts
 
 **slave_015_triac**:
-- waiting_signal
 - slave_triac_current_check
-- active_signal
-- test_pass_signal
 
 **slave_015_2_triac**:
 Ничего не делает
 
 **slave_015_analog**:
-- waiting_signal
 - slave_analog_current_check
-- active_signal
-- test_pass_signal
 
 **slave_015_2_analog**:
 - slave_analog_noise
