@@ -115,6 +115,7 @@
 
 **master_RTS_changer** - цикл проверки смены rts
     не раньше, чем через 2 сек после старта
+    `active_signal`
     проверить, что все rts == 0
         если нет, test_pass_fail
     while true
@@ -215,14 +216,7 @@
 Сценарий 1
 
 **master_010**:
-- waiting_signal
 - master_RTS_changer
-
-**master_011**:
-- waiting_signal
-- master_RTS_changer
-- master_load
-- active_signal
 
 **master_012**:
 - waiting_signal
@@ -241,7 +235,6 @@
 - master_current_check
 
 **slave_010**:
-- waiting_signal
 - slave_RTS_updown
 
 
@@ -252,8 +245,6 @@
 - slave_triac_noise
 - active_signal
 - test_pass_signal
-Комментарий:
-    если пришёл 's', triac_load параллельно RTS_updown
 
 **slave_011_analog_load**:
 - waiting_signal
@@ -261,8 +252,6 @@
 - slave_analog_noise
 - active_signal
 - test_pass_signal
-Комментарий:
-    если пришёл 's', analog_load параллельно RTS_updown
 
 **slave_011_digit_load**:
 - waiting_signal
@@ -270,8 +259,6 @@
 - slave_digit_load
 - active_signal
 - test_pass_signal
-Комментарий:
-    если пришёл 's', digit_load параллельно RTS_updown
 
 **slave_011_dc_load**:
 - waiting_signal
@@ -279,8 +266,6 @@
 - slave_dc_noise
 - active_signal
 - test_pass_signal
-Комментарий:
-    если пришёл 's', dc_load параллельно RTS_updown
 
 **slave_011_step_load**:
 - waiting_signal
@@ -288,8 +273,6 @@
 - slave_step_noise
 - active_signal
 - test_pass_signal
-Комментарий:
-    если пришёл 's', step_load параллельно RTS_updown
 
 **slave_011_QR_load**:
 - waiting_signal
@@ -297,8 +280,6 @@
 - slave_QR_load
 - active_signal
 - test_pass_signal
-Комментарий:
-    если пришёл 's', qr_load параллельно RTS_updown
 
 **slave_012_triac**:
 - waiting_signal
@@ -331,48 +312,36 @@
 - slave_parad
 - slave_triac_noise
 - test_pass_signal
-Комментарий:
-    если пришёл 's', triac_load параллельно parad
 
 **slave_013_analog_load**:
 - waiting_signal
 - slave_parad
 - slave_analog_noise
 - test_pass_signal
-Комментарий:
-    если пришёл 's', analog_load параллельно parad
 
 **slave_013_digit_load**:
 - waiting_signal
 - slave_parad
 - slave_digit_load
 - test_pass_signal
-Комментарий:
-    если пришёл 's', digit_load параллельно parad
 
 **slave_013_dc_load**:
 - waiting_signal
 - slave_parad
 - slave_dc_noise
 - test_pass_signal
-Комментарий:
-    если пришёл 's', dc_load параллельно parad
 
 **slave_013_step_load**:
 - waiting_signal
 - slave_parad
 - slave_step_noise
 - test_pass_signal
-Комментарий:
-    если пришёл 's', step_load параллельно parad
 
 **slave_013_QR_load**:
 - waiting_signal
 - slave_parad
 - slave_QR_load
 - test_pass_signal
-Комментарий:
-    если пришёл 's', qr_load параллельно parad
 
 **slave_014_step_load**:
 - waiting_signal
