@@ -312,6 +312,18 @@
     проверяет, что все оптопары == 1
     при любых изменениях сигнала оптопар взводит rts
 
+**slave_014_triac_noise**:
+- slave_triac_noise
+
+**slave_014_analog_noise**:
+- slave_analog_noise
+
+**slave_014_dc_noise**:
+- slave_dc_noise
+
+**slave_014_QR_noise**:
+- slave_QR_load
+
 **slave_015_triac**:
 - slave_triac_current_check
 
