@@ -117,8 +117,6 @@
         читает полученный QR код
         если он не равен QR_EXPECTED (константа), взводит rts
 
-**master_load** - после сигнала от оператора (символ 's' в отладочном usart) отправляет команду на запуск нагрузки дочерних плат (символ 's' в дочерний usart)
-
 **master_repeater** - пересылает показания датчика тока и термопар в UART терминал
 
 **master_blink** - инициирует "parad" и проверяет его
@@ -420,11 +418,14 @@
 Сценарий 3
 
 **master_030**:
-- waiting_signal
-- master_repeater
-- master_load
-- master_load
-- master_load
+запускает нагрузочные тесты
+    `waiting_signal`
+    3 повтора:
+        ждёт 's' в отладочном порту
+        `active_signal`
+        шлёт 's' в дочерний usart
+        ждёт 3 минуты
+        `waiting_signal`
 
 
 **slave_030_triac_load**:
