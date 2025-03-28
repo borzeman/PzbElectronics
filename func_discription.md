@@ -182,14 +182,11 @@
             если был пульс на любом из rts, `test_pass_fail`
 
 **master_012**:
-- waiting_signal
 - master_blink
-
-**master_013**:
-- waiting_signal
-- master_blink
-- master_load
 - active_signal
+- test_pass_fail
+Параллельно с парадом:
+    Если взводится любой из rts, `test_pass_fail` и прекратить тест
 
 **master_014**:
 проверяет наводки на контуры концевиков и оптопар
