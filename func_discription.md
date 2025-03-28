@@ -389,60 +389,29 @@
 Сценарий 2
 
 **master_020**:
-- waiting_signal
-- master_repeater
-- master_load
-
+Ничего не делает
 
 **slave_021_digit_load**:
-- waiting_signal
 - slave_digit_load
-- active_signal
-- test_pass_signal
 
 **slave_021_step_load**:
-- waiting_signal
 - slave_step_real_load
-- active_signal
-- test_pass_signal
 
 **slave_022_dc_load**:
-- waiting_signal
 - slave_dc_real_load
-- active_signal
-- test_pass_signal
 
 **slave_022_QR_load**:
-- waiting_signal
 - slave_QR_load
-- test_pass_signal
-- active_signal
-- test_pass_signal
-
-**slave_023_dc_load**:
-- waiting_signal
-- slave_dc_real_load
-- active_signal
-- test_pass_signal
 
 **slave_024_1_triac_load**:
-- waiting_signal
 - slave_triac_real_load_1
-- active_signal
-- test_pass_signal
 
 **slave_024_2_triac_load**:
-- waiting_signal
 - slave_triac_real_load_2
-- active_signal
-- test_pass_signal
 
 **slave_024_analog_load**:
-- waiting_signal
 - slave_analog_real_load
 - slave_analog_relay_switcher
-- active_signal
-- test_pass_signal
 
 ---
 
