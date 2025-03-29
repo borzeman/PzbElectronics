@@ -225,6 +225,9 @@
 **slave_010**:
 - slave_RTS_updown
 
+**slave_parad**:
+- slave_parad
+
 блок нагрузочных прошивок для теста 011
 **slave_011_triac_load**:
 - slave_RTS_updown
@@ -249,25 +252,6 @@
 **slave_011_QR_load**:
 - slave_RTS_updown
 - slave_QR_load
-
-**slave_012_triac**:
-- slave_parad
-
-**slave_012_analog**:
-- slave_parad
-
-**slave_012_digit**:
-- slave_parad
-
-**slave_012_dc**:
-- slave_parad
-
-**slave_012_step**:
-- slave_parad
-
-**slave_012_QR**:
-- slave_parad
-
 
 блок нагрузочных прошивок для теста 013
 **slave_013_triac_load**:
