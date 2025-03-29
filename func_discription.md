@@ -228,6 +228,9 @@
 **slave_parad**:
 - slave_parad
 
+**slave_QR_load**:
+- slave_QR_load
+
 блок нагрузочных прошивок для теста 011
 **slave_011_triac_load**:
 - slave_RTS_updown
@@ -310,9 +313,6 @@
 **slave_014_dc_noise**:
 - slave_dc_noise
 
-**slave_014_QR_noise**:
-- slave_QR_load
-
 **slave_015_triac**:
 - slave_triac_current_check
 
@@ -354,9 +354,6 @@
 - slave_step_noise
 Включает шум после того, как в порт придёт 's'
 
-**slave_016_QR_noise**:
-- slave_QR_load
-
 ---
 
 Сценарий 2
@@ -372,9 +369,6 @@
 
 **slave_022_dc_load**:
 - slave_dc_real_load
-
-**slave_022_QR_load**:
-- slave_QR_load
 
 **slave_024_1_triac_load**:
 - slave_triac_real_load_1
@@ -425,9 +419,6 @@
 в цикле:
     ждёт символ 's'
     запускает `slave_step_max_24v_load`
-
-**slave_030_QR_load**:
-- slave_QR_load
 
 ---
 
