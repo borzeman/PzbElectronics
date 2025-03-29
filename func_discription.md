@@ -435,21 +435,3 @@
 
 **master_040**:
 - master_blink
-
-**slave_040_triac**:
-- slave_parad
-
-**slave_040_analog**:
-- slave_parad
-
-**slave_040_digit**:
-- slave_parad
-
-**slave_040_dc**:
-- slave_parad
-
-**slave_040_step**:
-- slave_parad
-
-**slave_040_QR**:
-- slave_parad
