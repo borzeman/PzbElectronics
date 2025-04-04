@@ -1,0 +1,88 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "123ac62d-799f-4b18-8f63-a6d2072f112d")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 97.79 53.34)
+		(end 142.24 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2249e331-d1ba-4224-8e0d-68d4329c05d2)
+	)
+	(rectangle
+		(start 96.52 127)
+		(end 142.24 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aaece38f-0732-4ac6-92b3-ff3d6aa03e91)
+	)
+	(text "Блок UPS"
+		(exclude_from_sim no)
+		(at 120.142 58.166 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "0c665382-0b7a-46c7-9b5f-def2f583d9e4")
+	)
+	(text "Блок аккумулятора"
+		(exclude_from_sim no)
+		(at 118.618 133.35 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1882c207-e8ad-4038-9359-24b95763de0c")
+	)
+	(hierarchical_label "220V_OUT"
+		(shape output)
+		(at 226.06 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "3fb238cf-9fb1-4624-ad30-db711e2a14a1")
+	)
+	(hierarchical_label "IND_220V"
+		(shape output)
+		(at 226.06 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "c3130760-dc1e-4fb9-884a-56ad80277452")
+	)
+	(hierarchical_label "220V_IN"
+		(shape input)
+		(at 72.39 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify right)
+		)
+		(uuid "fdcf1037-8c83-4b2e-b740-01b5d0fe8725")
+	)
+)

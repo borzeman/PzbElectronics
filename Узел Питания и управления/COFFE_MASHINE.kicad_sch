@@ -1,0 +1,242 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "99e184b9-ee59-4ca5-9f6b-13214cc8fa55")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 92.71 147.32)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261aecaf-bea0-41c6-8c1a-a53fe1d7d98d")
+	)
+	(bus_entry
+		(at 92.71 142.24)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4764dbba-7b55-4e05-8ddb-6095e15f0f8f")
+	)
+	(bus_entry
+		(at 92.71 137.16)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ff6c36-8e83-4790-91ab-1555541126f9")
+	)
+	(wire
+		(pts
+			(xy 95.25 144.78) (xy 134.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3007cead-c115-4bb1-9c9e-85b3cea7657d")
+	)
+	(bus
+		(pts
+			(xy 68.58 128.27) (xy 92.71 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555c149e-10f5-4282-9d7b-550a5ec0fbb4")
+	)
+	(bus
+		(pts
+			(xy 92.71 142.24) (xy 92.71 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8772b2-abc4-429a-99af-13014f61b0af")
+	)
+	(bus
+		(pts
+			(xy 92.71 147.32) (xy 92.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75417e11-4fff-4f29-b8dc-16d398685c46")
+	)
+	(wire
+		(pts
+			(xy 95.25 139.7) (xy 134.62 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d977da-7a95-4dd8-84f1-ba1abf63487f")
+	)
+	(bus
+		(pts
+			(xy 92.71 128.27) (xy 92.71 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb59e21e-e2db-4fec-abc5-fc437b950b1d")
+	)
+	(wire
+		(pts
+			(xy 95.25 149.86) (xy 134.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e3527f-8bbd-4488-afdf-9eda49f1befd")
+	)
+	(bus
+		(pts
+			(xy 92.71 137.16) (xy 92.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ed6045-66f9-4c01-aaa0-321b6080b3f7")
+	)
+	(label "220V_COFFEE_G"
+		(at 101.6 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c1d7398-153e-4afa-97da-a6caa744331f")
+	)
+	(label "220V_COFFEE_L"
+		(at 101.6 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2dfc4a2-129e-48b3-913c-a7d5a421ec01")
+	)
+	(label "220V_COFFEE_N"
+		(at 101.6 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2b27f13-5710-431d-b1b6-7f0916f925d4")
+	)
+	(global_label "220V_COFFEE_L"
+		(shape input)
+		(at 100.33 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "c471b93e-55cc-4184-a918-01142b7f53f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.5209 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "220V_COFFEE_N"
+		(shape input)
+		(at 100.33 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "e31489ea-b091-4a51-aca5-540248df9a9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.5923 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "220V_COFFEE_G"
+		(shape input)
+		(at 100.33 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "e5b3d51c-6ac6-4a81-a19b-531a8b2b430a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.578 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "220_COFFEE_MASHINE"
+		(shape input)
+		(at 68.58 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "3e887468-9d45-4bee-9773-10107185624d")
+	)
+	(hierarchical_label "COFFEE_MASHINE_CTRL"
+		(shape bidirectional)
+		(at 68.58 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "b3efaa1a-2b9f-4c0a-b302-2cf36eba3ea8")
+	)
+)

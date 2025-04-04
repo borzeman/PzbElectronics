@@ -1,0 +1,328 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7771b801-49dc-4db1-9c93-a5551773c172")
+	(paper "A3")
+	(lib_symbols)
+	(rectangle
+		(start 176.022 47.498)
+		(end 202.692 159.258)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 573124fc-d9a9-4aee-a9bf-24073a92407f)
+	)
+	(rectangle
+		(start 114.554 46.736)
+		(end 141.224 158.496)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 67444497-2632-4f00-8156-d14f955008ae)
+	)
+	(rectangle
+		(start 304.292 48.514)
+		(end 330.962 160.274)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 77f51867-482d-41bc-ad71-d318e09d8891)
+	)
+	(rectangle
+		(start 240.284 47.498)
+		(end 266.954 159.258)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b68f4f5-bb55-4665-b8c4-3bcc167aa3ba)
+	)
+	(rectangle
+		(start 272.796 47.752)
+		(end 299.466 159.512)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88173f65-87cd-4833-88bb-5e17b18a34a4)
+	)
+	(rectangle
+		(start 51.308 46.99)
+		(end 77.978 158.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94506469-e15c-4b9a-ab75-d08391f9d80f)
+	)
+	(rectangle
+		(start 147.574 46.736)
+		(end 174.244 158.496)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bdb53ffa-027a-4b2e-90ee-d1852004fc19)
+	)
+	(rectangle
+		(start 83.058 46.99)
+		(end 109.728 158.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f39e8e32-fc25-4b30-8ea8-ca4a75bd4793)
+	)
+	(text "Кофемашина"
+		(exclude_from_sim no)
+		(at 150.114 77.216 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "02d88d68-fd3a-4cfc-9ca1-1d50a241e4d2")
+	)
+	(text "УЗ Мойка"
+		(exclude_from_sim no)
+		(at 253.746 126.492 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "05997907-4ea7-4bc2-ab5f-cc743aae4c0a")
+	)
+	(text "Экраны"
+		(exclude_from_sim no)
+		(at 180.34 101.6 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "3eb02d48-cd83-4aa7-8b66-18d71ec9f26a")
+	)
+	(text "32А"
+		(exclude_from_sim no)
+		(at 283.718 44.45 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "513b6b99-e707-416f-8557-ff1714d5aaf3")
+	)
+	(text "Печь"
+		(exclude_from_sim no)
+		(at 307.086 78.232 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "5d0e881c-d094-4d1f-af7c-96bb4a22d9b9")
+	)
+	(text "Манипулятор"
+		(exclude_from_sim no)
+		(at 179.07 76.708 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "62afe0ab-9fe2-4e48-8755-77b7fb18a8c2")
+	)
+	(text "Общий УЗО"
+		(exclude_from_sim no)
+		(at 117.856 70.866 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "6b880283-6a6c-4384-b722-1c9c9299f898")
+	)
+	(text "10А"
+		(exclude_from_sim no)
+		(at 186.182 44.196 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7c0321ce-8639-430a-8444-586a3c154e5e")
+	)
+	(text "Сервер"
+		(exclude_from_sim no)
+		(at 179.832 122.174 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "7e55fb8e-0753-478b-95a5-7f99238ab891")
+	)
+	(text "Источник питания 50В"
+		(exclude_from_sim no)
+		(at 243.586 119.888 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "84abc688-d3ef-4f02-8206-52733eb38d9f")
+	)
+	(text "63А"
+		(exclude_from_sim no)
+		(at 126.492 43.942 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "9a9aa633-200c-4a7d-a558-29e0c62551d0")
+	)
+	(text "10А"
+		(exclude_from_sim no)
+		(at 252.222 44.45 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "9c3a10b5-09eb-43cf-aefe-399fb4022d67")
+	)
+	(text "холодильник"
+		(exclude_from_sim no)
+		(at 275.59 77.47 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "a7cc8cf2-dd4b-4548-a855-e160c851ae05")
+	)
+	(text "Основной выключатель"
+		(exclude_from_sim no)
+		(at 54.61 71.12 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "b9b19abb-683e-4bf2-a9c5-75b9568e22e3")
+	)
+	(text "Счетчик"
+		(exclude_from_sim no)
+		(at 86.36 71.12 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "c0601618-ea1b-4023-8055-b2c9f5721627")
+	)
+	(text "63А"
+		(exclude_from_sim no)
+		(at 63.246 43.434 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c8cae4d5-8ff2-42f4-b894-afeac54105aa")
+	)
+	(text "32А"
+		(exclude_from_sim no)
+		(at 315.976 45.72 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "cbbcf2e9-6af5-47b9-843f-b97364cbef62")
+	)
+	(text "Источник питания 24В"
+		(exclude_from_sim no)
+		(at 243.078 70.612 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "decadff5-fbe6-4483-a3c0-37030bbb5b36")
+	)
+	(text "16А"
+		(exclude_from_sim no)
+		(at 159.512 44.196 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "ecb16093-6823-4720-af95-14739fa9ea01")
+	)
+	(text "63А"
+		(exclude_from_sim no)
+		(at 95.25 43.942 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "f77657fb-c0eb-4890-882c-06b9f2959cea")
+	)
+)

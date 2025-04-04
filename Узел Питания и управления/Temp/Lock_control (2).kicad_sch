@@ -1,0 +1,894 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2247b8ac-f9fc-4f2f-b09a-6590d7925a0b")
+	(paper "A3")
+	(lib_symbols)
+	(junction
+		(at 71.12 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d449e24e-c7c2-4c0c-afb2-baf41ad4d89c")
+	)
+	(bus_entry
+		(at 71.12 193.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041e9bd7-61a3-4fe9-92ce-0c2581ebcf0b")
+	)
+	(bus_entry
+		(at 71.12 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061db79f-4a78-421a-88d1-4610ee8e29e8")
+	)
+	(bus_entry
+		(at 71.12 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16180651-7dab-4cc1-b543-b34ec2e5956b")
+	)
+	(bus_entry
+		(at 71.12 36.83)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5ccfa1-89d8-4559-ae64-8f01be6758b1")
+	)
+	(bus_entry
+		(at 71.12 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e95b756-53ec-45ca-9649-e9dd3457cbcb")
+	)
+	(bus_entry
+		(at 71.12 189.23)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd0b11f-d5d3-4b8c-9554-f1ed1f57fc9b")
+	)
+	(bus_entry
+		(at 71.12 223.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83afcc37-34ca-4ca7-85cc-a7440cafa301")
+	)
+	(bus_entry
+		(at 71.12 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947d6cb0-8d1d-46e6-afa0-9850394fddc0")
+	)
+	(bus_entry
+		(at 71.12 227.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f51cc2-ef5f-4919-9a09-603a22e99cc0")
+	)
+	(bus_entry
+		(at 71.12 154.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7741d2d-d9a6-4683-8d8a-58202fe380cb")
+	)
+	(bus_entry
+		(at 71.12 110.49)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e438428c-9cb5-4702-a8c4-10143f488743")
+	)
+	(bus_entry
+		(at 71.12 151.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed64d5ea-302a-4a90-8936-ca499b6b0505")
+	)
+	(bus
+		(pts
+			(xy 71.12 151.13) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089d838e-15c2-4898-8a91-6a19e9c56056")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 160.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f935a5-a86d-4bff-8f52-1219a71ae021")
+	)
+	(wire
+		(pts
+			(xy 158.75 113.03) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378bf094-1371-4a60-afb0-ea7701f96abb")
+	)
+	(bus
+		(pts
+			(xy 71.12 34.29) (xy 71.12 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de7781b-5374-44cf-8d4d-289755801495")
+	)
+	(bus
+		(pts
+			(xy 71.12 72.39) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ef4f1a-ef97-4ab2-92b9-e388f2d8a17c")
+	)
+	(bus
+		(pts
+			(xy 71.12 189.23) (xy 71.12 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495b213b-a1ff-47a4-afd5-43f214cb4c2e")
+	)
+	(wire
+		(pts
+			(xy 158.75 116.84) (xy 73.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffe1c1a-c51a-450c-ba39-65b7ba544556")
+	)
+	(bus
+		(pts
+			(xy 71.12 223.52) (xy 71.12 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59390e43-c944-4193-811c-8e673d89b2f1")
+	)
+	(bus
+		(pts
+			(xy 71.12 110.49) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b0f26e-ef9c-4b84-b660-e4b7a049fbf4")
+	)
+	(bus
+		(pts
+			(xy 71.12 114.3) (xy 71.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4b7ee6-1091-4292-a806-5153ce6243f1")
+	)
+	(bus
+		(pts
+			(xy 39.37 93.98) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7169854b-ae6d-4b26-a730-ae3c0a84cedf")
+	)
+	(bus
+		(pts
+			(xy 71.12 36.83) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b4692a-87c7-4d98-937c-9b2885b57073")
+	)
+	(bus
+		(pts
+			(xy 71.12 40.64) (xy 71.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79029a2-8058-4d13-9ed0-3c0c97954b72")
+	)
+	(bus
+		(pts
+			(xy 71.12 93.98) (xy 71.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeccbb09-d950-456b-ada0-ddd0595f62d3")
+	)
+	(wire
+		(pts
+			(xy 73.66 157.48) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe4560a-5913-4294-95fa-5ee385e1f2fc")
+	)
+	(bus
+		(pts
+			(xy 71.12 76.2) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce9d886-0053-4905-8cc7-25071272c702")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 160.02 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63bc7e8-96a2-48f4-a0e3-4fa9885a125c")
+	)
+	(wire
+		(pts
+			(xy 73.66 43.18) (xy 160.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64b3b76-24ce-42f9-81e7-9def1a4805f5")
+	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 160.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ee6113-2847-46d3-a08b-973efb0e657a")
+	)
+	(wire
+		(pts
+			(xy 73.66 153.67) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ca8e88-4318-4c81-8a17-d63cb23fb228")
+	)
+	(bus
+		(pts
+			(xy 71.12 193.04) (xy 71.12 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa08d388-2a31-4627-b69e-e110ca8419b9")
+	)
+	(bus
+		(pts
+			(xy 71.12 154.94) (xy 71.12 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb00f68-67d8-4243-82c4-4a036e43a14b")
+	)
+	(hierarchical_label "DOOR_L3"
+		(shape output)
+		(at 355.6 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "5e6f1b13-ad84-48ec-9c21-a1b166f9705d")
+	)
+	(hierarchical_label "DOOR_R2"
+		(shape output)
+		(at 351.79 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "746cb3d2-5e54-4c53-bf2e-a8e755323c37")
+	)
+	(hierarchical_label "DOOR_R3"
+		(shape output)
+		(at 349.25 229.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "87342c3b-4eee-4a30-8fd8-f12dd3517d5c")
+	)
+	(hierarchical_label "DOOR_R1"
+		(shape output)
+		(at 353.06 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "9369205c-5d34-415a-909f-ea9e0dc600b8")
+	)
+	(hierarchical_label "LOCKS"
+		(shape input)
+		(at 39.37 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify right)
+		)
+		(uuid "a552d932-d42c-4682-a513-0820ece59dbf")
+	)
+	(hierarchical_label "DOOR_L1"
+		(shape output)
+		(at 351.79 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "ea593657-bd0f-4c75-9106-e6c26d42db47")
+	)
+	(hierarchical_label "DOOR_L2"
+		(shape output)
+		(at 353.06 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "fe8c54ba-d101-4458-b471-69b914accccb")
+	)
+	(sheet
+		(at 160.02 68.58)
+		(size 57.15 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "057eceeb-8eaa-463d-bb69-ec3d45f87742")
+		(property "Sheetname" "LOCK_Defense_L2"
+			(at 160.02 67.2534 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOCK_Defense.kicad_sch"
+			(at 160.02 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOCKS-" input
+			(at 160.02 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "984e5322-5b38-4017-967f-6a992f23bd8f")
+		)
+		(pin "LOCKS+" input
+			(at 160.02 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78013e0b-20be-4a9c-8e9d-59d6315efb24")
+		)
+		(pin "DOOR+" input
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8b95b1c-edb6-40af-97e6-01176349a897")
+		)
+		(pin "DOOR-" input
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34c2b444-fdda-4a4f-9301-af9b5835c882")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/2d76267a-c402-4c8c-af79-8024640b87e9/8458b088-49be-4940-a76e-2f84ad6350d4"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 185.42)
+		(size 57.15 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "125d71d8-88b7-4645-93bd-b5094f09b1a7")
+		(property "Sheetname" "LOCK_Defense_R2"
+			(at 158.75 184.0934 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOCK_Defense.kicad_sch"
+			(at 158.75 208.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOCKS-" input
+			(at 158.75 195.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c858e064-463d-497c-a3c4-1cead3da8e37")
+		)
+		(pin "LOCKS+" input
+			(at 158.75 191.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33259e77-360d-46c3-8166-4dec138552d3")
+		)
+		(pin "DOOR+" input
+			(at 215.9 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49be2bda-5c20-4831-bb43-32f9ea795a9f")
+		)
+		(pin "DOOR-" input
+			(at 215.9 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43267330-d88b-4469-9fe1-90afadd81e6a")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/2d76267a-c402-4c8c-af79-8024640b87e9/8458b088-49be-4940-a76e-2f84ad6350d4"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 147.32)
+		(size 57.15 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "142f35e6-f583-4806-a30d-15c5c709375a")
+		(property "Sheetname" "LOCK_Defense_R1"
+			(at 158.75 145.9934 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOCK_Defense.kicad_sch"
+			(at 158.75 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOCKS-" input
+			(at 158.75 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "842b7631-2e0c-4a12-94c6-0bc44c31f4af")
+		)
+		(pin "LOCKS+" input
+			(at 158.75 153.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1993f0de-0641-4363-a3f8-29cba105e552")
+		)
+		(pin "DOOR+" input
+			(at 215.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "643bf7f9-774b-4a49-b51c-14d51e69793b")
+		)
+		(pin "DOOR-" input
+			(at 215.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6710943-0bfc-4293-9aec-4f3245ec3beb")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/2d76267a-c402-4c8c-af79-8024640b87e9/8458b088-49be-4940-a76e-2f84ad6350d4"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 33.02)
+		(size 57.15 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54203010-388e-490a-bcfe-d30cd1d89fc6")
+		(property "Sheetname" "LOCK_Defense_L3"
+			(at 160.02 31.6934 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOCK_Defense.kicad_sch"
+			(at 160.02 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOCKS-" input
+			(at 160.02 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aee89781-9861-4c8d-8099-ed5523c70f61")
+		)
+		(pin "LOCKS+" input
+			(at 160.02 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5533bdc-22b1-4e9b-a1e1-f1a7c6f2dcfe")
+		)
+		(pin "DOOR+" input
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "503a6569-47f1-43b6-98a4-5d5ee64e0bd1")
+		)
+		(pin "DOOR-" input
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc5884de-4389-4fd3-9c46-59ed8ee1130d")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/2d76267a-c402-4c8c-af79-8024640b87e9/8458b088-49be-4940-a76e-2f84ad6350d4"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 106.68)
+		(size 57.15 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8bc115b1-d492-499d-ae0d-8db9507ef333")
+		(property "Sheetname" "LOCK_Defense_L1"
+			(at 158.75 105.3534 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOCK_Defense.kicad_sch"
+			(at 158.75 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOCKS-" input
+			(at 158.75 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba6fae05-317f-4d96-b31e-7eaecbd34fef")
+		)
+		(pin "LOCKS+" input
+			(at 158.75 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6163c383-ca3b-4c7e-a615-1be39e64ff1d")
+		)
+		(pin "DOOR+" input
+			(at 215.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "344aef61-ba40-46b9-8f1c-7b7de750242f")
+		)
+		(pin "DOOR-" input
+			(at 215.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55f4d387-1fc9-46d6-b9fc-52d489672f0e")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/2d76267a-c402-4c8c-af79-8024640b87e9/8458b088-49be-4940-a76e-2f84ad6350d4"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 223.52)
+		(size 57.15 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a142baed-fc79-42fd-ab41-8f7f9d4d1c8f")
+		(property "Sheetname" "LOCK_Defense_R3"
+			(at 158.75 222.1934 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOCK_Defense.kicad_sch"
+			(at 158.75 246.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOCKS-" input
+			(at 158.75 233.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "881d22de-b777-47c0-bbfb-023687fa3fd3")
+		)
+		(pin "LOCKS+" input
+			(at 158.75 229.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8597b743-0077-41f3-aaa3-1ca5448b7c0c")
+		)
+		(pin "DOOR+" input
+			(at 215.9 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a0063fb3-da46-42b8-8480-cc1c22de9def")
+		)
+		(pin "DOOR-" input
+			(at 215.9 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "410f4665-eff0-4ad5-a3a7-e170775d0f95")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/2d76267a-c402-4c8c-af79-8024640b87e9/8458b088-49be-4940-a76e-2f84ad6350d4"
+					(page "19")
+				)
+			)
+		)
+	)
+)
