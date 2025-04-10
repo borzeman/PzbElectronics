@@ -419,7 +419,7 @@
 				)
 			)
 		)
-		(symbol "Diode:1N5819WS"
+		(symbol "Diode:B360"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -434,7 +434,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5819WS"
+			(property "Value" "B360"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -442,7 +442,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
+			(property "Footprint" "Diode_SMD:D_SMC"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -451,7 +451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -460,7 +460,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(property "Description" "60V 3A Schottky Barrier Rectifier Diode, SMC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -478,7 +478,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323*"
+			(property "ki_fp_filters" "D*SMC*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -487,7 +487,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5819WS_0_1"
+			(symbol "B360_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -525,169 +525,7 @@
 					)
 				)
 			)
-			(symbol "1N5819WS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:LL4148"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LL4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, MiniMELF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*MiniMELF*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LL4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LL4148_1_1"
+			(symbol "B360_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1079,6 +917,12 @@
 		(uuid "4bb123af-636b-4f76-b468-f036a86cded3")
 	)
 	(junction
+		(at 114.3 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f09d9ba-3805-4f70-89b1-ada5d5783376")
+	)
+	(junction
 		(at 119.38 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1119,6 +963,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2f9bcec-cf6a-465a-86fa-30dc232b6bc6")
+	)
+	(junction
+		(at 114.3 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1d59a5a-36da-4013-a266-5bc1a488360a")
 	)
 	(junction
 		(at 87.63 92.71)
@@ -1187,6 +1037,16 @@
 			(type default)
 		)
 		(uuid "1fbb0748-89ec-44cc-b1dd-feebbe469f2d")
+	)
+	(wire
+		(pts
+			(xy 96.52 127) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab34f5e-8d81-4b82-8ab5-05fe7ab4314a")
 	)
 	(wire
 		(pts
@@ -1330,6 +1190,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 81.28) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4052aa-26e6-451e-817b-9b1282cd53b2")
+	)
+	(wire
+		(pts
 			(xy 135.89 106.68) (xy 156.21 106.68)
 		)
 		(stroke
@@ -1340,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 125.73) (xy 114.3 129.54)
+			(xy 114.3 125.73) (xy 114.3 127)
 		)
 		(stroke
 			(width 0)
@@ -1367,6 +1237,16 @@
 			(type default)
 		)
 		(uuid "8a619502-755f-49e7-b36a-ae6130396b68")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 114.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfdaf33-b64d-4d59-aa3f-947175ebd58b")
 	)
 	(wire
 		(pts
@@ -1400,6 +1280,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 125.73) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d1ec31-7477-4a33-816d-a9dbc8ca5494")
+	)
+	(wire
+		(pts
 			(xy 73.66 92.71) (xy 74.93 92.71)
 		)
 		(stroke
@@ -1410,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 114.3 110.49)
+			(xy 114.3 99.06) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1450,6 +1340,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 118.11) (xy 96.52 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f9e3ed-4494-4155-b0df-7e2ff59ec70a")
+	)
+	(wire
+		(pts
 			(xy 74.93 99.06) (xy 77.47 99.06)
 		)
 		(stroke
@@ -1457,6 +1357,16 @@
 			(type default)
 		)
 		(uuid "c682c726-44be-45a1-a624-87137d7f5d33")
+	)
+	(wire
+		(pts
+			(xy 114.3 127) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba565ae-d37c-4213-869b-fc4eb81fb47f")
 	)
 	(wire
 		(pts
@@ -1530,6 +1440,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 116.84) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeefa307-e2ca-47e8-8541-19907945805e")
+	)
+	(wire
+		(pts
+			(xy 119.38 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14f9b4d-7d91-47f6-96ae-2bbb05bb3bfa")
+	)
+	(wire
+		(pts
 			(xy 201.93 109.22) (xy 201.93 111.76)
 		)
 		(stroke
@@ -1547,16 +1477,6 @@
 			(type default)
 		)
 		(uuid "f9fa5f1b-5ec8-4196-b44a-2db8f499482f")
-	)
-	(wire
-		(pts
-			(xy 127 81.28) (xy 180.34 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0a4970-986b-4ed7-8c6b-cf018287c94a")
 	)
 	(hierarchical_label "+3,4V"
 		(shape output)
@@ -1634,6 +1554,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b883a25-f2d2-43da-8d0e-2497f12526e8")
 		)
@@ -1644,6 +1582,94 @@
 			(project "led_and_photodiode_board"
 				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b182183-dadd-4346-b6b6-d7c0faac0067")
+		(property "Reference" "R46"
+			(at 99.06 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2512 100 Ом"
+			(at 99.06 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 98.298 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68fb9365-e853-4384-b257-2766eb6d744c")
+		)
+		(pin "2"
+			(uuid "fc8a09e5-8834-44f8-a5b9-276e86e00799")
+		)
+		(instances
+			(project "led_and_photodiode_board"
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1693,6 +1719,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 149.86 99.06 0)
 			(effects
 				(font
@@ -1770,6 +1814,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5535f2a2-d127-4b34-afaf-343571b9df9c")
 		)
@@ -1831,6 +1893,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -1901,6 +1981,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 119.38 93.98 0)
 			(effects
 				(font
@@ -2240,6 +2338,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "592745ec-6526-4987-859a-2a369c9834a1")
 		)
@@ -2250,92 +2366,6 @@
 			(project "led_and_photodiode_board"
 				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:LL4148")
-		(at 123.19 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48d788f3-017f-4890-9d66-7f8e84e1a361")
-		(property "Reference" "D9"
-			(at 123.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LL4148 (miniMELF)"
-			(at 123.19 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 123.19 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 123.19 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, MiniMELF"
-			(at 123.19 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 123.19 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dbf1c7ba-7abd-4c6b-9abf-ca966cdf1928")
-		)
-		(pin "1"
-			(uuid "c3e7133d-9ab6-44f0-98ab-0876afceabc3")
-		)
-		(instances
-			(project ""
-				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2394,6 +2424,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "9b4f1108-bc6e-4583-b742-93ab646590b1")
 		)
@@ -2431,76 +2479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 134.62 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "712d0d6e-72fd-42b9-a5b3-5a7114273154")
-		(property "Reference" "D10"
-			(at 137.16 121.6024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5819WS (SOD-323)"
-			(at 137.16 124.1424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 130.175 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 134.62 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 134.62 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a4bbc66-87d4-4fc9-aa45-24ee37e69dbe")
-		)
-		(pin "1"
-			(uuid "1493b9f4-b595-41a7-9a99-536ac101de1a")
-		)
-		(instances
-			(project ""
-				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 114.3 121.92 0)
 		(unit 1)
@@ -2510,7 +2488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9415ee3d-f818-4df7-83b3-2998dc78c401")
-		(property "Reference" "R37"
+		(property "Reference" "R47"
 			(at 116.84 120.6499 0)
 			(effects
 				(font
@@ -2519,7 +2497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1206 51 Ом"
+		(property "Value" "2512 100 Ом"
 			(at 116.84 123.1899 0)
 			(effects
 				(font
@@ -2528,7 +2506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 112.522 121.92 90)
 			(effects
 				(font
@@ -2555,6 +2533,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a273f762-125d-4ac0-923b-ac03681b8eb9")
 		)
@@ -2564,7 +2560,7 @@
 		(instances
 			(project ""
 				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
-					(reference "R37")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2616,6 +2612,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 187.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -2685,6 +2699,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -2828,6 +2860,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e40d8b12-a5d3-4ab5-91d1-579241e53af7")
 		)
@@ -2845,7 +2895,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 114.3 180)
+		(at 114.3 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2854,7 +2904,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb396623-6bbc-4e33-a145-805aff916a90")
 		(property "Reference" "C37"
-			(at 118.11 113.0299 0)
+			(at 118.11 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2913,7 @@
 			)
 		)
 		(property "Value" "0805 10nF 50V"
-			(at 118.11 115.5699 0)
+			(at 118.11 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2922,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 113.3348 110.49 0)
+			(at 113.3348 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2931,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 114.3 0)
+			(at 114.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2940,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 114.3 0)
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,6 +3114,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:B360")
+		(at 134.62 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0a12f3d-f74c-4ce1-a30a-120884f54542")
+		(property "Reference" "D10"
+			(at 137.16 121.6024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B360"
+			(at 137.16 124.1424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 130.175 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+			(at 134.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 3A Schottky Barrier Rectifier Diode, SMC"
+			(at 134.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5148f9f7-8fa8-48e6-a02e-c2d14efedb0a")
+		)
+		(pin "2"
+			(uuid "4ddd86f6-973b-474e-b80d-71605c7b505f")
+		)
+		(instances
+			(project "led_and_photodiode_board"
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_4ms_Power-symbol:GNDA")
 		(at 187.96 113.03 0)
 		(unit 1)
@@ -3128,8 +3266,8 @@
 				)
 			)
 		)
-		(property "Value" "opt (100k)"
-			(at 81.534 103.378 90)
+		(property "Value" "0805 160 кОм 5% - 0,125Вт"
+			(at 72.136 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,6 +3301,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eec2c0ef-4dda-4144-bb03-e6bb8fe25296")
 		)
@@ -3173,6 +3329,74 @@
 			(project ""
 				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B360")
+		(at 124.46 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa0b232c-e3ef-45e5-b6ec-925502fa38c7")
+		(property "Reference" "D9"
+			(at 124.1425 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B360"
+			(at 124.1425 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 124.46 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 3A Schottky Barrier Rectifier Diode, SMC"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5950730-8a8c-4be8-aafe-1c63fef5239d")
+		)
+		(pin "2"
+			(uuid "0659cf2f-64c2-4aa8-8ab8-382725eba968")
+		)
+		(instances
+			(project ""
+				(path "/f4cecc67-0bcd-4036-b070-4b6cf1ef2c64/d646e062-c8ff-42ae-96fd-2578fb64ac11"
+					(reference "D9")
 					(unit 1)
 				)
 			)
