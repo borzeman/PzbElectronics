@@ -1390,8 +1390,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GNDD"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1773,97 +1772,6 @@
 		(uuid "ae11dedd-05e6-4f16-947a-16b86644bcef")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 128.27 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "029b11e3-eadc-4308-a154-ef191ce55bed")
-		(property "Reference" "C22"
-			(at 123.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,01uF 600V 1206 (GRM31BR72J103KW01L)"
-			(at 118.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 129.2352 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8532730f-2974-40be-8150-3e14078d4d95")
-		)
-		(pin "1"
-			(uuid "9f4ddaf6-03b7-469e-8a74-b0327b949988")
-		)
-		(instances
-			(project "Плата симистров"
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-					(reference "C28")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-					(reference "C19")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-					(reference "C22")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-			(project "analog_io_board"
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
-					(reference "C22")
-					(unit 1)
-				)
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 95.25 82.55 90)
 		(unit 1)
@@ -1889,7 +1797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.25 84.328 90)
 			(effects
 				(font
@@ -1907,7 +1815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 95.25 82.55 0)
 			(effects
 				(font
@@ -1954,98 +1862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19ef655c-1ff8-4dbb-90f6-4da98da25d97")
-		(property "Reference" "R12"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2512-51 Ом±5%-1 Вт"
-			(at 176.53 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_2512_6332Metric"
-			(at 175.768 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "677c581d-c998-4d0d-9ada-81f162e40732")
-		)
-		(pin "1"
-			(uuid "bc5c4f61-72c9-400e-9866-f08a28b23dd9")
-		)
-		(instances
-			(project "Плата симистров"
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-					(reference "R14")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-			(project "analog_io_board"
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 86.36 76.2 180)
 		(unit 1)
@@ -2073,7 +1889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.3948 72.39 0)
 			(effects
 				(font
@@ -2091,7 +1907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 86.36 76.2 0)
 			(effects
 				(font
@@ -2170,7 +1986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 96.52 92.71 0)
 			(effects
 				(font
@@ -2188,7 +2004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -2270,7 +2086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_D1"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -2288,7 +2104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -2388,7 +2204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Digital NPN Transistor, 10k/10k, SOT-23"
 			(at 96.52 101.6 0)
 			(effects
 				(font
@@ -2448,188 +2264,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 173.99 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5be696e5-6992-4b10-a3af-d4742a4ea090")
-		(property "Reference" "C21"
-			(at 177.8 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,01uF 600V 1206 (GRM31BR72J103KW01L)"
-			(at 177.8 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 174.9552 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3cb6e0b-001a-4786-828d-cb0b46e63029")
-		)
-		(pin "1"
-			(uuid "7fab9edb-ec18-4caa-8d28-ab681873568a")
-		)
-		(instances
-			(project "Плата симистров"
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-					(reference "C18")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-					(reference "C21")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-			(project "analog_io_board"
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
-					(reference "C21")
-					(unit 1)
-				)
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a3d3daf-cb6f-443f-a44b-a2ac990ca933")
-		(property "Reference" "R10"
-			(at 123.19 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2512-180 Ом±5%-1 Вт"
-			(at 123.19 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_2512_6332Metric"
-			(at 123.19 70.612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f83e2ae-69b7-40e7-87d2-1b1cfc12e977")
-		)
-		(pin "1"
-			(uuid "837f09c0-1b48-4665-b3b9-503ef25ea70f")
-		)
-		(instances
-			(project "Плата симистров"
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "analog_io_board"
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 134.62 72.39 270)
 		(unit 1)
@@ -2637,8 +2271,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78c8ca43-19e5-466e-aabb-2c8ffd4a5162")
+		(uuid "58cd051b-3394-4e8e-b79d-08b1020a44cc")
 		(property "Reference" "R11"
 			(at 134.62 66.04 90)
 			(effects
@@ -2647,15 +2280,15 @@
 				)
 			)
 		)
-		(property "Value" "2512-1 кОм±5%-1 Вт"
-			(at 134.62 68.58 90)
+		(property "Value" "0207 MELF -1 кОм±5%-1 Вт"
+			(at 146.05 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_2512_6332Metric"
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
 			(at 134.62 70.612 90)
 			(effects
 				(font
@@ -2673,7 +2306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 134.62 72.39 0)
 			(effects
 				(font
@@ -2683,37 +2316,167 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d26841a-bda1-4728-a276-eb0f0dbba4c6")
+			(uuid "3c2bcf6f-db5b-4924-8db9-8658107dc555")
 		)
 		(pin "1"
-			(uuid "6da03d81-8e3a-4f63-a66d-e88a0a937033")
+			(uuid "8eca6e90-51a0-44d9-b2ba-174144347a7f")
 		)
 		(instances
-			(project "Плата симистров"
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/63b095b4-3c9c-489d-b37a-8fc245f2b355"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/a92943f3-fb5f-4928-a4c6-18ad14104b9b"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/dcab90d0-6412-4eeb-8218-0c0b15cdd6ab"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/271a56a4-fac2-444b-8acf-7cf36bf0ab17/997d7511-5408-445d-86dd-063aa13180e2/f2cea334-e45e-49d8-bc5b-499bf5169a47"
-					(reference "R21")
-					(unit 1)
-				)
-			)
 			(project "analog_io_board"
 				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
 					(reference "R11")
 					(unit 1)
 				)
 				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
-					(reference "R15")
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96971104-25fc-4f4c-a063-a563c950024d")
+		(property "Reference" "C22"
+			(at 132.08 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,01uF 630V (CL11-103K/630V)"
+			(at 132.08 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
+			(at 129.2352 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ef13071-ffc6-4d9b-a9d7-f4caeae85a71")
+		)
+		(pin "1"
+			(uuid "3a75852f-ae93-4960-9aef-4ea07e05a51f")
+		)
+		(instances
+			(project "analog_io_board"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abe4c938-7d05-4c55-8e2b-9881554ab6bb")
+		(property "Reference" "R12"
+			(at 176.53 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0207 MELF -2 кОм±5%-1 Вт"
+			(at 176.53 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
+			(at 175.768 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa2fd1ff-9821-400a-9cd5-1500101943fa")
+		)
+		(pin "1"
+			(uuid "24cebdc3-cdd1-49d3-b9d4-a1914f29d540")
+		)
+		(instances
+			(project "analog_io_board"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2739,12 +2502,11 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 101.6 107.7595 0)
+			(at 99.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2765,7 +2527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -2838,7 +2600,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 86.36 68.58 0)
+			(at 86.36 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -2988,6 +2750,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 123.19 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dab68b2f-585e-486a-972c-da721340caca")
+		(property "Reference" "R10"
+			(at 116.586 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0207 MELF -180 Ом±5%-1 Вт"
+			(at 121.92 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
+			(at 123.19 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5d13e47-72dd-4fee-82b6-ece1317274e8")
+		)
+		(pin "1"
+			(uuid "2a8728e0-902b-4ad1-ae5c-8a79d14c6623")
+		)
+		(instances
+			(project "analog_io_board"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Optocoupler_Triac_AKL:MOC3021M")
 		(at 113.03 87.63 0)
 		(unit 1)
@@ -3088,6 +2921,80 @@
 				)
 				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
 					(reference "OC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f69774f1-402c-42cc-9665-d1aacaf101a7")
+		(property "Reference" "C21"
+			(at 177.8 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,01uF 630V (CL11-103K/630V)"
+			(at 177.8 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
+			(at 174.9552 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87ababe6-d1cc-4475-8bce-100e9c8b90bc")
+		)
+		(pin "1"
+			(uuid "8dbedede-423a-41f4-bfbd-a9ca80912295")
+		)
+		(instances
+			(project "analog_io_board"
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/2acf8c9c-647a-4460-b2f7-fcaf98c419d1"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/c658a069-2acb-41ac-8530-c56b14d342d1/c60a24f7-547e-4015-b7ed-3ac264249d3c/31432d1a-a168-4dc1-9f20-944848faa586"
+					(reference "C39")
 					(unit 1)
 				)
 			)
