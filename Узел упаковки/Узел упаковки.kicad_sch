@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "94eb8b88-fefb-404e-aaa5-cca0b984c3f2")
 	(paper "A3")
 	(lib_symbols
@@ -90,6 +90,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x04_(wide)"
 			(exclude_from_sim no)
@@ -212,6 +213,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x06_(wide)"
 			(exclude_from_sim no)
@@ -370,7 +372,162 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 306.07 172.72)
+		(end 335.28 238.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 064b977a-8acc-4762-8fed-3a24c7903c84)
+	)
+	(rectangle
+		(start 198.12 172.72)
+		(end 227.33 238.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 091ad249-fac5-4df5-b51c-f67273895bdd)
+	)
+	(rectangle
+		(start 87.63 185.42)
+		(end 172.72 264.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 46664dd2-24c4-4d3e-816d-42798adb8b7c)
+	)
+	(rectangle
+		(start 269.24 172.72)
+		(end 298.45 238.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d53381b-2d61-4a76-af38-661eced58900)
+	)
+	(rectangle
+		(start 233.68 172.72)
+		(end 262.89 238.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 614b3abf-95ee-4864-889d-56af9c949cb1)
+	)
+	(rectangle
+		(start 321.31 35.56)
+		(end 382.27 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f14ebe4-2bf5-46cf-bf98-e68ea2bfd244)
+	)
+	(rectangle
+		(start 256.54 49.53)
+		(end 317.5 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ddab1879-d6ae-46a9-9668-3e91154ff8a6)
+	)
+	(text "двигатель барабана\nподачи бумаги"
+		(exclude_from_sim no)
+		(at 354.584 137.16 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1a7c8fd0-9849-46f0-a117-23743528f897")
+	)
+	(text "Реле управления мойками 1"
+		(exclude_from_sim no)
+		(at 202.438 203.2 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1e8b3c9d-b56c-4c37-96bf-61ae91d896c0")
+	)
+	(text "двигатель подъема\nподачи бумаги"
+		(exclude_from_sim no)
+		(at 289.814 151.13 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3daf1d5e-c6eb-4311-be75-438998139c4c")
+	)
+	(text "Реле управления мойками 1"
+		(exclude_from_sim no)
+		(at 273.558 203.2 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4123081a-6aab-49fb-a943-a89f9e8eefe5")
+	)
+	(text "Преходная колодка 220В "
+		(exclude_from_sim no)
+		(at 133.35 191.516 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "9be32fab-baed-49ca-b3a0-8158203220f6")
+	)
+	(text "Реле управления мойками 1"
+		(exclude_from_sim no)
+		(at 310.388 203.2 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c5a43db4-f786-43a5-8ddd-44b803f5c107")
+	)
+	(text "Реле управления мойками 1"
+		(exclude_from_sim no)
+		(at 237.998 203.2 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "e90e692c-4ecd-4450-ae28-61736ad1b147")
 	)
 	(junction
 		(at 267.97 60.96)
@@ -818,6 +975,16 @@
 	)
 	(bus
 		(pts
+			(xy 73.66 90.17) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027bc00e-5eb5-4501-85ec-c09ee774d0f3")
+	)
+	(bus
+		(pts
 			(xy 325.12 55.88) (xy 325.12 92.71)
 		)
 		(stroke
@@ -1178,6 +1345,16 @@
 	)
 	(bus
 		(pts
+			(xy 73.66 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2eb270-5659-4107-baba-c41130c9a20e")
+	)
+	(bus
+		(pts
 			(xy 193.04 270.51) (xy 193.04 250.19)
 		)
 		(stroke
@@ -1258,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 257.81) (xy 157.48 234.95)
+			(xy 157.48 257.81) (xy 157.48 232.41)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 257.81) (xy 162.56 234.95)
+			(xy 162.56 257.81) (xy 162.56 232.41)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 257.81) (xy 147.32 234.95)
+			(xy 147.32 257.81) (xy 147.32 232.41)
 		)
 		(stroke
 			(width 0)
@@ -1798,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 257.81) (xy 152.4 234.95)
+			(xy 152.4 257.81) (xy 152.4 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2046,163 +2223,8 @@
 		)
 		(uuid "ff6d419a-45fe-486e-b696-704c51cd0e34")
 	)
-	(rectangle
-		(start 306.07 172.72)
-		(end 335.28 238.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 064b977a-8acc-4762-8fed-3a24c7903c84)
-	)
-	(rectangle
-		(start 198.12 172.72)
-		(end 227.33 238.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 091ad249-fac5-4df5-b51c-f67273895bdd)
-	)
-	(rectangle
-		(start 87.63 185.42)
-		(end 172.72 264.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 46664dd2-24c4-4d3e-816d-42798adb8b7c)
-	)
-	(rectangle
-		(start 269.24 172.72)
-		(end 298.45 238.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5d53381b-2d61-4a76-af38-661eced58900)
-	)
-	(rectangle
-		(start 233.68 172.72)
-		(end 262.89 238.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 614b3abf-95ee-4864-889d-56af9c949cb1)
-	)
-	(rectangle
-		(start 321.31 35.56)
-		(end 382.27 142.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8f14ebe4-2bf5-46cf-bf98-e68ea2bfd244)
-	)
-	(rectangle
-		(start 256.54 49.53)
-		(end 317.5 156.21)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ddab1879-d6ae-46a9-9668-3e91154ff8a6)
-	)
-	(text "двигатель барабана\nподачи бумаги"
-		(exclude_from_sim no)
-		(at 354.584 137.16 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "1a7c8fd0-9849-46f0-a117-23743528f897")
-	)
-	(text "Реле управления мойками 1"
-		(exclude_from_sim no)
-		(at 202.438 203.2 90)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "1e8b3c9d-b56c-4c37-96bf-61ae91d896c0")
-	)
-	(text "двигатель подъема\nподачи бумаги"
-		(exclude_from_sim no)
-		(at 289.814 151.13 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "3daf1d5e-c6eb-4311-be75-438998139c4c")
-	)
-	(text "Реле управления мойками 1"
-		(exclude_from_sim no)
-		(at 273.558 203.2 90)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4123081a-6aab-49fb-a943-a89f9e8eefe5")
-	)
-	(text "Преходная колодка 220В "
-		(exclude_from_sim no)
-		(at 133.35 191.516 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9be32fab-baed-49ca-b3a0-8158203220f6")
-	)
-	(text "Реле управления мойками 1"
-		(exclude_from_sim no)
-		(at 310.388 203.2 90)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "c5a43db4-f786-43a5-8ddd-44b803f5c107")
-	)
-	(text "Реле управления мойками 1"
-		(exclude_from_sim no)
-		(at 237.998 203.2 90)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "e90e692c-4ecd-4450-ae28-61736ad1b147")
-	)
 	(label "DET_1_MAX_PK"
 		(at 279.4 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2214,7 +2236,6 @@
 	)
 	(label "DET_1_MIN_PK"
 		(at 279.4 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2226,7 +2247,6 @@
 	)
 	(label "DET_1_MIN_BL"
 		(at 279.4 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2238,7 +2258,6 @@
 	)
 	(label "DET_1_MIN_BN"
 		(at 279.4 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2250,7 +2269,6 @@
 	)
 	(label "220_IN_3_L"
 		(at 152.4 220.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2262,7 +2280,6 @@
 	)
 	(label "220_IN_1_L"
 		(at 162.56 220.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2274,7 +2291,6 @@
 	)
 	(label "220_IN_1_L"
 		(at 212.09 237.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2286,7 +2302,6 @@
 	)
 	(label "US_4-"
 		(at 320.04 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2298,7 +2313,6 @@
 	)
 	(label "US_4+"
 		(at 325.12 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2310,7 +2324,6 @@
 	)
 	(label "220_IN_2_L"
 		(at 247.65 237.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2322,7 +2335,6 @@
 	)
 	(label "US_3-"
 		(at 283.21 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2334,7 +2346,6 @@
 	)
 	(label "DET_1_MIN_BK"
 		(at 279.4 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2346,7 +2357,6 @@
 	)
 	(label "US_3+"
 		(at 288.29 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2356,9 +2366,8 @@
 		)
 		(uuid "230ebf7a-7a2e-431b-823c-1f90ad241671")
 	)
-	(label "220_IN_2_N"
+	(label "220_OUT_2_N"
 		(at 157.48 257.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2370,7 +2379,6 @@
 	)
 	(label "220_OUT_4_L"
 		(at 325.12 237.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2382,7 +2390,6 @@
 	)
 	(label "DET_2_MIN_BL"
 		(at 344.17 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2394,7 +2401,6 @@
 	)
 	(label "DET_2_MAX_PK"
 		(at 344.17 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2406,7 +2412,6 @@
 	)
 	(label "DET_2_MAX_BK"
 		(at 344.17 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2418,7 +2423,6 @@
 	)
 	(label "220_IN_N"
 		(at 118.11 231.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2430,7 +2434,6 @@
 	)
 	(label "MOT_2-"
 		(at 365.76 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2442,7 +2445,6 @@
 	)
 	(label "MOT_1_A+"
 		(at 300.99 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2454,7 +2456,6 @@
 	)
 	(label "DET_2_MIN_BK"
 		(at 344.17 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2466,7 +2467,6 @@
 	)
 	(label "220_IN_2_L"
 		(at 157.48 220.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2478,7 +2478,6 @@
 	)
 	(label "DET_1_MAX_BK"
 		(at 279.4 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2490,7 +2489,6 @@
 	)
 	(label "MOT_1_A-"
 		(at 300.99 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2500,9 +2498,8 @@
 		)
 		(uuid "7fa2f4c9-4dde-4b70-af94-470c5a19282d")
 	)
-	(label "220_IN_1_N"
+	(label "220_OUT_1_N"
 		(at 162.56 257.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2514,7 +2511,6 @@
 	)
 	(label "DET_1_MAX_BN"
 		(at 279.4 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2526,7 +2522,6 @@
 	)
 	(label "DET_2_MAX_BN"
 		(at 344.17 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2538,7 +2533,6 @@
 	)
 	(label "DET_2_MIN_PK"
 		(at 344.17 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2550,7 +2544,6 @@
 	)
 	(label "US_1+"
 		(at 217.17 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2562,7 +2555,6 @@
 	)
 	(label "220_IN_4_L"
 		(at 320.04 237.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2574,7 +2566,6 @@
 	)
 	(label "US_2-"
 		(at 247.65 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2586,7 +2577,6 @@
 	)
 	(label "DET_1_MAX_BL"
 		(at 279.4 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2598,7 +2588,6 @@
 	)
 	(label "DET_2_MAX_BL"
 		(at 344.17 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2610,7 +2599,6 @@
 	)
 	(label "220_IN_4_L"
 		(at 147.32 220.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2620,9 +2608,8 @@
 		)
 		(uuid "bcaff71d-76a5-4d32-99ca-ef024fca6942")
 	)
-	(label "220_IN_3_N"
+	(label "220_OUT_3_N"
 		(at 152.4 257.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2634,7 +2621,6 @@
 	)
 	(label "MOT_1_B-"
 		(at 300.99 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2646,7 +2632,6 @@
 	)
 	(label "220_OUT_2_L"
 		(at 252.73 237.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2658,7 +2643,6 @@
 	)
 	(label "MOT_1_B+"
 		(at 300.99 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2670,7 +2654,6 @@
 	)
 	(label "220_OUT_3_L"
 		(at 288.29 237.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2680,9 +2663,8 @@
 		)
 		(uuid "d14e673b-c563-4e45-9a79-22797f2e5ccd")
 	)
-	(label "220_IN_4_N"
+	(label "220_OUT_4_N"
 		(at 147.32 257.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2694,7 +2676,6 @@
 	)
 	(label "DET_2_MIN_BN"
 		(at 344.17 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2706,7 +2687,6 @@
 	)
 	(label "220_IN_L"
 		(at 118.11 226.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2718,7 +2698,6 @@
 	)
 	(label "220_OUT_1_L"
 		(at 217.17 237.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2730,7 +2709,6 @@
 	)
 	(label "MOT_2+"
 		(at 365.76 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2742,7 +2720,6 @@
 	)
 	(label "US_2+"
 		(at 252.73 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2754,7 +2731,6 @@
 	)
 	(label "220_IN_3_L"
 		(at 283.21 237.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2766,7 +2742,6 @@
 	)
 	(label "US_1-"
 		(at 212.09 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3282,7 +3257,7 @@
 			)
 		)
 	)
-	(global_label "220_IN_1_N"
+	(global_label "220_OUT_1_N"
 		(shape input)
 		(at 162.56 257.81 90)
 		(fields_autoplaced yes)
@@ -3294,7 +3269,7 @@
 		)
 		(uuid "6029e51d-38b0-40e9-9634-4fa1fb3fccf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 254.5046 90)
+			(at 162.56 254.1046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3543,7 @@
 			)
 		)
 	)
-	(global_label "220_IN_2_N"
+	(global_label "220_OUT_2_N"
 		(shape input)
 		(at 157.48 257.81 90)
 		(fields_autoplaced yes)
@@ -3580,7 +3555,7 @@
 		)
 		(uuid "b84a0a9e-8c88-4d7b-934f-4ba8b656c901")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 254.5046 90)
+			(at 157.48 254.1046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3609,7 @@
 			)
 		)
 	)
-	(global_label "220_IN_4_N"
+	(global_label "220_OUT_4_N"
 		(shape input)
 		(at 147.32 257.81 90)
 		(fields_autoplaced yes)
@@ -3646,7 +3621,7 @@
 		)
 		(uuid "d3382df2-3011-40a6-bb03-214ca52ad6d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 254.5046 90)
+			(at 147.32 254.1046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3741,7 @@
 			)
 		)
 	)
-	(global_label "220_IN_3_N"
+	(global_label "220_OUT_3_N"
 		(shape input)
 		(at 152.4 257.81 90)
 		(fields_autoplaced yes)
@@ -3778,7 +3753,7 @@
 		)
 		(uuid "f52220e6-5c73-4c3e-a9e8-c032bedd3a7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 254.5046 90)
+			(at 152.4 254.1046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +3953,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_(wide)")
-		(at 167.64 232.41 270)
+		(at 167.64 229.87 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3987,7 +3962,7 @@
 		(dnp no)
 		(uuid "1d6ae2b5-d67d-49b4-86bc-195d300888ff")
 		(property "Reference" "AB_220V_J2+"
-			(at 165.354 245.618 0)
+			(at 165.354 243.078 0)
 			(effects
 				(font
 					(size 2 2)
@@ -3997,7 +3972,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 135.89 232.41 0)
+			(at 135.89 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +3980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 232.41 0)
+			(at 167.64 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +3989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 232.41 0)
+			(at 167.64 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +3998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 232.41 0)
+			(at 167.64 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,6 +5067,10 @@
 	(sheet
 		(at -40.64 43.18)
 		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5130,6 +5109,10 @@
 	(sheet
 		(at 36.83 48.26)
 		(size 36.83 95.25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5159,6 +5142,7 @@
 		)
 		(pin "24V_ANALOG" output
 			(at 73.66 74.93 0)
+			(uuid "5827f6ab-fd6c-465e-904e-e14ddc48366e")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5166,21 +5150,10 @@
 				)
 				(justify right)
 			)
-			(uuid "5827f6ab-fd6c-465e-904e-e14ddc48366e")
 		)
 		(pin "RS485" output
 			(at 73.66 54.61 0)
-			(effects
-				(font
-					(size 2.5 2.5)
-					(thickness 0.3125)
-				)
-				(justify right)
-			)
 			(uuid "fa934e7d-b846-4bcb-be6b-2a3831922cf0")
-		)
-		(pin "50V" output
-			(at 73.66 80.01 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5188,10 +5161,21 @@
 				)
 				(justify right)
 			)
+		)
+		(pin "36V" output
+			(at 73.66 80.01 0)
 			(uuid "78cf8898-8e91-4306-8f74-2d2ff724e613")
+			(effects
+				(font
+					(size 2.5 2.5)
+					(thickness 0.3125)
+				)
+				(justify right)
+			)
 		)
 		(pin "MOT_7" input
 			(at 73.66 69.85 0)
+			(uuid "af7a3478-065f-4a96-8674-9b0d1aacc823")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5199,10 +5183,10 @@
 				)
 				(justify right)
 			)
-			(uuid "af7a3478-065f-4a96-8674-9b0d1aacc823")
 		)
 		(pin "PUMPS" input
 			(at 73.66 64.77 0)
+			(uuid "5e74e02c-de2e-404b-bb71-bdbe039939cd")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5210,10 +5194,10 @@
 				)
 				(justify right)
 			)
-			(uuid "5e74e02c-de2e-404b-bb71-bdbe039939cd")
 		)
 		(pin "24V_DIGIT" output
 			(at 73.66 59.69 0)
+			(uuid "141f0343-f277-486f-afb3-52fd709080e4")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5221,10 +5205,10 @@
 				)
 				(justify right)
 			)
-			(uuid "141f0343-f277-486f-afb3-52fd709080e4")
 		)
 		(pin "220V_IN" output
 			(at 73.66 118.11 0)
+			(uuid "7b5488d1-c25f-4ff8-bcb6-1fc82e649e8e")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5232,10 +5216,10 @@
 				)
 				(justify right)
 			)
-			(uuid "7b5488d1-c25f-4ff8-bcb6-1fc82e649e8e")
 		)
 		(pin "220V_OUT" input
 			(at 73.66 129.54 0)
+			(uuid "207f0941-f3d5-469b-a002-5b78586cc8ff")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5243,7 +5227,28 @@
 				)
 				(justify right)
 			)
-			(uuid "207f0941-f3d5-469b-a002-5b78586cc8ff")
+		)
+		(pin "QR code" input
+			(at 73.66 85.09 0)
+			(uuid "5dc8f3ca-d6f4-414a-9c2b-917e8735ac11")
+			(effects
+				(font
+					(size 2.5 2.5)
+					(thickness 0.3125)
+				)
+				(justify right)
+			)
+		)
+		(pin "SINC" input
+			(at 73.66 90.17 0)
+			(uuid "f7f4d18d-a2dd-4a3e-8b8a-d1cfc92dca58")
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.3175)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "Узел упаковки"
@@ -5256,6 +5261,10 @@
 	(sheet
 		(at -40.64 74.93)
 		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5294,6 +5303,10 @@
 	(sheet
 		(at -39.37 104.14)
 		(size 24.13 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5330,8 +5343,54 @@
 		)
 	)
 	(sheet
+		(at -41.148 135.89)
+		(size 28.448 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e98fff9c-7626-4ecc-bb13-2b3b57717df5")
+		(property "Sheetname" "ConnectionTable4"
+			(at -41.148 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ConnectionTable4.kicad_sch"
+			(at -41.148 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Узел упаковки"
+				(path "/94eb8b88-fefb-404e-aaa5-cca0b984c3f2"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 138.43 48.26)
-		(size 104.14 44.45)
+		(size 104.14 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5351,7 +5410,7 @@
 			)
 		)
 		(property "Sheetfile" "MotherBoard.kicad_sch"
-			(at 138.43 93.2946 0)
+			(at 138.43 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,8 +5418,9 @@
 				(justify left top)
 			)
 		)
-		(pin "50V" input
+		(pin "36V" input
 			(at 138.43 80.01 180)
+			(uuid "dadb7a6e-df35-4b4d-9ef6-ebc2db54fbfd")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5368,10 +5428,10 @@
 				)
 				(justify left)
 			)
-			(uuid "dadb7a6e-df35-4b4d-9ef6-ebc2db54fbfd")
 		)
 		(pin "24V_ANALOG" input
 			(at 138.43 74.93 180)
+			(uuid "7b917a69-c31b-489b-92bb-4472b6b77d58")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5379,10 +5439,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7b917a69-c31b-489b-92bb-4472b6b77d58")
 		)
 		(pin "MOT_7" output
 			(at 138.43 69.85 180)
+			(uuid "d9710cc3-83f7-4c88-8876-b320471ed5ee")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5390,10 +5450,10 @@
 				)
 				(justify left)
 			)
-			(uuid "d9710cc3-83f7-4c88-8876-b320471ed5ee")
 		)
 		(pin "PUMPS" output
 			(at 138.43 64.77 180)
+			(uuid "3ce7057c-b695-49f2-841c-e69ebdc2a578")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5401,10 +5461,10 @@
 				)
 				(justify left)
 			)
-			(uuid "3ce7057c-b695-49f2-841c-e69ebdc2a578")
 		)
 		(pin "24V_DIGIT" input
 			(at 138.43 59.69 180)
+			(uuid "c75125b3-17fc-4c40-90ca-716bedc8499e")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5412,10 +5472,10 @@
 				)
 				(justify left)
 			)
-			(uuid "c75125b3-17fc-4c40-90ca-716bedc8499e")
 		)
 		(pin "RS485" input
 			(at 138.43 54.61 180)
+			(uuid "4c76f6ca-a00e-4f05-ab87-33f0a3a53953")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5423,10 +5483,10 @@
 				)
 				(justify left)
 			)
-			(uuid "4c76f6ca-a00e-4f05-ab87-33f0a3a53953")
 		)
 		(pin "DETECTORS" input
 			(at 242.57 60.96 0)
+			(uuid "9a7e31e0-511e-4bcd-a839-e984fca74a27")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5434,10 +5494,10 @@
 				)
 				(justify right)
 			)
-			(uuid "9a7e31e0-511e-4bcd-a839-e984fca74a27")
 		)
 		(pin "MOT_1" output
 			(at 242.57 69.85 0)
+			(uuid "e9e3d5d4-d59c-4896-bb0e-5994cc8d7065")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5445,10 +5505,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e9e3d5d4-d59c-4896-bb0e-5994cc8d7065")
 		)
 		(pin "RELAY" output
 			(at 242.57 76.2 0)
+			(uuid "3ab8cae8-8653-4046-b691-c8ecdff6bce4")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5456,10 +5516,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3ab8cae8-8653-4046-b691-c8ecdff6bce4")
 		)
 		(pin "MOT_2" output
 			(at 242.57 55.88 0)
+			(uuid "c42e69f3-bdc0-4cce-9753-cdf68c27c6fa")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -5467,7 +5527,28 @@
 				)
 				(justify right)
 			)
-			(uuid "c42e69f3-bdc0-4cce-9753-cdf68c27c6fa")
+		)
+		(pin "QR code" output
+			(at 138.43 85.09 180)
+			(uuid "e4bb8d86-dc37-4ed8-a33b-92d5b2881900")
+			(effects
+				(font
+					(size 2.5 2.5)
+					(thickness 0.3125)
+				)
+				(justify left)
+			)
+		)
+		(pin "SINC" input
+			(at 138.43 90.17 180)
+			(uuid "0ef3a62b-ed0c-4ebb-aa4a-d2f560b79847")
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.3175)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "Узел упаковки"
@@ -5482,4 +5563,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

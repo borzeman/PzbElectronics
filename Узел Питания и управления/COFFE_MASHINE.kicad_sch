@@ -1,10 +1,22 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "99e184b9-ee59-4ca5-9f6b-13214cc8fa55")
 	(paper "A4")
 	(lib_symbols)
+	(text "Непеределана!!!!"
+		(exclude_from_sim no)
+		(at 160.02 88.646 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 2.032)
+				(bold yes)
+			)
+		)
+		(uuid "82caba08-2ad0-444f-910b-f369eef0c427")
+	)
 	(bus_entry
 		(at 92.71 147.32)
 		(size 2.54 2.54)
@@ -114,7 +126,6 @@
 	)
 	(label "220V_COFFEE_G"
 		(at 101.6 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -125,7 +136,6 @@
 	)
 	(label "220V_COFFEE_L"
 		(at 101.6 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -136,7 +146,6 @@
 	)
 	(label "220V_COFFEE_N"
 		(at 101.6 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -211,10 +220,9 @@
 			)
 		)
 	)
-	(hierarchical_label "220_COFFEE_MASHINE"
+	(hierarchical_label "220_COFFEE_MACHINE"
 		(shape input)
 		(at 68.58 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -225,10 +233,9 @@
 		)
 		(uuid "3e887468-9d45-4bee-9773-10107185624d")
 	)
-	(hierarchical_label "COFFEE_MASHINE_CTRL"
+	(hierarchical_label "COFFEE_MACHINE_CTRL"
 		(shape bidirectional)
 		(at 68.58 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)

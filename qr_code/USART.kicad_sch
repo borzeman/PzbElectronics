@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1a4d147e-563b-4f98-b26a-1f4a6bfca775")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,45 +83,9 @@
 				)
 			)
 			(symbol "Conn_01x04_Socket_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy -1.27 2.54) (xy -0.508 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -143,7 +109,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -154,21 +132,45 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
+					(start 0 2.032)
 					(mid -0.5058 2.54)
-					(end 0 2.032)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -250,11 +252,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -352,6 +359,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Converter_DCDC:AM1SS-"
 			(exclude_from_sim no)
@@ -487,9 +495,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -562,7 +573,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -574,7 +585,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -623,11 +634,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -694,32 +710,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -731,8 +723,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -780,11 +796,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -852,10 +873,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -876,7 +909,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -888,22 +921,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -949,9 +970,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1070,6 +1094,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Isolator:Pai122E3X"
 			(pin_names
@@ -1156,19 +1181,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -4.445) (xy -1.27 -6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy -1.27 -3.175)
+						(xy -1.27 6.985) (xy -1.27 4.445)
 					)
 					(stroke
 						(width 0.254)
@@ -1192,7 +1205,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 6.985) (xy -1.27 4.445)
+						(xy -1.27 -0.635) (xy -1.27 -3.175)
 					)
 					(stroke
 						(width 0.254)
@@ -1204,43 +1217,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -4.445) (xy 1.27 -6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy 1.27 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.175) (xy 1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy 1.27 4.445)
+						(xy -1.27 -4.445) (xy -1.27 -6.985)
 					)
 					(stroke
 						(width 0.254)
@@ -1265,6 +1242,54 @@
 				(polyline
 					(pts
 						(xy 0.635 2.54) (xy 0.635 1.27) (xy -0.635 1.905) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.635) (xy 1.27 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.445) (xy 1.27 -6.985)
 					)
 					(stroke
 						(width 0.254)
@@ -1349,34 +1374,16 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -5.08 180)
+					(at 12.7 5.08 180)
 					(length 2.54)
-					(name "GND2"
+					(name "VDD2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "VOB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1402,17 +1409,35 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 5.08 180)
+				(pin output line
+					(at 12.7 -2.54 180)
 					(length 2.54)
-					(name "VDD2"
+					(name "VOB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1421,12 +1446,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1517,7 +1547,65 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 156.21 92.71)
+		(end 190.5 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4350a04d-304b-4d0c-bc39-feb7eb437cb3)
+	)
+	(rectangle
+		(start 139.7 20.32)
+		(end 191.77 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 69dd35dc-8ac8-4cc4-a38c-ebcdb5d34b91)
+	)
+	(text "20мА"
+		(exclude_from_sim no)
+		(at 166.37 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "866fea97-7e67-4e03-9772-7ec5aec9c482")
+	)
+	(text "штырьковый разъем для debbag"
+		(exclude_from_sim no)
+		(at 153.67 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b796ca1c-cebf-485a-94cb-b17e8d29770c")
+	)
+	(text "обеспечение минимального тока"
+		(exclude_from_sim no)
+		(at 157.48 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c01b0a8d-e5f8-4acb-a6d3-f00f94101979")
 	)
 	(junction
 		(at 86.36 111.76)
@@ -2211,67 +2299,9 @@
 		)
 		(uuid "fdd81be6-9e66-4cdb-bee3-6a11a65c6ec1")
 	)
-	(rectangle
-		(start 156.21 92.71)
-		(end 190.5 128.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4350a04d-304b-4d0c-bc39-feb7eb437cb3)
-	)
-	(rectangle
-		(start 139.7 20.32)
-		(end 191.77 64.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 69dd35dc-8ac8-4cc4-a38c-ebcdb5d34b91)
-	)
-	(text "20мА"
-		(exclude_from_sim no)
-		(at 166.37 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "866fea97-7e67-4e03-9772-7ec5aec9c482")
-	)
-	(text "штырьковый разъем для debbag"
-		(exclude_from_sim no)
-		(at 153.67 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b796ca1c-cebf-485a-94cb-b17e8d29770c")
-	)
-	(text "обеспечение минимального тока"
-		(exclude_from_sim no)
-		(at 157.48 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c01b0a8d-e5f8-4acb-a6d3-f00f94101979")
-	)
 	(hierarchical_label "TX_out"
 		(shape input)
 		(at 124.46 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2283,7 +2313,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 187.96 114.3 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2295,7 +2324,6 @@
 	(hierarchical_label "GNDD"
 		(shape input)
 		(at 62.23 59.69 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2307,7 +2335,6 @@
 	(hierarchical_label "+3.3VD"
 		(shape input)
 		(at 62.23 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2319,7 +2346,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 208.28 109.22 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2331,7 +2357,6 @@
 	(hierarchical_label "TX"
 		(shape input)
 		(at 33.02 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2343,7 +2368,6 @@
 	(hierarchical_label "Vcc"
 		(shape input)
 		(at 144.78 29.21 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2355,7 +2379,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 118.11 109.22 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2367,7 +2390,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 92.71 59.69 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2379,7 +2401,6 @@
 	(hierarchical_label "Vcc"
 		(shape input)
 		(at 217.17 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2391,7 +2412,6 @@
 	(hierarchical_label "RX_out"
 		(shape input)
 		(at 124.46 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2403,7 +2423,6 @@
 	(hierarchical_label "+24V"
 		(shape input)
 		(at 26.67 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2415,7 +2434,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 152.4 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2427,7 +2445,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 100.33 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2439,7 +2456,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 109.22 111.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2451,7 +2467,6 @@
 	(hierarchical_label "Vcc"
 		(shape input)
 		(at 92.71 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2463,7 +2478,6 @@
 	(hierarchical_label "RX"
 		(shape input)
 		(at 33.02 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2475,7 +2489,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 177.8 114.3 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2487,7 +2500,6 @@
 	(hierarchical_label "GND2"
 		(shape input)
 		(at 144.78 53.34 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2499,7 +2511,6 @@
 	(hierarchical_label "GNDD"
 		(shape input)
 		(at 54.61 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2513,12 +2524,12 @@
 		(at 34.29 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18410da4-5e38-4cee-a042-7825c30d7598")
-		(property "Reference" "TP19"
+		(property "Reference" "TP14"
 			(at 36.83 52.8319 0)
 			(effects
 				(font
@@ -2605,7 +2616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19fe0850-0483-4f80-a70b-340f698fa4a8")
-		(property "Reference" "C10"
+		(property "Reference" "C19"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -2690,7 +2701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e0d501c-2c28-4604-ad84-43c91340c4a5")
-		(property "Reference" "C5"
+		(property "Reference" "C17"
 			(at 100.33 38.1 90)
 			(effects
 				(font
@@ -2769,12 +2780,12 @@
 		(at 34.29 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f37722f-bd32-4c39-be2a-fa493bad818c")
-		(property "Reference" "TP19"
+		(property "Reference" "TP12"
 			(at 36.83 41.1479 0)
 			(effects
 				(font
@@ -2862,7 +2873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e7e42b1-7b07-40f3-b836-de7140ea9ea1")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR038"
 			(at 64.77 113.03 0)
 			(effects
 				(font
@@ -2944,7 +2955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bdf6173-4e82-4e6d-9e7d-a4216e60eef6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR040"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -3025,7 +3036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3da252e2-0eab-47e4-8115-ac47119e3909")
-		(property "Reference" "C12"
+		(property "Reference" "C21"
 			(at 68.58 101.6 0)
 			(effects
 				(font
@@ -3106,12 +3117,12 @@
 		(at 127 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "473d617d-258f-4efe-a19a-5a61e25335b3")
-		(property "Reference" "TP19"
+		(property "Reference" "TP16"
 			(at 129.54 38.6079 0)
 			(effects
 				(font
@@ -3199,7 +3210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5056994e-5c80-41d6-b40b-b33d9ddeef77")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR037"
 			(at 41.91 113.03 0)
 			(effects
 				(font
@@ -3280,7 +3291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63ae9284-0474-4418-bcee-9df07bbc89c7")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 97.79 107.95 90)
 			(effects
 				(font
@@ -3363,7 +3374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f7f1b44-9e7f-4393-a7e0-cbde630162e4")
-		(property "Reference" "C5"
+		(property "Reference" "C37"
 			(at 152.4 35.56 90)
 			(effects
 				(font
@@ -3515,12 +3526,12 @@
 		(at 127 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fd6c0c3-a6ca-4140-a559-a33cc53bba3c")
-		(property "Reference" "TP19"
+		(property "Reference" "TP18"
 			(at 129.54 55.3719 0)
 			(effects
 				(font
@@ -3603,12 +3614,12 @@
 		(at 200.66 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "816fc460-2dbe-45ef-bf71-1a3eb22f8ef0")
-		(property "Reference" "TP19"
+		(property "Reference" "TP10"
 			(at 203.2 94.4879 0)
 			(effects
 				(font
@@ -3695,7 +3706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "823f44a7-17e4-458b-97e5-380585e04a4a")
-		(property "Reference" "C11"
+		(property "Reference" "C20"
 			(at 45.72 101.6 0)
 			(effects
 				(font
@@ -3780,7 +3791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "848bdbbe-82eb-45a5-9b70-1779a4914fd3")
-		(property "Reference" "C5"
+		(property "Reference" "C15"
 			(at 55.88 31.75 90)
 			(effects
 				(font
@@ -3864,7 +3875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94f708d6-f0e6-4009-b9b3-90e8d53904cb")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 57.15 92.71 90)
 			(effects
 				(font
@@ -4021,7 +4032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac8028c0-4de9-4488-9cdc-0c1800b00285")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 98.425 90.17 0)
 			(effects
 				(font
@@ -4202,7 +4213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c939cf0d-7634-4b31-be5a-b4fb946234b2")
-		(property "Reference" "D12"
+		(property "Reference" "D3"
 			(at 185.42 104.4575 90)
 			(effects
 				(font
@@ -4364,7 +4375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d43a6362-1fdb-4209-bd25-7c6515dd8bbb")
-		(property "Reference" "C10"
+		(property "Reference" "C35"
 			(at 212.09 100.33 0)
 			(effects
 				(font

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "32eea46d-f422-45cd-9e9a-0801456b3479")
 	(paper "A3")
 	(lib_symbols
@@ -90,125 +90,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(bus_entry
-		(at 275.59 73.66)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dbcdbbd-53a8-4272-a8a0-f2450c97e99b")
-	)
-	(bus_entry
-		(at 275.59 78.74)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9deff65c-c195-4828-bb89-8743eb8bbb38")
-	)
-	(bus
-		(pts
-			(xy 275.59 35.56) (xy 203.2 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00da1556-e9fd-467f-b045-f340e53662d0")
-	)
-	(wire
-		(pts
-			(xy 278.13 81.28) (xy 298.45 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398632e2-c60b-4362-938d-82542c9a2852")
-	)
-	(bus
-		(pts
-			(xy 275.59 81.28) (xy 275.59 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d39ba14-6654-4a48-a267-92ab84a3bc00")
-	)
-	(bus
-		(pts
-			(xy 275.59 78.74) (xy 275.59 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73908732-3d22-40ae-a036-1e3b2f2acaee")
-	)
-	(bus
-		(pts
-			(xy 275.59 73.66) (xy 275.59 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0aeb167-ead9-4bfa-bee9-0279c6bbd56c")
-	)
-	(bus
-		(pts
-			(xy 190.5 142.24) (xy 190.5 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f30056-e8b2-4a7e-84af-c65201205621")
-	)
-	(bus
-		(pts
-			(xy 111.76 57.15) (xy 144.78 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7918937-2061-405a-965e-b5c3b6a42558")
-	)
-	(wire
-		(pts
-			(xy 278.13 76.2) (xy 298.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb429300-2fc7-4e49-a8e2-95ec6ecc43d8")
-	)
-	(bus
-		(pts
-			(xy 111.76 49.53) (xy 144.78 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c715f1aa-2fe4-4fd8-891a-df2fda8f7a5d")
-	)
-	(bus
-		(pts
-			(xy 111.76 41.91) (xy 144.78 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4d1b5b3-77a6-463c-8917-bb8d8f697c1d")
 	)
 	(circle
 		(center 339.09 199.39)
@@ -2109,9 +1992,126 @@
 		)
 		(uuid "ff3db4a1-86ec-4369-972b-3df18ce4a19e")
 	)
+	(bus_entry
+		(at 275.59 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbcdbbd-53a8-4272-a8a0-f2450c97e99b")
+	)
+	(bus_entry
+		(at 275.59 78.74)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9deff65c-c195-4828-bb89-8743eb8bbb38")
+	)
+	(bus
+		(pts
+			(xy 275.59 35.56) (xy 203.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00da1556-e9fd-467f-b045-f340e53662d0")
+	)
+	(wire
+		(pts
+			(xy 278.13 81.28) (xy 298.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398632e2-c60b-4362-938d-82542c9a2852")
+	)
+	(bus
+		(pts
+			(xy 275.59 81.28) (xy 275.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d39ba14-6654-4a48-a267-92ab84a3bc00")
+	)
+	(bus
+		(pts
+			(xy 275.59 78.74) (xy 275.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73908732-3d22-40ae-a036-1e3b2f2acaee")
+	)
+	(bus
+		(pts
+			(xy 275.59 73.66) (xy 275.59 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0aeb167-ead9-4bfa-bee9-0279c6bbd56c")
+	)
+	(bus
+		(pts
+			(xy 190.5 142.24) (xy 190.5 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f30056-e8b2-4a7e-84af-c65201205621")
+	)
+	(bus
+		(pts
+			(xy 111.76 57.15) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7918937-2061-405a-965e-b5c3b6a42558")
+	)
+	(wire
+		(pts
+			(xy 278.13 76.2) (xy 298.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb429300-2fc7-4e49-a8e2-95ec6ecc43d8")
+	)
+	(bus
+		(pts
+			(xy 111.76 49.53) (xy 144.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c715f1aa-2fe4-4fd8-891a-df2fda8f7a5d")
+	)
+	(bus
+		(pts
+			(xy 111.76 41.91) (xy 144.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d1b5b3-77a6-463c-8917-bb8d8f697c1d")
+	)
 	(label "VENT{slash}2"
 		(at 280.67 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2122,7 +2122,6 @@
 	)
 	(label "VENT{slash}1"
 		(at 280.67 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2248,6 +2247,10 @@
 	(sheet
 		(at 77.47 29.21)
 		(size 34.29 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2279,6 +2282,7 @@
 		)
 		(pin "24V_DIGIT" input
 			(at 111.76 41.91 0)
+			(uuid "88ff2a02-fa0c-47ab-9ad8-97405718d439")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2287,10 +2291,10 @@
 				)
 				(justify right)
 			)
-			(uuid "88ff2a02-fa0c-47ab-9ad8-97405718d439")
 		)
 		(pin "CONTROL" input
 			(at 111.76 49.53 0)
+			(uuid "ad208c04-db40-4baa-a0b9-b754c643f248")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2299,10 +2303,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ad208c04-db40-4baa-a0b9-b754c643f248")
 		)
 		(pin "220_IN" input
 			(at 111.76 57.15 0)
+			(uuid "9484bccd-7a8a-419e-a9c8-c02012a0f34c")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2311,7 +2315,6 @@
 				)
 				(justify right)
 			)
-			(uuid "9484bccd-7a8a-419e-a9c8-c02012a0f34c")
 		)
 		(instances
 			(project "Узел печи"
@@ -2324,6 +2327,10 @@
 	(sheet
 		(at 143.51 209.55)
 		(size 60.96 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2355,6 +2362,7 @@
 		)
 		(pin "HEATERS" input
 			(at 190.5 209.55 90)
+			(uuid "d8eb2d36-8310-41de-8e68-67f67beeaf30")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2363,7 +2371,6 @@
 				)
 				(justify right)
 			)
-			(uuid "d8eb2d36-8310-41de-8e68-67f67beeaf30")
 		)
 		(instances
 			(project "Узел печи"
@@ -2376,6 +2383,10 @@
 	(sheet
 		(at 144.78 30.48)
 		(size 58.42 111.76)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2406,6 +2417,7 @@
 		)
 		(pin "TO HEATERS" input
 			(at 190.5 142.24 270)
+			(uuid "129e7d80-306c-4b4f-b659-a8a3f07d1d92")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2414,10 +2426,10 @@
 				)
 				(justify left)
 			)
-			(uuid "129e7d80-306c-4b4f-b659-a8a3f07d1d92")
 		)
 		(pin "VENT" input
 			(at 203.2 35.56 0)
+			(uuid "946a56ba-be9c-42a6-b1fe-2641fb34c45c")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2426,10 +2438,10 @@
 				)
 				(justify right)
 			)
-			(uuid "946a56ba-be9c-42a6-b1fe-2641fb34c45c")
 		)
 		(pin "24V_DIGIT" input
 			(at 144.78 41.91 180)
+			(uuid "46a3eddd-469e-4053-81c3-118467367e8d")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2438,10 +2450,10 @@
 				)
 				(justify left)
 			)
-			(uuid "46a3eddd-469e-4053-81c3-118467367e8d")
 		)
 		(pin "220_IN" input
 			(at 144.78 57.15 180)
+			(uuid "31953e0c-3caa-4aca-aa2c-20b86bf54213")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2450,10 +2462,10 @@
 				)
 				(justify left)
 			)
-			(uuid "31953e0c-3caa-4aca-aa2c-20b86bf54213")
 		)
 		(pin "CONTROL" input
 			(at 144.78 49.53 180)
+			(uuid "80331089-8eb2-4b66-932a-3ecf090ae27b")
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -2462,7 +2474,6 @@
 				)
 				(justify left)
 			)
-			(uuid "80331089-8eb2-4b66-932a-3ecf090ae27b")
 		)
 		(instances
 			(project "Узел печи"
@@ -2475,6 +2486,10 @@
 	(sheet
 		(at -76.2 6.35)
 		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2513,6 +2528,10 @@
 	(sheet
 		(at -74.93 49.53)
 		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2551,6 +2570,10 @@
 	(sheet
 		(at -77.47 133.35)
 		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2589,6 +2612,10 @@
 	(sheet
 		(at -74.93 92.71)
 		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2629,4 +2656,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

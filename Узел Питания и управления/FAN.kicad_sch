@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d4286a77-733f-49b9-a774-dbe976ceb83a")
 	(paper "A4")
 	(lib_symbols
@@ -126,6 +126,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Motor:Fan_CPU_4pin"
 			(pin_names
@@ -198,30 +199,6 @@
 				)
 			)
 			(symbol "Fan_CPU_4pin_0_0"
-				(arc
-					(start -5.588 1.524)
-					(mid -5.08 1.0182)
-					(end -4.572 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 2.032)
-					(mid -5.4392 1.8832)
-					(end -5.588 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -5.08 2.032) (xy -5.334 2.159)
@@ -246,6 +223,30 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -4.572 1.524)
+					(mid -5.08 1.0182)
+					(end -5.588 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.588 1.524)
+					(mid -5.4392 1.8832)
+					(end -5.08 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -4.064 2.54) (xy -4.064 1.016) (xy -3.302 1.016)
@@ -260,10 +261,11 @@
 				)
 			)
 			(symbol "Fan_CPU_4pin_0_1"
-				(arc
-					(start -2.54 -0.508)
-					(mid 0.0028 0.9121)
-					(end 0 3.81)
+				(polyline
+					(pts
+						(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
+						(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -286,7 +288,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
+						(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -296,22 +298,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.2352) (xy 0 -2.6416)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.2672) (xy 0 4.6228)
-					)
+				(arc
+					(start 0 3.81)
+					(mid -0.0015 0.9048)
+					(end -2.54 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -334,20 +324,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
-						(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
+						(xy 0 4.2672) (xy 0 4.6228)
 					)
 					(stroke
 						(width 0)
@@ -369,9 +346,33 @@
 					)
 				)
 				(arc
-					(start 0 3.81)
-					(mid 0.053 0.921)
+					(start -2.54 -0.508)
+					(mid 0 1.0618)
 					(end 2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.2352) (xy 0 -2.6416)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -382,8 +383,8 @@
 				)
 				(arc
 					(start 2.54 -0.508)
-					(mid 0 1.0618)
-					(end -2.54 -0.508)
+					(mid 0.047 0.9315)
+					(end 0 3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -394,42 +395,6 @@
 				)
 			)
 			(symbol "Fan_CPU_4pin_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -466,142 +431,49 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(wire
-		(pts
-			(xy 228.6 102.87) (xy 212.09 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09426b4e-8b4e-4236-b937-5004ea68a4ca")
-	)
-	(wire
-		(pts
-			(xy 110.49 105.41) (xy 220.98 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "100c871a-5092-41d2-834b-d6afe17bfed1")
-	)
-	(wire
-		(pts
-			(xy 212.09 102.87) (xy 212.09 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "141ca474-7ddf-4c27-b31f-9e5c2d82de05")
-	)
-	(wire
-		(pts
-			(xy 212.09 120.65) (xy 110.49 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155135c6-0265-4540-8b93-8c251b3f994c")
-	)
-	(wire
-		(pts
-			(xy 210.82 82.55) (xy 110.49 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387eb69f-67f4-47cf-94e2-e4c45172bff4")
-	)
-	(wire
-		(pts
-			(xy 110.49 77.47) (xy 228.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b8ea15c-c991-492a-a488-be2946256654")
-	)
-	(wire
-		(pts
-			(xy 210.82 62.23) (xy 210.82 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6616f8f4-9660-4c67-990a-f20e16dabfa3")
-	)
-	(wire
-		(pts
-			(xy 228.6 62.23) (xy 210.82 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "679efd22-f766-42bc-98a4-6a4492878938")
-	)
-	(wire
-		(pts
-			(xy 110.49 67.31) (xy 220.98 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8f8899a-3b84-49ef-b4a9-a6f8b3fe9a01")
-	)
-	(wire
-		(pts
-			(xy 110.49 110.49) (xy 220.98 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2cff906-ed19-419c-af2e-a8af59181c0d")
-	)
-	(wire
-		(pts
-			(xy 110.49 115.57) (xy 228.6 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b0bc9d-171a-4832-8cde-e98f820379f9")
-	)
-	(wire
-		(pts
-			(xy 110.49 72.39) (xy 220.98 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c58770-0e6a-4319-9c04-d488744ffdf6")
-	)
-	(wire
-		(pts
-			(xy 228.6 64.77) (xy 228.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b61639-46e0-4958-963f-8d9ceb21230a")
 	)
 	(rectangle
-		(start 44.45 27.94)
-		(end 120.65 151.13)
+		(start 34.29 43.18)
+		(end 73.66 121.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -613,7 +485,7 @@
 	)
 	(text "SERVER"
 		(exclude_from_sim no)
-		(at 81.026 37.592 0)
+		(at 53.594 49.53 0)
 		(effects
 			(font
 				(size 3 3)
@@ -621,9 +493,395 @@
 		)
 		(uuid "ae0ada5c-79ed-47e1-9661-851603a121cb")
 	)
+	(wire
+		(pts
+			(xy 132.08 97.79) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09426b4e-8b4e-4236-b937-5004ea68a4ca")
+	)
+	(wire
+		(pts
+			(xy 68.58 100.33) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100c871a-5092-41d2-834b-d6afe17bfed1")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141ca474-7ddf-4c27-b31f-9e5c2d82de05")
+	)
+	(wire
+		(pts
+			(xy 138.43 115.57) (xy 68.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155135c6-0265-4540-8b93-8c251b3f994c")
+	)
+	(wire
+		(pts
+			(xy 138.43 77.47) (xy 68.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387eb69f-67f4-47cf-94e2-e4c45172bff4")
+	)
+	(wire
+		(pts
+			(xy 68.58 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8ea15c-c991-492a-a488-be2946256654")
+	)
+	(wire
+		(pts
+			(xy 138.43 57.15) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6616f8f4-9660-4c67-990a-f20e16dabfa3")
+	)
+	(wire
+		(pts
+			(xy 132.08 57.15) (xy 138.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679efd22-f766-42bc-98a4-6a4492878938")
+	)
+	(wire
+		(pts
+			(xy 68.58 62.23) (xy 124.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f8899a-3b84-49ef-b4a9-a6f8b3fe9a01")
+	)
+	(wire
+		(pts
+			(xy 68.58 105.41) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cff906-ed19-419c-af2e-a8af59181c0d")
+	)
+	(wire
+		(pts
+			(xy 68.58 110.49) (xy 132.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b0bc9d-171a-4832-8cde-e98f820379f9")
+	)
+	(wire
+		(pts
+			(xy 68.58 67.31) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c58770-0e6a-4319-9c04-d488744ffdf6")
+	)
+	(wire
+		(pts
+			(xy 132.08 57.15) (xy 132.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b61639-46e0-4958-963f-8d9ceb21230a")
+	)
+	(label "FAN_OUT-"
+		(at 80.01 77.47 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3475358b-9ac2-460d-b7bc-59a619d80bb0")
+	)
+	(label "FAN_OUT+"
+		(at 80.01 72.39 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b7297ec-499d-49ac-9bb5-c56a5ffc2810")
+	)
+	(label "FAN_OUT_TACHO"
+		(at 80.01 67.31 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6f7a7ec-369b-46dc-8da0-2443d8b93ca2")
+	)
+	(label "FAN_IN_TACHO"
+		(at 80.01 105.41 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1f12599-64d8-426a-a954-bdf58d0e3f40")
+	)
+	(label "FAN_IN-"
+		(at 80.01 115.57 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8c00e87-1471-4487-b3f4-e2a47a62f10e")
+	)
+	(label "FAN_IN+"
+		(at 80.01 110.49 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce6921ab-6ebb-47db-aff3-f2851e3781a2")
+	)
+	(label "FAN_IN_PWM"
+		(at 80.01 100.33 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6aebbdb-9217-4b21-9f23-527de6dd3c09")
+	)
+	(label "FAN_OUT_PWM"
+		(at 80.01 62.23 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7b543a4-7ac7-4689-bda5-b51115d8e5a3")
+	)
+	(global_label "FAN_OUT+"
+		(shape input)
+		(at 81.28 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "51d23591-a0da-4f3a-bc5b-db934099fb9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.271 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_OUT_PWM"
+		(shape input)
+		(at 81.28 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "59f901cb-11d4-47d6-890e-2f91eac5edf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.114 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_IN+"
+		(shape input)
+		(at 81.28 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "8a935446-64bc-457b-980e-291fd0cb1cbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.871 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_IN-"
+		(shape input)
+		(at 81.28 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "ad28ebd8-e88b-4b7c-b53e-96eb97ac8b8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.871 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_OUT_TACHO"
+		(shape input)
+		(at 81.28 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "c67d8cc5-d962-45b5-9062-f8496e040a6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5425 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_IN_TACHO"
+		(shape input)
+		(at 81.6575 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "cf1990c8-0fa5-4a2c-8dd8-8cde8be23a01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_OUT-"
+		(shape input)
+		(at 81.28 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "d8986958-d4e5-42f6-8947-35674d77d994")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.271 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_IN_PWM"
+		(shape input)
+		(at 81.28 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "f5363fa3-7c38-42a7-8e12-abbf1e7d8366")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.714 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_(wide)")
-		(at 107.95 87.63 180)
+		(at 66.04 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -631,7 +889,7 @@
 		(dnp no)
 		(uuid "2070dd2a-4277-4778-bc31-d2222dc6c5e2")
 		(property "Reference" "FAN_2"
-			(at 108.204 60.96 0)
+			(at 66.294 55.88 0)
 			(effects
 				(font
 					(size 2 2)
@@ -639,7 +897,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 107.95 66.04 0)
+			(at 66.04 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 87.63 0)
+			(at 66.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,7 +914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 87.63 0)
+			(at 66.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 87.63 0)
+			(at 66.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +954,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_(wide)")
-		(at 107.95 125.73 180)
+		(at 66.04 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -704,7 +962,7 @@
 		(dnp no)
 		(uuid "48d240e0-19c1-492a-bcc7-7f316f10c4e1")
 		(property "Reference" "FAN_1"
-			(at 108.204 100.584 0)
+			(at 66.294 95.504 0)
 			(effects
 				(font
 					(size 2 2)
@@ -712,7 +970,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 107.95 104.14 0)
+			(at 66.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,7 +978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 125.73 0)
+			(at 66.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,7 +987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 125.73 0)
+			(at 66.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 125.73 0)
+			(at 66.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +1027,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Fan_CPU_4pin")
-		(at 228.6 69.85 0)
+		(at 132.08 64.77 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -778,7 +1036,7 @@
 		(dnp no)
 		(uuid "eab13a9e-1527-44af-b8fa-474753b87b3e")
 		(property "Reference" "M6"
-			(at 233.68 69.85 90)
+			(at 137.16 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +1045,7 @@
 			)
 		)
 		(property "Value" "FAN_OUT"
-			(at 236.728 71.374 90)
+			(at 143.51 68.326 90)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -795,7 +1053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 70.104 0)
+			(at 132.08 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -804,7 +1062,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 228.6 70.104 0)
+			(at 132.08 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +1071,7 @@
 			)
 		)
 		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
-			(at 228.6 69.85 0)
+			(at 132.08 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +1102,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Fan_CPU_4pin")
-		(at 228.6 107.95 0)
+		(at 132.08 102.87 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -853,7 +1111,7 @@
 		(dnp no)
 		(uuid "fed9c753-f989-4163-a608-c74f736bdcf9")
 		(property "Reference" "M5"
-			(at 233.68 107.95 90)
+			(at 137.16 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +1120,7 @@
 			)
 		)
 		(property "Value" "FAN_IN"
-			(at 236.22 107.95 90)
+			(at 143.256 106.172 90)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -870,7 +1128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 108.204 0)
+			(at 132.08 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +1137,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 228.6 108.204 0)
+			(at 132.08 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +1146,7 @@
 			)
 		)
 		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
-			(at 228.6 107.95 0)
+			(at 132.08 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

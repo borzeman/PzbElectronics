@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1e9e4698-4c7e-4775-8541-c98fc2f1e662")
 	(paper "A3")
 	(lib_symbols
@@ -126,7 +126,128 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 114.3 24.13)
+		(end 167.64 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0c43cd21-5b7f-41d5-8bfb-2d7048c48953)
+	)
+	(rectangle
+		(start 250.19 25.4)
+		(end 303.53 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7551eb17-a14c-42a8-9111-afa39937b0af)
+	)
+	(rectangle
+		(start 185.42 25.4)
+		(end 238.76 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f12c220-f44f-4ff2-8f65-d07d6e791f60)
+	)
+	(rectangle
+		(start 39.37 24.13)
+		(end 92.71 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8331007a-62bc-427e-8acf-f728c6af1b2b)
+	)
+	(rectangle
+		(start 314.96 25.4)
+		(end 368.3 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 986baa1f-78cf-48ae-8b9e-b5d73f673b61)
+	)
+	(text "Ячейка №5"
+		(exclude_from_sim no)
+		(at 343.916 34.29 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "340a5a4e-eaf2-4ac3-a374-e252f3d7cb66")
+	)
+	(text "Ячейка №3"
+		(exclude_from_sim no)
+		(at 214.376 34.29 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "43f8121c-0879-405d-94c2-e682cdf4ae60")
+	)
+	(text "Ячейка №2"
+		(exclude_from_sim no)
+		(at 143.256 33.02 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5004dfa0-3d0c-4af7-a62c-b7f233693603")
+	)
+	(text "Ячейка №4"
+		(exclude_from_sim no)
+		(at 279.146 34.29 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "685c8504-649b-42f3-8309-33367e03ab05")
+	)
+	(text "Ячейка №1"
+		(exclude_from_sim no)
+		(at 68.326 33.02 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a1c46982-fd28-4fb8-bc3e-bdffa099bf39")
 	)
 	(junction
 		(at 190.5 148.59)
@@ -2086,129 +2207,8 @@
 		)
 		(uuid "fefb3d72-e1d2-4da9-8ec1-0011e031bcdc")
 	)
-	(rectangle
-		(start 114.3 24.13)
-		(end 167.64 146.05)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0c43cd21-5b7f-41d5-8bfb-2d7048c48953)
-	)
-	(rectangle
-		(start 250.19 25.4)
-		(end 303.53 147.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7551eb17-a14c-42a8-9111-afa39937b0af)
-	)
-	(rectangle
-		(start 185.42 25.4)
-		(end 238.76 147.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7f12c220-f44f-4ff2-8f65-d07d6e791f60)
-	)
-	(rectangle
-		(start 39.37 24.13)
-		(end 92.71 146.05)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8331007a-62bc-427e-8acf-f728c6af1b2b)
-	)
-	(rectangle
-		(start 314.96 25.4)
-		(end 368.3 147.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 986baa1f-78cf-48ae-8b9e-b5d73f673b61)
-	)
-	(text "Ячейка №5"
-		(exclude_from_sim no)
-		(at 343.916 34.29 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "340a5a4e-eaf2-4ac3-a374-e252f3d7cb66")
-	)
-	(text "Ячейка №3"
-		(exclude_from_sim no)
-		(at 214.376 34.29 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "43f8121c-0879-405d-94c2-e682cdf4ae60")
-	)
-	(text "Ячейка №2"
-		(exclude_from_sim no)
-		(at 143.256 33.02 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "5004dfa0-3d0c-4af7-a62c-b7f233693603")
-	)
-	(text "Ячейка №4"
-		(exclude_from_sim no)
-		(at 279.146 34.29 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "685c8504-649b-42f3-8309-33367e03ab05")
-	)
-	(text "Ячейка №1"
-		(exclude_from_sim no)
-		(at 68.326 33.02 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "a1c46982-fd28-4fb8-bc3e-bdffa099bf39")
-	)
 	(label "MOT_1_B-"
 		(at 77.47 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2220,7 +2220,6 @@
 	)
 	(label "MOT_2_MIN_BK"
 		(at 129.54 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2232,7 +2231,6 @@
 	)
 	(label "MOT_4_MAX_BK"
 		(at 264.16 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2244,7 +2242,6 @@
 	)
 	(label "MOT_3_MIN_BL"
 		(at 200.66 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2256,7 +2253,6 @@
 	)
 	(label "MOT_3_MAX_BK"
 		(at 199.39 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2268,7 +2264,6 @@
 	)
 	(label "MOT_4_MAX_BL"
 		(at 264.16 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2280,7 +2275,6 @@
 	)
 	(label "MOT_5_MIN_PK"
 		(at 330.2 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2292,7 +2286,6 @@
 	)
 	(label "MOT_2_MAX_BL"
 		(at 128.27 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2304,7 +2297,6 @@
 	)
 	(label "MOT_1_MAX_PK"
 		(at 55.88 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2316,7 +2308,6 @@
 	)
 	(label "MOT_1_B+"
 		(at 77.47 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2328,7 +2319,6 @@
 	)
 	(label "MOT_4_B-"
 		(at 289.56 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2340,7 +2330,6 @@
 	)
 	(label "MOT_2_B-"
 		(at 153.67 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2352,7 +2341,6 @@
 	)
 	(label "MOT_1_A+"
 		(at 77.47 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2364,7 +2352,6 @@
 	)
 	(label "MOT_4_MAX_PK"
 		(at 264.16 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2376,7 +2363,6 @@
 	)
 	(label "MOT_4_MIN_BL"
 		(at 265.43 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2388,7 +2374,6 @@
 	)
 	(label "MOT_2_MAX_BK"
 		(at 128.27 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2400,7 +2385,6 @@
 	)
 	(label "MOT_2_MAX_PK"
 		(at 128.27 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2412,7 +2396,6 @@
 	)
 	(label "MOT_4_MIN_BK"
 		(at 265.43 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2424,7 +2407,6 @@
 	)
 	(label "MOT_3_A+"
 		(at 224.79 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2436,7 +2418,6 @@
 	)
 	(label "MOT_1_MIN_PK"
 		(at 55.88 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2448,7 +2429,6 @@
 	)
 	(label "MOT_1_MIN_BL"
 		(at 55.88 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2460,7 +2440,6 @@
 	)
 	(label "MOT_2_MIN_BN"
 		(at 129.54 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2472,7 +2451,6 @@
 	)
 	(label "MOT_5_MAX_PK"
 		(at 328.93 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2484,7 +2462,6 @@
 	)
 	(label "MOT_3_MIN_PK"
 		(at 200.66 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2496,7 +2473,6 @@
 	)
 	(label "MOT_2_B+"
 		(at 153.67 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2508,7 +2484,6 @@
 	)
 	(label "MOT_3_B+"
 		(at 224.79 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2520,7 +2495,6 @@
 	)
 	(label "MOT_3_MAX_BL"
 		(at 199.39 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2532,7 +2506,6 @@
 	)
 	(label "MOT_5_A+"
 		(at 354.33 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2544,7 +2517,6 @@
 	)
 	(label "MOT_3_MAX_PK"
 		(at 199.39 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2556,7 +2528,6 @@
 	)
 	(label "MOT_5_A-"
 		(at 354.33 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2568,7 +2539,6 @@
 	)
 	(label "MOT_3_MIN_BK"
 		(at 200.66 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2580,7 +2550,6 @@
 	)
 	(label "MOT_1_MAX_BL"
 		(at 55.88 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2592,7 +2561,6 @@
 	)
 	(label "MOT_4_B+"
 		(at 289.56 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2604,7 +2572,6 @@
 	)
 	(label "MOT_5_MAX_BL"
 		(at 328.93 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2616,7 +2583,6 @@
 	)
 	(label "MOT_1_MIN_BN"
 		(at 55.88 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2628,7 +2594,6 @@
 	)
 	(label "MOT_5_MIN_BN"
 		(at 330.2 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2640,7 +2605,6 @@
 	)
 	(label "MOT_1_MIN_BK"
 		(at 55.88 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2652,7 +2616,6 @@
 	)
 	(label "MOT_3_B-"
 		(at 224.79 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2664,7 +2627,6 @@
 	)
 	(label "MOT_2_MIN_PK"
 		(at 129.54 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2676,7 +2638,6 @@
 	)
 	(label "MOT_5_B+"
 		(at 354.33 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2688,7 +2649,6 @@
 	)
 	(label "MOT_2_A+"
 		(at 153.67 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2700,7 +2660,6 @@
 	)
 	(label "MOT_5_MAX_BN"
 		(at 328.93 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2712,7 +2671,6 @@
 	)
 	(label "MOT_5_MIN_BL"
 		(at 330.2 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2724,7 +2682,6 @@
 	)
 	(label "MOT_3_MAX_BN"
 		(at 199.39 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2736,7 +2693,6 @@
 	)
 	(label "MOT_2_MAX_BN"
 		(at 128.27 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2748,7 +2704,6 @@
 	)
 	(label "MOT_2_MIN_BL"
 		(at 129.54 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2760,7 +2715,6 @@
 	)
 	(label "MOT_4_MIN_BN"
 		(at 265.43 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2772,7 +2726,6 @@
 	)
 	(label "MOT_5_MIN_BK"
 		(at 330.2 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2784,7 +2737,6 @@
 	)
 	(label "MOT_3_MIN_BN"
 		(at 200.66 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2796,7 +2748,6 @@
 	)
 	(label "MOT_4_MIN_PK"
 		(at 265.43 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2808,7 +2759,6 @@
 	)
 	(label "MOT_2_A-"
 		(at 153.67 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2820,7 +2770,6 @@
 	)
 	(label "MOT_4_MAX_BN"
 		(at 264.16 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2832,7 +2781,6 @@
 	)
 	(label "MOT_1_A-"
 		(at 77.47 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2844,7 +2792,6 @@
 	)
 	(label "MOT_1_MAX_BN"
 		(at 55.88 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2856,7 +2803,6 @@
 	)
 	(label "MOT_5_B-"
 		(at 354.33 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2868,7 +2814,6 @@
 	)
 	(label "MOT_1_MAX_BK"
 		(at 55.88 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2880,7 +2825,6 @@
 	)
 	(label "MOT_4_A+"
 		(at 289.56 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2892,7 +2836,6 @@
 	)
 	(label "MOT_3_A-"
 		(at 224.79 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2904,7 +2847,6 @@
 	)
 	(label "MOT_5_MAX_BK"
 		(at 328.93 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2916,7 +2858,6 @@
 	)
 	(label "MOT_4_A-"
 		(at 289.56 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4249,7 +4190,6 @@
 	(hierarchical_label "DETECTORS"
 		(shape input)
 		(at 251.46 179.07 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4263,7 +4203,6 @@
 	(hierarchical_label "MOTORS"
 		(shape input)
 		(at 162.56 179.07 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)

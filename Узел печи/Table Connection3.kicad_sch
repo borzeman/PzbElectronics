@@ -1,10 +1,22 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "54a34ca7-94c7-41bf-b5ad-ee5d1292a65a")
 	(paper "A3")
 	(lib_symbols)
+	(rectangle
+		(start 276.86 43.18)
+		(end 397.51 48.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 00e10858-bc51-41a0-b424-21446182b728)
+	)
 	(rectangle
 		(start 24.13 124.46)
 		(end 38.1 129.54)
@@ -42,8 +54,8 @@
 		(uuid 02540d4d-199b-49cf-b06f-48dd0bffb64e)
 	)
 	(rectangle
-		(start 105.918 17.272)
-		(end 146.558 22.352)
+		(start 105.41 17.78)
+		(end 146.05 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -64,18 +76,6 @@
 			(type none)
 		)
 		(uuid 02926187-0105-47e9-8d5e-e7575a9c5dd3)
-	)
-	(rectangle
-		(start 307.34 195.58)
-		(end 377.19 200.66)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 055780fe-2bb9-4a60-9a3b-46c93af5e986)
 	)
 	(rectangle
 		(start 52.07 149.86)
@@ -114,30 +114,6 @@
 		(uuid 0706d0cb-0a3f-4f67-beb9-876d34545b19)
 	)
 	(rectangle
-		(start 276.86 93.98)
-		(end 307.34 99.06)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 07634bbc-d550-4433-83d6-8affe2dd2a51)
-	)
-	(rectangle
-		(start 276.86 73.66)
-		(end 307.34 78.74)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 083476ec-f738-46b4-83a7-30af607dfcb2)
-	)
-	(rectangle
 		(start 186.69 109.22)
 		(end 227.33 114.3)
 		(stroke
@@ -174,8 +150,20 @@
 		(uuid 0bd5b9be-c790-4db3-a0c3-aafc272c5e69)
 	)
 	(rectangle
-		(start 146.558 17.272)
-		(end 187.198 22.352)
+		(start 276.86 73.66)
+		(end 397.51 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0c482f14-3531-48c5-840a-6cd7c360d1a8)
+	)
+	(rectangle
+		(start 146.05 17.78)
+		(end 186.69 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -246,8 +234,8 @@
 		(uuid 0e20900b-a42c-4993-9d5f-76f3df8da1c7)
 	)
 	(rectangle
-		(start 276.86 68.58)
-		(end 307.34 73.66)
+		(start 276.86 134.62)
+		(end 397.51 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -255,31 +243,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0f4256bd-89ba-4ad8-af25-0cd6d5891bf1)
-	)
-	(rectangle
-		(start 307.34 58.42)
-		(end 377.19 63.5)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0fea7641-6e20-4bd1-8d69-60746eb627e4)
-	)
-	(rectangle
-		(start 276.86 175.26)
-		(end 307.34 180.34)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1018409e-a49b-4dd2-8741-1357ca308a82)
+		(uuid 10ef6acc-5010-45ce-b780-87f81958bf2c)
 	)
 	(rectangle
 		(start 105.41 99.06)
@@ -304,30 +268,6 @@
 			(type none)
 		)
 		(uuid 112c681c-cc0a-4873-8370-12d754fb63ef)
-	)
-	(rectangle
-		(start 276.86 43.18)
-		(end 307.34 48.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 11e5332e-5c78-485d-8079-feeb0ec86f79)
-	)
-	(rectangle
-		(start 276.86 215.9)
-		(end 307.34 220.98)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 12258629-1f9f-4204-8afe-66f3e6a95e01)
 	)
 	(rectangle
 		(start 186.69 48.26)
@@ -402,20 +342,8 @@
 		(uuid 13f23772-a1c5-4617-bca2-b6d95699769d)
 	)
 	(rectangle
-		(start 307.34 134.62)
-		(end 377.19 139.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1427b1ed-cf6e-457e-a6bb-9e9e77160f4f)
-	)
-	(rectangle
 		(start 276.86 160.02)
-		(end 307.34 165.1)
+		(end 397.51 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -423,7 +351,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 151753e9-cef0-431c-921f-90332bd60799)
+		(uuid 15855915-be48-4a06-a2cf-f518bc2eb2fe)
 	)
 	(rectangle
 		(start 52.07 154.94)
@@ -474,20 +402,8 @@
 		(uuid 1738cfd6-7731-40e9-a23c-f48d431d8eaa)
 	)
 	(rectangle
-		(start 276.86 109.22)
-		(end 307.34 114.3)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 19a9c28c-32a4-4ce2-b7b9-76b756ebc602)
-	)
-	(rectangle
-		(start 70.358 17.272)
-		(end 105.918 22.352)
+		(start 69.85 17.78)
+		(end 105.41 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -618,6 +534,18 @@
 		(uuid 1d6d666c-f3c4-4883-8227-f6fd6da49525)
 	)
 	(rectangle
+		(start 276.86 180.34)
+		(end 397.51 185.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1e2923c2-03ef-448e-8e0f-72b67a690338)
+	)
+	(rectangle
 		(start 227.33 144.78)
 		(end 276.86 149.86)
 		(stroke
@@ -642,18 +570,6 @@
 		(uuid 1ed25263-0865-424f-aebc-8b5556f85fe4)
 	)
 	(rectangle
-		(start 276.86 195.58)
-		(end 307.34 200.66)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1edaef46-daed-442b-a746-fc9ca250d7b7)
-	)
-	(rectangle
 		(start 24.13 149.86)
 		(end 38.1 154.94)
 		(stroke
@@ -664,6 +580,18 @@
 			(type none)
 		)
 		(uuid 1f0b7c9f-7f81-4932-a6ce-7178b43db8f1)
+	)
+	(rectangle
+		(start 276.86 195.58)
+		(end 397.51 200.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1fbef8e2-c241-469e-aa51-bfff5b377e87)
 	)
 	(rectangle
 		(start 146.05 63.5)
@@ -750,6 +678,18 @@
 		(uuid 257fba89-0919-429e-af14-a246edfbc43e)
 	)
 	(rectangle
+		(start 276.86 114.3)
+		(end 397.51 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 25d984c0-1696-4580-8adf-5b2678b44ca1)
+	)
+	(rectangle
 		(start 146.05 134.62)
 		(end 186.69 139.7)
 		(stroke
@@ -760,6 +700,18 @@
 			(type none)
 		)
 		(uuid 27595085-e3bf-40ab-ba28-dd1814f804d4)
+	)
+	(rectangle
+		(start 276.86 99.06)
+		(end 397.51 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 282b0867-e0d7-402f-9e77-3d3a88914fc5)
 	)
 	(rectangle
 		(start 227.33 139.7)
@@ -786,8 +738,20 @@
 		(uuid 29c86e8d-3bb1-4df3-8622-59ad55cf1e02)
 	)
 	(rectangle
-		(start 227.838 17.272)
-		(end 277.368 22.352)
+		(start 276.86 154.94)
+		(end 397.51 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2a4c4764-3a9b-40aa-8c80-8741bfec0abf)
+	)
+	(rectangle
+		(start 227.33 17.78)
+		(end 276.86 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -822,18 +786,6 @@
 		(uuid 2b6470b0-9228-4527-b04f-6810ca3ff35d)
 	)
 	(rectangle
-		(start 307.34 27.94)
-		(end 377.19 33.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2c7246de-2424-4359-92cf-c47052048101)
-	)
-	(rectangle
 		(start 69.85 205.74)
 		(end 105.41 210.82)
 		(stroke
@@ -846,6 +798,30 @@
 		(uuid 2dcd5435-98a3-4a0f-8362-36b7110acc36)
 	)
 	(rectangle
+		(start 276.86 53.34)
+		(end 397.51 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e59af6d-4b60-4f17-84e8-72f22aeefa36)
+	)
+	(rectangle
+		(start 276.86 129.54)
+		(end 397.51 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e62113d-68aa-483c-8385-7a55c39bcade)
+	)
+	(rectangle
 		(start 38.1 43.18)
 		(end 52.07 48.26)
 		(stroke
@@ -856,18 +832,6 @@
 			(type none)
 		)
 		(uuid 2f002869-0d9d-41a2-8930-d8cca114b48d)
-	)
-	(rectangle
-		(start 276.86 63.5)
-		(end 307.34 68.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2fe56e11-f0a1-4069-a56f-2d24b05bf380)
 	)
 	(rectangle
 		(start 69.85 109.22)
@@ -906,20 +870,8 @@
 		(uuid 33db31f4-e100-4350-8f38-5fe6cb259cc6)
 	)
 	(rectangle
-		(start 307.34 22.86)
-		(end 377.19 27.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 34445684-596e-42f3-a9c6-7e0b8fedfda1)
-	)
-	(rectangle
-		(start 187.198 17.272)
-		(end 227.838 22.352)
+		(start 186.69 17.78)
+		(end 227.33 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -940,6 +892,18 @@
 			(type none)
 		)
 		(uuid 3476bb92-f5c8-4a02-b45a-bbc3da642e61)
+	)
+	(rectangle
+		(start 276.86 83.82)
+		(end 397.51 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34b07a43-b1d4-4838-ae25-b79fddfbe648)
 	)
 	(rectangle
 		(start 186.69 38.1)
@@ -990,18 +954,6 @@
 		(uuid 3a214c1e-4bb1-4a6e-a787-e5d3af46b975)
 	)
 	(rectangle
-		(start 307.34 78.74)
-		(end 377.19 83.82)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3a6ba089-7003-4e90-a054-315c0a2e70ac)
-	)
-	(rectangle
 		(start 105.41 109.22)
 		(end 146.05 114.3)
 		(stroke
@@ -1012,18 +964,6 @@
 			(type none)
 		)
 		(uuid 3b2e6729-8407-4198-b06d-89e4c44dd191)
-	)
-	(rectangle
-		(start 307.34 154.94)
-		(end 377.19 160.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3b3df9e9-a88b-48b6-b102-516848690b91)
 	)
 	(rectangle
 		(start 38.1 22.86)
@@ -1062,6 +1002,18 @@
 		(uuid 3d794648-7406-4385-b386-2e88bece2641)
 	)
 	(rectangle
+		(start 276.86 144.78)
+		(end 397.51 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3da71eda-0602-4ec0-a543-9ef6806a7b35)
+	)
+	(rectangle
 		(start 227.33 185.42)
 		(end 276.86 190.5)
 		(stroke
@@ -1074,8 +1026,8 @@
 		(uuid 3dc5cae7-6a71-4364-a633-c25cdf779c46)
 	)
 	(rectangle
-		(start 276.86 180.34)
-		(end 307.34 185.42)
+		(start 276.86 220.98)
+		(end 397.51 226.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -1083,31 +1035,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 3eff8005-9fdc-497b-99d2-02d74248d47c)
-	)
-	(rectangle
-		(start 307.34 63.5)
-		(end 377.19 68.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3fdbd292-d370-40fd-ad38-fc80c072ff93)
-	)
-	(rectangle
-		(start 307.34 220.98)
-		(end 377.19 226.06)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3ff12cd3-c9b2-4442-820b-6a3d5debd13e)
+		(uuid 3f5c4cd5-2fa9-429d-8a17-9577319ca388)
 	)
 	(rectangle
 		(start 24.13 63.5)
@@ -1146,18 +1074,6 @@
 		(uuid 4247c3c0-c604-40e2-81ca-47cf11c9b005)
 	)
 	(rectangle
-		(start 276.86 139.7)
-		(end 307.34 144.78)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 43132712-9c07-46a8-91e6-93c15284520f)
-	)
-	(rectangle
 		(start 52.07 53.34)
 		(end 69.85 58.42)
 		(stroke
@@ -1182,6 +1098,18 @@
 		(uuid 4390e910-1e73-4617-ae28-766df5149580)
 	)
 	(rectangle
+		(start 276.86 190.5)
+		(end 397.51 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 43aa9fea-f2de-4b58-ae28-303fa60f575e)
+	)
+	(rectangle
 		(start 69.85 160.02)
 		(end 105.41 165.1)
 		(stroke
@@ -1194,8 +1122,8 @@
 		(uuid 43e54cc5-f39f-4fba-b9d8-d1445b3fe549)
 	)
 	(rectangle
-		(start 276.86 99.06)
-		(end 307.34 104.14)
+		(start 276.86 185.42)
+		(end 397.51 190.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -1203,31 +1131,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 43e6bd4d-95ff-4eab-9254-67300dda1456)
-	)
-	(rectangle
-		(start 276.86 124.46)
-		(end 307.34 129.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 44fe3eb1-c7c8-4f65-8df0-25b19b6061c9)
-	)
-	(rectangle
-		(start 276.86 134.62)
-		(end 307.34 139.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 45c98a1c-1d79-467b-80a5-b6244f1d3e95)
+		(uuid 4452d1cb-96a0-49b0-974a-1dc940bd2779)
 	)
 	(rectangle
 		(start 52.07 38.1)
@@ -1264,6 +1168,30 @@
 			(type none)
 		)
 		(uuid 47b0be43-01fa-42d8-84c0-c3d3322ab17a)
+	)
+	(rectangle
+		(start 276.86 33.02)
+		(end 397.51 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47c6bdca-e3a7-46bc-8342-bcfb93169c35)
+	)
+	(rectangle
+		(start 276.86 104.14)
+		(end 397.51 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47d72741-c256-42ee-9407-52c71f74e8eb)
 	)
 	(rectangle
 		(start 146.05 139.7)
@@ -1374,30 +1302,6 @@
 		(uuid 524ba17c-9099-41da-b59b-003eacb0fd25)
 	)
 	(rectangle
-		(start 276.86 104.14)
-		(end 307.34 109.22)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 531b5ee5-f100-4a60-bde2-1a4f118a6a6a)
-	)
-	(rectangle
-		(start 276.86 33.02)
-		(end 307.34 38.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5356eb8c-f0b4-46f3-a585-1ec426b94b04)
-	)
-	(rectangle
 		(start 146.05 149.86)
 		(end 186.69 154.94)
 		(stroke
@@ -1444,18 +1348,6 @@
 			(type none)
 		)
 		(uuid 566725fb-944a-49c1-8976-06429df2a27a)
-	)
-	(rectangle
-		(start 307.34 114.3)
-		(end 377.19 119.38)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5697bd12-89d8-4f6c-ad95-c30385093f6a)
 	)
 	(rectangle
 		(start 24.13 170.18)
@@ -1590,6 +1482,18 @@
 		(uuid 5e21a2cc-eba6-4190-a9bc-763b0847b82e)
 	)
 	(rectangle
+		(start 276.86 210.82)
+		(end 397.51 215.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e84a34c-6bfb-4bba-b9b8-742bdf2b10e2)
+	)
+	(rectangle
 		(start 227.33 104.14)
 		(end 276.86 109.22)
 		(stroke
@@ -1624,18 +1528,6 @@
 			(type none)
 		)
 		(uuid 5f8fd7ad-34a8-4978-8627-ddcf1209e736)
-	)
-	(rectangle
-		(start 276.86 88.9)
-		(end 307.34 93.98)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5fd01101-7845-4b90-ad55-c529f51ac99e)
 	)
 	(rectangle
 		(start 69.85 99.06)
@@ -1674,8 +1566,8 @@
 		(uuid 6184a128-b422-4795-941e-14046b33a5f2)
 	)
 	(rectangle
-		(start 276.86 119.38)
-		(end 307.34 124.46)
+		(start 276.86 48.26)
+		(end 397.51 53.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -1683,7 +1575,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 63ae9e92-84c9-4478-a760-3b4c20bcc92b)
+		(uuid 6252243d-e3c3-43f8-9042-efcad65dd728)
 	)
 	(rectangle
 		(start 146.05 180.34)
@@ -1710,8 +1602,8 @@
 		(uuid 648a7b9e-a690-48fa-bb0f-0272a96bdde8)
 	)
 	(rectangle
-		(start 276.86 129.54)
-		(end 307.34 134.62)
+		(start 276.86 170.18)
+		(end 397.51 175.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -1719,11 +1611,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 6649f0c1-f452-4ac7-bb96-559691a9f4ae)
+		(uuid 65799555-a84f-4f30-9b2b-af6173d83b31)
 	)
 	(rectangle
-		(start 52.578 17.272)
-		(end 70.358 22.352)
+		(start 52.07 17.78)
+		(end 69.85 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -1732,18 +1624,6 @@
 			(type none)
 		)
 		(uuid 6708501f-ae14-4b71-8aa9-1c7540f9a6cf)
-	)
-	(rectangle
-		(start 307.34 190.5)
-		(end 377.19 195.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 67452291-d6a1-49d6-a3d7-3386ddec5b13)
 	)
 	(rectangle
 		(start 227.33 165.1)
@@ -1782,6 +1662,18 @@
 		(uuid 68ad3d5a-e262-4d8d-8f14-8199e11dc530)
 	)
 	(rectangle
+		(start 276.86 119.38)
+		(end 397.51 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 68c469d2-37c3-4def-9148-281591ec6f9b)
+	)
+	(rectangle
 		(start 24.13 58.42)
 		(end 38.1 63.5)
 		(stroke
@@ -1792,18 +1684,6 @@
 			(type none)
 		)
 		(uuid 68cded49-c958-4e90-822c-bf71b49af435)
-	)
-	(rectangle
-		(start 276.86 38.1)
-		(end 307.34 43.18)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 68f2795f-7070-4918-902d-defe6248fe5d)
 	)
 	(rectangle
 		(start 24.13 195.58)
@@ -1854,18 +1734,6 @@
 		(uuid 6c164b14-e3de-43bb-bf2e-85f54c2bbe91)
 	)
 	(rectangle
-		(start 276.86 200.66)
-		(end 307.34 205.74)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6c6db93f-431a-461d-b67f-57582d8f65f9)
-	)
-	(rectangle
 		(start 38.1 88.9)
 		(end 52.07 93.98)
 		(stroke
@@ -1888,18 +1756,6 @@
 			(type none)
 		)
 		(uuid 6e449937-38b1-4d95-849a-202a0578f500)
-	)
-	(rectangle
-		(start 276.86 114.3)
-		(end 307.34 119.38)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6f3224fc-1238-4a75-b37f-8635ea42db4b)
 	)
 	(rectangle
 		(start 52.07 160.02)
@@ -1962,18 +1818,6 @@
 		(uuid 72845619-5efb-492d-9aa3-84353f28b152)
 	)
 	(rectangle
-		(start 307.34 215.9)
-		(end 377.19 220.98)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 72f40f8b-c6e8-4d18-80fd-25723b2a5a84)
-	)
-	(rectangle
 		(start 69.85 63.5)
 		(end 105.41 68.58)
 		(stroke
@@ -2022,18 +1866,6 @@
 		(uuid 735818fc-83b2-4821-b30a-611e3be0c349)
 	)
 	(rectangle
-		(start 307.34 149.86)
-		(end 377.19 154.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 74b506a3-6218-4641-9e84-6348f7970abe)
-	)
-	(rectangle
 		(start 38.1 170.18)
 		(end 52.07 175.26)
 		(stroke
@@ -2068,18 +1900,6 @@
 			(type none)
 		)
 		(uuid 7587362b-878c-479e-9cdf-d893265b8db3)
-	)
-	(rectangle
-		(start 307.34 124.46)
-		(end 377.19 129.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 763e87fe-9799-4057-8eb8-2b2bce97a145)
 	)
 	(rectangle
 		(start 105.41 22.86)
@@ -2130,8 +1950,8 @@
 		(uuid 7735ef6e-4109-4aff-88f5-3f5507c988ee)
 	)
 	(rectangle
-		(start 38.608 17.272)
-		(end 52.578 22.352)
+		(start 38.1 17.78)
+		(end 52.07 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -2154,8 +1974,8 @@
 		(uuid 77e2f787-d36b-4e80-a349-b84046f023c1)
 	)
 	(rectangle
-		(start 307.34 104.14)
-		(end 377.19 109.22)
+		(start 276.86 93.98)
+		(end 397.51 99.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -2163,19 +1983,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 788cbae7-1695-427c-ba70-ba79b13695b6)
-	)
-	(rectangle
-		(start 276.86 27.94)
-		(end 307.34 33.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7893226a-b720-48b8-95d1-5721ff65427d)
+		(uuid 7ac5a0a3-41ea-425d-aad7-20ec468c7f72)
 	)
 	(rectangle
 		(start 52.07 88.9)
@@ -2274,6 +2082,30 @@
 		(uuid 7ead0e6b-fc3c-4d72-8a00-8785105de9d4)
 	)
 	(rectangle
+		(start 276.86 58.42)
+		(end 397.51 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7eaeb0b6-f7f2-4a3e-9936-d1a567f351b5)
+	)
+	(rectangle
+		(start 276.86 139.7)
+		(end 397.51 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f75f7a6-d31c-4f24-a989-5291523e5518)
+	)
+	(rectangle
 		(start 105.41 180.34)
 		(end 146.05 185.42)
 		(stroke
@@ -2296,18 +2128,6 @@
 			(type none)
 		)
 		(uuid 813f849d-08b6-42e6-a753-5efa3c51970a)
-	)
-	(rectangle
-		(start 307.34 119.38)
-		(end 377.19 124.46)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 815550c3-2fcd-4cf8-842c-d930f0da5a5c)
 	)
 	(rectangle
 		(start 146.05 99.06)
@@ -2344,42 +2164,6 @@
 			(type none)
 		)
 		(uuid 83afb08a-1a55-4bd1-aeb1-814151966dc5)
-	)
-	(rectangle
-		(start 276.86 154.94)
-		(end 307.34 160.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 84d3e95e-1a83-4ada-9ee9-1bc5a92e0530)
-	)
-	(rectangle
-		(start 307.34 180.34)
-		(end 377.19 185.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 85bd96be-43d2-4909-b734-646b5e793d84)
-	)
-	(rectangle
-		(start 276.86 53.34)
-		(end 307.34 58.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 861d9efb-4cdb-4155-8941-2bfd3d3aaf27)
 	)
 	(rectangle
 		(start 105.41 119.38)
@@ -2490,6 +2274,18 @@
 		(uuid 8eeefdad-f052-42b6-b879-be434a79c688)
 	)
 	(rectangle
+		(start 276.86 38.1)
+		(end 397.51 43.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f2848ea-ce2a-48b2-b897-967ea524d7c5)
+	)
+	(rectangle
 		(start 38.1 93.98)
 		(end 52.07 99.06)
 		(stroke
@@ -2562,6 +2358,18 @@
 		(uuid 95b9bcdb-974f-4148-a899-5e4d6d0906bf)
 	)
 	(rectangle
+		(start 276.86 109.22)
+		(end 397.51 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 95bed6d5-18c8-4a20-8427-b56c10bf067d)
+	)
+	(rectangle
 		(start 186.69 68.58)
 		(end 227.33 73.66)
 		(stroke
@@ -2598,6 +2406,18 @@
 		(uuid 95f49892-89d4-4e0b-b7af-d1fba6df9174)
 	)
 	(rectangle
+		(start 276.86 22.86)
+		(end 397.51 27.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9611213d-df99-4606-a049-1805fffb54b6)
+	)
+	(rectangle
 		(start 52.07 22.86)
 		(end 69.85 27.94)
 		(stroke
@@ -2608,6 +2428,18 @@
 			(type none)
 		)
 		(uuid 964f8cd7-1722-440b-b107-6e44bfab8f26)
+	)
+	(rectangle
+		(start 276.86 200.66)
+		(end 397.51 205.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 970e7671-ba3e-4986-b789-cdd2885bc542)
 	)
 	(rectangle
 		(start 186.69 124.46)
@@ -2644,18 +2476,6 @@
 			(type none)
 		)
 		(uuid 98a7a3c1-851f-4518-b40a-a5c3ea2173c0)
-	)
-	(rectangle
-		(start 307.34 73.66)
-		(end 377.19 78.74)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 98ac9b6d-bb91-4879-9e03-829d6b1fd4b2)
 	)
 	(rectangle
 		(start 146.05 22.86)
@@ -2716,6 +2536,18 @@
 			(type none)
 		)
 		(uuid 9c5be967-5a24-4799-a0ab-a2395abd6088)
+	)
+	(rectangle
+		(start 276.86 63.5)
+		(end 397.51 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c622ae0-6779-4d5c-a62e-9a01895572be)
 	)
 	(rectangle
 		(start 186.69 154.94)
@@ -2838,8 +2670,20 @@
 		(uuid a09f1142-7d47-4b17-af05-4d0f577989b6)
 	)
 	(rectangle
-		(start 24.638 17.272)
-		(end 38.608 22.352)
+		(start 276.86 124.46)
+		(end 397.51 129.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a0d95f20-7ca8-4bd7-a2d2-478d2764139d)
+	)
+	(rectangle
+		(start 24.13 17.78)
+		(end 38.1 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -2884,18 +2728,6 @@
 			(type none)
 		)
 		(uuid a50f8247-6ed7-47ee-a087-251b84573b0a)
-	)
-	(rectangle
-		(start 307.34 88.9)
-		(end 377.19 93.98)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a5572414-07e3-4543-bdd6-a17599ed7900)
 	)
 	(rectangle
 		(start 24.13 78.74)
@@ -2958,6 +2790,18 @@
 		(uuid a7653761-a9ab-41e9-9b3a-de5a68c3e974)
 	)
 	(rectangle
+		(start 276.86 68.58)
+		(end 397.51 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a84497ff-9ea7-4bac-8e8d-15cbbe276c56)
+	)
+	(rectangle
 		(start 105.41 154.94)
 		(end 146.05 160.02)
 		(stroke
@@ -2970,18 +2814,6 @@
 		(uuid a84b6068-b79e-428f-b735-8239896b5d5d)
 	)
 	(rectangle
-		(start 307.34 68.58)
-		(end 377.19 73.66)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a88ebc5a-96e4-4947-81da-02aa19def0e0)
-	)
-	(rectangle
 		(start 105.41 210.82)
 		(end 146.05 215.9)
 		(stroke
@@ -2992,18 +2824,6 @@
 			(type none)
 		)
 		(uuid a8ffa127-d6ea-4135-bb97-869e653f7c45)
-	)
-	(rectangle
-		(start 307.34 139.7)
-		(end 377.19 144.78)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a917dcde-b4ea-40ce-a581-423098dc6f9d)
 	)
 	(rectangle
 		(start 105.41 124.46)
@@ -3090,6 +2910,18 @@
 		(uuid adff3ade-abdb-4ab7-a79a-2201d0ecffde)
 	)
 	(rectangle
+		(start 276.86 149.86)
+		(end 397.51 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae1b0d85-7ace-4cb9-ada4-62f62cba6af0)
+	)
+	(rectangle
 		(start 186.69 205.74)
 		(end 227.33 210.82)
 		(stroke
@@ -3138,6 +2970,18 @@
 		(uuid afbc6e97-2882-4524-9d6b-23b90566e77d)
 	)
 	(rectangle
+		(start 276.86 215.9)
+		(end 397.51 220.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid afd64bc6-6998-4cfd-b24b-dab274282012)
+	)
+	(rectangle
 		(start 227.33 33.02)
 		(end 276.86 38.1)
 		(stroke
@@ -3162,8 +3006,8 @@
 		(uuid b026dbd0-c5fb-48fe-92c5-27e5edee4715)
 	)
 	(rectangle
-		(start 307.34 99.06)
-		(end 377.19 104.14)
+		(start 276.86 78.74)
+		(end 397.51 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -3171,11 +3015,11 @@
 		(fill
 			(type none)
 		)
-		(uuid b1822624-4c5d-4e95-93c6-89bc4507f8a1)
+		(uuid b08d6a96-c65d-4ce8-b9de-4beea4838705)
 	)
 	(rectangle
-		(start 307.34 93.98)
-		(end 377.19 99.06)
+		(start 276.86 27.94)
+		(end 397.51 33.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -3183,7 +3027,7 @@
 		(fill
 			(type none)
 		)
-		(uuid b1e8acd8-f6f0-407b-8d84-1093b65d4212)
+		(uuid b1275358-235e-4a4e-ada8-4e27a10d29e8)
 	)
 	(rectangle
 		(start 146.05 205.74)
@@ -3198,30 +3042,6 @@
 		(uuid b243cb83-9cc0-4586-9d7a-a686846f9c0c)
 	)
 	(rectangle
-		(start 276.86 78.74)
-		(end 307.34 83.82)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b277f240-0949-4aff-b5dc-eda4c41224f3)
-	)
-	(rectangle
-		(start 307.34 83.82)
-		(end 377.19 88.9)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b2b1e74e-28f2-4abe-a0ee-c06b9e6cc2d2)
-	)
-	(rectangle
 		(start 227.33 68.58)
 		(end 276.86 73.66)
 		(stroke
@@ -3232,18 +3052,6 @@
 			(type none)
 		)
 		(uuid b3867bf6-5a6f-47bc-89b5-17252d8f6936)
-	)
-	(rectangle
-		(start 307.34 43.18)
-		(end 377.19 48.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b42c099a-c59d-426a-a234-a76109ecf3e7)
 	)
 	(rectangle
 		(start 52.07 63.5)
@@ -3354,18 +3162,6 @@
 		(uuid b77543e4-77b1-4f11-9eb0-2229c366d366)
 	)
 	(rectangle
-		(start 307.34 144.78)
-		(end 377.19 149.86)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b777f92d-cdbc-4af1-b669-768b314dbf03)
-	)
-	(rectangle
 		(start 38.1 33.02)
 		(end 52.07 38.1)
 		(stroke
@@ -3376,6 +3172,18 @@
 			(type none)
 		)
 		(uuid b817f255-7235-49d0-acdd-5bd91b09a764)
+	)
+	(rectangle
+		(start 276.86 205.74)
+		(end 397.51 210.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b951bc0a-ed89-497f-ab20-7fd89938a6c7)
 	)
 	(rectangle
 		(start 227.33 63.5)
@@ -3400,66 +3208,6 @@
 			(type none)
 		)
 		(uuid b9f4c016-db27-484d-8373-4f7dbc32b810)
-	)
-	(rectangle
-		(start 307.34 160.02)
-		(end 377.19 165.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ba56f49f-e45b-4a82-9eec-2b3a7fb95686)
-	)
-	(rectangle
-		(start 276.86 185.42)
-		(end 307.34 190.5)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb2e37a8-bae1-4a30-8486-ea30424ec9aa)
-	)
-	(rectangle
-		(start 307.34 170.18)
-		(end 377.19 175.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb48c3fd-d108-4651-907d-28d949ec87f2)
-	)
-	(rectangle
-		(start 307.34 205.74)
-		(end 377.19 210.82)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bc3c69c1-23e9-4974-8b80-8994b03569ea)
-	)
-	(rectangle
-		(start 307.848 17.272)
-		(end 377.698 22.352)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bcbced9c-636d-421e-a5e8-84520246bbf0)
 	)
 	(rectangle
 		(start 186.69 180.34)
@@ -3522,18 +3270,6 @@
 		(uuid be9fc8db-79ae-4c51-beec-f4e1082ec36d)
 	)
 	(rectangle
-		(start 276.86 220.98)
-		(end 307.34 226.06)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bfb0f33b-ab0a-4a37-a609-e62548b1b442)
-	)
-	(rectangle
 		(start 186.69 88.9)
 		(end 227.33 93.98)
 		(stroke
@@ -3556,30 +3292,6 @@
 			(type none)
 		)
 		(uuid c0d313f8-4c05-41aa-a5bf-7a7eb5992b41)
-	)
-	(rectangle
-		(start 307.34 175.26)
-		(end 377.19 180.34)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c11695bc-8718-449f-b338-8749abeb8952)
-	)
-	(rectangle
-		(start 276.86 144.78)
-		(end 307.34 149.86)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c1a9bf6f-f2e5-413e-bc58-60592b907821)
 	)
 	(rectangle
 		(start 24.13 220.98)
@@ -3616,30 +3328,6 @@
 			(type none)
 		)
 		(uuid c296c01b-6f2a-4fa1-a4ba-2510041a5985)
-	)
-	(rectangle
-		(start 307.34 185.42)
-		(end 377.19 190.5)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c29c8268-b625-4c05-b94b-3588be540bcd)
-	)
-	(rectangle
-		(start 276.86 48.26)
-		(end 307.34 53.34)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c38c28ff-ef3b-4e91-9a55-a43461621b67)
 	)
 	(rectangle
 		(start 186.69 220.98)
@@ -3762,18 +3450,6 @@
 		(uuid ca166e16-01a3-4929-baf4-f4f11153f11b)
 	)
 	(rectangle
-		(start 307.34 48.26)
-		(end 377.19 53.34)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ca1d5936-a9fc-4ad2-b128-4f00b6842461)
-	)
-	(rectangle
 		(start 146.05 195.58)
 		(end 186.69 200.66)
 		(stroke
@@ -3808,30 +3484,6 @@
 			(type none)
 		)
 		(uuid cd3eab2e-cff5-415c-997b-a60d8efbf7bf)
-	)
-	(rectangle
-		(start 276.86 165.1)
-		(end 307.34 170.18)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cd4f0f70-0aa6-4068-b878-306cde0a1543)
-	)
-	(rectangle
-		(start 276.86 205.74)
-		(end 307.34 210.82)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cdda2786-7181-4bb4-b2ba-9064ac8cb11c)
 	)
 	(rectangle
 		(start 186.69 170.18)
@@ -3892,18 +3544,6 @@
 			(type none)
 		)
 		(uuid d0283872-db9b-49b3-a5d4-d6dabaf41398)
-	)
-	(rectangle
-		(start 307.34 210.82)
-		(end 377.19 215.9)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d03648fb-4b38-4025-a1d1-2beddab5d341)
 	)
 	(rectangle
 		(start 227.33 48.26)
@@ -3990,18 +3630,6 @@
 		(uuid d59c6229-026a-46f4-8e61-3bd96eec7d9f)
 	)
 	(rectangle
-		(start 276.86 170.18)
-		(end 307.34 175.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d63f3b28-1dcb-4c6e-8d34-3c486e971b15)
-	)
-	(rectangle
 		(start 24.13 144.78)
 		(end 38.1 149.86)
 		(stroke
@@ -4024,18 +3652,6 @@
 			(type none)
 		)
 		(uuid d6974a26-af32-4019-8ac4-5045c2192d62)
-	)
-	(rectangle
-		(start 307.34 129.54)
-		(end 377.19 134.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d6cc7dc8-6400-4c48-916f-c873ddc6acd9)
 	)
 	(rectangle
 		(start 105.41 114.3)
@@ -4062,18 +3678,6 @@
 		(uuid d87b70e4-5bd0-4905-a1c7-d6f2841608db)
 	)
 	(rectangle
-		(start 307.34 33.02)
-		(end 377.19 38.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d9797355-ad19-4793-a99b-cc50435e2055)
-	)
-	(rectangle
 		(start 24.13 190.5)
 		(end 38.1 195.58)
 		(stroke
@@ -4084,18 +3688,6 @@
 			(type none)
 		)
 		(uuid da08ecc2-0176-4ccd-a735-a64a67632bf9)
-	)
-	(rectangle
-		(start 307.34 165.1)
-		(end 377.19 170.18)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid da7d4ee0-229e-45a8-97c3-322368841502)
 	)
 	(rectangle
 		(start 105.41 190.5)
@@ -4266,18 +3858,6 @@
 		(uuid e2c87193-b7b7-4ac1-9bf6-e53c42ab9c20)
 	)
 	(rectangle
-		(start 307.34 38.1)
-		(end 377.19 43.18)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e2ccc958-1c98-4c43-b1d9-c06e5d59f236)
-	)
-	(rectangle
 		(start 227.33 78.74)
 		(end 276.86 83.82)
 		(stroke
@@ -4410,6 +3990,18 @@
 		(uuid e60c4663-d4b8-4a67-b951-bd9970252a8c)
 	)
 	(rectangle
+		(start 276.86 17.78)
+		(end 397.51 22.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e62ddddf-e8c5-45f6-afb2-52e72d46b72b)
+	)
+	(rectangle
 		(start 38.1 58.42)
 		(end 52.07 63.5)
 		(stroke
@@ -4458,18 +4050,6 @@
 		(uuid e7031cce-50bd-4ff0-8d8a-95b2c8e5a278)
 	)
 	(rectangle
-		(start 307.34 109.22)
-		(end 377.19 114.3)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e7dc3108-2d40-48a6-94d3-272d25a7d2db)
-	)
-	(rectangle
 		(start 186.69 195.58)
 		(end 227.33 200.66)
 		(stroke
@@ -4504,30 +4084,6 @@
 			(type none)
 		)
 		(uuid e9587800-a105-46eb-aa25-844060547668)
-	)
-	(rectangle
-		(start 276.86 83.82)
-		(end 307.34 88.9)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e9f10050-bb13-4ff6-aa64-eb18d4e55927)
-	)
-	(rectangle
-		(start 276.86 210.82)
-		(end 307.34 215.9)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid eae262af-a3a4-4d55-ad8b-ec98be166727)
 	)
 	(rectangle
 		(start 69.85 180.34)
@@ -4590,6 +4146,18 @@
 		(uuid ed49763d-f96f-4005-bf2b-cdce07d2ec4e)
 	)
 	(rectangle
+		(start 276.86 88.9)
+		(end 397.51 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ed8fb277-68a7-4c38-8b7a-f3fa8578e2e8)
+	)
+	(rectangle
 		(start 105.41 83.82)
 		(end 146.05 88.9)
 		(stroke
@@ -4600,18 +4168,6 @@
 			(type none)
 		)
 		(uuid eeac661d-3d6e-4c69-b01f-444964633435)
-	)
-	(rectangle
-		(start 276.86 58.42)
-		(end 307.34 63.5)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid eee9d93a-d4cd-4537-943a-73418490e9e2)
 	)
 	(rectangle
 		(start 52.07 58.42)
@@ -4660,18 +4216,6 @@
 			(type none)
 		)
 		(uuid f0c20e56-99c9-41cb-b538-a632d70f0e52)
-	)
-	(rectangle
-		(start 307.34 53.34)
-		(end 377.19 58.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f1988fa9-4aad-49e6-a8b2-09d4f2485dff)
 	)
 	(rectangle
 		(start 38.1 185.42)
@@ -4782,42 +4326,6 @@
 		(uuid f549e6d4-8a0a-4fea-a41f-24a16e4cd627)
 	)
 	(rectangle
-		(start 276.86 149.86)
-		(end 307.34 154.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f9ea738b-f894-4ae4-9517-7ad17618b785)
-	)
-	(rectangle
-		(start 307.34 200.66)
-		(end 377.19 205.74)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fa31d2a8-3e18-4a9c-a9e5-63404bfc365f)
-	)
-	(rectangle
-		(start 276.86 22.86)
-		(end 307.34 27.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fa406801-92c4-4474-99e8-92d5343abacd)
-	)
-	(rectangle
 		(start 186.69 22.86)
 		(end 227.33 27.94)
 		(stroke
@@ -4840,18 +4348,6 @@
 			(type none)
 		)
 		(uuid fbf7fc06-fecd-49cd-9723-3bb22a78a162)
-	)
-	(rectangle
-		(start 276.86 190.5)
-		(end 307.34 195.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fc242efc-1881-49e6-a75f-419a193971d3)
 	)
 	(rectangle
 		(start 227.33 38.1)
@@ -4890,8 +4386,8 @@
 		(uuid fc2dee48-4b96-491c-ae1d-22b280dfe1a6)
 	)
 	(rectangle
-		(start 277.368 17.272)
-		(end 307.848 22.352)
+		(start 276.86 175.26)
+		(end 397.51 180.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -4899,7 +4395,7 @@
 		(fill
 			(type none)
 		)
-		(uuid fd216215-06eb-42ec-9b87-354e19a6f8c3)
+		(uuid fd1dbd0f-52b5-48de-9fca-e5d0d62ab75f)
 	)
 	(rectangle
 		(start 146.05 185.42)
@@ -4924,6 +4420,18 @@
 			(type none)
 		)
 		(uuid fe17fa23-8861-475f-929c-6e74f4dcc3bf)
+	)
+	(rectangle
+		(start 276.86 165.1)
+		(end 397.51 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ffc7148b-44a9-4948-9934-afd15f419a25)
 	)
 	(text "1750"
 		(exclude_from_sim no)
@@ -4996,7 +4504,7 @@
 	)
 	(text "89"
 		(exclude_from_sim no)
-		(at 28.702 77.978 0)
+		(at 28.194 62.738 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5017,6 +4525,16 @@
 		)
 		(uuid "06b302fe-8cde-48d0-9dd2-52e2f9978db1")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 224.536 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "06bbb3b9-1d02-4eb7-b4ff-07def3d10221")
+	)
 	(text "1600"
 		(exclude_from_sim no)
 		(at 207.01 97.028 0)
@@ -5030,7 +4548,7 @@
 	)
 	(text "90"
 		(exclude_from_sim no)
-		(at 28.702 83.312 0)
+		(at 28.194 68.072 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5076,7 +4594,7 @@
 	)
 	(text "86"
 		(exclude_from_sim no)
-		(at 28.702 62.992 0)
+		(at 28.194 47.752 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5088,7 +4606,7 @@
 	)
 	(text "85"
 		(exclude_from_sim no)
-		(at 28.448 57.912 0)
+		(at 27.94 42.672 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5145,7 +4663,7 @@
 	)
 	(text "108"
 		(exclude_from_sim no)
-		(at 28.448 174.752 0)
+		(at 27.94 159.512 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5190,7 +4708,7 @@
 	)
 	(text "115"
 		(exclude_from_sim no)
-		(at 28.448 210.312 0)
+		(at 27.94 195.072 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5256,9 +4774,19 @@
 		)
 		(uuid "19787a46-fec5-4092-8040-96236fbd78bf")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 77.216 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1b8730bb-d186-486a-9c19-ffca267bf33e")
+	)
 	(text "107"
 		(exclude_from_sim no)
-		(at 28.448 169.418 0)
+		(at 27.94 154.178 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5270,7 +4798,7 @@
 	)
 	(text "111"
 		(exclude_from_sim no)
-		(at 28.702 189.738 0)
+		(at 28.194 174.498 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5282,7 +4810,7 @@
 	)
 	(text "N"
 		(exclude_from_sim no)
-		(at 29.21 21.59 0)
+		(at 28.702 22.098 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5304,6 +4832,16 @@
 		)
 		(uuid "1c90b937-7869-4e75-962c-f9d37f4f4497")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 61.976 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1ccbe146-9898-467a-9de7-17f8d69932a4")
+	)
 	(text "1850"
 		(exclude_from_sim no)
 		(at 206.502 203.708 0)
@@ -5314,6 +4852,16 @@
 			)
 		)
 		(uuid "1ceaccb9-0586-44cb-ae51-e5921201bf64")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 143.256 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1e498e21-5c1a-4a37-816c-a9fb0ae3265e")
 	)
 	(text "S7_L1/2"
 		(exclude_from_sim no)
@@ -5336,6 +4884,19 @@
 			)
 		)
 		(uuid "1e86cd01-f202-4e4e-b632-51e4c604e422")
+	)
+	(text "ПРИМЕЧАНИЯ"
+		(exclude_from_sim no)
+		(at 327.914 22.352 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "20c6a7bd-5d20-49ec-b688-53faa44340bd")
 	)
 	(text "2,4"
 		(exclude_from_sim no)
@@ -5373,7 +4934,7 @@
 	)
 	(text "103"
 		(exclude_from_sim no)
-		(at 28.702 149.352 0)
+		(at 28.194 134.112 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5420,7 +4981,7 @@
 	)
 	(text "112"
 		(exclude_from_sim no)
-		(at 28.956 195.072 0)
+		(at 28.448 179.832 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5432,7 +4993,7 @@
 	)
 	(text "п.Инстр."
 		(exclude_from_sim no)
-		(at 53.34 21.336 0)
+		(at 52.832 21.844 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5466,6 +5027,16 @@
 			(justify left bottom)
 		)
 		(uuid "2afd3dc4-eb54-4dd6-af3f-56abf90fd4b9")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 133.096 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2cca18e7-0d85-4101-800a-67beccc4b6f2")
 	)
 	(text "16,32"
 		(exclude_from_sim no)
@@ -5605,7 +5176,7 @@
 	)
 	(text "113"
 		(exclude_from_sim no)
-		(at 28.702 200.152 0)
+		(at 28.194 184.912 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5731,7 +5302,7 @@
 	)
 	(text "98"
 		(exclude_from_sim no)
-		(at 28.702 123.698 0)
+		(at 28.194 108.458 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5743,7 +5314,7 @@
 	)
 	(text "106"
 		(exclude_from_sim no)
-		(at 28.702 164.592 0)
+		(at 28.194 149.352 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5790,7 +5361,7 @@
 	)
 	(text "114"
 		(exclude_from_sim no)
-		(at 28.702 204.978 0)
+		(at 28.194 189.738 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5822,6 +5393,16 @@
 			(justify left bottom)
 		)
 		(uuid "415a04a3-7127-4eb4-9047-749bfd1df052")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 148.336 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "420e28b8-4a5f-4f37-9d0b-beae4d30168c")
 	)
 	(text "РКГМ 1,5"
 		(exclude_from_sim no)
@@ -5915,6 +5496,16 @@
 		)
 		(uuid "469da8ff-5562-49bf-807e-a657df426ea9")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 117.856 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "46dfff32-af9a-4bdc-b7d8-b9176c278308")
+	)
 	(text "1700"
 		(exclude_from_sim no)
 		(at 207.01 167.64 0)
@@ -5925,6 +5516,26 @@
 			)
 		)
 		(uuid "47718d1a-49a0-4bda-b96f-86ceed3ff19d")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 87.376 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "48237a18-6936-4c36-98f3-984588c38536")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 82.296 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "494001e9-aa9c-4d54-ae3d-80e6a2d9caa2")
 	)
 	(text "16,32"
 		(exclude_from_sim no)
@@ -5950,6 +5561,16 @@
 		)
 		(uuid "4bc3d43d-8b55-429b-9d5d-87bd2d53683e")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 36.576 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4c0d4fe9-819e-4cee-a510-d700030b914b")
+	)
 	(text "S8_L1/2"
 		(exclude_from_sim no)
 		(at 126.238 91.694 0)
@@ -5971,6 +5592,16 @@
 			)
 		)
 		(uuid "4cc67f4a-fc8e-408d-b42b-b791129e24c5")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 122.936 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4d11f1f8-9247-43d7-9dd5-b75d27bafab5")
 	)
 	(text "TR_6_J4/1"
 		(exclude_from_sim no)
@@ -6018,7 +5649,7 @@
 	)
 	(text "91"
 		(exclude_from_sim no)
-		(at 28.448 88.138 0)
+		(at 27.94 72.898 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6076,7 +5707,7 @@
 	)
 	(text "101"
 		(exclude_from_sim no)
-		(at 28.448 139.192 0)
+		(at 27.94 123.952 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6097,6 +5728,26 @@
 			(justify left bottom)
 		)
 		(uuid "567bca46-4ef9-4868-b38e-1b48bc7cba0b")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 107.696 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "56a7a9ca-f97b-490c-8efd-94a197a964c1")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 138.176 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "57e83d97-44d9-4063-b412-9a9150e21a91")
 	)
 	(text "S8_L1/1"
 		(exclude_from_sim no)
@@ -6142,6 +5793,26 @@
 			)
 		)
 		(uuid "5a79524f-019a-424e-bd88-784883a0c8d7")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 56.896 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "5bf8e509-1cab-4146-bd96-b35c2d99257b")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 178.816 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "5d6c0da1-3fef-427d-bb7d-28724b3c3ddf")
 	)
 	(text "16,32"
 		(exclude_from_sim no)
@@ -6257,6 +5928,26 @@
 		)
 		(uuid "66e5b637-8df7-413b-9a1e-9d0826f8b111")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 214.376 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "6742e489-0892-46fc-8d23-9b23b1dc1422")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 219.456 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "6769845e-9dc8-4bec-ae2d-334ab9d46bfc")
+	)
 	(text "2,4"
 		(exclude_from_sim no)
 		(at 42.418 47.498 0)
@@ -6302,6 +5993,26 @@
 			)
 		)
 		(uuid "67bde2a3-99ce-481a-9b42-22f1e4c78449")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 158.496 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "67ca726e-7943-4724-9a48-3d5ec45d8a0d")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 31.496 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "68583504-ef5a-4456-8e76-33822a28cd6c")
 	)
 	(text "S11_L2/1"
 		(exclude_from_sim no)
@@ -6393,19 +6104,6 @@
 		)
 		(uuid "6c2617b0-16bd-46f4-9091-f884d60e42b8")
 	)
-	(text "ПУТЬ"
-		(exclude_from_sim no)
-		(at 286.512 22.098 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c5142a7-54ac-4e87-9f7c-c5a64ac6b978")
-	)
 	(text "1650"
 		(exclude_from_sim no)
 		(at 207.01 117.602 0)
@@ -6477,7 +6175,7 @@
 	)
 	(text "95"
 		(exclude_from_sim no)
-		(at 28.702 108.458 0)
+		(at 28.194 93.218 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6498,6 +6196,16 @@
 			(justify left bottom)
 		)
 		(uuid "764762a7-7d34-44c6-b2ee-e5fefd427e71")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 72.136 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "78546a9f-879c-4198-b1fe-7bd73586f568")
 	)
 	(text "РКГМ 1,5"
 		(exclude_from_sim no)
@@ -6545,9 +6253,19 @@
 		)
 		(uuid "7ae6345b-b714-46a1-b521-26571110837b")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 168.656 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7b973b42-9895-4a0b-b9ce-11e087103367")
+	)
 	(text "100"
 		(exclude_from_sim no)
-		(at 28.448 134.112 0)
+		(at 27.94 118.872 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6568,6 +6286,16 @@
 		)
 		(uuid "7c5dce53-8258-4051-a44c-1a0dd27ba74a")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 26.416 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7e1e49d3-d59b-43e0-926b-289578a3f467")
+	)
 	(text "1550"
 		(exclude_from_sim no)
 		(at 206.756 81.28 0)
@@ -6581,7 +6309,7 @@
 	)
 	(text "ОТКУДА"
 		(exclude_from_sim no)
-		(at 118.872 21.844 0)
+		(at 118.364 22.352 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6594,7 +6322,7 @@
 	)
 	(text "92"
 		(exclude_from_sim no)
-		(at 28.448 93.472 0)
+		(at 27.94 78.232 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6660,9 +6388,9 @@
 		)
 		(uuid "8a4a89c6-98a8-43dc-9e7c-f6565d317df3")
 	)
-	(text "79"
+	(text "119"
 		(exclude_from_sim no)
-		(at 28.702 27.178 0)
+		(at 28.448 215.138 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6719,7 +6447,7 @@
 	)
 	(text "83"
 		(exclude_from_sim no)
-		(at 28.448 47.752 0)
+		(at 27.94 32.512 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6729,9 +6457,9 @@
 		)
 		(uuid "8de35e6e-964e-4d38-815c-857f31982988")
 	)
-	(text "80"
+	(text "120"
 		(exclude_from_sim no)
-		(at 28.956 32.512 0)
+		(at 28.448 220.218 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6740,6 +6468,16 @@
 			(justify left bottom)
 		)
 		(uuid "8e5a9519-c3e4-4722-a91b-c5809d6cb05f")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 92.456 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "8eef0ee0-8aa7-4cde-86d5-72027d6ba619")
 	)
 	(text "РКГМ 1,5"
 		(exclude_from_sim no)
@@ -6754,7 +6492,7 @@
 	)
 	(text "88"
 		(exclude_from_sim no)
-		(at 28.702 73.152 0)
+		(at 28.194 57.912 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6766,7 +6504,7 @@
 	)
 	(text "109"
 		(exclude_from_sim no)
-		(at 28.702 179.578 0)
+		(at 28.194 164.338 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6787,6 +6525,26 @@
 			(justify left bottom)
 		)
 		(uuid "93954daa-97ae-41c1-900a-bd86e551bcf7")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 199.136 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "94bbe2c4-a2e6-41b2-859a-7812e00a008f")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 112.776 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "94e5c91d-083e-4be2-9108-1d130c838a78")
 	)
 	(text "2,4"
 		(exclude_from_sim no)
@@ -6912,6 +6670,16 @@
 		)
 		(uuid "9de0a870-0837-4315-83ad-b63f2eb1fe34")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 163.576 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "9e5fbd0c-56db-4ed3-9b51-e5d3332da2e9")
+	)
 	(text "РКГМ 1,5"
 		(exclude_from_sim no)
 		(at 251.206 112.268 0)
@@ -6945,6 +6713,16 @@
 		)
 		(uuid "a08692f3-275e-48e0-814f-4b315380e8ac")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 183.896 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "a0d449c6-84cf-4fcd-987a-9eff8497d6cb")
+	)
 	(text "РКГМ 1,5"
 		(exclude_from_sim no)
 		(at 250.698 138.176 0)
@@ -6958,7 +6736,7 @@
 	)
 	(text "НАЗВАНИЕ"
 		(exclude_from_sim no)
-		(at 98.044 21.59 0)
+		(at 97.536 22.098 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -6983,7 +6761,7 @@
 	)
 	(text "117"
 		(exclude_from_sim no)
-		(at 28.448 220.472 0)
+		(at 27.94 205.232 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7037,6 +6815,16 @@
 		)
 		(uuid "a65dafb9-99a7-4515-9351-3b9fa8efe52e")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 153.416 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "a6f1b22c-69c0-4cdc-868d-081b7982d176")
+	)
 	(text "РКГМ 1,5"
 		(exclude_from_sim no)
 		(at 251.714 147.574 0)
@@ -7050,7 +6838,7 @@
 	)
 	(text "97"
 		(exclude_from_sim no)
-		(at 28.702 118.872 0)
+		(at 28.194 103.632 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7062,7 +6850,7 @@
 	)
 	(text "116"
 		(exclude_from_sim no)
-		(at 28.448 215.392 0)
+		(at 27.94 200.152 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7117,19 +6905,6 @@
 		)
 		(uuid "af3b049a-4822-4f53-b14e-e134e39e1986")
 	)
-	(text "ПРИМЕЧАНИЯ"
-		(exclude_from_sim no)
-		(at 328.422 21.844 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b041744d-a67e-4b13-a9ba-03b6cd0dab2e")
-	)
 	(text "TR_4_J5/2"
 		(exclude_from_sim no)
 		(at 165.862 76.454 0)
@@ -7143,7 +6918,7 @@
 	)
 	(text "118"
 		(exclude_from_sim no)
-		(at 28.702 225.552 0)
+		(at 28.194 210.312 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7189,6 +6964,16 @@
 		)
 		(uuid "b2aa0e85-0c37-48b6-a204-9df8b1ac6ccf")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 188.976 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "b2b04f6d-3e0f-4c16-98e9-20f6e059e3e7")
+	)
 	(text "1650"
 		(exclude_from_sim no)
 		(at 206.502 122.428 0)
@@ -7199,6 +6984,16 @@
 			)
 		)
 		(uuid "b363852d-1ed3-4be1-b9b5-2c7ffb5d5763")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 194.056 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "b5942eaa-c496-41ee-a15e-7c3ccc6a6e51")
 	)
 	(text "2,4"
 		(exclude_from_sim no)
@@ -7214,7 +7009,7 @@
 	)
 	(text "84"
 		(exclude_from_sim no)
-		(at 28.448 52.832 0)
+		(at 27.94 37.592 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7271,7 +7066,7 @@
 	)
 	(text "93"
 		(exclude_from_sim no)
-		(at 28.702 98.298 0)
+		(at 28.194 83.058 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7307,7 +7102,7 @@
 	)
 	(text "110"
 		(exclude_from_sim no)
-		(at 28.448 184.658 0)
+		(at 27.94 169.418 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7398,7 +7193,7 @@
 	)
 	(text "105"
 		(exclude_from_sim no)
-		(at 28.702 159.258 0)
+		(at 28.194 144.018 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7443,7 +7238,7 @@
 	)
 	(text "87"
 		(exclude_from_sim no)
-		(at 28.702 68.072 0)
+		(at 28.194 52.832 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7452,6 +7247,16 @@
 			(justify left bottom)
 		)
 		(uuid "c52bc9a1-4497-401c-813d-5f75b99f90c4")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 128.016 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c684c6e2-f58c-4f86-a70f-31508d6af276")
 	)
 	(text "2,4"
 		(exclude_from_sim no)
@@ -7467,7 +7272,7 @@
 	)
 	(text "102"
 		(exclude_from_sim no)
-		(at 28.702 144.272 0)
+		(at 28.194 129.032 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7491,7 +7296,7 @@
 	)
 	(text "КУДА"
 		(exclude_from_sim no)
-		(at 161.544 21.59 0)
+		(at 161.036 22.098 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7504,7 +7309,7 @@
 	)
 	(text "94"
 		(exclude_from_sim no)
-		(at 28.448 103.378 0)
+		(at 27.94 88.138 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7516,7 +7321,7 @@
 	)
 	(text "ТИП ПРОВОДА"
 		(exclude_from_sim no)
-		(at 234.188 21.59 0)
+		(at 233.68 22.098 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7529,7 +7334,7 @@
 	)
 	(text "ДЛИНА,ММ"
 		(exclude_from_sim no)
-		(at 196.596 21.59 0)
+		(at 196.088 22.098 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7610,7 +7415,7 @@
 	)
 	(text "N лист"
 		(exclude_from_sim no)
-		(at 38.608 21.59 0)
+		(at 38.1 22.098 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7620,6 +7425,16 @@
 			(justify left bottom)
 		)
 		(uuid "cee27345-e879-44b3-a527-26fa8abad62e")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 204.216 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d0ed7a16-490a-4c7e-b036-523e6dfc9a9b")
 	)
 	(text "2,4"
 		(exclude_from_sim no)
@@ -7771,7 +7586,7 @@
 	)
 	(text "99"
 		(exclude_from_sim no)
-		(at 28.448 129.032 0)
+		(at 27.94 113.792 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7792,6 +7607,16 @@
 		)
 		(uuid "db51f0e2-fcc3-47c8-a0ea-99f1d7da2695")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 97.536 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "db788985-1317-4c94-aa1b-a397e301992c")
+	)
 	(text "TR_5_J4/1"
 		(exclude_from_sim no)
 		(at 165.1 127.508 0)
@@ -7803,9 +7628,9 @@
 		)
 		(uuid "dc2ecce0-190b-4c93-a169-2b9932c067d3")
 	)
-	(text "81"
+	(text "121"
 		(exclude_from_sim no)
-		(at 28.702 37.592 0)
+		(at 28.448 224.79 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7862,7 +7687,7 @@
 	)
 	(text "104"
 		(exclude_from_sim no)
-		(at 28.702 154.432 0)
+		(at 28.194 139.192 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7937,6 +7762,16 @@
 			)
 		)
 		(uuid "e37944ef-80f3-4e1f-84cf-0dc0481cad5c")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 102.616 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "e579ec18-6d61-4a6f-a5dc-a6aeefe1fbe0")
 	)
 	(text "РКГМ 1,5"
 		(exclude_from_sim no)
@@ -8017,6 +7852,16 @@
 		)
 		(uuid "e9f99900-3dfa-4594-b286-5d5ad1d2ee2c")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 51.816 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "eb4c0867-7fdd-423b-967a-96408e90a15c")
+	)
 	(text "S10_L2/2"
 		(exclude_from_sim no)
 		(at 125.984 142.748 0)
@@ -8027,6 +7872,16 @@
 			)
 		)
 		(uuid "eb7a77cd-c8d5-433c-898b-b0df7a32d651")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 46.736 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "ee0a65e2-2caf-42d1-8872-7ea7bc2ccee0")
 	)
 	(text "РКГМ 1,5"
 		(exclude_from_sim no)
@@ -8074,9 +7929,19 @@
 		)
 		(uuid "f19a8697-837d-4199-b37e-cd5f3a01104d")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 41.656 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "f33794f3-e338-410d-9785-975d5fdebd54")
+	)
 	(text "96"
 		(exclude_from_sim no)
-		(at 28.956 113.792 0)
+		(at 28.448 98.552 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -8107,6 +7972,16 @@
 			)
 		)
 		(uuid "f57a4ce4-532d-4f69-b098-69f498f8b865")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 173.736 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "f8f1fdab-c640-4cb2-83f1-ebea823955c5")
 	)
 	(text "TR_4_J3/1"
 		(exclude_from_sim no)
@@ -8177,6 +8052,26 @@
 		)
 		(uuid "fa6e0db9-7550-450d-ac9b-b97577c5ef82")
 	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 67.056 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "fa6ecc24-e06c-488f-a334-5e4f6e3936d2")
+	)
+	(text "Установить гильзу НШВИ-1.5-8  \n"
+		(exclude_from_sim no)
+		(at 335.788 209.296 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "faee888e-1b79-4d0f-85a0-7d4338ea7302")
+	)
 	(text "TR_6_J4/2"
 		(exclude_from_sim no)
 		(at 165.354 178.308 0)
@@ -8212,7 +8107,7 @@
 	)
 	(text "82"
 		(exclude_from_sim no)
-		(at 28.702 42.418 0)
+		(at 28.194 27.178 0)
 		(effects
 			(font
 				(size 2.5 2.5)
