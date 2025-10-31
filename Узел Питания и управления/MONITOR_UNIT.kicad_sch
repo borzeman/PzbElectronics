@@ -1,0 +1,1372 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fa491397-2d8c-4677-8f32-cd9df4da8cdf")
+	(paper "A4" portrait)
+	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 2.5 2.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2.5 2.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x01_Pin_(WIDE)"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 6.604 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin_(WIDE)"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_(WIDE)_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 2.5 2.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2.5 2.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 119.38 41.91)
+		(end 154.94 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e40a3b7-fed8-4383-a7d0-1325dc272b31)
+	)
+	(rectangle
+		(start 119.38 168.91)
+		(end 154.94 222.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87ba7fe8-fecb-4b66-8140-678c8a7865e4)
+	)
+	(rectangle
+		(start 119.38 106.68)
+		(end 154.94 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f6b6f007-672d-4816-af42-627bc783a8c0)
+	)
+	(text "MONITOR 1"
+		(exclude_from_sim no)
+		(at 135.89 47.244 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "0b1f126d-f9e7-433e-b204-fc243569f045")
+	)
+	(text "MONITOR  3"
+		(exclude_from_sim no)
+		(at 136.906 174.498 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "3f860b49-fa4d-4a9f-9d05-703a15274b8d")
+	)
+	(text "MONITOR 2"
+		(exclude_from_sim no)
+		(at 140.97 112.268 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "414555a6-b8e0-43f0-81a6-ce1bf9aac628")
+	)
+	(bus_entry
+		(at 82.55 149.86)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8bfe26-4866-4325-8ab0-de93dbbf29e8")
+	)
+	(bus_entry
+		(at 82.55 92.71)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3956588a-b4db-4a82-a1df-91519c6b09b0")
+	)
+	(bus_entry
+		(at 82.55 207.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e2bb0b-57a4-4fd8-9a5d-851a0f24e54b")
+	)
+	(bus_entry
+		(at 82.55 154.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3642c0-8364-4a11-a020-2c3b74224265")
+	)
+	(bus_entry
+		(at 82.55 87.63)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29aa981-3769-4c16-b3d0-be0d843277f7")
+	)
+	(bus_entry
+		(at 82.55 212.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c286f7a5-f2e6-490f-ba3c-47668feff391")
+	)
+	(bus
+		(pts
+			(xy 82.55 92.71) (xy 82.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0693fd4a-bd93-4dc2-9ee7-ffdbec2d3b6f")
+	)
+	(wire
+		(pts
+			(xy 85.09 209.55) (xy 120.65 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cad2173-8e24-4489-a4bb-ceb425ab06d9")
+	)
+	(bus
+		(pts
+			(xy 82.55 154.94) (xy 82.55 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2523090b-6a23-4732-ab97-6e03436c8560")
+	)
+	(wire
+		(pts
+			(xy 85.09 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3187d48f-a934-4584-9de9-2cdf3ed4ac07")
+	)
+	(wire
+		(pts
+			(xy 85.09 214.63) (xy 120.65 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e431f8-fa6a-48c9-af7a-df09f903bf89")
+	)
+	(bus
+		(pts
+			(xy 82.55 87.63) (xy 82.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51341bde-b315-460a-bc4c-97faa448e1c5")
+	)
+	(wire
+		(pts
+			(xy 85.09 152.4) (xy 118.11 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75643739-9e61-48ba-bb8b-39445b8346dd")
+	)
+	(bus
+		(pts
+			(xy 60.96 80.01) (xy 82.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bafcef7-23d6-4e92-bc25-46f2625a928b")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814985b9-b2bb-4e66-9676-76f120a69f56")
+	)
+	(bus
+		(pts
+			(xy 82.55 80.01) (xy 82.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e95e94a-c2db-4600-a428-1ca1284a67b0")
+	)
+	(wire
+		(pts
+			(xy 85.09 157.48) (xy 118.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a931184a-3cee-4b83-87e5-363d0896a388")
+	)
+	(wire
+		(pts
+			(xy 85.09 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add0f206-4c26-4b1a-8fcc-4e6baf4566f9")
+	)
+	(wire
+		(pts
+			(xy 63.5 128.27) (xy 125.73 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f5eb8a-1675-49a7-8ba3-94455ce49404")
+	)
+	(bus
+		(pts
+			(xy 82.55 207.01) (xy 82.55 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27b13aa-8d32-43c1-a87e-fb4d3ca83d0d")
+	)
+	(wire
+		(pts
+			(xy 66.04 190.5) (xy 125.73 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db34b31a-2a16-4f24-9ba8-28fc3a80cfd7")
+	)
+	(bus
+		(pts
+			(xy 82.55 149.86) (xy 82.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdecf82-565d-4bbf-9b5e-42ff22ad97f2")
+	)
+	(label "MON_1-"
+		(at 91.44 95.25 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c7af92a-cb27-49ac-a711-d8d94102f1ad")
+	)
+	(label "MON_1+"
+		(at 91.44 90.17 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "505cc18f-2794-4a73-9587-2790537054be")
+	)
+	(label "MON_3+"
+		(at 90.17 209.55 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "73f6ef2a-840c-4097-b591-7b9a9972133f")
+	)
+	(label "MON_2-"
+		(at 88.9 157.48 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "805c4607-8ede-4e97-9839-206d9ccf3f9c")
+	)
+	(label "MON_3-"
+		(at 90.17 214.63 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaa7cfaa-cdb9-46b6-b5d2-c84191e8da42")
+	)
+	(label "MON_2+"
+		(at 88.9 152.4 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "e16ad7cd-4038-4f38-9532-f0973334f9db")
+	)
+	(global_label "MON_1-"
+		(shape input)
+		(at 91.44 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "4be549ea-a26e-4e82-b517-05eb2f8f41ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.0025 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MON_2-"
+		(shape input)
+		(at 88.9 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "76e693c6-53b7-490a-8082-9bc12341975b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.4625 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MON_3+"
+		(shape input)
+		(at 90.17 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "8f16b792-c858-45bb-9250-a120ab6678c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7325 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MON_2+"
+		(shape input)
+		(at 88.9 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "a78b524f-6cff-47a6-964c-b85056208010")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.4625 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MON_3-"
+		(shape input)
+		(at 90.17 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "a9d69a89-30e4-4b53-a486-c540a07d2930")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7325 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MON_1+"
+		(shape input)
+		(at 91.44 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "dfc31496-05b4-46a9-a744-e82899039ad4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.0025 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "12V_MONITORS"
+		(shape input)
+		(at 60.96 80.01 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify right)
+		)
+		(uuid "07c986bb-7ee4-4f18-ae6e-3cebc4fb8fcc")
+	)
+	(hierarchical_label "HDMI_MONITOR_2"
+		(shape input)
+		(at 63.5 128.27 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify right)
+		)
+		(uuid "6cec6c12-81ed-4b50-8dd3-d40406bde345")
+	)
+	(hierarchical_label "HDMI_MONITOR_3"
+		(shape input)
+		(at 66.04 190.5 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify right)
+		)
+		(uuid "bbc9fa30-0478-4be6-a963-ec2a73d3c16f")
+	)
+	(hierarchical_label "HDMI_MONITOR_1"
+		(shape input)
+		(at 62.23 63.5 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify right)
+		)
+		(uuid "ea3e2bb9-2cf9-4258-a0a7-66ad4d188980")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 129.54 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17e88eee-bc81-42b1-af2f-b970f440e536")
+		(property "Reference" "HDMI_Monitor_1"
+			(at 137.668 57.912 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 128.905 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbff5410-0700-4cd2-bd05-56a4ea9cc0b3")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "HDMI_Monitor_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin_(WIDE)")
+		(at 125.73 209.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dd6f184-08e7-42e4-88be-e5a41a037376")
+		(property "Reference" "12V_MON_3+"
+			(at 140.462 209.804 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 125.095 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 125.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df2449ca-0f1a-49bf-bd0a-f659a439e290")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "12V_MON_3+")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin_(WIDE)")
+		(at 123.19 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "386623fc-43de-4900-bd59-2014582566eb")
+		(property "Reference" "12V_MON_2+"
+			(at 137.922 152.654 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 122.555 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f0b9fe1-c436-4ed4-be42-c0b986849d01")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "12V_MON_2+")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 130.81 190.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45754897-9459-4d5a-856f-eaa65e382c07")
+		(property "Reference" "HDMI_Monitor_3"
+			(at 138.938 184.912 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 130.175 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 130.81 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "554aa4b8-1767-47ae-a110-7ab9be92c040")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "HDMI_Monitor_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin_(WIDE)")
+		(at 125.73 214.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c855d6b-97e5-4f43-9ca2-695cdc2e73d5")
+		(property "Reference" "12V_MON_3-"
+			(at 140.462 214.122 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 125.095 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 125.73 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f47f583c-c296-42b1-a3c8-5aca3d9dd93f")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "12V_MON_3-")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin_(WIDE)")
+		(at 123.19 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a885120a-8703-41d3-979f-e5f6ec316747")
+		(property "Reference" "12V_MON_1-"
+			(at 137.922 95.25 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 122.555 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 123.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad1a1ce1-b16d-4dc8-9d99-bf97cc843a50")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "12V_MON_1-")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin_(WIDE)")
+		(at 123.19 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa36a0be-bbc0-4433-a082-ec7c4aa91cff")
+		(property "Reference" "12V_MON_1+"
+			(at 137.922 90.424 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 122.555 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03d68bcb-4e0b-4e89-8900-2fc52f632909")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "12V_MON_1+")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin_(WIDE)")
+		(at 123.19 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd062a81-fcfd-4cfa-b65a-21bc2ce13277")
+		(property "Reference" "12V_MON_2-"
+			(at 137.922 157.48 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 122.555 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a711d0b-1bf8-46c9-8e93-b2c56a80a138")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "12V_MON_2-")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 130.81 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f984a1e0-823c-44b8-8e45-e6d85c7314cc")
+		(property "Reference" "HDMI_Monitor_2"
+			(at 138.938 122.682 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 130.175 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1463a3d1-4019-4184-80e7-88ebbd34792f")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/23d2d8fd-f6a9-472e-b5f7-4a90af0e109d"
+					(reference "HDMI_Monitor_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

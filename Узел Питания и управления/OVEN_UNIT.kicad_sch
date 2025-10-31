@@ -1,0 +1,1105 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "33d06488-ccd6-4ba2-a91e-695503c7fa63")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Conn_01x01_Pin_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 2.5 2.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2.5 2.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x02_(wide)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_(wide)_1_1"
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2 2)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 2 2)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 106.68 24.13)
+		(end 236.22 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d9a273b3-df04-4dbb-92d9-b4fa9a2d1912)
+	)
+	(bus_entry
+		(at 120.65 118.11)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f6d4d3-6982-44b7-8eee-8b3834bc1fad")
+	)
+	(bus_entry
+		(at 120.65 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b688e0-199d-4a59-92e2-96728251e975")
+	)
+	(bus_entry
+		(at 120.65 44.45)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c7076d-d685-4f01-a716-efbf7dfeae38")
+	)
+	(bus_entry
+		(at 120.65 39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42c0d55-502a-48ce-8653-ad9d0bdb6108")
+	)
+	(bus_entry
+		(at 120.65 87.63)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5013c15-aff1-419d-88f7-700d9ad34e14")
+	)
+	(bus_entry
+		(at 120.65 49.53)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5680951-4c62-48c2-8df4-4e2f8f0fdb91")
+	)
+	(bus_entry
+		(at 120.65 123.19)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cc69e0-78b3-4fe8-b467-4159d007bcc9")
+	)
+	(wire
+		(pts
+			(xy 123.19 120.65) (xy 171.45 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012ff327-2607-4482-8cc0-0f6169933e91")
+	)
+	(wire
+		(pts
+			(xy 123.19 52.07) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1374213f-12e0-4e5f-84c0-035645076466")
+	)
+	(bus
+		(pts
+			(xy 62.23 71.12) (xy 120.65 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f717fa8-3d40-4d4c-b43d-4874f1cc168c")
+	)
+	(wire
+		(pts
+			(xy 123.19 41.91) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c95e3d-e7f7-4929-804b-0dae03a610dd")
+	)
+	(bus
+		(pts
+			(xy 120.65 76.2) (xy 120.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24016327-de2c-4c6d-80c8-c7a501155756")
+	)
+	(bus
+		(pts
+			(xy 120.65 118.11) (xy 120.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc20b2d-77e1-40cc-a4ab-3441da827935")
+	)
+	(wire
+		(pts
+			(xy 123.19 90.17) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f279444-39ff-42f9-ba2b-af162e07dd55")
+	)
+	(bus
+		(pts
+			(xy 120.65 33.02) (xy 120.65 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b0003f-d9f6-4de5-a047-bee3d8095adc")
+	)
+	(bus
+		(pts
+			(xy 63.5 109.22) (xy 120.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8775696a-fcae-4382-8607-f4fbe43c5b78")
+	)
+	(wire
+		(pts
+			(xy 123.19 125.73) (xy 171.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a793bfd1-4465-4de0-abe1-f1ae04a31151")
+	)
+	(bus
+		(pts
+			(xy 120.65 39.37) (xy 120.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba09806a-40f3-4d91-8a9a-299d2f7f525c")
+	)
+	(bus
+		(pts
+			(xy 120.65 44.45) (xy 120.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d9fa0f-6a95-4a72-8494-cb8b970af9cd")
+	)
+	(bus
+		(pts
+			(xy 120.65 49.53) (xy 120.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82f8244-3c59-48ba-a8e8-bae2fe299c9b")
+	)
+	(bus
+		(pts
+			(xy 120.65 109.22) (xy 120.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84a97c5-b931-4869-a401-81923a6c9466")
+	)
+	(bus
+		(pts
+			(xy 120.65 71.12) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daabc994-84c2-48d6-b4ae-01a557ff3d57")
+	)
+	(bus
+		(pts
+			(xy 120.65 87.63) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db05176c-7dcc-44d0-bad2-c8f53c3cbb69")
+	)
+	(bus
+		(pts
+			(xy 63.5 33.02) (xy 120.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1bcc01-9775-4d67-9f64-bb242c4b62e9")
+	)
+	(wire
+		(pts
+			(xy 123.19 46.99) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5fdefc-ffdd-4eaa-b2a0-37c1102f71ea")
+	)
+	(wire
+		(pts
+			(xy 123.19 78.74) (xy 170.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc75d1e-05ed-40d2-9df3-df76c6f4d8f9")
+	)
+	(label "RS485_OVEN_B"
+		(at 135.89 125.73 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "14f04585-900c-4d6c-ad1b-e29fbc91c178")
+	)
+	(label "220V_OVEN_N"
+		(at 130.81 46.99 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "364086d3-ef10-46cd-91b8-c518e8a33153")
+	)
+	(label "RS485_OVEN_A"
+		(at 135.89 120.65 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "74d0ea23-e72e-4fd7-a3d6-f65bfc971a88")
+	)
+	(label "220V_OVEN_L"
+		(at 130.81 41.91 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c3f03cc-6a6a-4aed-a91b-adae24ddc520")
+	)
+	(label "24_DIG_OVEN-"
+		(at 154.94 90.17 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify right bottom)
+		)
+		(uuid "84e078c6-5678-4085-8c50-e6bd0cf6a2b4")
+	)
+	(label "24_DIG_OVEN+"
+		(at 156.21 78.74 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify right bottom)
+		)
+		(uuid "96426d50-d7ba-4e8e-94b0-da1b75c423f6")
+	)
+	(label "220V_OVEN_G"
+		(at 130.81 52.07 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0a886c8-80f1-437a-b6c4-111c677e72b4")
+	)
+	(global_label "220V_OVEN_L"
+		(shape input)
+		(at 130.81 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "237a12fb-b65b-4ebf-87f4-917eac80bfb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.4867 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24_DIG_OVEN-"
+		(shape input)
+		(at 125.73 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "3a3e731b-8153-453f-b475-777e0ebcdd7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.7353 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS485_OVEN_B"
+		(shape input)
+		(at 135.89 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "591771bf-225e-4456-827c-e2d58fb0cad1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.9524 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24_DIG_OVEN+"
+		(shape input)
+		(at 127 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "68d692f6-9c57-4f76-ac29-6d9a3c867223")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.0053 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "220V_OVEN_N"
+		(shape input)
+		(at 130.81 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "b1b16104-876c-4d5b-b7fd-977cc34c695d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.5581 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "220V_OVEN_G"
+		(shape input)
+		(at 130.81 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "b25869a2-36bf-48aa-9d82-068e5bee8ea6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.5438 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS485_OVEN_A"
+		(shape input)
+		(at 135.89 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "eccb3d13-392e-435d-ada4-f14519b17400")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.9095 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "RS485_OVEN"
+		(shape input)
+		(at 63.5 109.22 180)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "75d73bd9-431f-4af6-8664-249a9fc5414a")
+	)
+	(hierarchical_label "220_OVEN"
+		(shape input)
+		(at 63.5 33.02 180)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "abc51b1e-6c53-4c21-a35d-a4f3a5364bc8")
+	)
+	(hierarchical_label "+24_DIGIT_OVEN"
+		(shape input)
+		(at 62.23 71.12 180)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "cd34b04f-a759-44f3-93b7-acc891b5eaf8")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_(wide)")
+		(at 172.72 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "261953fa-7dfb-41c7-8ad3-45020659587e")
+		(property "Reference" "OVEN_MB_J26"
+			(at 174.498 76.2 0)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 173.99 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2900ce5f-cbe5-40d6-a9eb-c11f9627fa70")
+		)
+		(pin "2"
+			(uuid "d1843a50-d83f-4493-93bd-1392d8856f8f")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/872405c2-d0bb-4547-902e-94e40c04be5b"
+					(reference "OVEN_MB_J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x01_Pin_1")
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 177.8 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "354eca41-3a15-4763-bc89-de2dca2529b5")
+		(property "Reference" "GND_OVEN"
+			(at 188.468 51.816 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 177.165 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58178a15-731e-4b43-a17d-87404c62b9dd")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/872405c2-d0bb-4547-902e-94e40c04be5b"
+					(reference "GND_OVEN")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_(wide)")
+		(at 173.99 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3674e675-9842-42e1-a914-d501c0cf1208")
+		(property "Reference" "OVEN_MC_RS"
+			(at 170.688 129.286 0)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 175.26 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0466de09-3ed2-4834-a7a9-7204822fec18")
+		)
+		(pin "2"
+			(uuid "4adfc680-e64a-4233-9234-1a49a37ffefe")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/872405c2-d0bb-4547-902e-94e40c04be5b"
+					(reference "OVEN_MC_RS")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_(wide)")
+		(at 172.72 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a78fbd53-c83e-4a02-8f26-ff60337011a4")
+		(property "Reference" "OVEN_MB_J27"
+			(at 173.99 87.376 0)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 173.99 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea50ea67-ecd6-459c-946f-6081c5c948ae")
+		)
+		(pin "2"
+			(uuid "c4b6b9c7-149f-4bbf-a8d0-61545926a51d")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/872405c2-d0bb-4547-902e-94e40c04be5b"
+					(reference "OVEN_MB_J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_(wide)")
+		(at 177.8 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae20cdff-1578-420d-bf24-a7651d833e2a")
+		(property "Reference" "220_OVEN"
+			(at 179.07 43.8149 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 179.07 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91784a39-4551-42c2-8e39-7df194370fb3")
+		)
+		(pin "2"
+			(uuid "447ddac4-04f5-4bde-afa8-b4b0309672d9")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/872405c2-d0bb-4547-902e-94e40c04be5b"
+					(reference "220_OVEN")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

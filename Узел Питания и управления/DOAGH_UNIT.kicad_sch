@@ -1,0 +1,874 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "66a2db43-9dbe-49b8-8038-6c36de189dd3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_(wide)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_(wide)_1_1"
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2 2)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 2 2)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x03_(wide)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_(wide)_1_1"
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2 2)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 2 2)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 2 2)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 92.71 38.1)
+		(end 243.84 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26cb071c-abe8-4b28-90c1-f802abf7af37)
+	)
+	(bus_entry
+		(at 113.03 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262554a1-d3be-4327-b7b1-6bc1a7cb7516")
+	)
+	(bus_entry
+		(at 113.03 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728aae0e-4046-4a77-8aff-c65a03ef407b")
+	)
+	(bus_entry
+		(at 113.03 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897fe6cd-8745-4d3a-a0f8-2781bf21dce4")
+	)
+	(bus_entry
+		(at 113.03 125.73)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e313731-acfb-493f-abaa-45f5b1f4febc")
+	)
+	(bus_entry
+		(at 113.03 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10871c2-f0c5-4248-80fc-54534cf502d1")
+	)
+	(bus_entry
+		(at 113.03 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d4d578-cd21-4c12-b6c7-c4ee56e5a0ba")
+	)
+	(wire
+		(pts
+			(xy 115.57 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1d4195-9c99-4521-bbca-1b3719745370")
+	)
+	(bus
+		(pts
+			(xy 113.03 93.98) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15863e50-cab9-4ed7-a00a-86a388714fcf")
+	)
+	(wire
+		(pts
+			(xy 115.57 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c412d9-4314-4b2d-8347-da1737bfc655")
+	)
+	(wire
+		(pts
+			(xy 115.57 76.2) (xy 161.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a80bc8-d23c-4e8c-86b1-bf50d0386581")
+	)
+	(bus
+		(pts
+			(xy 113.03 109.22) (xy 113.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57aa9c8a-1add-4d8a-b1d4-39ff6f84b74e")
+	)
+	(bus
+		(pts
+			(xy 113.03 68.58) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cad994-b72b-4501-ba07-72019fa1e876")
+	)
+	(wire
+		(pts
+			(xy 115.57 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fcfe719-e7f8-4e59-8536-511ad1b7d9a5")
+	)
+	(bus
+		(pts
+			(xy 113.03 86.36) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cabf586-ef91-4977-81f9-3892f02c0667")
+	)
+	(bus
+		(pts
+			(xy 63.5 109.22) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2e61b4-2b6d-4457-bb7d-90772915555e")
+	)
+	(bus
+		(pts
+			(xy 113.03 120.65) (xy 113.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a203690c-85a5-4add-98da-b25b12a68acd")
+	)
+	(bus
+		(pts
+			(xy 63.5 86.36) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4316252-00f6-4fb2-af2a-10a4acdcdb92")
+	)
+	(wire
+		(pts
+			(xy 115.57 128.27) (xy 161.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad287354-5ece-4a56-9497-3ff13d161de4")
+	)
+	(bus
+		(pts
+			(xy 62.23 58.42) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2a3992-73f9-48a8-88d4-cc9cdcb82117")
+	)
+	(bus
+		(pts
+			(xy 113.03 58.42) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f3ba35-e036-4bc5-bd87-bf25b32c96f8")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83cfe5f-c80e-47a1-92e3-a270d0735a20")
+	)
+	(label "RS485_DOUGH_B"
+		(at 118.11 123.19 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "06027f15-8305-47a4-81af-e33b66204bf1")
+	)
+	(label "36V_DOUGH-"
+		(at 140.97 71.12 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify right bottom)
+		)
+		(uuid "20d6d4fd-ae00-415d-a432-d9e17409d23e")
+	)
+	(label "36V_DOUGH+"
+		(at 140.97 76.2 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify right bottom)
+		)
+		(uuid "220dbd3b-a566-4d0a-b754-7ed81286d2ae")
+	)
+	(label "24_DIG_DOUGH-"
+		(at 147.32 96.52 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify right bottom)
+		)
+		(uuid "638e0733-ca8b-4e05-8eb6-2fea2af333d3")
+	)
+	(label "24_DIG_DOUGH+"
+		(at 147.32 101.6 180)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify right bottom)
+		)
+		(uuid "6825bb5f-2172-4206-af38-d1bcc3195514")
+	)
+	(label "RS485_DOUGH_A"
+		(at 118.11 128.27 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4bb48c7-5f0b-4ac2-a871-66dbc6e55cc8")
+	)
+	(global_label "RS485_DOUGH_A"
+		(shape input)
+		(at 115.57 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "7b069729-f12a-459f-ba0c-7dd2b93b918f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9753 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS485_DOUGH_B"
+		(shape input)
+		(at 115.57 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "89009609-a44c-4d31-bcf9-c70a10dde082")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.0182 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "36V_DOUGH-"
+		(shape input)
+		(at 115.57 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "b039b62a-4772-4f4a-9e5d-ccf33afaf727")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.2467 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24_DIG_DOUGH+"
+		(shape input)
+		(at 115.57 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "d584dadc-90e2-409d-b6c3-22ef592b8589")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9611 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "36V_DOUGH+"
+		(shape input)
+		(at 115.57 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "f328996d-4d1f-477a-8528-330d5aaf237f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.2467 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24_DIG_DOUGH-"
+		(shape input)
+		(at 115.57 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left)
+		)
+		(uuid "fbd93bd6-717a-4da6-82d9-3dc2cb153064")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9611 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "36V_DOUGH"
+		(shape input)
+		(at 62.23 58.42 180)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "3ce9eba4-b2c9-477b-a589-af7f559714ec")
+	)
+	(hierarchical_label "+24_DIGIT_DOUGH"
+		(shape input)
+		(at 63.5 86.36 180)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "41ec4f71-be24-4263-af6f-fd9a69da103f")
+	)
+	(hierarchical_label "RS485_DOUGH"
+		(shape input)
+		(at 63.5 109.22 180)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "8ffda358-09bf-4595-a04d-2e89f90c6e38")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_(wide)")
+		(at 163.83 106.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "780fc249-b053-4c7e-ba19-27c0d6e1a037")
+		(property "Reference" "24V_DOUGH"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 165.1 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5776d7-531b-4ad9-92ad-55329efab68f")
+		)
+		(pin "2"
+			(uuid "521d5a95-4fda-4b38-b201-0582a045184b")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/26fd5900-6336-4dcc-8349-73796dba5d77"
+					(reference "24V_DOUGH")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_(wide)")
+		(at 163.83 133.35 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4fb56d2-6f47-450b-a165-a16b3615b9ca")
+		(property "Reference" "RS_DOUGH"
+			(at 169.418 124.46 0)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 165.1 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "329f60c1-cbf8-4a6c-9505-d6cbfbaa8cdc")
+		)
+		(pin "1"
+			(uuid "82a7725e-863a-4bb6-9598-a657249789f7")
+		)
+		(pin "3"
+			(uuid "271c2306-1874-4798-ba45-5fc3b14b60e5")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/26fd5900-6336-4dcc-8349-73796dba5d77"
+					(reference "RS_DOUGH")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_(wide)")
+		(at 163.83 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f099e9be-bd93-4565-acc9-6d5326e4dfdd")
+		(property "Reference" "36V_DOUGH"
+			(at 169.418 72.39 0)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 165.1 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b69c5294-8014-46aa-9a14-edf4cb9b1188")
+		)
+		(pin "1"
+			(uuid "eeca1d6c-ae97-4d1a-ad50-0de04bbef9fa")
+		)
+		(pin "3"
+			(uuid "ec1c9783-9daf-4952-9ded-24566967772f")
+		)
+		(instances
+			(project "Узел Питания и управления"
+				(path "/6115ee0e-5e78-4c0d-871b-9dd505856633/eec8dfbe-8f8b-4c71-ac03-1bc86a0697bb/26fd5900-6336-4dcc-8349-73796dba5d77"
+					(reference "36V_DOUGH")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
